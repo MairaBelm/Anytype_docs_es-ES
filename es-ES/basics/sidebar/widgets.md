@@ -40,7 +40,7 @@ Cada diseño de widget ofrece sus propias formas de interactuar con los objetos.
 
 * **Calendario**: al hacer clic en un día, se mostrarán los objetos y podrás crear uno.
 * **Kanban**: haz clic en un grupo para desplegar la sección y añadir un objeto.
-* **Tareas**: haz clic en la casilla de verificación de un [objeto de acción](../../create/objects/formats.md#diseños-de-página) para marcarlo como completado.
+* **Tareas**: haz clic en la casilla de verificación de un [objeto de acción](../../create/objects/formats.md#disenos-de-pagina) para marcarlo como completado.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Widgets.gif" alt=""/><figcaption></figcaption></figure></div>
 

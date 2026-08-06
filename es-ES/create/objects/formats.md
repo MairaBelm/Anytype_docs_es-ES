@@ -35,7 +35,7 @@ Puedes cambiar la forma en que se muestran las propiedades de un objeto. Las opc
 
 #### Ancho de página
 
-Puedes cambiar el ancho por defecto de cada página a «Anchura completa» en los [ajustes de tipo](../../organize/types.md#cómo-editar-un-tipo). Si quieres ajustar el ancho de una página determinada, usa botón «Ancho de página», que se encuentra en el área del título del objeto. Esto también se ajustar en una [plantilla](../../organize/templates.md).
+Puedes cambiar el ancho por defecto de cada página a «Anchura completa» en los [ajustes de tipo](../../organize/types.md#como-editar-un-tipo). Si quieres ajustar el ancho de una página determinada, usa botón «Ancho de página», que se encuentra en el área del título del objeto. Esto también se ajustar en una [plantilla](../../organize/templates.md).
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Format Width.jpg" alt=""/><figcaption></figcaption></figure></div>
 

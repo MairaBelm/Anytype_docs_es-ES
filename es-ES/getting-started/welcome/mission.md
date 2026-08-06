@@ -1,6 +1,6 @@
 # Misión
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Mission.jpg" title="Somos tecnófilos idealistas movidos por un sueño común de autonomía segura. Nuestro propósito es fomentar la confianza entre las personas, con las matemáticas como instrumento. Aspiramos a componer una red de amor y armonía. O, quizá, castillos en el aire. En cualquier caso, será algo hermoso." alt="Un colectivo soberano"/><figcaption><small>Un colectivo soberano</small></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Mission.jpg" alt="Un colectivo soberano"/><figcaption><small>Un colectivo soberano<br />Somos tecnófilos idealistas movidos por un sueño común de autonomía segura. Nuestro propósito es fomentar la confianza entre las personas, con las matemáticas como instrumento. <br />Aspiramos a componer una red de amor y armonía. O, quizá, castillos en el aire. En cualquier caso, será algo hermoso.</small></figcaption></figure></div>
 
 ### Por qué estamos construyendo Anytype
 

@@ -31,7 +31,7 @@ Anytype no puede identificar un arca, conceder acceso a ella o eliminarla. Aunqu
 Si tu sesión se cierra sin que hayas guardado tu clave en otro sitio, puedes probar lo siguiente:
 
 * Usa otro dispositivo. Si aún tienes la sesión iniciada en otro dispositivo, abre la aplicación allí y copia tu clave desde los ajustes.
-* También puedes intentar recuperar tu clave desde el [almacén de claves del sistema operativo](../resources/faq.md#cómo-recupero-mi-clave-desde-el-almacén-de-claves-del-sistema-operativo).
+* También puedes intentar recuperar tu clave desde el [almacén de claves del sistema operativo](../resources/faq.md#como-recupero-mi-clave-desde-el-almacen-de-claves-del-sistema-operativo).
 
 {% hint style="danger" %} **Anytype no puede recuperar tu arca si has perdido el acceso a tu clave por completo.** {% endhint %}
 

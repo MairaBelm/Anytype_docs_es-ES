@@ -34,7 +34,7 @@ Collections live in all the same places as [Types](types.md)—the Sidebar, the 
 
 To create a Collection:
 
-1. In the Sidebar, click on the [Create Dropdown button](../create/objects/#menú-crear) and select **Collection**.
+1. In the Sidebar, click on the [Create Dropdown button](../create/objects/#menu-crear) and select **Collection**.
 2. Add existing Objects from your space or create new ones.
 3. Set your **filters** and **sorts**.
 4. Choose a **layout**.
@@ -45,7 +45,7 @@ To create a Collection:
 
 ## Using Collections
 
-To learn more about how to manage Collections and their settings, see the [Views](views.md#cómo-funciona) section.
+To learn more about how to manage Collections and their settings, see the [Views](views.md#como-funciona) section.
 
 ### Add & remove Objects
 
@@ -69,7 +69,7 @@ You can add an Object to as many Collections as you like—this will create a li
 
 #### **To edit in bulk**
 
-Use the [bulk-editing feature in Views](views.md#edición-de-objetos-en-lote) to organize many Objects at the same time in a Collection. You can create a Query to find the Objects you're looking for, and then add them all to a Collection in bulk.
+Use the [bulk-editing feature in Views](views.md#edicion-de-objetos-en-lote) to organize many Objects at the same time in a Collection. You can create a Query to find the Objects you're looking for, and then add them all to a Collection in bulk.
 
 #### To set a default Type
 
@@ -93,7 +93,7 @@ This is different from editing actual Objects and their Properties through an In
 
 ### Folder-like Widget
 
-You can add [Collections to your Sidebar as a Widget](views.md#views-in-sidebar), just like any other View. However, instead of using Collections to simulate a [hierarchical folder-like structure in your Sidebar](../basics/sidebar/widgets.md#opciones-de-diseño), you can create a Page with link blocks:
+You can add [Collections to your Sidebar as a Widget](views.md#views-in-sidebar), just like any other View. However, instead of using Collections to simulate a [hierarchical folder-like structure in your Sidebar](../basics/sidebar/widgets.md#opciones-de-diseno), you can create a Page with link blocks:
 
 1. Create any Object with a Page format.
 2. In the editor, add links to your desired Objects using the `/enlace` or `@` blocks. This can be to regular Objects, Types, Queries, or Collections.
