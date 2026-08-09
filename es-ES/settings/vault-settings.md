@@ -70,11 +70,21 @@ Send messages in Chats and comments in Discussions with `Enter` or `Cmd+Enter`.
 
 ### Pin Code (Desktop)
 
-If you want more privacy, like when sharing a computer, you can set up a PIN code. This will lock the app and keep your Key safe. You'll just need to enter the PIN each time your Anytype session ends (after 1 minute, 5 minutes, 10 minutes, or 1 hour) or when you need to access your Key.
+If you want more privacy, like when sharing a computer, you can set up a PIN code. It locks the Anytype window on that computer. You'll need to enter it each time your Anytype session ends (after 1 minute, 5 minutes, 10 minutes, or 1 hour) and when you open your Key in Settings.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Vault Settings Pin.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-{% hint style="warning" %} We do not store this data, so we cannot help recover your Vault if it is lost. Record your PIN code alongside your Key. {% endhint %}
+{% hint style="info" %}
+The PIN is a screen lock for the app on a single device. It is not part of your account and it is not a second Key — it doesn't encrypt anything, and setting or losing it changes nothing about how your data is protected. Your data is encrypted with your [Key](../basics/key.md).
+
+The PIN belongs to the device, so setting or removing it on one computer doesn't affect any other device.
+{% endhint %}
+
+#### If you forget your PIN
+
+Forgetting your PIN does not lock you out of your Vault, and it does not put your data at risk. On the lock screen, select **I forgot my Pin** and confirm. You'll be logged out on that device and the PIN will be removed. Log back in with your Key — your data stays on the device, and there is no PIN afterwards.
+
+If you don't see that option, update Anytype to the latest version. Reinstalling the app won't help on its own: your PIN is stored by your operating system, not in Anytype's data.
 
 ***
 
