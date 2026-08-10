@@ -33,19 +33,19 @@ The result displays in the column footer and updates as your data changes.
 
 ## Available formulas
 
-The formulas available depend on the Property type of the column. Here's the full list:
+The formulas available depend on the Property format of the column. Here's the full list:
 
-#### For all Property types
+#### For all Property formats
 
-| Formula                  | What it calculates                             |
-| ------------------------ | ---------------------------------------------- |
-| **None**                 | No formula (default)                           |
-| **Count**                | Total number of Objects in the column          |
-| **Count  Unique Values** | Number of distinct values                      |
-| **Count Empty**          | Number of Objects with no value in this column |
-| **Count Not Empty**      | Same as Count Values                           |
-| **Percent Empty**        | % of Objects with no value                     |
-| **Percent Not Empty**    | % of Objects with a value                      |
+| Formula                 | What it calculates                             |
+| ----------------------- | ---------------------------------------------- |
+| **None**                | No formula (default)                           |
+| **Count**               | Total number of Objects in the column          |
+| **Count Unique Values** | Number of distinct values                      |
+| **Count Empty**         | Number of Objects with no value in this column |
+| **Count Not Empty**     | Same as Count Values                           |
+| **Percent Empty**       | % of Objects with no value                     |
+| **Percent Not Empty**   | % of Objects with a value                      |
 
 #### For Number Properties (Math)
 

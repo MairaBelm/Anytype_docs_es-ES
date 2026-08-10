@@ -43,9 +43,9 @@ Each condition has three parts:
 * **Operator** — how to compare (is, is not, is empty, contains, is greater than, etc.)
 * **Value** — what to compare against (a specific value, a list, or a [dynamic value](advanced-filters.md#dynamic-filter-values))
 
-Operators available depend on the Property type:
+Operators available depend on the Property format:
 
-| Property type             | Operators                                                                                                                                                                             |
+| Property Format           | Operators                                                                                                                                                                             |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Text / Title**          | is, is not, contains, doesn't contain, is empty, is not empty                                                                                                                         |
 | **Number**                | =, ≠, >, <, ≥, ≤, is empty, is not empty                                                                                                                                              |
@@ -106,7 +106,7 @@ Filters support **dynamic values** that change based on context:
 
 **Current User** is especially useful for shared Channels — every member sees their own personalized view of a Query without you having to maintain separate Queries per person.
 
-**This Object** works inside [Inline Lists](inline-queries.md) — it scopes the inline Query/Collection to whatever Object is hosting it.&#x20;
+**This Object** works inside [Inline Lists](inline-queries.md) — it scopes the inline Query/Collection to whatever Object is hosting it.
 
 ### Auto-open value picker
 
