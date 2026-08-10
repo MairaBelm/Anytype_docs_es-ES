@@ -25,7 +25,7 @@ Después, tienes estas posibilidades:
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Bookmarks Layout.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-Los marcadores tienen su propio diseño, distinto del [diseño de página](objects/formats.md#diseños-de-página) normal. Todos presentan lo siguiente:
+Los marcadores tienen su propio diseño, distinto del [diseño de página](objects/formats.md#disenos-de-pagina) normal. Todos presentan lo siguiente:
 
 * la imagen de vista previa de la página en la parte superior,
 * el título de la página (editable),

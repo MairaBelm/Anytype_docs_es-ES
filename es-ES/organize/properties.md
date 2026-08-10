@@ -1,153 +1,153 @@
-# Properties
+# Propiedades
 
-Properties are the details you attach to an Object—its due date, status, priority, tags, or any other attribute you care about. Using a spreadsheet analogy, think of every Object as a row and every Property as a column.
+Las propiedades son los datos que asocias a un objeto: su fecha de vencimiento, estado, prioridad, etiquetas o cualquier otro atributo que te importe. Si habláramos de hojas de cálculo, cada objeto sería una fila, y cada propiedad, una columna.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Properties Intro.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 ## Qué significa esto
 
-Properties enable you to organize your knowledge into flexible systems. Once your Objects have Properties, you can sort, filter, and query them:
+Las propiedades te permiten organizar el conocimiento mediante sistemas flexibles, ya que puedes utilizarlas para ordenar, filtrar y consultar tus objetos:
 
-* Find all **Tasks** with **Priority** set to **High**.
-* Find all **Books** where **Status** is **Reading** and sort by highest **Rating**.
-* Find all **Ideas** with a **Creation Date** from **Last Year**.
+* Busca todas las **tareas** cuya **prioridad** sea **alta**.
+* Busca todos los **libros** cuyo estado sea **leído**, ordenados por **valoración**.
+* Busca todas las **ideas** cuya **fecha de creación** sea el **año pasado**.
 
 ## Cómo funciona
 
-Properties serve two functions. We'll use a Task Object as an example.
+Las propiedades cumplen dos funciones. Vamos a usar un objeto del tipo «Tarea» como ejemplo.
 
-**1\. Describe Objects** — Add useful and defining details with Properties such as:
+**1\. Definen los objetos.** Úsalas para añadir datos útiles y descriptivos, como estos:
 
-* Status: In Progress
-* Priority: High
-* Due Date: Next Friday
+* Estado: En curso
+* Prioridad: Alta
+* Fecha final: El próximo viernes
 
-**2\. Connect Objects** — Link an Object to another through a Property, such as:
+**2\. Conectan los objetos**. Úsalas para vincular un objeto a otro; por ejemplo:
 
-* Assigned To: → Alex (a Person Object)
-* Project: → Website Redesign (a Project Object)
+* Asignado a: → Alex (un objeto del tipo «Persona»)
+* Proyecto: → Rediseño del sitio web (un objeto del tipo «Proyecto»)
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Properties Example.gif" alt=""/><figcaption></figcaption></figure></div>
 
-## What kind of Properties are there <a href="#types-of-relations" id="types-of-relations"></a>
+## Formatos de propiedades <a href="#types-of-relations" id="types-of-relations"></a>
 
-Here are the currently available Property types within Anytype:
+Estos son los formatos disponibles en Anytype para las propiedades:
 
-<table data-search="false"><thead><tr><th width="182.1171875">Property Type</th><th>Description</th></tr></thead><tbody><tr><td><strong>Text</strong></td><td>Accepts free-form text as input.</td></tr><tr><td><strong>Number</strong></td><td>For all numbers. Different formats are coming soon.</td></tr><tr><td><strong>Date</strong></td><td>Date, with optional time.</td></tr><tr><td><strong>Select</strong></td><td>Predefined list of options. You can choose one.</td></tr><tr><td><strong>Multi-select</strong></td><td>Predefined list of options. You can choose multiple, with no limit.</td></tr><tr><td><strong>Email/Phone/URL</strong></td><td>Special formats for email addresses, phone numbers, or URLs.</td></tr><tr><td><strong>Checkbox</strong></td><td>A true/false value.</td></tr><tr><td><strong>File &amp; Media</strong></td><td>Attach audio, video, or images to view, play, or download.</td></tr><tr><td><strong>Object</strong></td><td>Reference to another object, such as a person, task, or document.</td></tr></tbody></table>
+<table data-search="false"><thead><tr><th width="182.1171875">Formato de propiedad</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Texto</strong></td><td>Para introducir texto libre.</td></tr><tr><td><strong>Número</strong></td><td>Para números. Pronto habrá distintos formatos de número.</td></tr><tr><td><strong>Fecha</strong></td><td>Fecha, con hora opcional.</td></tr><tr><td><strong>Selección</strong></td><td>Lista predefinida de opciones. Se puede elegir solo una.</td></tr><tr><td><strong>Selección múltiple</strong></td><td>Lista predefinida de opciones. Se pueden elegir varias, sin límite.</td></tr><tr><td><strong>Correo electrónico/Teléfono/URL</strong></td><td>Formatos especiales para direcciones, números de teléfono y URL.</td></tr><tr><td><strong>Casilla</strong></td><td>Casilla de verificación para marcar.</td></tr><tr><td><strong>Archivos y medios</strong></td><td>Para adjuntar archivos de texto, audio, vídeo o imagen.</td></tr><tr><td><strong>Objeto</strong></td><td>Referencia a otro objeto (persona, tarea, documento...).</td></tr></tbody></table>
 
-## Types vs. Properties
+## Relación entre tipos y propiedades
 
-* Properties on Objects can exist independently from [Types](types.md). Think of Types as a group of Properties that all get applied to an Object at the same time.
-* You can use the same Property on multiple Types. For example, a Genre Property can be used on both Books and Movies.
-* You can have a Property on an Object that is not part of its Type. For example, a Favorites Property can be on a Book Object, but not part of the Book Type.
+* Las propiedades de los objetos son independientes de los [tipos](types.md). Un tipo se puede entender como un conjunto de propiedades que se aplica a todos los objetos de ese tipo.
+* Puedes usar una misma propiedad en varios tipos; por ejemplo, la propiedad «Género» se puede aplicar tanto a libros como a películas.
+* Puedes aplicar a un objeto concreto una propiedad que no forme parte de su tipo; por ejemplo, la propiedad «Favorito» puede estar en un objeto «Libro», aunque no se haya incluido en el tipo «Libro».
 
 ## Cómo crear y gestionar las propiedades
 
-Because all [Objects](../create/objects/) have a [Type](types.md), it's best to use Properties within the context of a Type. You can:
+Puesto que todos los [objetos](../create/objects/) pertenecen a un [tipo](types.md), es mejor usar las propiedades dentro del contexto del tipo. Tienes estas posibilidades:
 
-* Create new Properties.
-* Add existing Properties.
-* Rearrange the order.
-* Toggle visibility.
-* Remove the Property from the Type.
-* Move the Property to the Bin.
+* crear propiedades nuevas,
+* añadir propiedades existentes,
+* cambiar su orden,
+* hacerlas visibles u ocultarlas,
+* quitar propiedades del tipo,
+* mover propiedades a la papelera.
 
-#### From the Type Edit Menu
+#### Desde el menú de edición del tipo
 
-[While editing a Type](types.md#editing-types), you can use the 'plus' button of the Properties section to add an existing Property or create a new one. To edit a Property, simply click on it. To rearrange the order, click and drag the handle on the left-hand side.
+[Mientras editas un tipo](types.md#como-editar-un-tipo), usa el botón «+» de la sección «Propiedades» para añadir una propiedad existente o crear una nueva. Para editar una propiedad, haz clic en ella. Para cambiar el orden, haz clic en cada control de la izquierda y arrastra las propiedades.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Properties Create Type Settings.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### From the Type View
+#### Desde la vista del tipo
 
-When viewing a Type, you can click on the 'View settings' button on the top right, select **Properties**, and add your desired Property. To edit a Property, simply click on it. The rearrange the order, click and drag on the handle located on the left-hand side.
+Cuando tengas abierto un tipo, puedes hacer clic en el botón «Ajustes de vista» de la parte superior derecha de la cuadrícula, seleccionar **Propiedades** y añadir la propiedad que desees. Para editar una propiedad, haz clic en ella. Para cambiar el orden, haz clic en cada control de la izquierda y arrastra las propiedades.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Types Create View.gif" alt=""/><figcaption></figcaption></figure></div>
 
-#### From the Object Editor
+#### Desde el editor del objeto
 
-You can add a Property to your Objects as you would with any other block in the editor: by using the `+` button or the in-line `/` menu.
+Puedes añadir propiedades a los objetos tal como lo harías con cualquier otro bloque del editor: por medio del botón `+` o del menú `/`.
 
-You can add Properties to the Object that are not connected to the Object's Type. However, if you do this often enough, it's best to add the Property to the Object's Type for clearer organization.
+Es posible añadir propiedades que no tengan relación con el tipo de ese objeto; sin embargo, si es algo que haces con frecuencia, es mejor añadir la propiedad al tipo de objeto para facilitar la organización.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Properties Create Command.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### From Channel Settings
+#### Desde los ajustes del canal
 
-Open your [channel-settings.md](../settings/channel-settings.md "mention"), and navigate to Content Model and select **Properties**. Afterwards, simply click on 'New' button to create a new Property.
+Abre [channel-settings.md](../settings/channel-settings.md "mention"), ve a «Modelo de contenido» y selecciona **Propiedades**. Aquí basta con hacer clic en el botón «Nuevo» para crear una propiedad.
 
-## Using Properties
+## Cómo usar las propiedades
 
-Properties are best used in context with their Type. You can manage Properties from the 'Edit Type' panel—[see here](types.md#editing-types).
+Lo más recomendable es aplicar las propiedades en el contexto de un tipo. Puedes gestionarlas desde el panel «Editar tipo», tienes más detalles [aquí](types.md#como-editar-un-tipo).
 
-### Properties in Views
+### Propiedades en las vistas
 
-Properties are most powerful in [views.md](views.md "mention"), which offer flexible, customizable ways to interact with your knowledge. To learn more, please see the [Views](views.md) section.
+Las propiedades despliegan todo su poder en las [vistas](views.md "mention"), que ofrecen formas flexibles y adaptables de interactuar con tu contenido. Tienes más detalles en la sección [Vistas](views.md).
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Properties Views.gif" alt=""/><figcaption></figcaption></figure></div>
 
 ### Propiedades en la cabecera del objeto
 
-When viewing an Object in a Page format, the Properties can be shown in the Object's Header. This is the section below the title but above the content. There are two layout options:
+Cuando abres un objeto con formato de página, las propiedades pueden estar visibles en la cabecera, esto es, la sección que hay entre el título y el contenido. Hay dos opciones de presentación:
 
-* **Line**—for a more minimal look.
-* **List**—for displaying more structured information.
+* **Línea**, con un aspecto más minimalista.
+* **Lista**, para mostrar información más estructurada.
 
-These are set on the Type level, which means the layout will be the same for all Objects of that Type.
+La opción se elige en los ajustes del tipo, por lo que la presentación será la misma para todos los objetos de ese tipo.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Properties Header Layouts.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-You can use the Object Header to:
+Puedes usar la cabecera del objeto para lo siguiente:
 
-1. **Show the most relevant Properties**—edit the Type, navigate to the Properties section, drag the Properties you want shown, and arrange the order to your liking. Everything in the 'Properties Panel' and 'Hidden' sections will not display in the Header.
-2. **Directly edit Properties in the editor**—click on the Property in the Header to make an edit.
+1. **Mostrar las propiedades más importantes**: edita el tipo, ve a la sección Propiedades, arrastra las propiedades que quieras mostrar y ordénalas como prefieras. Las que pongas en las secciones «Panel de propiedades» y «Oculto» no se mostrarán en la cabecera.
+2. **Modificar el valor de las propiedades directamente en el editor**: haz clic en una propiedad de la cabecera para editarla.
 
-Properties that are not seen in the Header can still be part of the Type, which are typically used in [Views](views.md).
+Las propiedades que no se muestran en la cabecera siguen formando parte del tipo; normalmente, se utilizan en las [vistas](views.md).
 
-### Properties in Blocks
+### Propiedades en los bloques
 
-If you want to have your Properties displayed in the content area of your Pages, you can insert Properties as a block. You can do this with the following methods:
+Si quieres mostrar propiedades en el área de contenido de una página, puedes insertarlas como bloques. Para hacerlo, tienes estos métodos:
 
-* Open the command menu, with the `/` or the 'plus' button, and scroll to the Properties section.
-* Type the Property name with the slash command, such as: `/tags` or `/description`.
+* Abre el menú de comandos con `/` o con el botón «+» y desplázate hasta la sección «Propiedades».
+* Escribe / seguido del nombre de la propiedad; por ejemplo, `/tags` o `/description` (las propiedades del sistema aparecerán en inglés).
 
-Property blocks can only be added for Properties that have been added to the Type or already have a value associated with the Property.
+Solo es posible añadir bloques de las propiedades que ya estén incluidas en el tipo o tengan un valor asociado.
 
-Once inserted as a block, you can manipulate the Property just like any other block. This is particularly helpful if you want to design nice [Templates](templates.md), as the Object Header is more limited in design flexibility.
+El bloque con la propiedad insertada se puede manipular como cualquier otro bloque, lo que resulta especialmente útil a la hora de diseñar [plantillas](templates.md) para evitar las limitaciones de diseño de la cabecera del objeto.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Properties Blocks.gif" alt=""/><figcaption></figcaption></figure></div>
 
-### Properties Panel
+### Panel de propiedades
 
-When viewing an Object, you can quickly see all of its Properties by opening the Properties Panel. This is located in the top right corner with the 'information' icon.
+Para ver rápidamente todas las propiedades del objeto que tengas abierto, abre su panel de propiedades con el icono de información de la esquina superior derecha.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Properties Use Panel.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-## Deleting Properties
+## Cómo eliminar propiedades
 
-Properties exist independently from [Types](types.md) and [Objects](../create/objects/)—they are their own thing. Because of this, there are multiple ways to remove them.
+Las propiedades son independientes de los [tipos](types.md) y los [objetos](../create/objects/), así que hay varias formas de eliminarlas.
 
-#### From a Type
+#### Desde un tipo
 
-1. [Navigate to the Type](types.md#editing-types) that you want to remove the Property from.
-2. Right-click on the Property and select:
-   1. **Remove from Type** — unlinks the Property from the Type, but keeps the Property in the space. The values you assigned to Objects under this Property will be retained, even though you've removed it from the Type.
-   2. **Move to Bin** — unlinks the Property from all Types and removes it from the space. The Property can be restored from the Bin.
+1. [Abre el tipo](types.md#como-editar-un-tipo) que contiene la propiedad que quieres eliminar.
+2. Haz clic derecho en la propiedad y selecciona una de estas opciones:
+   1. **Quitar del tipo** desvincula la propiedad del tipo, pero la mantiene en el espacio. Los objetos que tengan algún valor asignado a esa propiedad lo conservarán, aunque la hayas eliminado de su tipo.
+   2. **Mover a la papelera** desvincula la propiedad de todos los tipos y la elimina del espacio. La propiedad se puede restaurar desde la papelera.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Properties Remove.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### From the Channel Settings
+#### Desde los ajustes del canal
 
-In this section, you can see how many Objects are connected to a Property, which Types use it, and other details to help you stay organized.
+En esta sección puedes ver los objetos que están conectados a una propiedad, los tipos que la utilizan y otros detalles que sirven para mantener la organización.
 
-1. Navigate to the [Channel Settings](../settings/channel-settings.md) from the Sidebar.
-2. Under 'Content Model', select **Properties**.
-3. Right-click on the desired Property, select **Move to Bin**. This will unlink the property from all Types as well.
+1. Ve los [ajustes del canal](../settings/channel-settings.md) desde la barra lateral.
+2. En «Modelo de contenido», selecciona **Propiedades**.
+3. Haz clic derecho en la propiedad y selecciona **Mover a la papelera**. Esto desvincula la propiedad de todos los tipos.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Properties Remove Channel Settings.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-## Tips
+## Notas
 
-{% hint style="info" %} **Keep it simple, less is more**. When getting started, use as few Properties as possible. Only add new Properties as you find yourself needing more organization power. {% endhint %}
+{% hint style="info" %} **No te compliques; menos es más.** Cuando estés empezando, usa la menor cantidad de propiedades posible. Ve añadiendo propiedades cuando vaya aumentando tu necesidad de organización. {% endhint %}
 
-{% hint style="info" %} **Tags is the easiest way to get started with Properties.** Add relevant tags to all of your documents and create a [Query](queries.md) that groups them all together. {% endhint %}
+{% hint style="info" %} **Las etiquetas (tags) son la forma más fácil de empezar a usar las propiedades.** Añade etiquetas relevantes a todos tus documentos y crea una [consulta](queries.md) que los agrupe por etiqueta. {% endhint %}

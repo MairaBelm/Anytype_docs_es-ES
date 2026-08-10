@@ -32,7 +32,7 @@ Puedes crear tantos canales como necesites. Usa la barra lateral del arca (el pa
 3. **Pon nombre a tu canal.** Elige algo descriptivo, como Personal, Familia, Equipo de diseño, etc.
 4. **Escoge un icono.** Elige un emoji, sube una imagen o sáltate este paso.
 5. **Añade miembros.** Este paso es opcional y podrás decidirlo más tarde. Puedes ver los detalles en [Colaboración](../collaborate/collaboration.md).
-6. **Elige el Inicio.** Elige la página que se verá por defecto. Puedes ver los detalles [más abajo](channels.md#tu-página-de-inicio).
+6. **Elige el Inicio.** Elige la página que se verá por defecto. Puedes ver los detalles [más abajo](channels.md#tu-pagina-de-inicio).
 7. **Haz clic en Crear.**
 
 Lo más fácil es empezar con «Personal»; más adelante, podrás añadir otros miembros a tu canal y compartir un enlace de invitación.
@@ -46,7 +46,7 @@ Una vez creado el canal, accederás a la página de inicio que hayas elegido. Ah
 * **Invitar a otras personas:** abre los ajustes del canal > «Invitar a otras personas» para compartir tu espacio con más personas. Consulta [Colaboración](../collaborate/collaboration.md).
 * **Personalizar la barra lateral:** ancla o marca como favoritos los objetos importantes y añade widgets. Consulta [Barra lateral](sidebar/).
 * **Configurar los tipos y las propiedades:** crea tu sistema de organización. Consulta [Tipos](../organize/types.md).
-* **Elegir una página de inicio**: elige lo que se verá al entrar en el canal. Consulta [Tu página de inicio](channels.md#tu-página-de-inicio).
+* **Elegir una página de inicio**: elige lo que se verá al entrar en el canal. Consulta [Tu página de inicio](channels.md#tu-pagina-de-inicio).
 
 ### Invitar a otras personas
 

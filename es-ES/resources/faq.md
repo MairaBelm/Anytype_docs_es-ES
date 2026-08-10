@@ -24,7 +24,7 @@ You can still open any Anytype links by simply pasting them in the global search
 
 <summary>No puedo anclar nada en la barra lateral ni crear widgets.</summary>
 
-Pin to Channel is available only to owners of the space. In order to add your own Widgets when you're not an owner, use the Favorites feature with the star icon. These Favorites in the Sidebar only appear to you. If your Pins or Favorites are not appearing as Widgets, you may need to change the Channel Settings. [Learn more](https://app.gitbook.com/s/uI82XLdf1100Q75OKbEQ/basics/sidebar/sidebar-widgets#opciones-de-los-widgets).
+Pin to Channel is available only to owners of the space. In order to add your own Widgets when you're not an owner, use the Favorites feature with the star icon. These Favorites in the Sidebar only appear to you. If your Pins or Favorites are not appearing as Widgets, you may need to change the Channel Settings. [Learn more](../basics/sidebar/sidebar-widgets#opciones-de-los-widgets).
 
 </details>
 
@@ -32,7 +32,7 @@ Pin to Channel is available only to owners of the space. In order to add your ow
 
 <summary>¿Cómo se crean columnas?</summary>
 
-Click and drag the 'handle' to the left of each block and move it to your desired location. [Learn more](https://app.gitbook.com/s/uI82XLdf1100Q75OKbEQ/creation/blocks#columns).
+Click and drag the 'handle' to the left of each block and move it to your desired location. [Learn more](../creation/blocks#columns).
 
 <figure><img src="../../.gitbook/assets/Docs Blocks Columns.gif" alt=""/><figcaption></figcaption></figure>
 
@@ -44,7 +44,7 @@ Click and drag the 'handle' to the left of each block and move it to your desire
 
 <summary>He perdido mi clave, ¿qué puedo hacer?</summary>
 
-Anytype does not have access to your account in any way, thus we do not have your Key and cannot recover it for you. However you may be able to recover it on your own, [see here for more details](../basics/key.md#qué-ocurre-si-pierdes-la-clave).
+Anytype does not have access to your account in any way, thus we do not have your Key and cannot recover it for you. However you may be able to recover it on your own, [see here for more details](../basics/key.md#que-ocurre-si-pierdes-la-clave).
 
 If you're still unable to retrieve your Key to access your Vault, Anytype is unable to delete your account for you because we have no way of identifying it correctly with your identity. Your Vault will remain encrypted on our backup nodes without anybody being able to access it.
 
@@ -223,4 +223,4 @@ There are a few ways you can install Anytype on a Chromebook, but probably the e
 
 ## Notes
 
-Vaults created before version 0.44.0 have an Entry Space. You are free to delete this channel if no longer needed, or you can migrate your data to a different channel by using the [import-and-export](../data/import-and-export/ "mention") feature.
+Vaults created before version 0.44.0 have an Entry Space. You are free to delete this channel if no longer needed, or you can migrate your data to a different channel by using the [import-and-export](../data/import-and-export/README.md "mention") feature.
