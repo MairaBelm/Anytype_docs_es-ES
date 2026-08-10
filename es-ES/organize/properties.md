@@ -78,7 +78,7 @@ Abre [channel-settings.md](../settings/channel-settings.md "mention"), ve a «Mo
 
 ## Cómo usar las propiedades
 
-Lo más recomendable es aplicar las propiedades en el contexto de un tipo. Puedes gestionarlas desde el panel «Editar tipo», tienes más detalles[aquí](types.md#como-editar-un-tipo).
+Lo más recomendable es aplicar las propiedades en el contexto de un tipo. Puedes gestionarlas desde el panel «Editar tipo», tienes más detalles [aquí](types.md#como-editar-un-tipo).
 
 ### Propiedades en las vistas
 
@@ -150,4 +150,4 @@ En esta sección puedes ver los objetos que están conectados a una propiedad, l
 
 {% hint style="info" %} **No te compliques; menos es más.** Cuando estés empezando, usa la menor cantidad de propiedades posible. Ve añadiendo propiedades cuando vaya aumentando tu necesidad de organización. {% endhint %}
 
-{% hint style="info" %} **Las etiquetas (tags) son la forma más fácil de empezar a usar las propiedades.** Añade etiquetas relevantes a todos tus documentos y crea una [consulta](queries.md) que los agrupe todos. {% endhint %}
+{% hint style="info" %} **Las etiquetas (tags) son la forma más fácil de empezar a usar las propiedades.** Añade etiquetas relevantes a todos tus documentos y crea una [consulta](queries.md) que los agrupe por etiqueta. {% endhint %}

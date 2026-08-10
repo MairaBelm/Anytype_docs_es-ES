@@ -30,11 +30,11 @@
 * [Marcadores](create/bookmarks.md)
 * [Archivos y medios](create/files-and-media.md)
 
-## Organize
+## Organizar
 
-* [Types](organize/types.md)
-* [Properties](organize/properties.md)
-* [Views](organize/views.md)
+* [Tipos](organize/types.md)
+* [Propiedades](organize/properties.md)
+* [Vistas](organize/views.md)
 * [Queries](organize/queries.md)
 * [Collections](organize/collections.md)
 * [Templates](organize/templates.md)
