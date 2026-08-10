@@ -1,125 +1,139 @@
-# Vault Settings
+# Ajustes del arca
 
-Your [Vault](../basics/vault.md) is essentially your account. This section contains your preferences and settings.
+Básicamente, tu [arca](../basics/vault.md) es tu cuenta. Esta sección contiene tus preferencias y configuraciones. Tienes varias formas de acceder a ella: 
 
-## Accessing Vault Settings
+1. Abre la [barra lateral del arca](../basics/sidebar/).
+2. Haz clic en la imagen de tu perfil, en la esquina inferior izquierda.
 
-#### Vault Sidebar
+O bien usa el menú de tu sistema operativo: 
 
-1. Open your [Vault Sidebar](../basics/sidebar/).
-2. Click your profile picture in the bottom-left corner.
+1. Abre el menú de Anytype en la barra superior de la aplicación (macOS, Windows, Linux).
+2. Ve a **Ajustes**.
+3. Selecciona la opción **Arca**.
 
-#### Menu
+## Perfil
 
-1. Open the Anytype menu on your top app bar (macOS, Windows, Linux).
-2. Navigate to **Settings**.
-3. Select the option **Vault**.
-
-## Profile
-
-Here you can add your **name, bio,** and **profile picture.** When you are in a space, your profile is also treated as an Object as a Space Member.
+Aquí puedes añadir tu **nombre**, **biografía** y tu **imagen de perfil**. Cuando estás en un espacio, tu perfil también se trata como un objeto llamado «Miembro del espacio».
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/profile-info.png" alt=""/><figcaption></figcaption></figure></div>
 
-## Application
+## Aplicación
 
-### Preferences
+### Preferencias
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/preferences (3).png" alt=""/><figcaption></figcaption></figure></div>
 
-#### Appearance
+#### Aspecto
 
-* **Set color mode:** Choose between light, dark, or auto color modes.
-* **Notification sound:** Choose "Off" or one of several tones.
+* **Modo de color:** Elige entre el modo claro, el oscuro o el que use tu sistema.
+* **Sonido de notificación:** Elige «No» o uno de los tonos disponibles.
 
-#### Interface
+#### Interfaz
 
-* **Channels hub density: Compact** (Stripe view) or with **Messages Previews**
-* **Always show tab bar:** Choose whether you want the tab bar to always be visible
-* **Automatically show and hide sidebar:** With this option disabled, the sidebar will not automatically appear when you hover over the left side of the screen.
+* **Densidad de la barra de canales: Compacta** (como una franja) o con **Vista previa de mensajes**.
+* **Mostrar siempre la barra de pestañas:** si quieres que la barra de pestañas esté siempre visible.
+* **Mostrar y ocultar automáticamente la barra lateral:** con esta opción desactivada, la barra lateral no se abrirá automáticamente cuando pases el puntero sobre el borde izquierdo de la ventana.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/preferences (4).png" alt=""/><figcaption></figcaption></figure></div>
 
-#### Content & Views
+#### Contenido y vistas
 
-* **Open objects in fullscreen:** You can decide whether you want all objects to be opened in fullscreen by default or in a modal window
-* **Object link style:** Choose the default style for the `/link` command: card or text.
-* **File block style:** Choose whether you want the file block to use the embedded style or be displayed as a simple link
-* **Click to edit title in Grid view:** Choose whether clicking a title in Grid view enters edit mode or opens the Object directly.
+* **Abrir objetos en pantalla completa:** los objetos pueden abrirse en pantalla completa o en una ventana modal.
+* **Estilo por defecto de enlace a objeto:** los enlaces creados con el comando `/enlace` pueden tener estilo de tarjeta o de texto.
+* **Estilo por defecto de bloques de archivo:** los bloques de archivo pueden tener el estilo incrustado o verse como un sencillo enlace.
+* **Hacer clic para editar el título en vista de cuadrícula:** un clic en el título de una vista de cuadrícula puede editar el título o abrir el objeto directamente.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/open-grid (1).png" alt=""/><figcaption></figcaption></figure></div>
 
-#### Messaging
+#### Mensajes
 
-Send messages in Chats and comments in Discussions with `Enter` or `Cmd+Enter`.
+Elige entre enviar los mensajes del chat y los comentarios de los debates con `Entrar` o con `Cmd/Ctrl+Entrar`.
 
-### Language & Region
+### Idioma y región
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/language.png" alt=""/><figcaption></figcaption></figure></div>
 
-#### **Language & Spelling**
+#### Idioma y ortografía
 
-* **Spellcheck Languages:** You can enable automatic spellcheck from 40+ languages, or disable the spellcheck.
-* **Interface Language:** You can choose amongst the community-translated versions to localize your interface.
+* **Idiomas del corrector ortográfico:** Puedes activar el corrector ortográfico para más de 40 idiomas o dejarlo desactivado.
+* **Idioma de interfaz:** Elige una de las versiones traducidas por la comunidad para cambiar el idioma de la interfaz.
 
-#### Date & Time
+#### Fecha y hora
 
-* **Date & Time formats:** Choose the date and time formats used across your Vault.
-* **Use relative dates:** You can decide whether you want relative dates like today / tomorrow to be used, or whether you want all dates to show the exact date.
-* **Week starts on**: You can now choose whether your week starts on Sunday or Monday. Head to your updated settings to make the switch in the date-picker.
+* **Formato de fecha y hora:** Elige el formato de fecha y hora que se usará en toda tu arca.
+* **Usar fechas relativas:** Elige si quieres presentar las fechas de forma relativa (por ejemplo, como «hoy» o «mañana») o prefieres que siempre se use la fecha concreta.
+* **La semana empieza el:** Puedes elegir si tu semana empieza el domingo o el lunes. Ve a tus ajustes actualizados para aplicar el cambio en el selector de fechas.
 
-### Pin Code (Desktop)
+### Código PIN
 
-If you want more privacy, like when sharing a computer, you can set up a PIN code. It locks the Anytype window on that computer. You'll need to enter it each time your Anytype session ends (after 1 minute, 5 minutes, 10 minutes, or 1 hour) and when you open your Key in Settings.
+Configura un código PIN para bloquear la ventana de escritorio de Anytype y añadir más privacidad. Funciona de esta forma: 
+
+* **Bloqueo automático:** la aplicación te pedirá el PIN cuando transcurra el tiempo de inactividad que elijas (1 minuto, 5 minutos, 10 minutos o 1 hora) y cada vez que visualices tu [clave](../basics/key.md) en los ajustes.
+* **El PIN es específico del dispositivo:** el bloqueo mediante PIN funciona exclusivamente en el ordenador en el que se crea. Configurarlo, cambiarlo o eliminarlo en un ordenador no afecta a los demás dispositivos.
+* **Bloqueo de la aplicación en la pantalla:** el PIN actúa únicamente como un bloqueo visual de la interfaz de la aplicación. No está vinculado a tu cuenta y no funciona como clave secundaria.
+* **El PIN no es un cifrado añadido:** tanto si configuras un PIN como si lo pierdes, la protección de tus datos no se altera. Tu arca siempre estará cifrada por medio de tu clave.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Vault Settings Pin.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-The PIN is a screen lock for the app on a single device. It is not part of your account and it is not a second Key — it doesn't encrypt anything, and setting or losing it changes nothing about how your data is protected. Your data is encrypted with your [Key](../basics/key.md).
-
-The PIN belongs to the device, so setting or removing it on one computer doesn't affect any other device.
+{% hint style="warning" %}
+**El PIN bloquea la aplicación en un único dispositivo.** No forma parte de tu cuenta y no es una segunda clave: no cifra nada, y configurarlo o perderlo no supone ningún cambio en la protección de tus datos. Tus datos están cifrados con tu [clave](../basics/key.md).
 {% endhint %}
 
-#### If you forget your PIN
+#### Si no recuerdas el PIN
 
-Forgetting your PIN does not lock you out of your Vault, and it does not put your data at risk. On the lock screen, select **I forgot my Pin** and confirm. You'll be logged out on that device and the PIN will be removed. Log back in with your Key — your data stays on the device, and there is no PIN afterwards.
+Olvidar tu PIN nunca te impedirá acceder a tu arca ni pondrá tus datos en peligro. Para recuperar el acceso a la aplicación, ten a mano tu [clave](../basics/key.md) y sigue estas instrucciones: 
 
-If you don't see that option, update Anytype to the latest version. Reinstalling the app won't help on its own: your PIN is stored by your operating system, not in Anytype's data.
+1. En la pantalla de bloqueo, selecciona «He olvidado mi PIN» y confirma.
+2. Se cerrará la sesión de Anytype en ese dispositivo y se borrará el PIN.
+3. Vuelve a acceder con tu clave. Tus datos locales siguen a salvo en el dispositivo y el requisito del PIN se habrá eliminado.
+
+> Nota para solucionar problemas: Si la opción de restablecer el PIN no aparece en tu pantalla de bloqueo, actualiza Anytype a la versión más reciente. Reinstalar la aplicación no sirve para restablecer el PIN, ya que este se almacena en el sistema operativo, no con los datos de aplicación de Anytype.
+
+#### Más seguridad que la de un PIN
+
+Tu primera línea de defensa debe ser la seguridad del sistema operativo, antes que el PIN de una aplicación. Estas son las prácticas recomendables:
+
+* **Crea cuentas separadas en el sistema operativo:** no compartas nunca tu sesión en el ordenador. Configura perfiles de usuario para impedir que otros accedan a los archivos locales de la aplicación o a los datos de tu sesión.
+* **Utiliza contraseñas:** crea una contraseña fuerte para tu cuenta de usuario.
+* **Activa el bloqueo automático:** configura tu sistema operativo para que bloquee la pantalla automáticamente tras un periodo breve de inactividad.
+* **Bloquea antes de alejarte:** acostúmbrate a bloquear la pantalla manualmente siempre que te alejes del ordenador, sobre todo en lugares públicos. Lo mejor es configurar un atajo para hacerlo. 
 
 ***
 
-## Vault & Key
+## Arca y clave
 
-### Login Key
+### Clave de acceso
 
-You can access your Key or scan the QR code to connect your mobile device. For more details, please check [key.md](../basics/key.md "mention").
+Para conectar tu dispositivo móvil, puedes acceder a tu clave o escanear el código QR. Tienes más detalles en [key.md](../basics/key.md "mention").
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Welcome 3.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-**Vault Deletion:** Also, if you would like to delete your vault, you can do it in this section. Learn more here: [data-erasure-and-recovery.md](../data/data-erasure-and-recovery.md "mention")
+**Eliminación del arca:** Si quieres eliminar tu arca, puedes hacerlo desde esta sección. Tienes más información aquí: [data-erasure-and-recovery.md](../data/data-erasure-and-recovery.md "mention")
 
-## Data Management
+***
 
-### Local Storage
+## Gestión de datos
+
+### Almacenamiento local
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/local-storage.png" alt=""/><figcaption></figcaption></figure></div>
 
-* **Local Files:** You can choose to offload files stored in Anytype to our Anytype Network.
-* **Offline Access:** You can choose a storage threshold (Off, 20MB, 100MB, 250MB, 1GB, or Unlimited) to control how much data is auto-synced for offline use.
-* **Data Location:** You can also decide where your data is stored (desktop only).
+* **Archivos locales:** si quieres, puedes transferir a la red de Anytype los archivos que almacenas en Anytype.
+* **Acceso sin conexión:** puedes controlar si los datos se sincronizan para usarlos sin conexión con un límite de almacenamiento (No, 20 MB, 100 MB, 250 MB o Ilimitado).
+* **Ubicación de datos:** también puedes decidir dónde se almacenan tus datos (solo en ordenador).
 
-### Channels
+### Canales
 
-Here you can find a list of all your Channels, access roles, and network statuses. The three-dot menu also contains the "Invite Link," QR Code, and "Delete Channel" options.
+Aquí encontrarás una lista de todos tus canales, tu nivel de acceso y su estado en la red. El menú de tres puntos también contiene las opciones «Enlace de invitación», código QR y «Eliminar canal».
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/channels-settings.png" alt=""/><figcaption></figcaption></figure></div>
 
-### My Sites
+### Mis sitios
 
-Here you can find and manage all previously published Objects.
+Aquí podrás ver y gestionar los objetos que hayas publicado.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (35).png" alt=""/><figcaption></figcaption></figure></div>
 
-### API Keys
+### Claves de API
 
-Here you can find, manage, and create API keys.
+Aquí puedes ver, gestionar y crear claves de API.
