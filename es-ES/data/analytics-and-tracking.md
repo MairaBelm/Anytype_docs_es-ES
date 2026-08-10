@@ -19,10 +19,16 @@ In practice, this means that we know for instance that custom Types are very pop
 
 Besides Amplitude, our engineering teams use Sentry to track the prevalence of crashes.
 
-{% hint style="info" %} If you switch to self-hosted or local-only network mode, Anytype Network does not collect low-level analytics. However, app usage analytics are still reported. {% endhint %}
+{% hint style="info" %}
+If you switch to self-hosted or local-only network mode, Anytype Network does not collect low-level analytics. However, app usage analytics are still reported.
+{% endhint %}
 
-{% hint style="info" %} It will be possible to opt-out of analytics in the [future](https://github.com/orgs/anyproto/projects/1/views/1?pane=issue\&itemId=29227689). {% endhint %}
+{% hint style="info" %}
+It will be possible to opt-out of analytics in the [future](https://github.com/orgs/anyproto/projects/1/views/1?pane=issue\&itemId=29227689).
+{% endhint %}
 
-{% hint style="info" %} The only way to disable analytics at the moment is to either block outgoing connections to analytics-related hosts, or to edit the relevant source code and rebuild the client for your own use. {% endhint %}
+{% hint style="info" %}
+The only way to disable analytics at the moment is to either block outgoing connections to analytics-related hosts, or to edit the relevant source code and rebuild the client for your own use.
+{% endhint %}
 
 For GDPR-related requests, i.e. data removal from other services, please contact us at: [gdpr@anytype.io](mailto:anylab@anytype.io)

@@ -100,6 +100,10 @@ Los tipos son particulares del canal en el que se crean. Si quieres que cierto t
 
 ## Notas
 
-{% hint style="info" %} **No te compliques**. Crear demasiados tipos suele dar lugar a sistemas complejos y más difíciles de manejar. Empieza con los tipos integrados y ve añadiendo más cuando realmente los necesites. {% endhint %}
+{% hint style="info" %}
+**No te compliques**. Crear demasiados tipos suele dar lugar a sistemas complejos y más difíciles de manejar. Empieza con los tipos integrados y ve añadiendo más cuando realmente los necesites.
+{% endhint %}
 
-{% hint style="info" %} **Usa las propiedades**. Para sacar todo el partido a los tipos, añádeles propiedades relevantes. Así podrás ordenar y filtrar tus objetos en vistas útiles, como un tipo «Proyecto» con una vista kanban que solo muestre tus tareas más prioritarias. {% endhint %}
+{% hint style="info" %}
+**Usa las propiedades**. Para sacar todo el partido a los tipos, añádeles propiedades relevantes. Así podrás ordenar y filtrar tus objetos en vistas útiles, como un tipo «Proyecto» con una vista kanban que solo muestre tus tareas más prioritarias.
+{% endhint %}

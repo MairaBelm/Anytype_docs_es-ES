@@ -80,8 +80,14 @@ Para cambiar rápidamente al modo de concentración, puedes usar un atajo de tec
 
 ## Notas
 
-{% hint style="info" %} **El modo de concentración con pestañas es muy útil para eliminar distracciones de otros canales.** Cuando quieras concentrarte en una tarea, oculta las dos barras para que no te distraigan los otros canales y sus notificaciones. Puedes configurar un atajo de teclado para que sea aún más rápido. {% endhint %}
+{% hint style="info" %}
+**El modo de concentración con pestañas es muy útil para eliminar distracciones de otros canales.** Cuando quieras concentrarte en una tarea, oculta las dos barras para que no te distraigan los otros canales y sus notificaciones. Puedes configurar un atajo de teclado para que sea aún más rápido.
+{% endhint %}
 
-{% hint style="info" %} **Ancla una consulta, no solo objetos estáticos.** Las consultas ancladas, como «Tareas en las que el Estado = En curso» o «Notas que se han Modificado esta semana», funcionan como [widgets.md](widgets.md "mention") dinámicos: se actualizan según van cambiando los datos. {% endhint %}
+{% hint style="info" %}
+**Ancla una consulta, no solo objetos estáticos.** Las consultas ancladas, como «Tareas en las que el Estado = En curso» o «Notas que se han Modificado esta semana», funcionan como [widgets.md](widgets.md "mention") dinámicos: se actualizan según van cambiando los datos.
+{% endhint %}
 
-{% hint style="info" %} **Aplica la vista Enlaces a los canales de archivo.** En un canal que utilizas más para leer que para crear, puedes preferir la vista densa de enlaces, que muestra más objetos de un vistazo. {% endhint %}
+{% hint style="info" %}
+**Aplica la vista Enlaces a los canales de archivo.** En un canal que utilizas más para leer que para crear, puedes preferir la vista densa de enlaces, que muestra más objetos de un vistazo.
+{% endhint %}

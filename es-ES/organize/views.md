@@ -27,7 +27,9 @@ Los diseños organizan tus [objetos](../create/objects/) y sus [propiedades](pro
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Views How Layout.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-{% hint style="warning" %} Algunas vistas no están disponibles en el móvil. {% endhint %}
+{% hint style="warning" %}
+Algunas vistas no están disponibles en el móvil.
+{% endhint %}
 
 ### Filtros
 
@@ -168,6 +170,10 @@ Para eliminar una vista, haz clic derecho sobre ella para abrir el menú. Tambi�
 
 ## Notas
 
-{% hint style="info" %} **Pon a tus vistas un nombre relacionado con su diseño o filtro**. Los nombres descriptivos, como «Tareas prioritarias» y «Proyectos archivados», te ayudarán a distinguir en seguida lo que estas viendo. {% endhint %}
+{% hint style="info" %}
+**Pon a tus vistas un nombre relacionado con su diseño o filtro**. Los nombres descriptivos, como «Tareas prioritarias» y «Proyectos archivados», te ayudarán a distinguir en seguida lo que estas viendo.
+{% endhint %}
 
-{% hint style="info" %} **Cuando quieras editar objetos en lote, es mejor configurar primero los filtros de la vista** para que solo muestre los objetos que vas a modificar. Así podrás seleccionarlos con más rapidez. También puedes crear una [consulta](queries.md) para hacerlo. {% endhint %}
+{% hint style="info" %}
+**Cuando quieras editar objetos en lote, es mejor configurar primero los filtros de la vista** para que solo muestre los objetos que vas a modificar. Así podrás seleccionarlos con más rapidez. También puedes crear una [consulta](queries.md) para hacerlo.
+{% endhint %}

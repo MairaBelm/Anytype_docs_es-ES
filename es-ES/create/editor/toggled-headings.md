@@ -80,6 +80,10 @@ Haz clic en el control del bloque y selecciona **Estilo > Título 1** (o 2, o 3)
 
 ## Notas
 
-{% hint style="info" %} **Usa los títulos desplegables como divisores de secciones.** Un título 1 desplegable llamado «Archivo» o «Notas antiguas» puede servir para quitar de en medio el contenido sin eliminarlo. {% endhint %}
+{% hint style="info" %}
+**Usa los títulos desplegables como divisores de secciones.** Un título 1 desplegable llamado «Archivo» o «Notas antiguas» puede servir para quitar de en medio el contenido sin eliminarlo.
+{% endhint %}
 
-{% hint style="info" %} **Convierte un título normal en desplegable para organizar el documento rápidamente.** Si ya tienes una página estructurada con títulos, puedes convertirlos en desplegables para crear secciones contraíbles sin tener que reestructurarla. {% endhint %}
+{% hint style="info" %}
+**Convierte un título normal en desplegable para organizar el documento rápidamente.** Si ya tienes una página estructurada con títulos, puedes convertirlos en desplegables para crear secciones contraíbles sin tener que reestructurarla.
+{% endhint %}

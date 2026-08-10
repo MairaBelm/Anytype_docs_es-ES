@@ -155,4 +155,6 @@ In shared Channels, only the Owner can delete the Channel. Other members can lea
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Channel Settings Delete.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-{% hint style="danger" %} **Deleting a Channel is permanent.** All Objects, Chats, Discussions, and history are removed for every member. There is no undo. If you may need the data later, export the Channel before deleting it as a precaution. {% endhint %}
+{% hint style="danger" %}
+**Deleting a Channel is permanent.** All Objects, Chats, Discussions, and history are removed for every member. There is no undo. If you may need the data later, export the Channel before deleting it as a precaution.
+{% endhint %}

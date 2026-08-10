@@ -2,7 +2,9 @@
 
 If you prefer to fully keep your data on your device without any server to sync between your desktop and mobile, you can enable Local-Only Mode. This mode disables Anytype's backup node entirely—meaning multi-device syncing will only work over the same local network, and your data lives exclusively on your devices.
 
-{% hint style="danger" %} **Local-only mode is marked experimental** because manual backup management carries a high risk of accidental data loss. If you choose this mode, ensure you regularly export your data and manage your backups. Anytype has no ability to help you with recovering data loss from local-only mode.  {% endhint %}
+{% hint style="danger" %}
+**Local-only mode is marked experimental** because manual backup management carries a high risk of accidental data loss. If you choose this mode, ensure you regularly export your data and manage your backups. Anytype has no ability to help you with recovering data loss from local-only mode. 
+{% endhint %}
 
 ## Cómo funciona
 
@@ -71,4 +73,6 @@ Do not place your active Anytype data directory inside a third-party cloud-synce
 * Use Local Storage Only: Ensure your Anytype data directory resides on a standard, non-synced local drive on your device. That is, standard internal storage. 
 * Manual Backups: If you want to use cloud storage for backups, export your spaces manually or back up a static, closed snapshot of your directory while Anytype is not running.
 
-{% hint style="warning" %} **If you experience data loss in local-only mode, Anytype cannot help with recovery**. You can explore recovery methods based on your setup with at the Anytype community forum or other general forums.  {% endhint %}
+{% hint style="warning" %}
+**If you experience data loss in local-only mode, Anytype cannot help with recovery**. You can explore recovery methods based on your setup with at the Anytype community forum or other general forums. 
+{% endhint %}

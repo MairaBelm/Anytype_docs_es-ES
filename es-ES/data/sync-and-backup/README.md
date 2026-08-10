@@ -21,17 +21,21 @@ At a high level, Anytype gives you complete control in three ways:
 {% stepper %} {% step %}
 ### Everything is local
 
-All your content is stored locally on your device, and even your access keys are generated on your own hardware. This means an offline-first experience: the app always works without an internet connection, protecting you from downtime, lockouts, and vendor lock-in. {% endstep %}
+All your content is stored locally on your device, and even your access keys are generated on your own hardware. This means an offline-first experience: the app always works without an internet connection, protecting you from downtime, lockouts, and vendor lock-in.
+{% endstep %}
 
 {% step %}
 ### Sync is end-to-end encrypted
 
-Before any data leaves your device, it's encrypted so that only your key can unlock it. The Anytype Network acts as a "blind orchestrator" — relaying updates across your devices without ever being able to view or access your content. Even if your encrypted data were intercepted, even the world's most capable attackers couldn't break in. This is verifiable through Anytype's open codebase that's constantly inspected by the public. {% endstep %}
+Before any data leaves your device, it's encrypted so that only your key can unlock it. The Anytype Network acts as a "blind orchestrator" — relaying updates across your devices without ever being able to view or access your content. Even if your encrypted data were intercepted, even the world's most capable attackers couldn't break in. This is verifiable through Anytype's open codebase that's constantly inspected by the public.
+{% endstep %}
 
 {% step %}
 ### Recovery is built-in
 
-To ensure you never lose your data, the Anytype Network keeps an encrypted remote backup. Only your private key can decrypt and restore it to a new device — nobody else, not even Anytype, can access your encrypted data. Being in complete control also means you are fully responsible for your [keys](../../basics/key.md) to access and recover your data. {% endstep %} {% endstepper %}
+To ensure you never lose your data, the Anytype Network keeps an encrypted remote backup. Only your private key can decrypt and restore it to a new device — nobody else, not even Anytype, can access your encrypted data. Being in complete control also means you are fully responsible for your [keys](../../basics/key.md) to access and recover your data.
+{% endstep %}
+{% endstepper %}
 
 Anytype provides a convenient safe haven for your digital life. Learn more about collaboration in [Collaboration](../../collaborate/collaboration.md).
 

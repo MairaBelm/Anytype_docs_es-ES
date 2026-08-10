@@ -61,4 +61,6 @@ To leave permanently and clear all history, you can also delete the channel — 
 
 ## Tips
 
-{% hint style="warning" %} You can't add a third person to a Direct Channel. If a one-on-one conversation needs to expand, create a regular Channel and invite both people. {% endhint %}
+{% hint style="warning" %}
+You can't add a third person to a Direct Channel. If a one-on-one conversation needs to expand, create a regular Channel and invite both people.
+{% endhint %}

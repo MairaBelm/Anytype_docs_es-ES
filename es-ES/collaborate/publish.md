@@ -68,6 +68,10 @@ For multi-page sites, watch for updates in the Anytype changelog.
 
 ## Tips
 
-{% hint style="warning" %} **Don't publish Objects with sensitive Properties.** Properties like internal status, private notes, and personal information are uploaded too unless you exclude them in the publish dialog. Review what's visible before clicking Publish. {% endhint %}
+{% hint style="warning" %}
+**Don't publish Objects with sensitive Properties.** Properties like internal status, private notes, and personal information are uploaded too unless you exclude them in the publish dialog. Review what's visible before clicking Publish.
+{% endhint %}
 
-{% hint style="warning" %} **Anyone with the URL can see a published page** — including web archivers, search engines, and screenshot tools. Treat the URL as effectively public, even if you don't share it widely. {% endhint %}
+{% hint style="warning" %}
+**Anyone with the URL can see a published page** — including web archivers, search engines, and screenshot tools. Treat the URL as effectively public, even if you don't share it widely.
+{% endhint %}

@@ -2,7 +2,9 @@
 
 You can import content into your spaces and export it at any time.
 
-{% hint style="warning" %} Available on desktop only. {% endhint %}
+{% hint style="warning" %}
+Available on desktop only.
+{% endhint %}
 
 ## Import
 

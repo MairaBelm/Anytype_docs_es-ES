@@ -62,6 +62,10 @@ Anytype runs on macOS, Windows, and Linux. Most shortcuts use **Cmd on macOS** a
 
 ## Tips
 
-{% hint style="info" %} **Memorize the top three first.** Cmd/Ctrl + K (search), `/` (slash menu), and `@` (mention) cover most of what you do. Get comfortable with these and you've shaved 80% of the navigation time off. {% endhint %}
+{% hint style="info" %}
+**Memorize the top three first.** Cmd/Ctrl + K (search), `/` (slash menu), and `@` (mention) cover most of what you do. Get comfortable with these and you've shaved 80% of the navigation time off.
+{% endhint %}
 
-{% hint style="info" %} **Reassign Caps Lock if you don't use it.** A common power-user trick: rebind Caps Lock to something useful at the OS level (Esc, or a modifier), then use Anytype's customization to assign Caps + a letter as your "global Anytype" shortcut for opening search or creating notes. {% endhint %}
+{% hint style="info" %}
+**Reassign Caps Lock if you don't use it.** A common power-user trick: rebind Caps Lock to something useful at the OS level (Esc, or a modifier), then use Anytype's customization to assign Caps + a letter as your "global Anytype" shortcut for opening search or creating notes.
+{% endhint %}

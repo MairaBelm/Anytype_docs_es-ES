@@ -72,8 +72,14 @@ Channel-level notification settings still apply on top of per-Object settings.
 
 ## Tips
 
-{% hint style="info" %} **No collaboration required: use the Discussions area as a personal appendix to your documents.** It separates additional notes and files from the main content area.  {% endhint %}
+{% hint style="info" %}
+**No collaboration required: use the Discussions area as a personal appendix to your documents.** It separates additional notes and files from the main content area. 
+{% endhint %}
 
-{% hint style="info" %} **@-mention people in Discussions** to notify them. The @ menu also lets you mention other Objects, which becomes a clickable link inside the post. {% endhint %}
+{% hint style="info" %}
+**@-mention people in Discussions** to notify them. The @ menu also lets you mention other Objects, which becomes a clickable link inside the post.
+{% endhint %}
 
-{% hint style="info" %} **Use checkboxes for review action items.** A reviewer can list "fix the heading", "rewrite intro", "add screenshot" as checkboxes. The author can tick them off as work progresses, all without leaving the Object. {% endhint %}
+{% hint style="info" %}
+**Use checkboxes for review action items.** A reviewer can list "fix the heading", "rewrite intro", "add screenshot" as checkboxes. The author can tick them off as work progresses, all without leaving the Object.
+{% endhint %}

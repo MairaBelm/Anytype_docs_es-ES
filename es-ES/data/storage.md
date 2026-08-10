@@ -14,4 +14,6 @@ You can remove all the media content from your mobile device via the clear cache
 
 You can also manage your files on desktop by going into `Channel settings -> Manage Channel -> Manage files`.
 
-{% hint style="info" %} Files are stored inside `flatfs dir` in encrypted fragments, so they can’t be accessed outside of Anytype. {% endhint %}
+{% hint style="info" %}
+Files are stored inside `flatfs dir` in encrypted fragments, so they can’t be accessed outside of Anytype.
+{% endhint %}

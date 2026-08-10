@@ -20,6 +20,10 @@ Tu arca se crea la primera vez que inicias Anytype. Junto con ella, recibes una 
 * Se genera en tu dispositivo de forma local y nunca se comparte con Anytype, lo que garantiza la seguridad de tus datos. 
 * Prescindir del correo electrónico y la contraseña es lo que hace que Anytype funcione sin conexión y de forma descentralizada. No necesitas el permiso de nadie para crear una cuenta, usar la aplicación y conectarte con los demás. 
 
-{% hint style="warning" %} Si pierdes tu clave y has cerrado sesión en todos tus dispositivos, no existe ninguna forma de recuperar tu arca, porque Anytype no almacena tu clave. Guárdala en un lugar seguro. Puedes ver más detalles en [Clave](key.md). {% endhint %}
+{% hint style="warning" %}
+Si pierdes tu clave y has cerrado sesión en todos tus dispositivos, no existe ninguna forma de recuperar tu arca, porque Anytype no almacena tu clave. Guárdala en un lugar seguro. Puedes ver más detalles en [Clave](key.md).
+{% endhint %}
 
-{% hint style="info" %} Tu arca se sincroniza automáticamente entre tus dispositivos cuando te conectas a la red. Puedes trabajar sin conexión, ya que los cambios se sincronizarán cuando vuelvas a conectarte a una red. {% endhint %}
+{% hint style="info" %}
+Tu arca se sincroniza automáticamente entre tus dispositivos cuando te conectas a la red. Puedes trabajar sin conexión, ya que los cambios se sincronizarán cuando vuelvas a conectarte a una red.
+{% endhint %}

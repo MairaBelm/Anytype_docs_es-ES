@@ -18,7 +18,9 @@ Anytype cannot access your data or verify your identity in any way. To delete yo
 2. **Cancel deletion** — You have 30 days to cancel the deletion process. After that, your Vault is deleted permanently, and you can no longer sign in.
 3. **Delete from other devices** — All data is stored locally on Anytype. If you are logged into multiple devices, you will need to delete your data from those apps by uninstalling them.
 
-{% hint style="danger" %} **After your Vault/Account has been deleted, it will no longer be able to be recovered.** Ensure you are certain before triggering deletion. {% endhint %}
+{% hint style="danger" %}
+**After your Vault/Account has been deleted, it will no longer be able to be recovered.** Ensure you are certain before triggering deletion.
+{% endhint %}
 
 ## Recovering your Vault / Account
 
@@ -32,4 +34,6 @@ If you have signed in to Anytype on multiple devices, your [Key](../basics/key.m
 
 If you are unable to retrieve your Key to access your Vault, Anytype is unable to delete your account for you because we have no way of identifying it correctly with your identity. Your Vault will remain encrypted on our backup nodes without anybody being able to access it.
 
-{% hint style="danger" %} **Anytype cannot recover a lost Key.** Save multiple copies of your Key using a secure method. {% endhint %}
+{% hint style="danger" %}
+**Anytype cannot recover a lost Key.** Save multiple copies of your Key using a secure method.
+{% endhint %}

@@ -84,6 +84,10 @@ An Object created inside a "parent Object" — and not linked anywhere else — 
 
 ## Tips
 
-{% hint style="info" %} **Use 'delete permanently' cautiously**. It's not possible to recover Objects that have been deleted from your Bin. Only do so if you are certain they are no longer needed. {% endhint %}
+{% hint style="info" %}
+**Use 'delete permanently' cautiously**. It's not possible to recover Objects that have been deleted from your Bin. Only do so if you are certain they are no longer needed.
+{% endhint %}
 
-{% hint style="info" %} **Types, Properties, Templates, etc. can all be found in the Bin**—not just regular documents and files. {% endhint %}
+{% hint style="info" %}
+**Types, Properties, Templates, etc. can all be found in the Bin**—not just regular documents and files.
+{% endhint %}

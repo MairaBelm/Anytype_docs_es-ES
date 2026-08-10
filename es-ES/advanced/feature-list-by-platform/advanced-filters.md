@@ -152,8 +152,14 @@ Status is Blocked  OR  (Status is In Progress  AND  Modified is before 7 days ag
 
 ## Tips
 
-{% hint style="info" %} **Group OR conditions.** AND has higher default precedence — `A AND B OR C` may not mean what you think. Wrapping the OR in a group makes the intent explicit and unambiguous. {% endhint %}
+{% hint style="info" %}
+**Group OR conditions.** AND has higher default precedence — `A AND B OR C` may not mean what you think. Wrapping the OR in a group makes the intent explicit and unambiguous. 
+{% endhint %}
 
-{% hint style="info" %} **Save complex filters as separate Views.** If you've built a filter that's hard to recreate, save it as a View on your Query rather than rebuilding it each time. The Views menu makes them switchable in one click. {% endhint %}
+{% hint style="info" %}
+**Save complex filters as separate Views.** If you've built a filter that's hard to recreate, save it as a View on your Query rather than rebuilding it each time. The Views menu makes them switchable in one click.
+{% endhint %}
 
-{% hint style="info" %} **Use Current User in shared Channel templates.** A "My Tasks" Query in a team Channel works for everyone — each member sees their own tasks. No need to duplicate the Query per person. {% endhint %}
+{% hint style="info" %}
+**Use Current User in shared Channel templates.** A "My Tasks" Query in a team Channel works for everyone — each member sees their own tasks. No need to duplicate the Query per person.
+{% endhint %}

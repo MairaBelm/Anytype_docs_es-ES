@@ -118,11 +118,17 @@ Anything the Local API can do. This includes creating, updating, and deleting Ob
 
 #### Recommendations
 
-{% hint style="warning" %} **Review scripts before running them.** Most agents show you what they're about to execute. Read it. A "delete all Objects matching X" script run by mistake is hard to recover from. {% endhint %}
+{% hint style="warning" %}
+**Review scripts before running them.** Most agents show you what they're about to execute. Read it. A "delete all Objects matching X" script run by mistake is hard to recover from.
+{% endhint %}
 
-{% hint style="warning" %} **Use a separate API key for agent work.** If you ever want to revoke the agent's access, you can delete the key in **Vault Settings > API Keys** without affecting your other integrations. {% endhint %}
+{% hint style="warning" %}
+**Use a separate API key for agent work.** If you ever want to revoke the agent's access, you can delete the key in **Vault Settings > API Keys** without affecting your other integrations.
+{% endhint %}
 
-{% hint style="info" %} **Test on a small scope first.** Before running a bulk operation on hundreds of Objects, ask the agent to do it on five and check the result. {% endhint %}
+{% hint style="info" %}
+**Test on a small scope first.** Before running a bulk operation on hundreds of Objects, ask the agent to do it on five and check the result.
+{% endhint %}
 
 ### Where to learn more
 

@@ -41,7 +41,9 @@ The data in the old folder isn't automatically deleted. Once you've confirmed th
 
 This recovers the disk space.
 
-{% hint style="warning" %} **Do not delete the old folder until you've verified the new location is fully synced.**  {% endhint %}
+{% hint style="warning" %}
+**Do not delete the old folder until you've verified the new location is fully synced.**
+{% endhint %}
 
 ### Using external drives
 
@@ -74,4 +76,6 @@ Anytype's data is already encrypted at rest (via the Vault's master key derived 
 
 If you choose [Local-only](../../data/sync-and-backup/local-only.md) network mode (in Vault Settings > Networks & Backup), your Vault never syncs to any remote server. Your data lives only at the storage location you've chosen, plus any other devices you sync with via local peer-to-peer. Please [see here](../../data/sync-and-backup/local-only.md) for more details. 
 
-{% hint style="danger" %} **In Local-only mode, your storage location is the only copy of your data**. Treat the folder like a precious original — back it up regularly, and never let it live somewhere ephemeral (like a temp directory or unmounted drive). {% endhint %}
+{% hint style="danger" %}
+**In Local-only mode, your storage location is the only copy of your data**. Treat the folder like a precious original — back it up regularly, and never let it live somewhere ephemeral (like a temp directory or unmounted drive).
+{% endhint %}

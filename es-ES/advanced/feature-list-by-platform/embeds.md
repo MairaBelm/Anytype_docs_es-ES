@@ -113,8 +113,14 @@ Anytype renders this as a flowchart in real time. Mermaid supports flowcharts, s
 
 ## Tips
 
-{% hint style="info" %} **Embed reference, link to source for citation.** A Wikipedia article is best linked (it's not very embeddable); a Miro board is best embedded (you want to see it). Pick the format that matches how you'll use it. {% endhint %}
+{% hint style="info" %}
+**Embed reference, link to source for citation.** A Wikipedia article is best linked (it's not very embeddable); a Miro board is best embedded (you want to see it). Pick the format that matches how you'll use it.
+{% endhint %}
 
-{% hint style="info" %} **Use Mermaid for living diagrams.** Mermaid diagrams are text — if you change the diagram in your Object, the change persists. Compare with a screenshot of a diagram, which goes stale the moment you change something. {% endhint %}
+{% hint style="info" %}
+**Use Mermaid for living diagrams.** Mermaid diagrams are text — if you change the diagram in your Object, the change persists. Compare with a screenshot of a diagram, which goes stale the moment you change something.
+{% endhint %}
 
-{% hint style="warning" %} **Embeds rely on the external service.** If YouTube changes their embed API or a Miro board is deleted, the embed in your Object stops working. Important content should also be saved as a Bookmark or downloaded copy as a backup. {% endhint %}
+{% hint style="warning" %}
+**Embeds rely on the external service.** If YouTube changes their embed API or a Miro board is deleted, the embed in your Object stops working. Important content should also be saved as a Bookmark or downloaded copy as a backup.
+{% endhint %}

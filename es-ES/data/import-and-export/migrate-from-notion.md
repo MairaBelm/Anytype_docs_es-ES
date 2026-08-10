@@ -37,7 +37,9 @@
 * Keep your computer plugged into power.
 * Disable sleep mode on your computer to allow the import process to complete without interruptions.
 
-{% hint style="info" %} Some Notion data may **not be imported correctly** as not all Notion features are supported in Anytype. {% endhint %}
+{% hint style="info" %}
+Some Notion data may **not be imported correctly** as not all Notion features are supported in Anytype.
+{% endhint %}
 
 2.  In your Anytype space's settings (click on your space's name in the top left), **select "Import" and choose "Notion"**.
 

@@ -52,7 +52,9 @@ The '**Add members via link**' toggle generates a link you can share with others
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Invite Link.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-{% hint style="danger" %} **Be sure to share auto-approve invitation links with a secure method.** If it is intercepted, it can be used to gain access to the space without approval. If you are concerned that your invitation links have been compromised, you can reset the link and require request approval for all new joiners. {% endhint %}
+{% hint style="danger" %}
+**Be sure to share auto-approve invitation links with a secure method.** If it is intercepted, it can be used to gain access to the space without approval. If you are concerned that your invitation links have been compromised, you can reset the link and require request approval for all new joiners.
+{% endhint %}
 
 ### Add Members
 
@@ -60,7 +62,9 @@ The 'add members' button will provide a list of users that you can invite into y
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate Add.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-{% hint style="info" %} **If there are many unrecognisable users in your member list**, this may be due to you being part of a large community space with many members unrecognizable to you. {% endhint %}
+{% hint style="info" %}
+**If there are many unrecognisable users in your member list**, this may be due to you being part of a large community space with many members unrecognizable to you.
+{% endhint %}
 
 ### Joining Channels
 
@@ -87,9 +91,13 @@ All spaces have multiple role levels, each with progressively higher privileges:
 
 <table data-search="false"><thead><tr><th>Privilege</th><th width="102.04296875" align="center">Viewer</th><th width="104.13671875" align="center">Editor</th><th width="108.62109375" align="center">Admin</th><th width="108.6015625" align="center">Owner</th></tr></thead><tbody><tr><td>Create, edit, and remove objects</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Participate in chats &amp; discussions</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Edit space name &amp; icon</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Add shared pins to sidebar</td><td align="center">—</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Manage members</td><td align="center">—</td><td align="center">—</td><td align="center">Editors &amp; viewers</td><td align="center">✓</td></tr><tr><td>Manage invitation links</td><td align="center">—</td><td align="center">—</td><td align="center">—</td><td align="center">✓</td></tr><tr><td>Change space ownership</td><td align="center">—</td><td align="center">—</td><td align="center">—</td><td align="center">✓</td></tr></tbody></table>
 
-{% hint style="info" %} **To share an Object with somebody outside of Anytype**, use the publish feature. This creates a webpage that can be visited in the browser. {% endhint %}
+{% hint style="info" %}
+**To share an Object with somebody outside of Anytype**, use the publish feature. This creates a webpage that can be visited in the browser.
+{% endhint %}
 
-{% hint style="warning" %} **You cannot set permissions on a per-Object basis.** All Space Members can view everything inside a Space. If you require more separation, use a different space and import only the content you are happy to share with everyone. {% endhint %}
+{% hint style="warning" %}
+**You cannot set permissions on a per-Object basis.** All Space Members can view everything inside a Space. If you require more separation, use a different space and import only the content you are happy to share with everyone.
+{% endhint %}
 
 ### Managing members
 
@@ -158,14 +166,24 @@ Your past contributions remain in the Channel after leaving it — Anytype does 
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate Leave Channel.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-{% hint style="warning" %} **Owners of a space must first transfer ownership to another member before leaving.** If there are no other members, you can delete the Channel entirely. {% endhint %}
+{% hint style="warning" %}
+**Owners of a space must first transfer ownership to another member before leaving.** If there are no other members, you can delete the Channel entirely.
+{% endhint %}
 
 ## Tips
 
-{% hint style="info" %} **Use Request-Access invitation links for more control.** Auto-approval invitation links should only be used in spaces where quick and easy access takes priority over protecting sensitive data. {% endhint %}
+{% hint style="info" %}
+**Use Request-Access invitation links for more control.** Auto-approval invitation links should only be used in spaces where quick and easy access takes priority over protecting sensitive data.
+{% endhint %}
 
-{% hint style="info" %} **Make a backup before transferring ownership.** Export the Channel (Settings > Integrations > Export Channel) before handing over Owner rights. If anything goes wrong, you have a snapshot. {% endhint %}
+{% hint style="info" %}
+**Make a backup before transferring ownership.** Export the Channel (Settings > Integrations > Export Channel) before handing over Owner rights. If anything goes wrong, you have a snapshot.
+{% endhint %}
 
-{% hint style="warning" %} **Currently, you can only share entire Channels — not individual Objects.** If you want to share just one thing publicly with no access controls, use [Web Publishing](publish.md) instead. {% endhint %}
+{% hint style="warning" %}
+**Currently, you can only share entire Channels — not individual Objects.** If you want to share just one thing publicly with no access controls, use [Web Publishing](publish.md) instead.
+{% endhint %}
 
-{% hint style="warning" %} **Once a Channel is deleted, it can't be recovered** unless someone exported it before deletion. Be cautious with Delete Channel in shared spaces. {% endhint %}
+{% hint style="warning" %}
+**Once a Channel is deleted, it can't be recovered** unless someone exported it before deletion. Be cautious with Delete Channel in shared spaces.
+{% endhint %}

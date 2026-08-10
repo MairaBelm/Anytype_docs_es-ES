@@ -68,7 +68,9 @@ Setting the default Template here will apply to all Objects created for this Typ
 2. While hovering over it, click on the 'three dots' button.
 3. Select the menu item **Edit template**.
 
-{% hint style="warning" %} **Template changes only apply to future Objects that are created with it**. For all Objects already created from past versions of the Template, no updates to the Template will transfer to them. Templates are only applied during Object creation. {% endhint %}
+{% hint style="warning" %}
+**Template changes only apply to future Objects that are created with it**. For all Objects already created from past versions of the Template, no updates to the Template will transfer to them. Templates are only applied during Object creation.
+{% endhint %}
 
 ## Using Templates
 
@@ -175,6 +177,10 @@ The Template is removed and can be found in the Bin where it can be restored. **
 
 ## Tips
 
-{% hint style="info" %} **Create your Objects, then create a Template after.** Build the layout you want on a real Object first, iterate until it's right, then save it as a Template. This is more reliable than designing a Template from scratch in the abstract, as it may not truly serve your needs. {% endhint %}
+{% hint style="info" %}
+**Create your Objects, then create a Template after.** Build the layout you want on a real Object first, iterate until it's right, then save it as a Template. This is more reliable than designing a Template from scratch in the abstract, as it may not truly serve your needs.
+{% endhint %}
 
-{% hint style="info" %} **Set a per-View default for shared Channels.** A team Channel where one View is "Bug Tracker" and another is "Feature Requests" benefits from per-View Templates — Bug Tracker's New button uses the Bug Report Template, Feature Requests uses a different one. Members create the right kind of Object without thinking about it. {% endhint %}
+{% hint style="info" %}
+**Set a per-View default for shared Channels.** A team Channel where one View is "Bug Tracker" and another is "Feature Requests" benefits from per-View Templates — Bug Tracker's New button uses the Bug Report Template, Feature Requests uses a different one. Members create the right kind of Object without thinking about it.
+{% endhint %}

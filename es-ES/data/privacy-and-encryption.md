@@ -18,7 +18,9 @@ Anytype's architecture ensures privacy is mathematically enforced in code, not p
 * **No master recovery.** Because Anytype holds no keys to your account, we can't reset your password or recover your account if you lose access. Losing your key means losing access to your data permanently.
 * **Blind data sync.** All your content is encrypted before it syncs across devices, so Anytype only ever acts as a blind messenger — passing encrypted data along without being able to read it.
 
-{% hint style="warning" %} **Only share sensitive spaces with people you trust who are also using secure devices.** Each additional member you add to a space widens its potential attack surface. {% endhint %}
+{% hint style="warning" %}
+**Only share sensitive spaces with people you trust who are also using secure devices.** Each additional member you add to a space widens its potential attack surface.
+{% endhint %}
 
 ## Encryption
 
@@ -53,7 +55,9 @@ For more technical details, please [see here](https://tech.anytype.io/any-sync/o
 
 </details>
 
-{% hint style="warning" %} **Keep your devices secure.** The security of your devices — and your habits while using them — is the first and most important line of defense when using Anytype. {% endhint %}
+{% hint style="warning" %}
+**Keep your devices secure.** The security of your devices — and your habits while using them — is the first and most important line of defense when using Anytype.
+{% endhint %}
 
 ## Telemetry
 
