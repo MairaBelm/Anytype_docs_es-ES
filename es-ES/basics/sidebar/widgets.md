@@ -30,7 +30,9 @@ Esta opción se puede cambiar en [cada widget](widgets.md#opciones-de-diseno) o 
 
 Las opciones disponibles para cada widget dependen de las [vistas](../../organize/views.md) que hayas configurado en el objeto. Cuando modificas esas vistas, también cambia lo que muestra el widget.
 
-{% hint style="warning" %} **Si no puedes crear widgets**, consulta la sección [Opciones de los widgets](widgets.md#opciones-de-los-widgets) para ver más detalles. {% endhint %}
+{% hint style="warning" %}
+**Si no puedes crear widgets**, consulta la sección [Opciones de los widgets](widgets.md#opciones-de-los-widgets) para ver más detalles.
+{% endhint %}
 
 ## Cómo usar los widgets
 
@@ -106,8 +108,14 @@ Si tus favoritos solo aparecen como enlaces, quizá necesites cambiar la vista a
 
 ## Notas
 
-{% hint style="info" %} **Empieza con algo sencillo: un solo widget.** No compliques demasiado tu barra lateral al principio. Empieza con un widget, como una lista de tareas o un calendario. {% endhint %}
+{% hint style="info" %}
+**Empieza con algo sencillo: un solo widget.** No compliques demasiado tu barra lateral al principio. Empieza con un widget, como una lista de tareas o un calendario.
+{% endhint %}
 
-{% hint style="info" %} **Crea un tablero diario.** Combina un widget de calendario con un widget de consulta de tareas filtrado por «Vence hoy». Así tendrás una visión inmediata de tu día en cuanto abras la aplicación. {% endhint %}
+{% hint style="info" %}
+**Crea un tablero diario.** Combina un widget de calendario con un widget de consulta de tareas filtrado por «Vence hoy». Así tendrás una visión inmediata de tu día en cuanto abras la aplicación.
+{% endhint %}
 
-{% hint style="info" %} **Aplica la vista Enlaces a los canales de archivo.** En un canal que utilizas más para leer que para crear, puedes preferir la vista densa de enlaces, que muestra más objetos de un vistazo. {% endhint %}
+{% hint style="info" %}
+**Aplica la vista Enlaces a los canales de archivo.** En un canal que utilizas más para leer que para crear, puedes preferir la vista densa de enlaces, que muestra más objetos de un vistazo.
+{% endhint %}

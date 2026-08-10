@@ -128,4 +128,6 @@ También puedes configurarlo en los [ajustes del canal](../../settings/channel-s
 
 ## Notas
 
-{% hint style="info" %} **Usa las vistas para organizar tus objetos.** Como no existe una jerarquía de carpetas para los objetos, la mejor forma de mantener la organización es usar las [vistas](../../organize/views.md). {% endhint %}
+{% hint style="info" %}
+**Usa las vistas para organizar tus objetos.** Como no existe una jerarquía de carpetas para los objetos, la mejor forma de mantener la organización es usar las [vistas](../../organize/views.md).
+{% endhint %}

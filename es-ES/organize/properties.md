@@ -148,6 +148,10 @@ En esta sección puedes ver los objetos que están conectados a una propiedad, l
 
 ## Notas
 
-{% hint style="info" %} **No te compliques; menos es más.** Cuando estés empezando, usa la menor cantidad de propiedades posible. Ve añadiendo propiedades cuando vaya aumentando tu necesidad de organización. {% endhint %}
+{% hint style="info" %}
+**No te compliques; menos es más.** Cuando estés empezando, usa la menor cantidad de propiedades posible. Ve añadiendo propiedades a medida que aumente tu necesidad de organización.
+{% endhint %}
 
-{% hint style="info" %} **Las etiquetas (tags) son la forma más fácil de empezar a usar las propiedades.** Añade etiquetas relevantes a todos tus documentos y crea una [consulta](queries.md) que los agrupe por etiqueta. {% endhint %}
+{% hint style="info" %}
+**Las etiquetas (tags) son la forma más fácil de empezar a usar las propiedades.** Añade etiquetas relevantes a todos tus documentos y crea una [consulta](queries.md) que los agrupe por etiqueta.
+{% endhint %}

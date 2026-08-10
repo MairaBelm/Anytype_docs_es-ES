@@ -122,6 +122,10 @@ Just like Views, Collections are separate from the Objects they organize. Deleti
 
 ## Notas
 
-{% hint style="info" %} **Collections are a quick and dirty way to get organized.** While Queries are best for staying organized in the long run, Collections require less thinking and planning. Create as many as you like, as deleting them has no impact on the Objects they contain. {% endhint %}
+{% hint style="info" %}
+**Collections are a quick and dirty way to get organized.** While Queries are best for staying organized in the long run, Collections require less thinking and planning. Create as many as you like, as deleting them has no impact on the Objects they contain.
+{% endhint %}
 
-{% hint style="info" %} **Pin project Collections to your sidebar.** A pinned project Collection acts as a project hub — one click to see everything in scope. {% endhint %}
+{% hint style="info" %}
+**Pin project Collections to your sidebar.** A pinned project Collection acts as a project hub — one click to see everything in scope.
+{% endhint %}

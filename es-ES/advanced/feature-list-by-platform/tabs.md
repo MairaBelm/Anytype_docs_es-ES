@@ -75,6 +75,10 @@ When you quit Anytype and reopen it, your tabs come back the way you left them �
 
 ## Tips
 
-{% hint style="info" %} **Pin your daily-driver Objects.** Pin your "Today" page, your active project, and your inbox as the leftmost tabs. They're always one click away and survive restarts. {% endhint %}
+{% hint style="info" %}
+**Pin your daily-driver Objects.** Pin your "Today" page, your active project, and your inbox as the leftmost tabs. They're always one click away and survive restarts.
+{% endhint %}
 
-{% hint style="info" %} **Use Cmd/Ctrl + Click in the sidebar instead of regular click.** This builds a habit of keeping your current context open while you peek at something else — far less disruptive than navigating away. {% endhint %}
+{% hint style="info" %}
+**Use Cmd/Ctrl + Click in the sidebar instead of regular click.** This builds a habit of keeping your current context open while you peek at something else — far less disruptive than navigating away.
+{% endhint %}

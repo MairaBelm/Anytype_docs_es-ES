@@ -32,7 +32,9 @@ Chat is a system Type, so it doesn't support custom Templates or layout changes.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chat Create.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-{% hint style="info" %} **Set a Chat as the home page** for Channels where conversations take the forefront. {% endhint %}
+{% hint style="info" %}
+**Set a Chat as the home page** for Channels where conversations take the forefront.
+{% endhint %}
 
 #### Multiple Chats
 
@@ -46,7 +48,9 @@ A single Channel can hold multiple Chats. You can start topic-specific conversat
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chats Multiple.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-{% hint style="info" %} **Use multiple Chats for large Channels.** A single team Channel can have multiple Chats. Mute the noisy ones, leave Mentions-only on others. {% endhint %}
+{% hint style="info" %}
+**Use multiple Chats for large Channels.** A single team Channel can have multiple Chats. Mute the noisy ones, leave Mentions-only on others.
+{% endhint %}
 
 #### Chats Widget
 
@@ -57,7 +61,9 @@ The Chats Widget works like any other widget in your sidebar:
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chat Widget.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-{% hint style="info" %} **Group your Chats into categories and use a Kanban board layout** to create an organized list in your Sidebar. {% endhint %}
+{% hint style="info" %}
+**Group your Chats into categories and use a Kanban board layout** to create an organized list in your Sidebar.
+{% endhint %}
 
 ## Using Chat
 
@@ -181,8 +187,14 @@ As a result, chat objects and messages cannot be exported — they are inherentl
 
 ## Tips
 
-{% hint style="info" %} **Drop Objects into Chat to share work in progress** — Note, Task, Page, even another Chat. The Object becomes a clickable attachment card. Recipients can open and edit immediately. {% endhint %}
+{% hint style="info" %}
+**Drop Objects into Chat to share work in progress** — Note, Task, Page, even another Chat. The Object becomes a clickable attachment card. Recipients can open and edit immediately.
+{% endhint %}
 
-{% hint style="info" %} **Pin the welcome message.** When someone joins a Channel, the first thing they see is the pinned message at the top. Use this to set norms — what the Channel is for, how to engage. {% endhint %}
+{% hint style="info" %}
+**Pin the welcome message.** When someone joins a Channel, the first thing they see is the pinned message at the top. Use this to set norms — what the Channel is for, how to engage.
+{% endhint %}
 
-{% hint style="info" %} **For Object-specific feedback, use Discussions instead of Chat.** Discussions live on the Object and stay attached forever. Chats are for cross-Object conversations and stream-of-consciousness collaboration. See [Discussions](../discussions.md). {% endhint %}
+{% hint style="info" %}
+**For Object-specific feedback, use Discussions instead of Chat.** Discussions live on the Object and stay attached forever. Chats are for cross-Object conversations and stream-of-consciousness collaboration. See [Discussions](../discussions.md).
+{% endhint %}

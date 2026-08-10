@@ -131,4 +131,6 @@ Repite con otro bloque para seguir añadiendo columnas. Para volver a convertir 
 
 ## Notas
 
-{% hint style="info" %} **Títulos desplegables + índice = mejor navegación en páginas muy largas.** Si usas ambas cosas, puedes contraer las secciones que no estés editando y usar el índice para pasar de una a otra. Consulta [Títulos desplegables](toggled-headings.md). {% endhint %}
+{% hint style="info" %}
+**Títulos desplegables + índice = mejor navegación en páginas muy largas.** Si usas ambas cosas, puedes contraer las secciones que no estés editando y usar el índice para pasar de una a otra. Consulta [Títulos desplegables](toggled-headings.md).
+{% endhint %}

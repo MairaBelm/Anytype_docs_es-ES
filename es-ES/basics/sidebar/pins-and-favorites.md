@@ -51,10 +51,16 @@ La sección «Anclados» es común a todos los miembros del canal y solo puede g
 3. Selecciona la opción «Anclar en el canal».
 4. El objeto aparece ahora en la sección **Anclados** de la barra lateral de todos los miembros.
 
-{% hint style="warning" %} Los propietarios y administradores son los únicos que pueden añadir, eliminar y ordenar los objetos anclados. Los editores y los visitantes pueden verlos, pero no modificarlos. {% endhint %}
+{% hint style="warning" %}
+Los propietarios y administradores son los únicos que pueden añadir, eliminar y ordenar los objetos anclados. Los editores y los visitantes pueden verlos, pero no modificarlos.
+{% endhint %}
 
 ## Notas
 
-{% hint style="info" %} **En los canales personales, esta diferencia apenas existe**: tú eres el único miembro, así que las secciones «Mis favoritos» y «Anclados» funcionan igual para ti. La distinción cobra sentido en canales con varios miembros. {% endhint %}
+{% hint style="info" %}
+**En los canales personales, esta diferencia apenas existe**: tú eres el único miembro, así que las secciones «Mis favoritos» y «Anclados» funcionan igual para ti. La distinción cobra sentido en canales con varios miembros.
+{% endhint %}
 
-{% hint style="info" %} **Usa «Mis favoritos» en proyectos muy ajetreados.** Si alguien del equipo ha fijado toda la estructura del documento de planificación trimestral en «Anclados», puedes obviar esa sección y atender solo a los documentos que te importan a ti en la sección «Mis favoritos». {% endhint %}
+{% hint style="info" %}
+**Usa «Mis favoritos» en proyectos muy ajetreados.** Si alguien del equipo ha fijado toda la estructura del documento de planificación trimestral en «Anclados», puedes obviar esa sección y atender solo a los documentos que te importan a ti en la sección «Mis favoritos».
+{% endhint %}

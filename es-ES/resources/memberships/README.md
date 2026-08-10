@@ -18,7 +18,9 @@ Paid plans:
 * Unlock unlimited shared Channels
 * Include a custom **ANY ID** — your unique handle, used for web publishing URLs
 
-{% hint style="info" %} For current plan tiers, prices, and exact limits, see the [Anytype pricing page](https://anytype.io/pricing).  {% endhint %}
+{% hint style="info" %}
+For current plan tiers, prices, and exact limits, see the [Anytype pricing page](https://anytype.io/pricing). 
+{% endhint %}
 
 ## Pricing for Contributors
 
@@ -32,7 +34,9 @@ Self-hosters can manage the limits of Viewers/Editors they invite to their Chann
 
 In the future, we will introduce membership discounts for self-hosters. 
 
-{% hint style="info" %} For those who would like to support the network in the meantime, we welcome your donation [here](https://stripe.pay.anytype.io/b/4gw0337MrdvbejK28f) (thank you!). {% endhint %}
+{% hint style="info" %}
+For those who would like to support the network in the meantime, we welcome your donation [here](https://stripe.pay.anytype.io/b/4gw0337MrdvbejK28f) (thank you!).
+{% endhint %}
 
 ## FAQ
 

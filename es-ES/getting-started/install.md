@@ -26,7 +26,9 @@ Si pierdes tu clave, nadie podrá recuperar tu cuenta: nadie, ni siquiera Anytyp
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Welcome 2.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-{% hint style="danger" %} Guarda tu [key.md](../basics/key.md "mention") en un lugar seguro y no la compartas nunca con nadie. Cualquiera que tenga acceso a tu clave lo tiene también a tu cuenta. No se puede recuperar. {% endhint %}
+{% hint style="danger" %}
+Guarda tu [key.md](../basics/key.md "mention") en un lugar seguro y no la compartas nunca con nadie. Cualquiera que tenga acceso a tu clave lo tiene también a tu cuenta. No se puede recuperar.
+{% endhint %}
 
 #### Inicia sesión en otros dispositivos
 

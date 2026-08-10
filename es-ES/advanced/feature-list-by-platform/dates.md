@@ -83,4 +83,6 @@ The same setting controls:
 
 ## Tips
 
-{% hint style="info" %} **Use Date Properties for project timelines.** A project Object with Started, Target, and Completed Date Properties lets you build a timeline View that updates as work progresses. {% endhint %}
+{% hint style="info" %}
+**Use Date Properties for project timelines.** A project Object with Started, Target, and Completed Date Properties lets you build a timeline View that updates as work progresses.
+{% endhint %}

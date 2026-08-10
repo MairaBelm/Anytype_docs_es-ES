@@ -89,8 +89,14 @@ Each Query block is independent. They render side by side, refresh in real time,
 
 ## Tips
 
-{% hint style="info" %} **Build a daily homepage with inline Queries.** Set this Object as your Channel Homepage (Channel Settings > Preferences > Homepage). Every time you open the Channel, you see today's view. {% endhint %}
+{% hint style="info" %}
+**Build a daily homepage with inline Queries.** Set this Object as your Channel Homepage (Channel Settings > Preferences > Homepage). Every time you open the Channel, you see today's view.
+{% endhint %}
 
-{% hint style="info" %} **Use This Object filtering for templates.** A Project template with an inline `Tasks where Project = This Object` Query becomes a dynamic project hub for every project you create from the template. {% endhint %}
+{% hint style="info" %}
+**Use This Object filtering for templates.** A Project template with an inline `Tasks where Project = This Object` Query becomes a dynamic project hub for every project you create from the template.
+{% endhint %}
 
-{% hint style="info" %} **Mix Inline Collections and Queries.** Use an Inline Collection for "things I manually want here" (curated reading list, key references) and Inline Queries for "things matching criteria" (active tasks, recent edits). The combination is powerful. {% endhint %}
+{% hint style="info" %}
+**Mix Inline Collections and Queries.** Use an Inline Collection for "things I manually want here" (curated reading list, key references) and Inline Queries for "things matching criteria" (active tasks, recent edits). The combination is powerful.
+{% endhint %}

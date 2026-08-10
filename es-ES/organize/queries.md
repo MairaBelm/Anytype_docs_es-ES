@@ -102,8 +102,14 @@ To delete a Query, navigate to your Queries in your Sidebar. You can then delete
 
 ## Tips
 
-{% hint style="info" %} **Don't create a Query when a Type is enough.** You can think of Types as built-in Queries. It's best to create Queries when you're bringing together Objects from multiple different Types. {% endhint %}
+{% hint style="info" %}
+**Don't create a Query when a Type is enough.** You can think of Types as built-in Queries. It's best to create Queries when you're bringing together Objects from multiple different Types.
+{% endhint %}
 
-{% hint style="info" %} **Save filter combinations as Views, not new Queries.** If you find yourself filtering the same Query the same way repeatedly, save it as a View. Views let you switch between filter configurations in one click. {% endhint %}
+{% hint style="info" %}
+**Save filter combinations as Views, not new Queries.** If you find yourself filtering the same Query the same way repeatedly, save it as a View. Views let you switch between filter configurations in one click.
+{% endhint %}
 
-{% hint style="info" %} **For manually-curated groupings, use a** **[**Collection](collections.md) **instead.** Queries are rule-driven by the system while Collections are hand-picked by you. {% endhint %}
+{% hint style="info" %}
+**For manually-curated groupings, use a** **[**Collection](collections.md) **instead.** Queries are rule-driven by the system while Collections are hand-picked by you.
+{% endhint %}

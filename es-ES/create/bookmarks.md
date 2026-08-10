@@ -77,6 +77,10 @@ Tienes más detalles en [views.md](../organize/views.md "mention").
 
 ## Notas
 
-{% hint style="info" %} **Usa etiquetas o una propiedad de estado para hacer un seguimiento de lectura.** Crea estados como «Por leer», «Leyendo», «Leído» y «Referencia» para que una sola consulta de tus marcadores te sirva como lista de lectura, como biblioteca y como estante de referencias. {% endhint %}
+{% hint style="info" %}
+**Usa etiquetas o una propiedad de estado para hacer un seguimiento de lectura.** Crea estados como «Por leer», «Leyendo», «Leído» y «Referencia» para que una sola consulta de tus marcadores te sirva como lista de lectura, como biblioteca y como estante de referencias.
+{% endhint %}
 
-{% hint style="info" %} **Arrastra marcadores a colecciones** cuando quieras agruparlos por tema sin configurar un sistema de etiquetas. Una colección «Plan de viaje» puede contener reservas de vuelos, páginas de AirBnB y reseñas de restaurantes en un mismo lugar. {% endhint %}
+{% hint style="info" %}
+**Arrastra marcadores a colecciones** cuando quieras agruparlos por tema sin configurar un sistema de etiquetas. Una colección «Plan de viaje» puede contener reservas de vuelos, páginas de AirBnB y reseñas de restaurantes en un mismo lugar.
+{% endhint %}

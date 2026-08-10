@@ -6,7 +6,9 @@ Release 0.46.X marks an exciting and long-awaited moment in Anytype’s evolutio
 
 Our API is now available and directly included with the desktop app, running entirely on localhost. It operates fully offline, meaning you can build and use integrations without any cloud dependencies - even while flying.
 
-{% hint style="danger" %} I**mportant Security Notice:** By providing an API key or using extensions, you grant limited access to your Anytype vault, enabling operations such as editing or deleting objects. Ensure you **use only trusted extensions**. {% endhint %}
+{% hint style="danger" %}
+I**mportant Security Notice:** By providing an API key or using extensions, you grant limited access to your Anytype vault, enabling operations such as editing or deleting objects. Ensure you **use only trusted extensions**.
+{% endhint %}
 
 ### Key Highlights
 

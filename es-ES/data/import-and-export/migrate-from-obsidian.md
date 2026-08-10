@@ -17,8 +17,10 @@
     In that case, compress the folder into a .zip archive and import the archive instead.
 * Anytype will process the contents and automatically create a separate object for each Markdown file.
 
-{% hint style="info" %} **Content mapping**
+{% hint style="info" %}
+**Content mapping**
 
 * `[[Internal Links]]` → become linked objects in Anytype, so the connections between your notes are preserved.
 * `#etiquetas` → become values in the Tag property. You can use them to filter, group or search across objects.
-* Frontmatter (the `---` metadata at the top) → becomes object properties. {% endhint %}
+* Frontmatter (the `---` metadata at the top) → becomes object properties.
+{% endhint %}

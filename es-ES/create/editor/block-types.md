@@ -20,7 +20,9 @@ Pulsa Tab dentro de un elemento de lista para añadirle sangría y crear una sub
 
 Arrastra un archivo al editor para insertarlo. Cada archivo se convierte en un [objeto de archivo](../files-and-media.md) que puedes encontrar y e insertar en otros lugares.
 
-{% hint style="info" %} **Consejo:** Usa el atajo `/arch` para añadir como bloque una imagen o archivo que ya esté en tu espacio. No tienes que volver a cargar el mismo archivo desde tu dispositivo; sube el archivo una vez y reutilízalo tantas veces como quieras. {% endhint %}
+{% hint style="info" %}
+**Consejo:** Usa el atajo `/arch` para añadir como bloque una imagen o archivo que ya esté en tu espacio. No tienes que volver a cargar el mismo archivo desde tu dispositivo; sube el archivo una vez y reutilízalo tantas veces como quieras.
+{% endhint %}
 
 ### Bloques de estructura
 

@@ -22,7 +22,9 @@ Cuando vayas a crear un informe de fallo en el foro de la comunidad, se abrirá 
 
 Una explicación del fallo clara y precisa ayudará a nuestro equipo de moderadores y Nightly Ops a reproducir el problema. De esta forma, sabrán si es un problema generalizado que deben enviar al equipo de desarrollo como prioridad.
 
-{% hint style="info" %} Para ver tu **Información técnica**, abre `Ayuda > Información técnica` en el escritorio o `Perfil > Información > Información técnica` en el móvil. {% endhint %}
+{% hint style="info" %}
+Para ver tu **Información técnica**, abre `Ayuda > Información técnica` en el escritorio o `Perfil > Información > Información técnica` en el móvil. 
+{% endhint %}
 
 {% embed url="https://community.anytype.io/c/bug-report/7" %}
 

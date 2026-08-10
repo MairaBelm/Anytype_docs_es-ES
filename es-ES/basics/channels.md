@@ -94,7 +94,9 @@ Con una colección como inicio, el canal es como el tablero de un proyecto o una
 * listas de lectura y archivos seleccionados,
 * planificación de viajes, preparación de eventos o cualquier cosa con un ámbito definido.
 
-{% hint style="info" %} Cada canal tiene sus propios tipos y propiedades. Si has configurado ciertos tipos en un canal, no aparecerán automáticamente en otro. {% endhint %}
+{% hint style="info" %}
+Cada canal tiene sus propios tipos y propiedades. Si has configurado ciertos tipos en un canal, no aparecerán automáticamente en otro.
+{% endhint %}
 
 ## Canales directos
 

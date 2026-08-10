@@ -94,4 +94,6 @@ Pulsa el icono del ojo para ocultar o mostrar una sección. Las secciones oculta
 
 ## Notas
 
-{% hint style="info" %} **Oculta lo que no uses en cada canal.** En un canal para un proyecto de equipo, podría interesarte que la sección «Editado recientemente» destaque más. En un canal personal, podrías ocultarla por completo. {% endhint %}
+{% hint style="info" %}
+**Oculta lo que no uses en cada canal.** En un canal para un proyecto de equipo, podría interesarte que la sección «Editado recientemente» destaque más. En un canal personal, podrías ocultarla por completo.
+{% endhint %}
