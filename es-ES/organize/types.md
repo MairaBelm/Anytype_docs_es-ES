@@ -1,105 +1,105 @@
-# Types
+# Tipos
 
-If an Object is a cookie, then the Type is the cookie cutter. It's a blueprint that defines what the Object is. Notes, Tasks, Books, People, Images—these are all Types. Imagine a cookie cutter helping you to apply a standardised shape to all of your Objects.
+Si un objeto fuera un bizcocho, el tipo sería su molde. Los tipos son esquemas que definen el objeto. Notas, tareas, libros, personas, imágenes..., todo esto son tipos. Imagínatelos como moldes que te ayudan a dar una forma regular y predecible a todos tus objetos.
 
-* **Tasks** will have a due date, priority, and status.
-* **Books** will have a genre, author, and release date.
-* **People** will have a phone, email, and relationship.
+* Las **tareas** suelen tener fecha de vencimiento, prioridad y estado.
+* Los **libros** suelen tener género, autor y fecha de publicación.
+* Las **personas** suelen tener teléfono, correo electrónico y relación.
 
 ## Qué significa esto
 
-1. **Finding what you need**: when you have hundreds of Objects, being able to search by Type is handy. "Show me all my Ideas." "Show me all my Recipes."
-2. **Applying your standards**: Objects that belong together will share the same standard blueprint. All your Movies have a release date. All your Meetings have a transcript.
-3. **Defining your relationships**: with Types on all Objects, you're able to clearly link between them. Your Books are linked to Authors. Your Tasks are linked to Projects.
+1. **Encuentras lo que necesitas**: cuando tienes cientos de objetos, poder buscar por tipo es muy útil. Por ejemplo, «enséñame todas mis ideas» o «enséñame todas mis recetas».
+2. **Aplicas tus normas**: los objetos de la misma categoría tendrán una estructura común. Todas tus películas tendrán una fecha de estreno; todas tus reuniones tendrán una transcripción.
+3. **Defines tus relaciones**: con tipos para todos los objetos, puedes vincularlos claramente entre sí. Tus libros estarán vinculados a autores; tus tareas estarán vinculadas a proyectos.
 
 ## Cómo funciona
 
-Every Object has one Type, which you apply on creation and can change at any time. Anytype comes with built-in Types, but you can create your own custom Types to match your needs. Every Type has:
+Cada objeto pertenece a un tipo, que le aplicas al crearlo y que puedes cambiar en cualquier momento. Anytype incluye tipos integrados, pero puedes crear tus propios tipos para adaptarlos a tus necesidades. Los tipos tienen:
 
-* [properties.md](properties.md "mention") — adds definition, such as address, date created, and tags.
-* [views.md](views.md "mention") — adds organisation, such as a calendar for all important events.
-* [templates.md](templates.md "mention") — adds standards, such as all vacations having a photo album.
+* [properties.md](properties.md "mention") para definirlos, como dirección, fecha de creación y etiquetas.
+* [views.md](views.md "mention") para organizarlos, como un calendario con todos los eventos importantes.
+* [templates.md](templates.md "mention") para normalizarlos, como un álbum de fotos insertado en todas las vacaciones.
 
 ## Cómo crear un tipo
 
 #### Barra lateral
 
-Both the Create Button and Channel Sidebar reveal the Types in your space. Click on the 'Create Type' buttons to add a new type to your Space.
+Tanto el botón Crear como la barra lateral del canal muestran los tipos de tu espacio. Haz clic en los botones «Crear tipo» para añadir un tipo nuevo a tu espacio.
 
-Importantly, only Types that have at least one Object will display in the Sidebar. If the Type you're looking for is not in the Sidebar, add an Object to it and the Type will automatically display.
+Ten en cuenta que la barra lateral solo mostrará los tipos que tengan al menos un objeto. Si el tipo que buscas no está en la barra lateral, añade un objeto de ese tipo y se mostrará automáticamente.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Types Where Sidebar.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### Channel Settings
+#### Ajustes del canal
 
-You can view all your Types in your [channel-settings.md](../settings/channel-settings.md "mention") under Content Model. Click on the 'New' button to add a new type to your Space.
+Puedes ver todos tus tipos en tu [channel-settings.md](../settings/channel-settings.md "mention"), en la sección **Modelo de contenido**. Haz clic en el botón «Nuevo» para añadir un tipo nuevo a tu espacio.
 
-Additionally, you can set the **Default Object Type** in the Channel Settings. This changes which Type is applied to your Object when clicking the Create button.
+Además, en los ajustes del canal tienes la opción **Tipo de objeto por defecto** para elegir el tipo que se aplicará a los objetos creados mediante el botón Crear.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Type Where Sidebar.gif" alt=""/><figcaption></figcaption></figure></div>
 
 ## Cómo editar un tipo
 
-To access the Type settings, there are three primary ways:
+Hay tres formas principales de acceder a los ajustes de un tipo:
 
-1. Navigate to the Type from the [Sidebar](../basics/sidebar/) and click **Edit Type** on the top right-hand side.
-2. When viewing an [Object](../create/objects/), click on the 'three dots' button on the top right corner, and select the **Type settings** option.
-3. Navigate to the [Channel Settings](../settings/channel-settings.md), click on **Object Types**, and select your desired Type.
+1. Abre el tipo desde la [barra lateral](../basics/sidebar/) y haz clic en **Editar tipo** en la parte superior derecha.
+2. Cuando tengas abierto un [objeto](../create/objects/), haz clic en el botón de tres puntos de la esquina superior derecha y selecciona la opción **Ajustes de tipo**.
+3. Ve a los [ajustes del canal](../settings/channel-settings.md), haz clic en **Tipos de objeto** y selecciona el tipo que quieras modificar.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Types Edit Type.gif" alt=""/><figcaption></figcaption></figure></div>
 
-In this panel, you can make various edits:
+En este panel puedes hacer varias cosas:
 
-* Change the Type name and icon.
-* Change the content width
-* Add/remove Properties and Templates.
-* Make edits to the Object Header.
-* Edit the [Object layout](../create/objects/formats.md#formato-de-página).
+* cambiar el nombre y el icono del tipo,
+* cambiar el ancho del contenido,
+* añadir y eliminar propiedades y plantillas,
+* hacer cambios en la cabecera del objeto,
+* modificar el [diseño del objeto](../create/objects/formats.md#formato-de-pagina).
 
-### Object Header
+### Cabecera del objeto
 
-Every Object can display its Properties in the Object Header, which is the section below the title and above the content blocks. You can choose which Properties show in the header by dragging and dropping the properties into the 'Header' section.
+Los objetos pueden mostrar sus propiedades en la cabecera del objeto, que es la sección situada bajo el título y antes de los bloques de contenido. Para elegir las propiedades que se muestran en la cabecera, arrástralas y suéltalas en la sección «Cabecera».
 
-If the desired property is not in the list, you can add it using the 'plus' button.
+Si no ves en la lista la propiedad que quieres, puedes añadirla usando el botón «+».
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Types Edit Header.gif" alt=""/><figcaption></figcaption></figure></div>
 
-#### Header Layout Types
+#### Colocación en la cabecera
 
-You can choose how your Properties are displayed in the Object Header. These can be found in the layout section under 'Properties view'.
+Puedes elegir la forma en que aparecen las propiedades en la cabecera. En la sección «Diseño» encontrarás estas dos opciones en «Vista de propiedades»:
 
-1. Line—for a more minimal look
-2. List—for displaying more structured information.
+1. Línea: con un aspecto más minimalista.
+2. Lista: para mostrar información más estructurada.
 
 ## Cómo cambiar de tipo
 
-You can change an Object's Type at any time. There are multiple ways:
+El tipo de un objeto se puede cambiar en cualquier momento. Puedes hacerlo de varias formas:
 
-* Navigate to the Type, right click on the Object, and click **Change type** from the menu.
-* If the 'Object type' Property is in the Object's Header, select it and click **Change type** from the menu.
+* Abre el tipo, haz clic derecho en el objeto y elige **Cambiar tipo** en el menú.
+* Si la cabecera del objeto incluye la propiedad «Tipo de objeto», selecciónala y elige **Cambiar tipo** en el menú.
 
-When changing Types, the Properties are retained on the Object. This means that you can change the Type back and forth without losing any of the Properties on your Objects.
+Cuando el objeto cambia de tipo, conserva las propiedades originales. De esta forma, puedes cambiar de tipo una y otra vez sin perder ninguna de las propiedades de tus objetos.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Types Change Types.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### Bulk-changing Types
+#### Cambio de tipo en lote
 
-If you want to change the Type for multiple Objects at the same time, it's best to use [views.md](views.md "mention"). Please [see here](views.md#edición-de-objetos-en-lote) for more details.
+Para cambiar el tipo de varios objetos a la vez, es mejor usar [views.md](views.md "mention"). Encontrarás más detalles [aquí](views.md#edicion-de-objetos-en-lote).
 
 ## Cómo eliminar un tipo
 
-To delete a Type, you can do so from the Sidebar, Channel Settings, or editor settings (three dots icon on the top right). This will move the Type to the Bin where it can be restored or permanently deleted.
+Puedes eliminar un tipo desde la barra lateral, desde los ajustes del canal o desde los ajustes del editor (los tres puntos de la parte superior derecha). El tipo se trasladará a la papelera, desde donde podrás restaurarlo o eliminarlo definitivamente.
 
-If the Type still has Objects that are part of it, it will trigger a confirmation window where you can choose to delete or keep the Objects part of the Type.
+Si aún hay objetos que forman parte de ese tipo, se abrirá una ventana para que decidas si quieres eliminar o conservar esos objetos.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Types Delete.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 ## Cómo duplicar un tipo en otro canal
 
-Types are specific to each Channel. If you want your Type to exist in other Spaces, please see [import-and-export](../data/import-and-export/ "mention"). At the moment, you cannot share Types between spaces that stay in sync because they are separated with different encryption keys.
+Los tipos son particulares del canal en el que se crean. Si quieres que cierto tipo esté también en otros espacios, consulta [Importar y exportar](../data/import-and-export/README.md "mention"). Por el momento, no puedes tener tipos comunes y sincronizados entre espacios, ya que están separados por diferentes claves de cifrado.
 
-## Tips
+## Notas
 
-{% hint style="info" %} **Keep it simple**. Creating too many Types usually leads to a complex system that becomes overwhelming. Start with the built-in Types and only add in more when you feel the need. {% endhint %}
+{% hint style="info" %} **No te compliques**. Crear demasiados tipos suele dar lugar a sistemas complejos y más difíciles de manejar. Empieza con los tipos integrados y ve añadiendo más cuando realmente los necesites. {% endhint %}
 
-{% hint style="info" %} **Use properties**. To fully take advantage of Types, add relevant properties to it. This way, you can sort and filter your Objects into useful Views. Imagine a Project Type with a Kanban view only showing your highest priority tasks. {% endhint %}
+{% hint style="info" %} **Usa las propiedades**. Para sacar todo el partido a los tipos, añádeles propiedades relevantes. Así podrás ordenar y filtrar tus objetos en vistas útiles, como un tipo «Proyecto» con una vista kanban que solo muestre tus tareas más prioritarias. {% endhint %}

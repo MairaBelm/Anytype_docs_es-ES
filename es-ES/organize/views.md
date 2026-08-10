@@ -1,173 +1,173 @@
 # Vistas
 
-Views are visual lenses that you place over your content. They allow you to view the same information in different formats, shapes, and orders without changing the underlying content. [Types](types.md), [Queries](queries.md), and [Collections](collections.md) all use Views to display their content to you.
+Las vistas son distintas miradas sobre tu contenido. Sirven para visualizar la información de la forma que más te convenga sin alterar el contenido subyacente. Los [tipos](types.md), las [consultas](queries.md) y las [colecciones](collections.md) usan vistas para presentar su contenido.
 
-> **Analogy**: Imagine a building with one hundred people in it. Changing the 'View' doesn't change who is in the building, it just changes where they are. You can have all the people with red clothing in the lobby, while everybody else hides in the basement. Or you can arrange all the people in a long line from shortest to tallest.
+> **Una analogía**: imagínate un edificio con cien personas dentro. Puedes cambiar la forma en que las miras, pero todas seguirán dentro del edificio. Puedes poner a todas las personas vestidas de rojo en el vestíbulo y dejar a las demás ocultas en el sótano, o bien ordenarlas de la más alta a la más baja en una larga fila.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Properties Views.gif" alt=""/><figcaption></figcaption></figure></div>
 
 ## Qué significa esto
 
-1. With Views, you can surface new perspectives on your content, such as time-based items in a calendar or visual-driven content in a gallery. In short, you can arrange and display the same content in multiple different ways.
-2. With Views, you never need to duplicate content. You can operate from the same set of Objects, just rearranged to suit your needs each time.
+1. Las vistas te ofrecen perspectivas nuevas de tu contenido, como un calendario para elementos relacionados con el tiempo o una galería para el contenido más visual. En resumen, puedes presentar y mostrar el mismo contenido de varias formas distintas.
+2. Gracias a las vistas, no necesitas duplicar el contenido nunca. Puedes partir del mismo conjunto de objetos y reorganizarlos según necesites en cada ocasión.
 
 ## Cómo funciona
 
-There are three core components to a View:
+Una vista tiene tres componentes principales:
 
-1. **Layouts** — how Objects are visually structured, such as in a 'gallery layout'. [See examples](views.md#vistas-en-tipos-consultas-y-colecciones).
-2. **Filters** — which Objects are displayed, such as a filter for 'status is complete'.
-3. **Sorts** — what sequence Objects appear, such as a sort for 'alphabetical'.
+1. **Diseño**: la estructura visual de los objetos; por ejemplo, un diseño de galería. [Más ejemplos](views.md#vistas-en-tipos-consultas-y-colecciones).
+2. **Filtros**: el conjunto de objetos que se muestra, como un filtro para objetos con estado «completado».
+3. **Orden**: la forma en que se suceden los objetos, como un orden alfabético.
 
-### Layouts
+### Diseños
 
-Layouts visually arrange your [Objects](../create/objects/) and their [Properties](properties.md) in ways that make it easier to work with. A series of events on a calendar and a bunch of tasks on a kanban board. Here are some examples of various [layouts in action](views.md#vistas-en-tipos-consultas-y-colecciones).
+Los diseños organizan tus [objetos](../create/objects/) y sus [propiedades](properties.md) de una forma cómoda para trabajar con ellos, como una serie de eventos en un calendario o un montón de tareas en un tablero kanban. Aquí tienes algunos ejemplos de distintos [diseños en acción](views.md#vistas-en-tipos-consultas-y-colecciones).
 
-<table><thead><tr><th width="130.99609375">Options</th><th>Best For</th><th>Extra Options</th></tr></thead><tbody><tr><td><strong>List</strong></td><td>Simple vertical rows</td><td>Compact, Regular</td></tr><tr><td><strong>Grid</strong></td><td>Spreadsheet-like experience</td><td>Wrap content</td></tr><tr><td><strong>Calendar</strong></td><td>Date and time arrangement</td><td>Date property</td></tr><tr><td><strong>Kanban</strong></td><td>Grouping and project management</td><td>Group by, Color columns, Cover</td></tr><tr><td><strong>Gallery</strong></td><td>Visual highlights</td><td>Cover, Card size, Icon, Fit media</td></tr><tr><td><strong>Graph</strong></td><td>Inter-connected relationships</td><td>Graph settings</td></tr></tbody></table>
+<table><thead><tr><th width="130.99609375">Opciones</th><th>Ideal para</th><th>Opciones propias</th></tr></thead><tbody><tr><td><strong>Lista</strong></td><td>Filas verticales simples</td><td>Compacta, Estándar</td></tr><tr><td><strong>Cuadrícula</strong></td><td>Similar a una hoja de cálculo</td><td>Ajustar contenido</td></tr><tr><td><strong>Calendario</strong></td><td>Organización por fecha y hora</td><td>Propiedad de fecha</td></tr><tr><td><strong>Kanban</strong></td><td>Agrupación y gestión de proyectos</td><td>Agrupar por, Colorear columnas, Portada</td></tr><tr><td><strong>Galería</strong></td><td>Gran efecto visual</td><td>Portada, Tamaño de tarjeta, Icono, Ajustar medios</td></tr><tr><td><strong>Gráfico</strong></td><td>Relaciones interconectadas</td><td>Ajustes del gráfico</td></tr></tbody></table>
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Views How Layout.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-{% hint style="warning" %} Not all views are available on mobile. {% endhint %}
+{% hint style="warning" %} Algunas vistas no están disponibles en el móvil. {% endhint %}
 
-### Filters
+### Filtros
 
-Filters narrow the Objects in your View by matching specific conditions. In other words, they hide parts of your data from the View. Each filter has three parts to it:
+Los filtros limitan los objetos de una vista a los que cumplen ciertas condiciones, es decir, ocultan parte de los datos en esa vista. Un filtro tiene tres partes:
 
-1. **Property** — which Property to check (such as 'status' or 'due date').
-2. **Condition** — how to compare (such as 'is not' or 'greater than').
-3. **Value** — what specific target you're looking for (such as 'in progress' or 'today').
+1. **Propiedad**: la propiedad que se comprueba (como «estado» o «fecha final»).
+2. **Condición**: la clase de comprobación (por ejemplo, «no es» o «es mayor que»).
+3. **Valor**: el valor que se busca en la propiedad (como «en curso» u «hoy»).
 
-Here are some example filters for projects:
+Aquí tienes algunos filtros de ejemplo para proyectos:
 
-* To see what's due today: `Due Date` `is` `Today`
-* To hide completed projects: `Status` `is not` `Done`
-* To find high-priority items: `Priority` `contains` `Urgent` and `High`
+* Para ver lo que vence hoy: `Fecha final` `es` `Hoy`
+* Para ocultar los proyectos completados: `Estado` `no es` `Listo`
+* Para encontrar elementos de prioridad alta: `Prioridad` `contiene` `Urgente` y `Alta`
 
-You can apply multiple filters, they are joined by 'AND'. For more advanced filters using 'OR' logic, grouping, and complex conditions, see [Advanced Filters](../advanced/feature-list-by-platform/advanced-filters.md).
+Puedes aplicar varios filtros; se combinan con el operador lógico «Y». Para aplicar filtros más avanzados con el operador lógico «O», agruparlos y usar condiciones complejas, consulta [Filtros avanzados](../advanced/feature-list-by-platform/advanced-filters.md).
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Filters.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-### Sorts
+### Orden
 
-Sorts set the sequence in which your Objects appear in your View. They don't hide any data; they set the order. Whenever you apply a sort, you have to choose a direction:
+Los criterios de orden determinan qué objetos aparecen primero en la vista. No ocultan ningún dato; solo deciden el orden en que se colocan. Cuando aplicas un criterio de orden, tienes que elegir la dirección:
 
-1. **Ascending** — this will go from lowest to highest ('A to Z' or 'past to future dates').
-2. **Descending** — this will go from highest to lowest ('Z to A' or 'furthest date first').
+1. **Ascendente** irá de menor a mayor (de la A a la Z o de fechas pasadas a futuras, por ejemplo).
+2. **Descendente** irá de mayor a menor (de la Z a la A o con la fecha más lejana primero).
 
-Here are some common sorts for projects:
+Aquí tienes algunos criterios de ejemplo para proyectos:
 
-* To see what's most urgent first: `Due date` sorted by `Ascending`.
-* To see most recent activity: `Last modified date` sorted by `Ascending`.
-* To see what's best ranked: `Rating` sorted by `Descending`.
+* Para ver primero lo más urgente: `Fecha final` ordenado de forma `Ascendente`.
+* Para ver la actividad más reciente: `Modificado por última vez` ordenado de forma `Ascendente`.
+* Para ver más valorado: `Valoración` ordenado de forma `Descendente`.
 
-You can apply multiple sorts to a View. The first sort will apply, followed by the second, and so forth.
+Puedes aplicar varios criterios de orden a una vista. Se aplicará el primer criterio, seguido del segundo, y así sucesivamente.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Sort.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-## Create & Manage Views
+## Cómo crear y gestionar las vistas
 
-Views are used on all [Types](types.md), [Queries](queries.md), and [Collections](collections.md). By default, there is one View set, but you can add as many custom Views as you like. Because Views only influence how your data is displayed, you can freely edit, delete, or rearrange them without any risk of affecting your underlying information.
+Las vistas se usan en los [tipos](types.md), las [consultas](queries.md) y las [colecciones](collections.md). Encontrarás un conjunto de vistas por defecto, pero puedes añadir las vistas personalizadas que quieras. Como las vistas solo afectan a la presentación de los datos, puedes modificarlas, eliminarlas o reorganizarlas sin peligro de alterar la información subyacente.
 
-#### Creating a View
+#### Cómo crear una vista
 
-1. Navigate to any Type, Query, or Collection via the Sidebar.
-2. Click on the 'plus' button in the View Header, which is below the title area.
-3. In the 'View settings', you can give it a title, select the layout, and apply filters/sorts.
+1. Abre cualquier tipo, consulta o colección desde la barra lateral.
+2. Haz clic en el botón «+» de la cabecera de vista, bajo el área del título.
+3. En «Ajustes de vista», puedes asignarle un título, seleccionar el diseño y aplicar filtros/criterios de orden.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Views Create.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### Change the View settings
+#### Cambiar los ajustes de la vista
 
-Click on the 'View settings' button, which is the icon next to the 'New' button.
+Haz clic en el botón «Ajustes de vista», que es el icono situado junto al botón «Nuevo».
 
-* **Layout** — change the layout used to visualize the Objects.
-* **Properties** — choose the Properties displayed, its order, and add new ones.
-* **Filter & Sort** — apply filters and sorts to the View.
-* **Duplicate view** — create a clone of the View with all the same settings.
-* **Remove view** — remove the View (does not affect the Objects).
+* **Diseño**: elige el diseño que usarás para visualizar los objetos.
+* **Propiedades**: elige las propiedades que se muestran y su posición, y añade otras nuevas.
+* **Filtrar y ordenar**: aplica filtros y criterios de orden a la vista.
+* **Duplicar vista**: crea un clon de la vista con los mismos ajustes.
+* **Eliminar vista**: elimina la vista (no afecta a los objetos).
 
-To rearrange the order they appear, click and drag on the View's name that you want to move.
+Para cambiar el orden de las vistas, haz clic en el nombre de la vista que quieras mover y arrástrala.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Views Settings.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-## Using Views
+## Cómo usar las vistas
 
 ### Vistas en tipos, consultas y colecciones
 
-Views all follow a three step process: choose a layout, set some filters, and arrange with a sort. Here are some example Views that you could create:
+Todas las vistas siguen un proceso de tres pasos: elegir un diseño, definir algún filtro y ordenar con un criterio. Aquí tienes unos ejemplos de vistas que podrías crear:
 
-* **Gallery layout** filtered with only your **active Projects** sorted by **priority**.
-* **Calendar layout** with **all your Projects** based on **deadline**.
-* **Grid layout** filtered for only **Projects assigned to you** sorted by **latest activity**.
-* **Kanban layout** filtered for **Projects tagged Important** grouped by **current status**.
+* **Diseño de galería** filtrado solo con tus **proyectos activos** ordenados por **prioridad**.
+* **Diseño de calendario** con **todos tus proyectos** según su **fecha límite**.
+* **Diseño de cuadrícula** filtrado solo con **proyectos asignados a ti** ordenados por **actividad más reciente**.
+* **Diseño de kanban** filtrado por **proyectos etiquetados como Importante** agrupados por **estado actual**.
 
-<div><figure><img src="../../.gitbook/assets/Docs Views Grid.jpg" alt=""/><figcaption><p>Grid Layout</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs Views List.jpg" alt=""/><figcaption><p>List Layout</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs Views Kanban.jpg" alt=""/><figcaption><p>Kanban Layout</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs Views Gallery.jpg" alt=""/><figcaption><p>Gallery Layout</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs Views Calendar.jpg" alt=""/><figcaption><p>Calendar Layout</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs Views Graph.jpg" alt=""/><figcaption><p>Graph Layout</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Docs Views Grid.jpg" alt=""/><figcaption><p>Diseño de cuadrícula</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs Views List.jpg" alt=""/><figcaption><p>Diseño de lista</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs Views Kanban.jpg" alt=""/><figcaption><p>Diseño de kanban</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs Views Gallery.jpg" alt=""/><figcaption><p>Diseño de galería</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs Views Calendar.jpg" alt=""/><figcaption><p>Diseño de calendario</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs Views Graph.jpg" alt=""/><figcaption><p>Diseño de gráfico</p></figcaption></figure></div>
 
-### Views in Sidebar
+### Vistas en la barra lateral
 
-You are able to add Views to your Sidebar for immediate access, also known as [widgets.md](../basics/sidebar/widgets.md "mention").
+Puedes añadir vistas a tu barra lateral para tenerlas a mano. Son lo que conocemos como [widgets.md](../basics/sidebar/widgets.md "mention").
 
-1. Using the 'three dots' button on the top right corner and select **Pin to Channel**.
-2. Right click the item in the Sidebar.
-3. In the menu section 'View', select **Same as Object**.
-4. If the View is not showing, hover over the icon and click on the dropdown arrow to reveal it.
+1. Usa el botón de tres puntos de la esquina superior derecha y selecciona **Anclar al canal**.
+2. Haz clic derecho en el elemento de la barra lateral.
+3. En la sección del menú «Vista», selecciona **Como en el objeto**.
+4. Si la vista no aparece, pasa el puntero sobre el icono y haz clic en la flecha desplegable para mostrarla.
 
-You can cycle between the various Views you have already set up, right in the Sidebar.
+En la barra lateral también puedes alternar entre las distintas vistas que hayas creado.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Views Sidebar.gif" alt=""/><figcaption></figcaption></figure></div>
 
-### Views in Objects
+### Vistas en objetos
 
-You can use the **Inline Query** and **Inline Collection** blocks in the editor to add Views directly into pages. This enables you to see your Objects right alongside your content.
+Puedes insertar vistas directamente en las páginas con los bloques **Consulta insertada** y **Colección insertada**. Así podrás ver los objetos junto con tu contenido.
 
-1. While editing a page, open the command menu using the `+` button or `/inline` shortcut:
-2. Select **Inline Query** to add a [Type](types.md) or [Query](queries.md), and **Inline Collection** for a [Collection](collections.md).
+1. Mientras editas una página, abre el menú de comandos con el botón `+` o el atajo `/inser`:
+2. Selecciona **Consulta insertada** para añadir un [tipo](types.md) o una [consulta](queries.md), o **Colección insertada** para añadir una [Colección](collections.md).
 
-Edits made to the view of an Inline Query or Inline Collection apply only to that specific block. Editing an Inline View inside an Object does not affect the master View, which is always preserved at the [Type](types.md), [Query](queries.md), or [Collection](collections.md) level. This means each Object can have its own version of the Inline View without ever touching the master.
+Las modificaciones que hagas en las vistas de una consulta o colección insertada solo se aplican a ese bloque y no afectan a la vista principal, que se mantiene sin cambios en el [tipo](types.md), la [consulta](queries.md) o la [colección](collections.md) original. Esto significa que cada objeto puede tener su propia versión de la vista insertada sin modificar nunca la original.
 
-This is distinct from editing Objects and their Properties on an Inline View—changes made there *do* affect the Object itself and are reflected across the entire Space.
+Por el contrario, si modificas los objetos y sus propiedades en la vista insertada, esos cambios sí se aplicarán al objeto y se reflejarán en todo ese espacio.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Views Inline.gif" alt=""/><figcaption></figcaption></figure></div>
 
-### Search in Views
+### Buscar en las vistas
 
-In the View toolbar next to the 'New' button, there is a search icon. Using search here filters the Objects in the View based on the text you enter. This is great for temporarily narrowing down your Objects even further.
+En la barra de herramientas de herramientas de la vista, junto al botón «Nuevo», hay un icono de búsqueda. Sirve para filtrar temporalmente los objetos de la vista según el texto que introduzcas. Es muy útil para refinar aún más la selección de objetos que aparecen en la vista.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Views Search.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 ### Edición de objetos en lote
 
-You can edit multiple [Objects](../create/objects/) at the same time—change types, edit properties, and mass delete. This is best done in a View set to the Grid layout, but it also works in other layouts as well.
+Puedes modificar varios [objetos](../create/objects/) al mismo tiempo para cambiar su tipo y sus propiedades o eliminarlos de un golpe. Es mejor hacerlo en una vista con el diseño de cuadrícula, pero también funciona con otros diseños.
 
-1. Navigate to the View from the Sidebar.
-2. Select all Objects you want to edit. You can do this by:
-   1. Use the shortcut `Cmd/Ctrl + A` to select all.
-   2. Click and drag to create a highlight box.
-   3. Click on the left handle (only in Grid and List layout). `Shift + Click` to add more selections.
-3. Right-click and choose from various actions:
-   1. Change Type
-   2. Edit Properties
-   3. Add to Collection
-   4. Export
-   5. Duplicate
-   6. Move to Bin
+1. Abre la vista desde la barra lateral.
+2. Selecciona todos los objetos que quieres modificar. Hay dos formas de hacerlo:
+   1. Usa el atajo `Cmd/Ctrl + K` para seleccionarlos todos.
+   2. Haz clic y arrastra para crear un cuadro de resaltado.
+   3. Haz clic en el control de la izquierda (solo en diseños de cuadrícula y de lista) y añade más objetos a la selección con `Mayús + clic`.
+3. Haz clic derecho y elige una de estas acciones:
+   1. Cambiar tipo
+   2. Editar propiedades
+   3. Añadir a colección
+   4. Exportar
+   5. Duplicar
+   6. Mover a la papelera
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Views Bulk Edit.gif" alt=""/><figcaption></figcaption></figure></div>
 
-### Dragging Objects between Views
+### Arrastrar objetos de una vista a otra
 
-When you drag and drop an Object from one View to another, its Properties update to match that View's filters automatically. For example: drag a task from your 'All' View to your 'Completed' View, and the Status Property updates to "Done."
+Si arrastras un objeto de una vista y lo colocas en otra, sus propiedades se actualizan automáticamente para coincidir con los filtros de esa vista. Por ejemplo, puedes arrastrar una tarea desde la vista «Todas» hasta la vista «Completadas» y su propiedad «Estado» pasará a ser «Listo».
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Views Drag.gif" alt=""/><figcaption></figcaption></figure></div>
 
-## Deleting Views
+## Cómo eliminar vistas
 
-Views are separate from the Objects they organize. Deleting a View does not affect the underlying Objects — you can safely remove a View from a Type, Query, or Collection without losing any data.
+Las vistas son independientes de los objetos que organizan. Eliminar una vista no afecta a los objetos subyacentes: puedes eliminar cualquier vista de un tipo, consulta o colección sin perder ningún dato.
 
-To delete a View, right-click it to reveal a menu. Alternatively, you can delete it from the View settings in the View toolbar.
+Para eliminar una vista, haz clic derecho sobre ella para abrir el menú. También puedes eliminarla desde los ajustes de vista, en su barra de herramientas.
 
-## Tips
+## Notas
 
-{% hint style="info" %} **Name your Views by their layout or filter**. By applying useful names, you can more quickly understand what you're navigating such as 'High-priority Tasks' and 'Archived Projects'. {% endhint %}
+{% hint style="info" %} **Pon a tus vistas un nombre relacionado con su diseño o filtro**. Los nombres descriptivos, como «Tareas prioritarias» y «Proyectos archivados», te ayudarán a distinguir en seguida lo que estas viendo. {% endhint %}
 
-{% hint style="info" %} **When bulk editing Objects, it's best to first set up the View filters** to show only the Objects you want to edit. This makes selection much quicker. You can also create a [Query](queries.md) to do this. {% endhint %}
+{% hint style="info" %} **Cuando quieras editar objetos en lote, es mejor configurar primero los filtros de la vista** para que solo muestre los objetos que vas a modificar. Así podrás seleccionarlos con más rapidez. También puedes crear una [consulta](queries.md) para hacerlo. {% endhint %}
