@@ -54,8 +54,8 @@ En la parte superior de la barra lateral, junto al nombre del canal, está el bo
 
 Puedes crear un objeto directamente desde la sección «Tipos» de la barra lateral: pasa el puntero sobre el [tipo](../../organize/types.md) y haz clic en el botón «+». Aquí también encontrarás Consultas y Colecciones. Ten en cuenta lo siguiente:
 
-* Si esta sección no está visible, consulta [Gestionar secciones](../../basics/sidebar/sections.md#gestionar-secciones) para mostrarla.
-* En esta sección solo se muestran los tipos que tienen al menos un objeto. Si la categoría que buscas no aparece en la sección «Tipos», [usa el menú Crear](./README.md#menú-crear) para crear primero un objeto de ese tipo y así aparecerá en esta sección.
+* Si esta sección no está visible, consulta en [Gestionar las secciones](../../basics/sidebar/sections.md#gestionar-las-secciones) cómo mostrarla.
+* En esta sección solo se muestran los tipos que tienen al menos un objeto. Si la categoría que buscas no aparece en la sección «Tipos», [usa el menú Crear](./#menu-crear) para crear primero un objeto de ese tipo y así aparecerá en esta sección.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Objects Create Section.jpg" alt=""/><figcaption></figcaption></figure></div>
 
@@ -84,7 +84,7 @@ Si estás trabajando en un objeto y quieres transformar un bloque determinado en
 
 #### Barra lateral
 
-Puedes encontrar todos tus objetos en la [barra lateral](../../basics/sidebar/ "mention"), agrupados por sus respectivos [types.md](../../organize/types.md "mention"). Si esta sección no está visible, consulta [Gestionar secciones](../../basics/sidebar/sections.md#gestionar-secciones) para mostrarla.
+Puedes encontrar todos tus objetos en la [barra lateral](../../basics/sidebar/ "mention"), agrupados por sus respectivos [types.md](../../organize/types.md "mention"). Si esta sección no está visible, consulta en [Gestionar las secciones](../../basics/sidebar/sections.md#gestionar-las-secciones) cómo mostrarla.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Objects Find Sidebar.gif" alt=""/><figcaption></figcaption></figure></div>
 
@@ -107,11 +107,11 @@ Para ver todos tus objetos y las conexiones entre ellos, puedes recurrir al [gra
 
 Cuando elimines objetos de tus [channels.md](../../basics/channels.md "mention"), aparecerán en la [papelera](../../organize/deletion.md) hasta que los elimines definitivamente.
 
-Puedes acceder a la papelera desde la barra lateral. Si esta sección no está visible, consulta [Gestionar secciones](../../basics/sidebar/sections.md#gestionar-secciones) para mostrarla.
+Puedes acceder a la papelera desde la barra lateral. Si esta sección no está visible, consulta en [Gestionar las secciones](../../basics/sidebar/sections.md#gestionar-las-secciones) cómo mostrarla.
 
 ## Cómo editar objetos en lote
 
-Los objetos tienen tipos y propiedades que se visualizan mejor en [views.md](../../organize/views.md "mention"). Para editar varios objetos al mismo tiempo, lo mejor es usar la función Vistas. Tienes [más detalles aquí](../../organize/views.md#edición-de-objetos-en-lote).
+Los objetos tienen tipos y propiedades que se visualizan mejor en [views.md](../../organize/views.md "mention"). Para editar varios objetos al mismo tiempo, lo mejor es usar la función Vistas. Tienes [más detalles aquí](../../organize/views.md#edicion-de-objetos-en-lote).
 
 ## Cómo elegir el tipo de objeto por defecto
 

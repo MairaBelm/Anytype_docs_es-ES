@@ -64,11 +64,11 @@ Las opciones de diseño de cada widget dependen del objeto y de las vistas que h
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Widgets Layouts.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-* **Como en el objeto:** Ideal para consultas o colecciones ancladas, que aparecerán incrustadas y actualizadas directamente en la barra lateral. Las [opciones de vista](../../organize/queries.md#views) disponibles en el widget se configuran en el objeto.
+* **Como en el objeto:** Ideal para consultas o colecciones ancladas, que aparecerán incrustadas y actualizadas directamente en la barra lateral. Las [opciones de vista](../../organize/queries.md#vistas) disponibles en el widget se configuran en el objeto.
 * **Compacta**: Muestra los enlaces a los objetos ordenados bajo cada elemento principal.
 * **Detallada:** Similar a la vista compacta, pero muestra más metadatos y detalles de cada elemento.
 * **Enlace:** La opción minimalista que muestra solo el título del objeto y su icono.
-* **Estructura jerárquica:** Para las páginas, puedes algo semejante a una estructura de carpetas en la barra lateral. Todos los bloques de enlace que contenga la página aparecerán en el widget. [Aquí encontrarás más detalles](../../organize/collections.md#sidebar-widget).
+* **Estructura jerárquica:** Para las páginas, puedes algo semejante a una estructura de carpetas en la barra lateral. Todos los bloques de enlace que contenga la página aparecerán en el widget. [Aquí encontrarás más detalles](../../organize/collections.md#widget-con-aspecto-de-carpeta).
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Hierarchical Structure.gif" alt=""/><figcaption></figcaption></figure></div>
 

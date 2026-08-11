@@ -23,7 +23,7 @@ La cooperación, esa extraordinaria capacidad para avanzar en conocimientos y bi
 Creemos que las herramientas para el pensamiento, la libertad y la confianza son lo que nos ha permitido crear todo el arte, la ciencia, las tecnologías, los dispositivos y las estructuras que vemos a nuestro alrededor. Con ellas hemos podido construir ciudades y alcanzar las estrellas.
 
 {% hint style="info" %}
-**Nuestra misión es potenciar la cooperación sostenible creando de instrumentos para el pensamiento, la libertad y la confianza.**
+**Nuestra misión es potenciar la cooperación sostenible creando instrumentos para el pensamiento, la libertad y la confianza.**
 {% endhint %}
 
 Para alcanzar este nivel de cooperación, tuvimos que dominar el lenguaje. El lenguaje es un instrumento del pensamiento que nos ha permitido crear historias, algunas de las cuales son innovaciones sociales, potentes realidades intersubjetivas que solo existen cuando creen en ellas suficientes personas. Los seres humanos encontramos la forma de usar esas historias para construir confianza y libertad al mismo tiempo. Para cooperar aún más, necesitamos ambas cosas. Si tenemos confianza pero nos falta libertad, el resultado es una dictadura; si tenemos mucha libertad pero nos falta confianza, el resultado es la anarquía.

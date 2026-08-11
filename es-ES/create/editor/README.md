@@ -1,6 +1,6 @@
 # Editor
 
-Anytype es un editor basado en bloques y todas las [páginas](../objects/formats.md#formato-de-página) se construyen con bloques, de forma que tu contenido es flexible y fácil de usar. El editor es la forma principal de crear documentos en Anytype.
+Anytype es un editor basado en bloques y todas las [páginas](../objects/formats.md#formato-de-pagina) se construyen con bloques, de forma que tu contenido es flexible y fácil de usar. El editor es la forma principal de crear documentos en Anytype.
 
 ## Cómo funciona
 
