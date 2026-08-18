@@ -106,7 +106,7 @@ You can create a one-to-one Channel between you and another Anytype user with Di
 
 ## Channel Settings
 
-To change your preferences and customize your Channel, please see [channel-settings.md](../settings/channel-settings.md "mention"). From this section, you can:
+To change your preferences and customize your Channel, please see [Channel Settings](/settings/channel-settings). From this section, you can:
 
 * Invite others to the space
 * Import and export data

@@ -29,7 +29,7 @@ If you lose your Key, your account cannot be recovered—by anyone, including An
 ![docs welcome 2](/assets/docs-welcome-2.jpg)
 
 :::danger
-Store your [key.md](../basics/key.md "mention") somewhere safe and never share it with anyone. Whoever has access to your key has access to your account. It cannot be recovered.
+Store your [Key](/basics/key/) somewhere safe and never share it with anyone. Whoever has access to your key has access to your account. It cannot be recovered.
 :::
 
 #### Log in on other devices
@@ -50,4 +50,4 @@ If you'd like a quick overview of how Anytype's core concepts fit together, star
 
 #### Import
 
-If you would like to import some of your existing data into your Space, you can find the instructions on how to do so in [Import & Export](../data/import-and-export/).
+If you would like to import some of your existing data into your Space, you can find the instructions on how to do so in [Import & Export](/data/import-and-export/).

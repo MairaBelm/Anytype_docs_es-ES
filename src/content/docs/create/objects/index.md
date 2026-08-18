@@ -26,9 +26,9 @@ This means:
 
 Every Object has:
 
-* [types.md](../../organize/types.md "mention") that categorizes what kind of thing it is, such as Note, Task, Project, Meeting, etc.
-* [properties.md](../../organize/properties.md "mention") that hold its details, such as status, date, author, email, etc.
-* [links.md](../links.md "mention") to other Objects, such as a Recipe connected to a Person.
+* [Types](/organize/types/) that categorizes what kind of thing it is, such as Note, Task, Project, Meeting, etc.
+* [Properties](/organize/properties/) that hold its details, such as status, date, author, email, etc.
+* [Links](/create/objects/links/) to other Objects, such as a Recipe connected to a Person.
 
 Here is a simple example of how this works:
 
@@ -86,7 +86,7 @@ If you are working on an existing Object and would like to transform only a cert
 
 #### Sidebar
 
-You can now find all your objects in the [sidebar](../../basics/sidebar/ "mention"), grouped by their respective [types.md](../../organize/types.md "mention"). If this section is not showing, please see [Manage Sections](/basics/sidebar/sections/#manage-sections) to reveal it.
+You can now find all your objects in the [sidebar](/basics/sidebar/), grouped by their respective [Types](/organize/types/). If this section is not showing, please see [Manage Sections](/basics/sidebar/sections/#manage-sections) to reveal it.
 
 ![objects find sidebar](/assets/objects-find-sidebar.gif)
 
@@ -101,19 +101,19 @@ To navigate to the search, you can:
 
 #### Graph
 
-To find all of your objects and how they are connected, you can look to the [graph.md](../../advanced/feature-list-by-platform/graph.md "mention") for your main source of truth. When viewing an Object, click on the 'Graph' icon that is located near the back and forward buttons.
+To find all of your objects and how they are connected, you can look to the [Graph](/advanced/feature-list-by-platform/graph/) for your main source of truth. When viewing an Object, click on the 'Graph' icon that is located near the back and forward buttons.
 
 ![objects find graph](/assets/objects-find-graph.jpg)
 
 #### Bin
 
-If you've previously removed some objects from your [channels.md](../../basics/channels.md "mention"), they will appear in your [Bin](/organize/deletion/) unless you've already permanently deleted them.
+If you've previously removed some objects from your [Channels](/basics/channels/), they will appear in your [Bin](/organize/deletion/) unless you've already permanently deleted them.
 
 You can access your Bin from the Sidebar. If this section is not showing, please see [Manage Sections](/basics/sidebar/sections/#manage-sections) to reveal it.
 
 ## Bulk editing Objects
 
-Objects have Types and Properties which are best visualized in [views.md](../../organize/views.md "mention"). To edit multiple objects at the same time, the best approach is to use the Views feature—[see more here](/organize/views/#bulk-editing-objects).
+Objects have Types and Properties which are best visualized in [Views](/organize/views/). To edit multiple objects at the same time, the best approach is to use the Views feature—[see more here](/organize/views/#bulk-editing-objects).
 
 ## Set Default Object
 

@@ -15,7 +15,7 @@ This is the most common type of Object with an editor that's used to create all 
 1. **Object Title Area** — Title, emoticon, cover image, description
 2. **Object Header** — Properties in line or list style
 3. **Object Body** — Content, blocks, inline links
-4. **Object Discussion** — Comments, see [discussions.md](../../collaborate/discussions.md "mention") for more
+4. **Object Discussion** — Comments, see [Discussions](/collaborate/discussions/) for more
 
 ![page format](/assets/page-format.png)
 
@@ -53,7 +53,7 @@ You can select from a variety of different layouts such as:
 
 <table><thead><tr><th width="221.08203125">Type Layouts</th><th>Best For</th></tr></thead><tbody><tr><td><strong>List</strong></td><td>Simple vertical rows</td></tr><tr><td><strong>Grid</strong></td><td>Spreadsheet-like experience</td></tr><tr><td><strong>Calendar</strong></td><td>Date and time arrangement</td></tr><tr><td><strong>Kanban</strong></td><td>Grouping and project management</td></tr><tr><td><strong>Gallery</strong></td><td>Visual highlights</td></tr><tr><td><strong>Graph</strong></td><td>Inter-connected relationships</td></tr></tbody></table>
 
-Unlike Page Layouts, you can have multiple View Layouts set for the same Type. To learn more, please see [views.md](../../organize/views.md "mention") for more details.
+Unlike Page Layouts, you can have multiple View Layouts set for the same Type. To learn more, please see [Views](/organize/views/) for more details.
 
 ## Chat Format
 

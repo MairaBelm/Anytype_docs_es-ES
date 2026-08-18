@@ -1,8 +1,5 @@
 ---
 title: "Toggled Headings"
----
-
----
 description: Collapse and expand sections of long Objects.
 ---
 

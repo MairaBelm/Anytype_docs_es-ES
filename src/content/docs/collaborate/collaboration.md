@@ -123,7 +123,7 @@ From the members section, the Owner and Admin can:
 
 #### Editor seat limits
 
-Each Channel has a maximum number of Editors based on the Owner's plan. The default Free tier supports a small number of Editors per Channel. Higher-tier plans (Builder, Co-Creator, Ultra, Group memberships) increase this limit. See [Memberships](../resources/memberships/).
+Each Channel has a maximum number of Editors based on the Owner's plan. The default Free tier supports a small number of Editors per Channel. Higher-tier plans (Builder, Co-Creator, Ultra, Group memberships) increase this limit. See [Memberships](/resources/memberships/).
 
 Once you reach the limit, new joiners can only join as Viewers until either the limit is raised or an existing Editor is downgraded or removed.
 
@@ -148,7 +148,7 @@ When members are **offline**, everything still works by default:
 Member names and profile pictures appear next to their messages and posts. Click any member's name or profile to:
 
 * See their full profile — name, bio, profile picture
-* Connect with them privately — opens a [Direct Channel](https://github.com/anyproto/docs-new/blob/main/getting-started/direct-channels.md)
+* Connect with them privately — opens a [Direct Channel](/collaborate/chats/direct-channels/)
 
 ![docs direc channel connect](/assets/docs-direc-channel-connect.jpg)
 
@@ -156,7 +156,7 @@ Member names and profile pictures appear next to their messages and posts. Click
 
 When sharing spaces and collaborating with others on Anytype, your data stays encrypted during sync. You can collaborate with peace of mind. However, only share spaces with people you trust. They can view and export data.
 
-For more sensitive, high-security cases, use **self-hosted** networks where you control the relay nodes. See [Networks & Backup](../data/sync-and-backup/). You can also use **local-only** mode for fully air-gapped sharing on a local network.
+For more sensitive, high-security cases, use **self-hosted** networks where you control the relay nodes. See [Networks & Backup](/data/sync-and-backup/). You can also use **local-only** mode for fully air-gapped sharing on a local network.
 
 ## Leaving a Channel
 

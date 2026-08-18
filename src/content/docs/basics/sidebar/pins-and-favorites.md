@@ -1,13 +1,10 @@
 ---
 title: "Pins & Favorites"
----
-
----
 description: Two ways to keep important Objects close — yours and the team's.
 ---
 
 
-You can add your most important [Objects](../../create/objects/) to your Sidebar with Pins and Favorites. All Pins and Favorites can be turned into [Widgets](/basics/sidebar/widgets/), which are interactive feeds directly in your Sidebar. Or they can remain as simple links, which are fast shortcuts to your content.
+You can add your most important [Objects](/create/objects/) to your Sidebar with Pins and Favorites. All Pins and Favorites can be turned into [Widgets](/basics/sidebar/widgets/), which are interactive feeds directly in your Sidebar. Or they can remain as simple links, which are fast shortcuts to your content.
 
 ![docs pins favorites](/assets/docs-pins-favorites.jpg)
 

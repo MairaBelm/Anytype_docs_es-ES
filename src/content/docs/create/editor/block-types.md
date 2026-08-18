@@ -49,7 +49,7 @@ You can also select multiple cells at once:
 
 <table><thead><tr><th width="193.50390625">Block</th><th>What it's for</th></tr></thead><tbody><tr><td><strong>Property</strong></td><td>Add an Object's Property as a block in the body content</td></tr></tbody></table>
 
-Useful for surfacing key [properties.md](../../organize/properties.md "mention") prominently. The Property block stays in sync with the Property's value — change one and all others will update. This enables fancy templates and designs for all of your documents.
+Useful for surfacing key [Properties](/organize/properties/) prominently. The Property block stays in sync with the Property's value — change one and all others will update. This enables fancy templates and designs for all of your documents.
 
 ![slashmenu property](/assets/slashmenu-property.png)
 

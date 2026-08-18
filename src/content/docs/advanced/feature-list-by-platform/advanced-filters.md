@@ -1,8 +1,5 @@
 ---
 title: "Advanced Filters"
----
-
----
 description: Build precise queries with AND/OR logic and grouped conditions.
 ---
 

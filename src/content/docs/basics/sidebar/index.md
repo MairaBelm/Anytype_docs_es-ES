@@ -57,7 +57,7 @@ Drag the right edge of the Sidebar to resize it. You can:
 * Make it wider for more space
 * Make it narrower to save space
 * Collapse it entirely by dragging the edge to the left until it disappears
-* Turn on auto show/hide the sidebar in your [vault-settings.md](../../settings/vault-settings.md "mention")
+* Turn on auto show/hide the sidebar in your [Vault Settings](/settings/vault-settings/)
 
 ![docs sidebar](/assets/docs-sidebar.gif)
 
@@ -87,7 +87,7 @@ To quickly switch to a focus mode, you can assign a keyboard shortcut to toggle 
 :::
 
 :::note
-**Pin a Query, not just static Objects.** A pinned Query like "Tasks where Status = In Progress" or "Notes where Modified is this week" acts as live [widgets.md](widgets.md "mention") — it updates itself as your data changes.
+**Pin a Query, not just static Objects.** A pinned Query like "Tasks where Status = In Progress" or "Notes where Modified is this week" acts as live [Widgets](/basics/sidebar/widgets/) — it updates itself as your data changes.
 :::
 
 :::note
