@@ -23,7 +23,7 @@ Anytype has two distinct mechanisms:
 * **My Favorites** — personal, visible only to you. Use the 'star' icon
 * **Shared Pins** — public and visible to all members. The Channel Owner sets them.
 
-To learn more on how to add, remove, and organize them, see [Pins & Favorites](basics/sidebar/pins-and-favorites/) for details.
+To learn more on how to add, remove, and organize them, see [Pins & Favorites](/basics/sidebar/pins-and-favorites/) for details.
 
 ![sidebar pins favorites](/assets/sidebar-pins-favorites.jpg)
 
