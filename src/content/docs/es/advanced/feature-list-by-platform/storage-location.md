@@ -1,8 +1,5 @@
 ---
 title: "Storage Location"
----
-
----
 description: Where your Vault data lives on disk, and how to move it.
 ---
 

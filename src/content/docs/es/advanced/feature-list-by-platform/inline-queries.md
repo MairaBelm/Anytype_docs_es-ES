@@ -1,8 +1,5 @@
 ---
 title: "Inline Views"
----
-
----
 description: Display a live filtered view of Objects directly inside another Object.
 ---
 

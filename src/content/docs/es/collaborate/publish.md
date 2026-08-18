@@ -1,8 +1,5 @@
 ---
 title: "Publish"
----
-
----
 description: Publish Objects as static webpages on your personal subdomain.
 ---
 

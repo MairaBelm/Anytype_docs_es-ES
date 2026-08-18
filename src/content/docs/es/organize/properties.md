@@ -11,20 +11,20 @@ Las propiedades son los datos que asocias a un objeto: su fecha de vencimiento, 
 Las propiedades te permiten organizar el conocimiento mediante sistemas flexibles, ya que puedes utilizarlas para ordenar, filtrar y consultar tus objetos:
 
 * Busca todas las **tareas** cuya **prioridad** sea **alta**.
-* Busca todos los **libros** cuyo estado sea **leído**, ordenados por **valoración**.
-* Busca todas las **ideas** cuya **fecha de creación** sea el **año pasado**.
+* Busca todos los **libros** cuyo **estado** sea **leído**, ordenados por **valoración**.
+* Busca todas las **ideas** cuya **fecha de creación** sea **el año pasado**.
 
 ## Cómo funciona
 
 Las propiedades cumplen dos funciones. Vamos a usar un objeto del tipo «Tarea» como ejemplo.
 
-**1\. Definen los objetos.** Úsalas para añadir datos útiles y descriptivos, como estos:
+**1. Definen los objetos**. Úsalas para añadir datos útiles y descriptivos, como estos:
 
 * Estado: En curso
 * Prioridad: Alta
 * Fecha final: El próximo viernes
 
-**2\. Conectan los objetos**. Úsalas para vincular un objeto a otro; por ejemplo:
+**2. Conectan los objetos**. Úsalas para vincular un objeto a otro; por ejemplo:
 
 * Asignado a: → Alex (un objeto del tipo «Persona»)
 * Proyecto: → Rediseño del sitio web (un objeto del tipo «Proyecto»)
@@ -45,7 +45,7 @@ Estos son los formatos disponibles en Anytype para las propiedades:
 
 ## Cómo crear y gestionar las propiedades
 
-Puesto que todos los [objetos](../create/objects/) pertenecen a un [tipo](/es/organize/types/), es mejor usar las propiedades dentro del contexto del tipo. Tienes estas posibilidades:
+Puesto que todos los [objetos](/es/create/objects/) pertenecen a un [tipo](/es/organize/types/), es mejor usar las propiedades dentro del contexto del tipo. Tienes estas posibilidades:
 
 * crear propiedades nuevas,
 * añadir propiedades existentes,
@@ -56,7 +56,7 @@ Puesto que todos los [objetos](../create/objects/) pertenecen a un [tipo](/es/or
 
 #### Desde el menú de edición del tipo
 
-[Mientras editas un tipo](/es/organize/types/#como-editar-un-tipo), usa el botón «+» de la sección «Propiedades» para añadir una propiedad existente o crear una nueva. Para editar una propiedad, haz clic en ella. Para cambiar el orden, haz clic en cada control de la izquierda y arrastra las propiedades.
+[Mientras editas un tipo](/es/organize/types/#cómo-editar-un-tipo), usa el botón «+» de la sección «Propiedades» para añadir una propiedad existente o crear una nueva. Para editar una propiedad, haz clic en ella. Para cambiar el orden, haz clic en cada control de la izquierda y arrastra las propiedades.
 
 ![properties create type settings](/assets/properties-create-type-settings.jpg)
 
@@ -76,15 +76,15 @@ Es posible añadir propiedades que no tengan relación con el tipo de ese objeto
 
 #### Desde los ajustes del canal
 
-Abre [channel-settings.md](../settings/channel-settings.md "mention"), ve a «Modelo de contenido» y selecciona **Propiedades**. Aquí basta con hacer clic en el botón «Nuevo» para crear una propiedad.
+Abre [Ajustes del canal](/es/settings/channel-settings/), ve a «Modelo de contenido» y selecciona **Propiedades**. Aquí basta con hacer clic en el botón «Nuevo» para crear una propiedad.
 
 ## Cómo usar las propiedades
 
-Lo más recomendable es aplicar las propiedades en el contexto de un tipo. Puedes gestionarlas desde el panel «Editar tipo», tienes más detalles [aquí](/es/organize/types/#como-editar-un-tipo).
+Lo más recomendable es aplicar las propiedades en el contexto de un tipo. Puedes gestionarlas desde el panel «Editar tipo», tienes más detalles [aquí](/es/organize/types/#cómo-editar-un-tipo).
 
 ### Propiedades en las vistas
 
-Las propiedades despliegan todo su poder en las [vistas](views.md "mention"), que ofrecen formas flexibles y adaptables de interactuar con tu contenido. Tienes más detalles en la sección [Vistas](/es/organize/views/).
+Las propiedades despliegan todo su poder en las [vistas](/es/organize/views/), que ofrecen formas flexibles y adaptables de interactuar con tu contenido. Tienes más detalles en la sección [Vistas](/es/organize/views/).
 
 ![docs properties views](/assets/docs-properties-views.gif)
 
@@ -127,11 +127,11 @@ Para ver rápidamente todas las propiedades del objeto que tengas abierto, abre 
 
 ## Cómo eliminar propiedades
 
-Las propiedades son independientes de los [tipos](/es/organize/types/) y los [objetos](../create/objects/), así que hay varias formas de eliminarlas.
+Las propiedades son independientes de los [tipos](/es/organize/types/) y los [objetos](/es/create/objects/), así que hay varias formas de eliminarlas.
 
 #### Desde un tipo
 
-1. [Abre el tipo](/es/organize/types/#como-editar-un-tipo) que contiene la propiedad que quieres eliminar.
+1. [Abre el tipo](/es/organize/types/#cómo-editar-un-tipo) que contiene la propiedad que quieres eliminar.
 2. Haz clic derecho en la propiedad y selecciona una de estas opciones:
    1. **Quitar del tipo** desvincula la propiedad del tipo, pero la mantiene en el espacio. Los objetos que tengan algún valor asignado a esa propiedad lo conservarán, aunque la hayas eliminado de su tipo.
    2. **Mover a la papelera** desvincula la propiedad de todos los tipos y la elimina del espacio. La propiedad se puede restaurar desde la papelera.

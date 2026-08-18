@@ -1,8 +1,5 @@
 ---
-title: "T\u00e9cnica (s*kill*) de Anytype para agentes"
----
-
----
+title: "Técnica (skill) de Anytype para agentes"
 description: Let AI assistants act on your Anytype data.
 ---
 

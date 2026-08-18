@@ -8,7 +8,7 @@ Hay muchos tipos de bloques, cada uno con su propia utilidad. Añade y prueba to
 
 ### Bloques de texto
 
-<table data-search="false"><thead><tr><th width="244.21484375">Bloque</th><th>Para qué sirve</th></tr></thead><tbody><tr><td><strong>Párrafo</strong></td><td>Texto normal</td></tr><tr><td><strong>Título 1, Título 2, Título 3</strong></td><td>Estructura de secciones, o títulos (H1, H2 y H3)</td></tr><tr><td><strong>Título</strong></td><td>Título del objeto</td></tr><tr><td><strong>Cita</strong></td><td>Texto citado o destacado</td></tr><tr><td><strong>Globo</strong></td><td>Texto en recuadro para advertencias, consejos o notas</td></tr><tr><td><strong>Código</strong></td><td>Código monoespaciado con resaltado de sintaxis</td></tr><tr><td><strong>Desplegable</strong></td><td>Bloque contraíble que oculta el contenido anidado</td></tr><tr><td><strong>Título desplegable</strong></td><td>Un título que también contrae y expande su sección, consulta <a href="/es/create/editor/toggled-headings/">Títulos desplegables</a></td></tr></tbody></table>
+<table data-search="false"><thead><tr><th width="244.21484375">Bloque</th><th>Para qué sirve</th></tr></thead><tbody><tr><td><strong>Párrafo</strong></td><td>Texto normal</td></tr><tr><td><strong>Título 1, Título 2, Título 3</strong></td><td>Estructura de secciones, o títulos (H1, H2 y H3)</td></tr><tr><td><strong>Título</strong></td><td>Título del objeto</td></tr><tr><td><strong>Cita</strong></td><td>Texto citado o destacado</td></tr><tr><td><strong>Globo</strong></td><td>Texto en recuadro para advertencias, consejos o notas</td></tr><tr><td><strong>Código</strong></td><td>Código monoespaciado con resaltado de sintaxis</td></tr><tr><td><strong>Desplegable</strong></td><td>Bloque contraíble que oculta el contenido anidado</td></tr><tr><td><strong>Título desplegable</strong></td><td>Un título que también contrae y expande su sección, consulta <a href="/create/editor/toggled-headings/">Títulos desplegables</a></td></tr></tbody></table>
 
 ### Bloques de lista
 
@@ -23,7 +23,7 @@ Pulsa Tab dentro de un elemento de lista para añadirle sangría y crear una sub
 Arrastra un archivo al editor para insertarlo. Cada archivo se convierte en un [objeto de archivo](/es/create/files-and-media/) que puedes encontrar y e insertar en otros lugares.
 
 :::note
-**Consejo:** Usa el atajo `/arch` para añadir como bloque una imagen o archivo que ya esté en tu espacio. No tienes que volver a cargar el mismo archivo desde tu dispositivo; sube el archivo una vez y reutilízalo tantas veces como quieras.
+**Nota:** Usa el atajo `/arch` para añadir como bloque una imagen o archivo que ya esté en tu espacio. No tienes que volver a cargar el mismo archivo desde tu dispositivo; Sube el archivo una vez y reutilízalo tantas veces como quieras.
 :::
 
 ### Bloques de estructura
@@ -49,7 +49,7 @@ También puedes seleccionar varias celdas a la vez:
 
 <table><thead><tr><th width="193.50390625">Bloque</th><th>Para qué sirve</th></tr></thead><tbody><tr><td><strong>Propiedad</strong></td><td>Añade una propiedad del objeto como bloque en el contenido</td></tr></tbody></table>
 
-Sirve para mostrar [properties.md](../../organize/properties.md "mention") de forma destacada. El valor de la propiedad se mantiene sincronizado en el bloque: si cambias uno, todos los demás se actualizan. Esto permite crear plantillas y diseños elaborados para todos tus documentos.
+Sirve para mostrar [propiedades](/es/organize/properties/) de forma destacada. El valor de la propiedad se mantiene sincronizado en el bloque: si cambias uno, todos los demás se actualizan. Esto permite crear plantillas y diseños elaborados para todos tus documentos.
 
 ![slashmenu property](/assets/slashmenu-property.png)
 

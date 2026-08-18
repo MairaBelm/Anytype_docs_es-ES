@@ -1,8 +1,5 @@
 ---
 title: "Graph"
----
-
----
 description: Visualize the connections between your Objects.
 ---
 

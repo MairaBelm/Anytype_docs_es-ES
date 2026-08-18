@@ -1,8 +1,5 @@
 ---
 title: "Marcadores"
----
-
----
 description: Guarda y organiza enlaces web como objetos completos.
 ---
 
@@ -28,12 +25,12 @@ Después, tienes estas posibilidades:
 
 ![docs bookmarks layout](/assets/docs-bookmarks-layout.jpg)
 
-Los marcadores tienen su propio diseño, distinto del [diseño de página](/es/create/objects/formats/#disenos-de-pagina) normal. Todos presentan lo siguiente:
+Los marcadores tienen su propio diseño, distinto del [diseño de página](/es/create/objects/formats/#diseños-de-página) normal. Todos presentan lo siguiente:
 
 * la imagen de vista previa de la página en la parte superior,
 * el título de la página (editable),
 * una URL corta con el icono del sitio,
-* un botón destacado **Abrir sitio web**.
+* Un botón destacado **Abrir sitio web**.
 
 Bajo este diseño de marcador, puedes añadir bloques si quieres escribir notas, enlaces a otros objetos o darles más contexto. Para hacerlo desde el editor, haz clic derecho en el marcador y selecciona «Abrir como objeto».
 
@@ -73,10 +70,10 @@ Puesto que los marcadores son objetos con su propio tipo, puedes hacer todo esto
 
 * **Filtrarlos por etiqueta**: crea una etiqueta «Lista de lectura», una etiqueta «Investigación», etc.
 * **Anclar una consulta de marcadores** a tu barra lateral para ver todos los enlaces que has guardado.
-* **Añadirles una propiedad **que vincule cada marcador a un proyecto o tema.
-* **Usa el diseño Galería** en una consulta para presentar los marcadores como tarjetas visuales.
+* **Añadirles una propiedad** que vincule cada marcador a un proyecto o tema.
+* **Usa el diseño de galería** en una consulta para presentar los marcadores como tarjetas visuales.
 
-Tienes más detalles en [views.md](../organize/views.md "mention").
+Tienes más detalles en [Vistas](/es/organize/views/).
 
 ## Notas
 

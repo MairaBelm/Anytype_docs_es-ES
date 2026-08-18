@@ -1,8 +1,5 @@
 ---
 title: "Keyboard Shortcuts"
----
-
----
 description: Reference and customize Anytype's keyboard shortcuts.
 ---
 

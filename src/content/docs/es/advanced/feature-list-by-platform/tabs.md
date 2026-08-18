@@ -1,8 +1,5 @@
 ---
 title: "Tabs"
----
-
----
 description: Open multiple Objects side by side in a tab bar.
 ---
 

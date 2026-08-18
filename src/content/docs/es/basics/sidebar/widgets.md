@@ -4,9 +4,9 @@ title: "Widgets"
 
 Los widgets son como ventanas a tu canal que te permiten interactuar con tu contenido directamente desde la barra lateral. Tus objetos anclados y favoritos no son simples marcadores estáticos, sino que pueden transformarse en reflejos dinámicos e interactivos de tu contenido. Estas son algunas de las formas de emplearlos:
 
-* **Calendario con tu agenda**: Consulta tus reuniones, plazos y citas de un vistazo.
-* **Lista de tareas de un proyecto**: Revisa y marca las tareas pendientes sin salir del objeto que tengas abierto.
-* **Galería visual**: Muestra fotos recientes, recursos de diseño o tableros de inspiración en una cuadrícula atractiva.
+* **Calendario con tu agenda:** consulta tus reuniones, plazos y citas de un vistazo.
+* **Lista de tareas de un proyecto:** revisa y marca las tareas pendientes sin salir del objeto que tengas abierto.
+* **Galería visual:** muestra fotos recientes, recursos de diseño o tableros de inspiración en una cuadrícula atractiva.
 
 ![docs widget types](/assets/docs-widget-types.jpg)
 
@@ -17,7 +17,7 @@ Todos los anclados y favoritos de la barra lateral se pueden configurar como wid
 * Enlace: un acceso directo para abrir rápidamente al objeto.
 * Widget: un elemento interactivo que muestra información en la barra lateral.
 
-Esta opción se puede cambiar en [cada widget](/es/basics/sidebar/widgets/#opciones-de-diseno) o para [todo el canal](/es/basics/sidebar/widgets/#vista-de-la-barra-lateral-del-canal).
+Esta opción se puede cambiar en [cada widget](/es/basics/sidebar/widgets/#opciones-de-diseño) o para [todo el canal](/es/basics/sidebar/widgets/#vista-de-la-barra-lateral-del-canal).
 
 ## Crear widgets
 
@@ -44,7 +44,7 @@ Cada diseño de widget ofrece sus propias formas de interactuar con los objetos.
 
 * **Calendario**: al hacer clic en un día, se mostrarán los objetos y podrás crear uno.
 * **Kanban**: haz clic en un grupo para desplegar la sección y añadir un objeto.
-* **Tareas**: haz clic en la casilla de verificación de un [objeto de acción](/es/create/objects/formats/#disenos-de-pagina) para marcarlo como completado.
+* **Tareas**: haz clic en la casilla de verificación de un [objeto de acción](/es/create/objects/formats/#diseños-de-página) para marcarlo como completado.
 
 ![docs widgets](/assets/docs-widgets.gif)
 
@@ -66,11 +66,11 @@ Las opciones de diseño de cada widget dependen del objeto y de las vistas que h
 
 ![docs widgets layouts](/assets/docs-widgets-layouts.jpg)
 
-* **Como en el objeto:** Ideal para consultas o colecciones ancladas, que aparecerán incrustadas y actualizadas directamente en la barra lateral. Las [opciones de vista](/es/organize/queries/#views) disponibles en el widget se configuran en el objeto.
-* **Compacta**: Muestra los enlaces a los objetos ordenados bajo cada elemento principal.
-* **Detallada:** Similar a la vista compacta, pero muestra más metadatos y detalles de cada elemento.
-* **Enlace:** La opción minimalista que muestra solo el título del objeto y su icono.
-* **Estructura jerárquica:** Para las páginas, puedes algo semejante a una estructura de carpetas en la barra lateral. Todos los bloques de enlace que contenga la página aparecerán en el widget. [Aquí encontrarás más detalles](/es/organize/collections/#sidebar-widget).
+* **Como en el objeto**: ideal para consultas o colecciones ancladas, que aparecerán incrustadas y actualizadas directamente en la barra lateral. Las [opciones de vista](/es/organize/queries/#vistas) disponibles en el widget se configuran en el objeto.
+* **Compacta**: muestra los enlaces a los objetos ordenados bajo cada elemento principal.
+* **Detallada**: similar a la vista compacta, pero muestra más metadatos y detalles de cada elemento.
+* **Enlace**: la opción minimalista que muestra solo el título del objeto y su icono.
+* **Estructura jerárquica**: para las páginas, puedes crear algo semejante a una estructura de carpetas en la barra lateral. Todos los bloques de enlace que contenga la página aparecerán en el widget. [Aquí encontrarás más detalles](/es/organize/collections/#widget-de-la-barra-lateral).
 
 ![docs hierarchical structure](/assets/docs-hierarchical-structure.gif)
 
@@ -87,7 +87,7 @@ Para ahorrar espacio, los widgets muestran un número limitado de objetos. Si no
 
 ### Vista de la barra lateral del canal
 
-Según el ámbito de tu espacio y tus preferencias de navegación, puedes cambiar la densidad general de la barra lateral en los [Ajustes del canal](/es/settings/channel-settings/). Por defecto, la opción activada es **Widgets**, pero puedes usar la vista **Enlaces** cuando quieras la máxima densidad.
+Según el ámbito de tu espacio y tus preferencias de navegación, puedes cambiar la densidad general de la barra lateral en los [Ajustes del canal](/es/settings/channel-settings/). Por defecto, la opción activada es Widgets, pero puedes usar la vista **Enlaces** cuando quieras la máxima densidad.
 
 |**Presentación**     |**Descripción**                                                                                          |**Ideal para**                                                                                  |
 |---------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|

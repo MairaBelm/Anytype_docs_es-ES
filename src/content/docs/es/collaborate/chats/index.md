@@ -1,8 +1,5 @@
 ---
 title: "Chats"
----
-
----
 description: Real-time conversations alongside your work.
 ---
 

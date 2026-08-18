@@ -4,7 +4,7 @@ title: "Vistas"
 
 Las vistas son distintas miradas sobre tu contenido. Sirven para visualizar la información de la forma que más te convenga sin alterar el contenido subyacente. Los [tipos](/es/organize/types/), las [consultas](/es/organize/queries/) y las [colecciones](/es/organize/collections/) usan vistas para presentar su contenido.
 
-> **Una analogía**: imagínate un edificio con cien personas dentro. Puedes cambiar la forma en que las miras, pero todas seguirán dentro del edificio. Puedes poner a todas las personas vestidas de rojo en el vestíbulo y dejar a las demás ocultas en el sótano, o bien ordenarlas de la más alta a la más baja en una larga fila.
+> **Una analogía:** imagínate un edificio con cien personas dentro. Puedes cambiar la forma en que las miras, pero todas seguirán dentro del edificio. Puedes poner a todas las personas vestidas de rojo en el vestíbulo y dejar a las demás ocultas en el sótano, o bien ordenarlas de la más alta a la más baja en una larga fila.
 
 ![docs properties views](/assets/docs-properties-views.gif)
 
@@ -23,7 +23,7 @@ Una vista tiene tres componentes principales:
 
 ### Diseños
 
-Los diseños organizan tus [objetos](../create/objects/) y sus [propiedades](/es/organize/properties/) de una forma cómoda para trabajar con ellos, como una serie de eventos en un calendario o un montón de tareas en un tablero kanban. Aquí tienes algunos ejemplos de distintos [diseños en acción](/es/organize/views/#vistas-en-tipos-consultas-y-colecciones).
+Los diseños organizan tus [objetos](/es/create/objects/) y sus [propiedades](/es/organize/properties/) de una forma cómoda para trabajar con ellos, como una serie de eventos en un calendario o un montón de tareas en un tablero kanban. Aquí tienes algunos ejemplos de distintos [diseños en acción](/es/organize/views/#vistas-en-tipos-consultas-y-colecciones).
 
 <table><thead><tr><th width="130.99609375">Opciones</th><th>Ideal para</th><th>Opciones propias</th></tr></thead><tbody><tr><td><strong>Lista</strong></td><td>Filas verticales simples</td><td>Compacta, Estándar</td></tr><tr><td><strong>Cuadrícula</strong></td><td>Similar a una hoja de cálculo</td><td>Ajustar contenido</td></tr><tr><td><strong>Calendario</strong></td><td>Organización por fecha y hora</td><td>Propiedad de fecha</td></tr><tr><td><strong>Kanban</strong></td><td>Agrupación y gestión de proyectos</td><td>Agrupar por, Colorear columnas, Portada</td></tr><tr><td><strong>Galería</strong></td><td>Gran efecto visual</td><td>Portada, Tamaño de tarjeta, Icono, Ajustar medios</td></tr><tr><td><strong>Gráfico</strong></td><td>Relaciones interconectadas</td><td>Ajustes del gráfico</td></tr></tbody></table>
 
@@ -115,7 +115,7 @@ _Diseño de gráfico_
 
 ### Vistas en la barra lateral
 
-Puedes añadir vistas a tu barra lateral para tenerlas a mano. Son lo que conocemos como [widgets.md](../basics/sidebar/widgets.md "mention").
+Puedes añadir vistas a tu barra lateral para tenerlas a mano. Son lo que conocemos como [widgets](/es/basics/sidebar/widgets/).
 
 1. Usa el botón de tres puntos de la esquina superior derecha y selecciona **Anclar al canal**.
 2. Haz clic derecho en el elemento de la barra lateral.
@@ -135,7 +135,7 @@ Puedes insertar vistas directamente en las páginas con los bloques **Consulta i
 
 Las modificaciones que hagas en las vistas de una consulta o colección insertada solo se aplican a ese bloque y no afectan a la vista principal, que se mantiene sin cambios en el [tipo](/es/organize/types/), la [consulta](/es/organize/queries/) o la [colección](/es/organize/collections/) original. Esto significa que cada objeto puede tener su propia versión de la vista insertada sin modificar nunca la original.
 
-Por el contrario, si modificas los objetos y sus propiedades en la vista insertada, esos cambios sí se aplicarán al objeto y se reflejarán en todo ese espacio.
+Por el contrario, si modificas los objetos y sus propiedades en la vista insertada, esos cambios _sí_ se aplicarán al objeto y se reflejarán en todo ese espacio.
 
 ![docs views inline](/assets/docs-views-inline.gif)
 
@@ -147,7 +147,7 @@ En la barra de herramientas de herramientas de la vista, junto al botón «Nuevo
 
 ### Edición de objetos en lote
 
-Puedes modificar varios [objetos](../create/objects/) al mismo tiempo para cambiar su tipo y sus propiedades o eliminarlos de un golpe. Es mejor hacerlo en una vista con el diseño de cuadrícula, pero también funciona con otros diseños.
+Puedes modificar varios [objetos](/es/create/objects/) al mismo tiempo para cambiar su tipo y sus propiedades o eliminarlos de un golpe. Es mejor hacerlo en una vista con el diseño de cuadrícula, pero también funciona con otros diseños.
 
 1. Abre la vista desde la barra lateral.
 2. Selecciona todos los objetos que quieres modificar. Hay dos formas de hacerlo:
@@ -179,9 +179,9 @@ Para eliminar una vista, haz clic derecho sobre ella para abrir el menú. Tambi�
 ## Notas
 
 :::note
-**Pon a tus vistas un nombre relacionado con su diseño o filtro**. Los nombres descriptivos, como «Tareas prioritarias» y «Proyectos archivados», te ayudarán a distinguir en seguida lo que estas viendo.
+**Pon a tus vistas un nombre relacionado con su diseño o filtro.** Los nombres descriptivos, como «Tareas prioritarias» y «Proyectos archivados», te ayudarán a distinguir en seguida lo que estas viendo.
 :::
 
 :::note
-**Cuando quieras editar objetos en lote, es mejor configurar primero los filtros de la vista** para que solo muestre los objetos que vas a modificar. Así podrás seleccionarlos con más rapidez. También puedes crear una [consulta](/es/organize/queries/) para hacerlo.
+**Cuando quieras editar objetos en lote, es mejor configurar primero los filtros de la vista para que solo muestre los objetos que vas a modificar.** Así podrás seleccionarlos con más rapidez. También puedes crear una [consulta](/es/organize/queries/) para hacerlo.
 :::

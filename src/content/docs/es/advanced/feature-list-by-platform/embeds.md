@@ -1,8 +1,5 @@
 ---
 title: "Embeds"
----
-
----
 description: Add live external content directly inside your Objects.
 ---
 
@@ -63,7 +60,7 @@ If the URL is from a recognized embeddable service, **Embed** is the default. Fo
 
 #### Code and content
 
-* **LaTeX** — see here for more information: [inline-latex.md](../../create/editor/inline-latex.md "mention")
+* **LaTeX** — see here for more information: [inline-latex.md](../../create/editor/inline-latex.md)
 * **GitHub Gist** — paste a Gist URL
 * **CodePen** — paste a Pen URL
 * **CodeSandbox** — paste a sandbox URL

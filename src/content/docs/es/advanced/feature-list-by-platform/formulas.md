@@ -1,8 +1,5 @@
 ---
 title: "Formulas"
----
-
----
 description: Aggregations and counts in Grid view.
 ---
 
