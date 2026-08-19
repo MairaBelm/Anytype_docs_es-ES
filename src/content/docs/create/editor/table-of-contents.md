@@ -12,6 +12,6 @@ Alternatively, you can add a Table of Contents block (`/toc`) to any Object. It 
 
 The Table of Contents sections are automatically generated based on the headings blocks on the page—Title (H1), Heading (H2), and Subheading (H3). Simply add a heading block to the page and the table of contents will register it.
 
-* [toggled-headings.md](toggled-headings.md "mention") are also included in the Table of Contents.
+* [Toggled Headings](/create/editor/toggled-headings/) are also included in the Table of Contents.
 * Clicking on any section will scroll your view to that section of the object.
 * The indentations are determined by the hierarchy level of the headings.

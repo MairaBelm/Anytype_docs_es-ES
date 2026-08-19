@@ -1,8 +1,5 @@
 ---
 title: "Memberships"
----
-
----
 description: Plans, pricing, and how to support the project
 ---
 

@@ -145,14 +145,14 @@ There's no browser version of the app. Anytype is a stand-alone software, that w
 
 * Columns
 * Inline LaTeX
-* [inline-queries.md](../advanced/feature-list-by-platform/inline-queries.md "mention")
+* [Inline Queries](/advanced/feature-list-by-platform/inline-queries/)
 * Kanban, Calendar, and Graph Views
-* [formulas.md](../advanced/feature-list-by-platform/formulas.md "mention")
-* [embeds.md](../advanced/feature-list-by-platform/embeds.md "mention")
-* [custom-css.md](../advanced/feature-list-by-platform/custom-css.md "mention")
-* [storage-location.md](../advanced/feature-list-by-platform/storage-location.md "mention")
-* [graph.md](../advanced/feature-list-by-platform/graph.md "mention") & Flow
-* [import-and-export](../data/import-and-export/ "mention")
+* [Formulas](/advanced/feature-list-by-platform/formulas/)
+* [Embeds](/advanced/feature-list-by-platform/embeds/)
+* [Custom CSS](/advanced/feature-list-by-platform/custom-css/)
+* [Storage Location](/advanced/feature-list-by-platform/storage-location/)
+* [Graph](/advanced/feature-list-by-platform/graph/) & Flow
+* [Import & Export](/data/import-and-export/)
 * PIN Code
 
 </details>
@@ -221,4 +221,4 @@ There are a few ways you can install Anytype on a Chromebook, but probably the e
 
 ## Notes
 
-Vaults created before version 0.44.0 have an Entry Space. You are free to delete this channel if no longer needed, or you can migrate your data to a different channel by using the [import-and-export](../data/import-and-export/ "mention") feature.
+Vaults created before version 0.44.0 have an Entry Space. You are free to delete this channel if no longer needed, or you can migrate your data to a different channel by using the [Import & Export](/data/import-and-export/) feature.

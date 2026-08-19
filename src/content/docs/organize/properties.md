@@ -45,7 +45,7 @@ Here are the currently available Property formats within Anytype:
 
 ## Create & Manage Properties
 
-Because all [Objects](../create/objects/) have a [Type](/organize/types/), it's best to use Properties within the context of a Type. You can:
+Because all [Objects](/create/objects/) have a [Type](/organize/types/), it's best to use Properties within the context of a Type. You can:
 
 * Create new Properties.
 * Add existing Properties.
@@ -76,7 +76,7 @@ You can add Properties to the Object that are not connected to the Object's Type
 
 #### From Channel Settings
 
-Open your [channel-settings.md](../settings/channel-settings.md "mention"), and navigate to Content Model and select **Properties**. Afterwards, simply click on 'New' button to create a new Property.
+Open your [Channel Settings](/settings/channel-settings/), and navigate to Content Model and select **Properties**. Afterwards, simply click on 'New' button to create a new Property.
 
 ## Using Properties
 
@@ -84,7 +84,7 @@ Properties are best used in context with their Type. You can manage Properties f
 
 ### Properties in Views
 
-Properties are most powerful in [views.md](views.md "mention"), which offer flexible, customizable ways to interact with your knowledge. To learn more, please see the [Views](/organize/views/) section.
+Properties are most powerful in [Views](/organize/views/), which offer flexible, customizable ways to interact with your knowledge. To learn more, please see the [Views](/organize/views/) section.
 
 ![docs properties views](/assets/docs-properties-views.gif)
 
@@ -127,7 +127,7 @@ When viewing an Object, you can quickly see all of its Properties by opening the
 
 ## Deleting Properties
 
-Properties exist independently from [Types](/organize/types/) and [Objects](../create/objects/)—they are their own thing. Because of this, there are multiple ways to remove them.
+Properties exist independently from [Types](/organize/types/) and [Objects](/create/objects/)—they are their own thing. Because of this, there are multiple ways to remove them.
 
 #### From a Type
 

@@ -4,7 +4,7 @@ title: "Vault Settings"
 
 Your [Vault](/basics/vault/) is essentially your account. This section contains your preferences and settings. To access it, you can:
 
-1. Open your [Vault Sidebar](../basics/sidebar/).
+1. Open your [Vault Sidebar](/basics/sidebar/).
 2. Click your profile picture in the bottom-left corner.
 
 Or use the menu of your operating system:
@@ -106,11 +106,11 @@ Operating system-level security provides better protection than an app-level PIN
 
 ### Login Key
 
-You can access your Key or scan the QR code to connect your mobile device. For more details, please check [key.md](../basics/key.md "mention").
+You can access your Key or scan the QR code to connect your mobile device. For more details, please check [Key](/basics/key/).
 
 ![docs welcome 3](/assets/docs-welcome-3.jpg)
 
-**Vault Deletion:** Also, if you would like to delete your vault, you can do it in this section. Learn more here: [data-erasure-and-recovery.md](../data/data-erasure-and-recovery.md "mention")
+**Vault Deletion:** Also, if you would like to delete your vault, you can do it in this section. Learn more here: [Data Erasure & Recovery](/data/data-erasure-and-recovery/)
 
 ***
 

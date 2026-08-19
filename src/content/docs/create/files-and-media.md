@@ -1,8 +1,5 @@
 ---
 title: "Files & Media"
----
-
----
 description: Upload images, videos, audio, and files as standalone Objects.
 ---
 

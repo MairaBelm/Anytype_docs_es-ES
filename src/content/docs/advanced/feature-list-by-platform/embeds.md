@@ -1,8 +1,5 @@
 ---
 title: "Embeds"
----
-
----
 description: Add live external content directly inside your Objects.
 ---
 
@@ -24,7 +21,7 @@ Embeds keep your work in one place. A project page can show:
 
 The fastest way:
 
-1. In the editor, type `/` to open the menu and type the name of your desired Embed—[full list here](/advanced/feature-list-by-platform/embeds/#supported-embed-types). Or scroll down to the Embeds section.
+1. In the editor, type `/` to open the menu and type the name of your desired Embed—[full list here](/advanced/feature-list-by-platform/embeds/#supported-embeds). Or scroll down to the Embeds section.
 2. Pick the type and paste the URL when prompted.
 
 You can also paste a URL directly into the editor. The paste menu offers four options:
@@ -63,7 +60,7 @@ If the URL is from a recognized embeddable service, **Embed** is the default. Fo
 
 #### Code and content
 
-* **LaTeX** — see here for more information: [inline-latex.md](../../create/editor/inline-latex.md "mention")
+* **LaTeX** — see here for more information: [Inline LaTex](/create/editor/inline-latex/)
 * **GitHub Gist** — paste a Gist URL
 * **CodePen** — paste a Pen URL
 * **CodeSandbox** — paste a sandbox URL
@@ -84,7 +81,7 @@ Beyond external URLs, you can embed files directly from your Objects:
 * **Audio** — drag in or use `/audio`
 * **PDF** — drag in or use `/pdf`
 
-These embeds are connected to the [File Object](https://github.com/anyproto/docs-new/blob/main/getting-started/files-and-media.md) — the file becomes its own Object in your Channel that you can find, link, and tag.
+These embeds are connected to the [File Object](/create/files-and-media/) — the file becomes its own Object in your Channel that you can find, link, and tag.
 
 #### File block default style
 
@@ -99,7 +96,7 @@ The default is set in **Vault Settings > Application > Editor Personalization > 
 
 Most embed blocks (especially videos, maps, and visual content) have a resize handle. Drag the handle to make the embed larger or smaller. Changes are saved per-block.
 
-You can put an embed in a column alongside text by dragging it next to another block — see [Blocks](../../create/editor/) for column layouts.
+You can put an embed in a column alongside text by dragging it next to another block — see [Blocks](/create/editor/) for column layouts.
 
 ### Mermaid syntax (quick reference)
 

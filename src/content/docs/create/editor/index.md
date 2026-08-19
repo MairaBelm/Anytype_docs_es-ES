@@ -2,7 +2,7 @@
 title: "Editor"
 ---
 
-Anytype is a block-based editor and all [Pages](https://app.gitbook.com/o/Ssa9i5QAuI6HhV4jXCLv/s/uI82XLdf1100Q75OKbEQ/~/edit/~/changes/46/creation/object-editor/format#page-format) are built with blocks, which makes your content flexible and easy to use. The editor is the primary way for you to build documents on Anytype.
+Anytype is a block-based editor and all [Pages](/create/objects/formats/#page-format) are built with blocks, which makes your content flexible and easy to use. The editor is the primary way for you to build documents on Anytype.
 
 ## How it works
 
@@ -86,7 +86,7 @@ Within any text block, you can format individual characters or words. Highlight 
 * **Link** — `Cmd/Ctrl + K`, then paste a URL or search for an Object
 * **Highlight color** — select text, choose a color from the toolbar
 * **Text color** — same as highlight, in the toolbar
-* **Quote in discussion** — copies text into a [discussions.md](../../collaborate/discussions.md "mention") post.
+* **Quote in discussion** — copies text into a [Discussion](/collaborate/discussions/) post.
 
 ![docs blocks inline styling 2](/assets/docs-blocks-inline-styling-2.jpg)
 
@@ -134,5 +134,5 @@ Repeat to add more columns. To break a column back into a single column, drag a 
 ## Tips
 
 :::note
-**Toggled Headings + Table of Contents = best long-page navigation.** With both turned on, you can collapse sections you're not editing and use the Table of Contents to jump between sections. See [Toggled Headings](https://github.com/anyproto/docs-new/blob/main/advanced/feature-list-by-platform/toggled-headings.md).
+**Toggled Headings + Table of Contents = best long-page navigation.** With both turned on, you can collapse sections you're not editing and use the Table of Contents to jump between sections. See [Toggled Headings](toggled-headings/).
 :::

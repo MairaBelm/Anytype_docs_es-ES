@@ -18,9 +18,9 @@ If an Object is a cookie, then the Type is the cookie cutter. It's a blueprint t
 
 Every Object has one Type, which you apply on creation and can change at any time. Anytype comes with built-in Types, but you can create your own custom Types to match your needs. Every Type has:
 
-* [properties.md](properties.md "mention") — adds definition, such as address, date created, and tags.
-* [views.md](views.md "mention") — adds organisation, such as a calendar for all important events.
-* [templates.md](templates.md "mention") — adds standards, such as all vacations having a photo album.
+* [Properties](/organize/properties/) — adds definition, such as address, date created, and tags.
+* [Views](/organize/views/) — adds organisation, such as a calendar for all important events.
+* [Templates](/organize/templates/) — adds standards, such as all vacations having a photo album.
 
 ## Create Types
 
@@ -34,7 +34,7 @@ Importantly, only Types that have at least one Object will display in the Sideba
 
 #### Channel Settings
 
-You can view all your Types in your [channel-settings.md](../settings/channel-settings.md "mention") under Content Model. Click on the 'New' button to add a new type to your Space.
+You can view all your Types in your [Channel Settings](/settings/channel-settings/) under Content Model. Click on the 'New' button to add a new type to your Space.
 
 Additionally, you can set the **Default Object Type** in the Channel Settings. This changes which Type is applied to your Object when clicking the Create button.
 
@@ -44,8 +44,8 @@ Additionally, you can set the **Default Object Type** in the Channel Settings. T
 
 To access the Type settings, there are three primary ways:
 
-1. Navigate to the Type from the [Sidebar](../basics/sidebar/) and click **Edit Type** on the top right-hand side.
-2. When viewing an [Object](../create/objects/), click on the 'three dots' button on the top right corner, and select the **Type settings** option.
+1. Navigate to the Type from the [Sidebar](/basics/sidebar/) and click **Edit Type** on the top right-hand side.
+2. When viewing an [Object](/create/objects/), click on the 'three dots' button on the top right corner, and select the **Type settings** option.
 3. Navigate to the [Channel Settings](/settings/channel-settings/), click on **Object Types**, and select your desired Type.
 
 ![types edit type](/assets/types-edit-type.gif)
@@ -86,7 +86,7 @@ When changing Types, the Properties are retained on the Object. This means that 
 
 #### Bulk-changing Types
 
-If you want to change the Type for multiple Objects at the same time, it's best to use [views.md](views.md "mention"). Please [see here](/organize/views/#bulk-editing-objects) for more details.
+If you want to change the Type for multiple Objects at the same time, it's best to use [Views](/organize/views/). Please [see here](/organize/views/#bulk-editing-objects) for more details.
 
 ## Deleting Types
 
@@ -98,7 +98,7 @@ If the Type still has Objects that are part of it, it will trigger a confirmatio
 
 ## Duplicating Types to other Channels
 
-Types are specific to each Channel. If you want your Type to exist in other Spaces, please see [import-and-export](../data/import-and-export/ "mention"). At the moment, you cannot share Types between spaces that stay in sync because they are separated with different encryption keys.
+Types are specific to each Channel. If you want your Type to exist in other Spaces, please see [Import & Export](/data/import-and-export/). At the moment, you cannot share Types between spaces that stay in sync because they are separated with different encryption keys.
 
 ## Tips
 

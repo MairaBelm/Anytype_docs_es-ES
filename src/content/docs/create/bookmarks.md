@@ -1,8 +1,5 @@
 ---
 title: "Bookmarks"
----
-
----
 description: Save and organize web links as first-class Objects.
 ---
 
@@ -76,7 +73,7 @@ Because Bookmarks are Objects with their own Type, you can:
 * **Add an Object Property** linking each Bookmark to a Project or Topic
 * **Use the Gallery layout** in a Query to see Bookmarks as visual cards
 
-See [views.md](../organize/views.md "mention") for more details.
+See [Views](/organize/views/) for more details.
 
 ## Tips
 

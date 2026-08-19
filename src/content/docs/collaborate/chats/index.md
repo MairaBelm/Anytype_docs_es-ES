@@ -1,8 +1,5 @@
 ---
 title: "Chats"
----
-
----
 description: Real-time conversations alongside your work.
 ---
 
@@ -15,7 +12,7 @@ Chats give you the rhythm of a messaging app — quick replies, reactions, file 
 
 ## How it works
 
-Just like documents and files, Chats are [Objects](../../create/objects/) that have their own dedicated [Type](/organize/types/). This means that a Chat:
+Just like documents and files, Chats are [Objects](/create/objects/) that have their own dedicated [Type](/organize/types/). This means that a Chat:
 
 * Lives in the Types section of the Sidebar under 'Chat'.
 * Can have its own [Properties](/organize/properties/).
@@ -125,7 +122,7 @@ You can only edit or delete your own messages. Channel Owners cannot edit other 
 
 Drag a file onto the Chat input or paste it from the clipboard. The file uploads and:
 
-* Becomes a [File Object](https://github.com/anyproto/docs-new/blob/main/getting-started/files-and-media.md) you can find later
+* Becomes a [File Object](/create/files-and-media/) you can find later
 * Shows as a preview card in the chat
 * Is searchable through global search
 
@@ -151,7 +148,7 @@ Per-Chat notification settings let you control how loud each Chat is.
    * **Mentions only** — only when you're `@`-mentioned
    * **Disable all** — no notifications (unread counter still updates)
 
-These settings are per-Chat and override Channel-level defaults. See [Notifications](https://github.com/anyproto/docs-new/blob/main/getting-started/notifications.md) for the full picture.
+These settings are per-Chat and override Channel-level defaults. See [Notifications](/settings/channel-settings/#notifications) for the full picture.
 
 ## Chat Settings
 
@@ -199,5 +196,5 @@ As a result, chat objects and messages cannot be exported — they are inherentl
 :::
 
 :::note
-**For Object-specific feedback, use Discussions instead of Chat.** Discussions live on the Object and stay attached forever. Chats are for cross-Object conversations and stream-of-consciousness collaboration. See [Discussions](https://github.com/anyproto/docs-new/blob/main/getting-started/discussions.md).
+**For Object-specific feedback, use Discussions instead of Chat.** Discussions live on the Object and stay attached forever. Chats are for cross-Object conversations and stream-of-consciousness collaboration. See [Discussions](/collaborate/discussions/).
 :::

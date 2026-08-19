@@ -55,7 +55,7 @@ Space Members can have various roles, each with different privileges. Periodical
 
 ### Access & Invitations
 
-In this section, you are able to invite others into your space and set their permissions. For details on how it works, please see [collaboration.md](../collaborate/collaboration.md "mention").
+In this section, you are able to invite others into your space and set their permissions. For details on how it works, please see [Collaboration](/collaborate/collaboration/).
 
 * Copy link — a shareable URL link for people to join the space.
 * QR code — A QR code suitable for sharing in public places.

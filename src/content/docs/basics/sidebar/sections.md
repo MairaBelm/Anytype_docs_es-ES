@@ -1,8 +1,5 @@
 ---
 title: "Sections"
----
-
----
 description: Customize what appears in your Channel sidebar.
 ---
 
@@ -26,7 +23,7 @@ Anytype has two distinct mechanisms:
 * **My Favorites** — personal, visible only to you. Use the 'star' icon
 * **Shared Pins** — public and visible to all members. The Channel Owner sets them.
 
-To learn more on how to add, remove, and organize them, see [pins-and-favorites.md](pins-and-favorites.md "mention") for details.
+To learn more on how to add, remove, and organize them, see [Pins & Favorites](/basics/sidebar/pins-and-favorites/) for details.
 
 ![sidebar pins favorites](/assets/sidebar-pins-favorites.jpg)
 
@@ -37,7 +34,7 @@ The [Types](/organize/types/) section is the master index of your space. Here ar
 * **Quick Create Object** — hover over any Type to reveal a '+' button. Click it to create a new Object of that Type instantly.
 * **Add New Types** — hover over the Type section title to reveal a '+ New Type' button.
 * **Reorder Types** — click and drag a Type to reorder its position in the list.
-* **Hidden Types** — only Types that have at least one Object appear in the sidebar automatically. To create an Object of a Type that isn't visible on the sidebar, click the [Create Dropdown in the Sidebar](../../create/objects/#create-menu) to reveal all your Types.
+* **Hidden Types** — only Types that have at least one Object appear in the sidebar automatically. To create an Object of a Type that isn't visible on the sidebar, click the [Create Dropdown in the Sidebar](/create/objects/#create-menu) to reveal all your Types.
 
 ![sidebar types](/assets/sidebar-types.jpg)
 
@@ -57,7 +54,7 @@ Use **Only me** in busy team Channels where your own work would otherwise be bur
 
 ### Unread
 
-The **Unread** section surfaces notifications from your Channel. These typically come from [chats](../../collaborate/chats/ "mention") and [discussions.md](../../collaborate/discussions.md "mention"). This section is temporary, appearing and disappearing based on active notifications.
+The **Unread** section surfaces notifications from your Channel. These typically come from [Chats](/collaborate/chats/) and [Discussions](/collaborate/discussions/). This section is temporary, appearing and disappearing based on active notifications.
 
 You can reorder this section to be at the top or bottom, depending on your needs. You cannot hide this section. See [Manage Sections](/basics/sidebar/sections/#manage-sections) for more details.
 

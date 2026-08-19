@@ -1,8 +1,5 @@
 ---
 title: "Tabs"
----
-
----
 description: Open multiple Objects side by side in a tab bar.
 ---
 
@@ -42,7 +39,7 @@ Open **Vault Settings > Application > Preferences** and look for **Tabs** to cho
 
 ### Focus mode
 
-You can create your own [focus mode](../../basics/sidebar/#focus-mode) with the 'Toggle Vault & Channel Sidebar' [keyboard shortcut ](/advanced/settings/keyboard-shortcuts/)to hide both sidebars at the same time. This mitigates distractions and stops you from navigating away from your active tab.
+You can create your own [focus mode](/basics/sidebar/#focus-mode) with the 'Toggle Vault & Channel Sidebar' [keyboard shortcut ](/advanced/settings/keyboard-shortcuts/)to hide both sidebars at the same time. This mitigates distractions and stops you from navigating away from your active tab.
 
 ![docs sidebar focus](/assets/docs-sidebar-focus.gif)
 

@@ -1,8 +1,5 @@
 ---
 title: "Formulas"
----
-
----
 description: Aggregations and counts in Grid view.
 ---
 
@@ -60,7 +57,7 @@ The formulas available depend on the Property format of the column. Here's the f
 * **Grid view only** — other layouts (List, Gallery, Board) don't show formulas
 * **Per-View** — each View remembers its own formula choice, so a Grid View and a List View of the same Query don't share formulas
 
-For more complex calculations, export the data to CSV and process it externally — or use the [Anytype Agents Skill](https://github.com/anyproto/docs-new/blob/main/getting-started/anytype-agents-skill.md) to run scripts against your data.
+For more complex calculations, export the data to CSV and process it externally — or use the [Anytype Agents Skill](/advanced/feature-list-by-platform/anytype-agents-skill/) to run scripts against your data.
 
 ## Common patterns
 

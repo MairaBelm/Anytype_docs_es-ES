@@ -1,9 +1,5 @@
 ---
 title: "Links"
----
-
----
-Description: How to link your Objects together.
 description: Creating relationships in your knowledge base
 ---
 
@@ -38,12 +34,12 @@ Directly through the editor by using:
 
 ### Link to a Property
 
-When viewing an Object, you can add links to [properties.md](../organize/properties.md "mention") using:
+When viewing an Object, you can add links to [Properties](/organize/properties/) using:
 
-1. [**Object Header**](/organize/properties/#properties-in-the-object-header) — Select a property from the header. If the property is not visible, add it to the header from the [type settings](/organize/properties/#create-and-manage-properties).
-2. [**Block Menu**](editor/#adding-blocks) — Add an inline property block from the menu using the plus button or slash command.
+1. [**Object Header**](/organize/properties/#properties-in-the-object-header) — Select a property from the header. If the property is not visible, add it to the header from the [type settings](/organize/properties/#create--manage-properties).
+2. [**Block Menu**](/create/editor/#adding-blocks) — Add an inline property block from the menu using the plus button or slash command.
 
-Alternatively, you can add a property from [views.md](../organize/views.md "mention"). This is better when you are editing properties of multiple Objects.
+Alternatively, you can add a property from [Views](/organize/views/). This is better when you are editing properties of multiple Objects.
 
 ![docs links properties](/assets/docs-links-properties.gif)
 
@@ -68,7 +64,7 @@ To add such a link, select the "Link to website" in the editor just like when yo
 
 #### Backlinks
 
-You can use the Backlinks property in the Object Header to check which Objects link to the currently opened one. If you cannot locate the Backlinks property, go to the Type settings and add it to Header section. [See here for more details](/organize/properties/#create-and-manage-properties).
+You can use the Backlinks property in the Object Header to check which Objects link to the currently opened one. If you cannot locate the Backlinks property, go to the Type settings and add it to Header section. [See here for more details](/organize/properties/#create--manage-properties).
 
 ![docs link back](/assets/docs-link-back.gif)
 
@@ -78,4 +74,4 @@ In your documents you may have multiple connections which could be attached to o
 
 ![docs links backlink graph](/assets/docs-links-backlink-graph.gif)
 
-Learn more about [properties.md](../organize/properties.md "mention") and the [graph.md](../advanced/feature-list-by-platform/graph.md "mention") with these links.
+Learn more about [Properties](/organize/properties/) and the [Graph](/advanced/feature-list-by-platform/graph/) with these links.
