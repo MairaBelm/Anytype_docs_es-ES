@@ -1,115 +1,115 @@
 ---
-description: Surfacing information from your knowledge base
+description: Presentaciones de los datos de tu base de conocimiento
 ---
 
-# Queries
+# Consultas
 
-A Query is a question you ask your knowledge base—answered instantly and kept up to date automatically. Rather than manually curating a list of things you're looking for, you define the criteria and the Query assembles the result for you as a [View](views.md). For example:
+Una consulta es una pregunta que le haces a tu base de conocimiento, contestada al instante y actualizada automáticamente. En lugar de crear a mano una lista de los objetos que buscas, defines unos criterios y la consulta te presenta el resultado en una [vista](views.md). Por ejemplo:
 
-* Show me everything that's tagged `idea` that was created `in the last 30 days`.
-* Show me all my work where the status is `active`, the priority is `high`, and not marked as `done`.
+* Preséntame todo lo que esté etiquetado como `idea` y se haya creado durante `los últimos 30 días`.
+* Preséntame todos los objetos que tengan un estado `activo`, una prioridad `alta` y no estén marcados como `listo`.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Queries Intro.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 ## Qué significa esto
 
-[Types](types.md) and [Properties](properties.md) give your Objects structure, Queries then go and turn that structure into useful answers.
+Los [tipos](types.md) y las [propiedades](properties.md) dan estructura a tus objetos; las consultas emplean esa estructura para darte respuestas útiles.
 
-* Instead of remembering where things are, the right Objects get surfaced at the right time, in the right format.
-* Instead of manually organizing everything, you define rules once and Queries keep up with your content as it grows.
+* No necesitas recordar dónde has puesto las cosas: el objeto preciso aparece en el momento preciso y en el formato preciso.
+* No necesitas ordenarlo todo a mano: defines las reglas una vez y las consultas se actualizan con tu contenido a medida que este crece.
 
-## When to use Queries
+## Cuándo usar consultas
 
-Use a query when you want to see a slice of your knowledge base that changes over time and would be tedious to maintain by hand. You can create and delete Queries without ever affecting the data in your spaces. Here are some examples:
+Usa una consulta cuando quieras ver una parte de tu base de conocimiento que cambia constantemente y que sería tedioso mantener a mano. Las consultas se crean y se eliminan sin que esto afecte a los datos de tus espacios. Por ejemplo:
 
-* You want a dashboard — a Query for everything that has a deadline set for `today`.
-* You have a recurring review — a Query for everything with a `triage` status sorted by oldest first.
-* You want to find something — a Query for everything tagged with `insight`.
+* si quieres una agenda, consulta todo lo que tenga la fecha límite de `hoy`;
+* si tienes una revisión periódica, consulta todo lo que tenga el estado `revisar`, ordenado de más antiguo a más nuevo;
+* si quieres encontrar un dato, consulta todo lo que tenga la etiqueta `información`.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Queries Explained.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-> **Example**:
+> **Ejemplo**:
 >
-> Say your Space has three Types: Books, Movies, and Games — all sharing a Genre property. You can create a Query filtering for Genre = Science Fiction, and the result is a View showing every science fiction book, movie, and game in your Space, automatically updated as you add new entries.
+> Supongamos que tu espacio tiene tres tipos: Libros, Películas y Juegos, con la propiedad «Género» en todos ellos. Si creas una consulta que filtre tus objetos por «Género = Ciencia ficción», el resultado será una vista que presente todos los libros, películas y juegos de ciencia ficción de tu espacio, y estará actualizada siempre con los objetos de esta categoría que vayas creando.
 >
-> In other words, the Query is a living answer to: *"What science fiction media do I have?"* See how to [create this Query below](queries.md#create-a-query).
+> En otras palabras, esta consulta es una respuesta constante a la pregunta *«¿qué material tengo de ciencia ficción?».* Más abajo tienes un ejemplo de cómo [crear esta consulta](queries.md#como-crear-una-consulta).
 
-#### Types vs. Queries
+#### Relación entre tipos y consultas
 
-[Types](types.md) are effectively built-in Queries, they are the same thing. However, because every Object can only have one Type, Queries really shine when you want to find and group Objects that belong to multiple Types.
+Los [tipos](types.md) son, en el fondo, consultas integradas en el sistema. Sin embargo, como cada objeto solo puede tener un tipo, las consultas tienen verdadera utilidad cuando quieres encontrar y agrupar objetos que pertenecen a distintos tipos.
 
-> **Example**:
+> **Ejemplo**:
 >
-> You want to find everything related to privacy in your space. You create a Query that looks for all Objects tagged with 'privacy'. This may pull Objects from various Types, such as Projects, Tasks, Bookmarks, Notes, Films, and News Articles.
+> Quieres ver todo lo que hay tu espacio que esté relacionado con la privacidad. Creas una consulta para buscar todos los objetos que tengan la etiqueta «privacidad». La consulta extrae objetos de diversos tipos, como proyectos, tareas, marcadores, notas, películas y artículos de prensa.
 
-#### Collections vs. Queries
+#### Relación entre colecciones y consultas
 
-Use a [Collection](collections.md) when you want a hand-picked group of Objects with no clear relationship between them. The tradeoff is manual upkeep — Collections don't update themselves, so they can fall out of date as your Space grows. Queries shine when the group has a logical rule behind it. If you can define it as criteria, let Anytype maintain it for you.
+Usa una [colección](collections.md) cuando quieras agrupar a mano objetos que carezcan de una relación clara entre sí. Las colecciones tienen el inconveniente de que su mantenimiento es manual; no se actualizan por sí mismas, por lo que pueden quedar anticuadas cuando tu espacio crezca. Por su parte, las consultas son ideales cuando los elementos del grupo comparten una regla lógica. Si puedes emplear esa regla como criterio, deja que Anytype se encargue de la gestión.
 
-> **Example**:
+> **Ejemplo**:
 >
-> You want to see everything in your Space that hasn't been sorted yet. Create a Query filtering for Objects with no tags, sorted by date modified. This way, you'll always have an up-to-date inbox of unorganized content to sort through, no matter how much your Space evolves.
+> Quieres ver todo el contenido de tu espacio que aún no está ordenado. Creas una consulta para buscar todos los objetos que no tienen ninguna etiqueta, ordenados por fecha de modificación. De esta forma, tienes siempre al día un buzón con el contenido pendiente de organizar, por mucho que evolucione tu espacio.
 
-## Create a Query
+## Cómo crear una consulta
 
-Queries live in all the same places as Types—the Sidebar, the Create menu, and Channel Settings. And like Types, every Query has Views that work the same way. To create a Query:
+Encontrarás las consultas en los mismos lugares que los tipos: la barra lateral, el menú Crear y los ajustes del canal. Y al igual que los tipos, las consultas cuentan con vistas, que funcionan de la misma manera. Para crear una consulta, puedes seguir estos pasos:
 
-1. In the Sidebar, click on the [Create Dropdown button](../create/objects/#menú-crear) and select **Query**.
-2. Choose a **source**. This can be a:
-   1. [Type](types.md), such as Tasks, Projects, Books.
-   2. [Property](properties.md), such as all Objects with a 'Reviewed' tag property.
-3. Set your **filters** and **sorts**.
-4. Choose a **layout**.
+1. Haz clic en el [botón desplegable Crear](../create/objects/#menu-crear) de la barra lateral y selecciona **Consulta** (Query).
+2. Elige uno de estos **parámetros**:
+   1. [Tipo](types.md), para obtener objetos de una misma categoría, como tareas, proyectos, libros.
+   2. [Propiedad](properties.md), para obtener objetos con una propiedad en común, como una etiqueta, un estado o un responsable.
+3. Configura **filtros** y criterios de **orden**.
+4. Elige un **diseño**.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Queries Create.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Queries Create.gif" alt=""/><figcaption></figcaption></figure></div>
 
-## Using Queries
+## Cómo usar las consultas
 
-To learn more about how to manage Queries and their settings, see the [Views](views.md#cómo-funciona) section.
+Puedes ver con detalle cómo gestionar las consultas y sus ajustes en la sección [Vistas](views.md#como-funciona).
 
-### Sidebar Widget
+### Widget de la barra lateral
 
-You can also add [Queries to your Sidebar as a Widget](views.md#views-in-sidebar), just like any other View.
+Las consultas se pueden [añadir a la barra lateral](views.md#vistas-en-la-barra-lateral) en forma de widgets, igual que cualquier vista.
 
-### Inline Queries
+### Consultas insertadas
 
-You can use the **Inline Query** block in the editor to add a Query directly into pages. This enables you to see your Objects right alongside your content.
+Puedes insertar consultas directamente en las páginas con el bloque **Consulta insertada**. Así podrás ver los objetos junto con tu contenido.
 
-1. While editing a page, open the command menu using the `+` button or type `/inline query`.
-2. Select **Inline Query**.
-3. Create a new Query or select a pre-existing one.
+1. Mientras editas una página, abre el menú de comandos con el botón `+` o escribe `/consulta`:
+2. Selecciona **Consulta insertada**.
+3. Crea una consulta o inserta una existente.
 
-Types are also considered a Query, this is why they also appear in the list of choices.
+Los tipos también se consideran una consulta, por eso aparecen también en la lista de opciones.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Query Inline.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### Editing Inline Queries
+#### Modificación de las consultas insertadas
 
-Edits made to the View of an Inline Query apply only to that specific block. Editing an Inline View inside an Object doesn't affect the master View — that stays intact at the [Type](types.md), [Query](queries.md), or [Collection](collections.md) level. This means each Object can have its own version of the Inline View without ever touching the master.
+Las modificaciones que hagas en las vistas de una consulta insertada solo se aplican a ese bloque y no afectan a la vista principal, que se mantiene sin cambios en el [tipo](types.md), la [consulta](queries.md) o la [colección](collections.md) original. Esto significa que cada objeto puede tener su propia versión de la vista insertada sin modificar nunca la original.
 
-This is different from editing actual Objects and their Properties through an Inline View: those changes **do** affect the underlying Objects and are reflected everywhere they appear across the Space.
+Por el contrario, si modificas los objetos y sus propiedades en la vista insertada, esos cambios **sí **se aplicarán al objeto y se reflejarán allá donde aparezca en todo ese espacio.
 
-## Deleting Queries
+## Cómo eliminar consultas
 
-Just like Views, Queries are separate from the Objects they organize. Deleting a Query does not affect the underlying Objects—you can safely remove them from your space without losing any data.
+Al igual que las vistas, las consultas son independientes de los objetos que organizan. Eliminar una consulta no afecta a los objetos subyacentes: puedes eliminar cualquier consulta de tu espacio sin perder ningún dato.
 
-To delete a Query, navigate to your Queries in your Sidebar. You can then delete it like any Object:
+Para eliminar una consulta, ve a la sección «Consultas» de la barra lateral. Desde ahí puedes eliminarla como cualquier objeto:
 
-* Right-click the Query in the View to reveal a menu, select Move to Bin.
-* Open the Query and click on the 'three dots' menu in the top right corner, select Move to Bin.
+* Haz clic derecho en la consulta para abrir el menú y selecciona «Mover a la papelera».
+* Abre la consulta, haz clic en el menú de tres puntos de la esquina superior derecha y selecciona «Mover a la papelera».
 
-## Tips
+## Notas
 
-{% hint style="info" %}
-**Don't create a Query when a Type is enough.** You can think of Types as built-in Queries. It's best to create Queries when you're bringing together Objects from multiple different Types.
+**{% hint style="info" %}
+No crees una consulta cuando el tipo sea suficiente.** Puedes considerar los tipos como consultas integradas. Es mejor crear consultas cuando quieres reunir objetos de varios tipos distintos.
 {% endhint %}
 
-{% hint style="info" %}
-**Save filter combinations as Views, not new Queries.** If you find yourself filtering the same Query the same way repeatedly, save it as a View. Views let you switch between filter configurations in one click.
+**{% hint style="info" %}
+Guarda las combinaciones de filtros como vistas, no como consultas nuevas.** Si adviertes que estás filtrando la misma consulta de la misma manera una y otra vez, guarda esos filtros como una vista. Las vistas te permiten pasar de un conjunto de filtros a otro con un solo clic.
 {% endhint %}
 
-{% hint style="info" %}
-**For manually-curated groupings, use a** **[**Collection](collections.md) **instead.** Queries are rule-driven by the system while Collections are hand-picked by you.
+**{% hint style="info" %}
+Si quieres agrupar objetos de forma manual, usa una** **[colección](collections.md).** Las consultas están controladas por el sistema mediante reglas, mientras que las colecciones las creas tú personalmente.
 {% endhint %}

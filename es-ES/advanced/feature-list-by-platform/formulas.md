@@ -2,7 +2,7 @@
 description: Aggregations and counts in Grid view.
 ---
 
-# Formulas
+# Fórmulas
 
 **Formulas** let you summarize and aggregate Property values across the Objects in a Query or Collection. When you're looking at your data in Grid view, you can show counts, sums, averages, minimums, maximums, and other calculations at the bottom of any column.
 
@@ -33,19 +33,19 @@ The result displays in the column footer and updates as your data changes.
 
 ## Available formulas
 
-The formulas available depend on the Property type of the column. Here's the full list:
+The formulas available depend on the Property format of the column. Here's the full list:
 
-#### For all Property types
+#### For all Property formats
 
-|Formula                 |What it calculates                            |
-|------------------------|----------------------------------------------|
-|**None**                |No formula (default)                          |
-|**Count**               |Total number of Objects in the column         |
-|**Count  Unique Values**|Number of distinct values                     |
-|**Count Empty**         |Number of Objects with no value in this column|
-|**Count Not Empty**     |Same as Count Values                          |
-|**Percent Empty**       |% of Objects with no value                    |
-|**Percent Not Empty**   |% of Objects with a value                     |
+|Formula                |What it calculates                            |
+|-----------------------|----------------------------------------------|
+|**None**               |No formula (default)                          |
+|**Count**              |Total number of Objects in the column         |
+|**Count Unique Values**|Number of distinct values                     |
+|**Count Empty**        |Number of Objects with no value in this column|
+|**Count Not Empty**    |Same as Count Values                          |
+|**Percent Empty**      |% of Objects with no value                    |
+|**Percent Not Empty**  |% of Objects with a value                     |
 
 #### For Number Properties (Math)
 
@@ -72,25 +72,25 @@ For more complex calculations, export the data to CSV and process it externally 
 #### Sprint hours estimate
 
 ```
-Query: Tasks
+Query: Tareas
 Filter: Sprint = "Sprint 14"
-Property: Estimated Hours (Number)
-Formula: Sum
+Propiedad: Estimated Hours (Number)
+Formula: Suma
 ```
 
 #### Reading stats
 
 ```
-Query: Books
-Property 1: Rating (Number) → Formula: Average
-Property 2: Pages (Number) → Formula: Sum
+Query: Libros
+Property 1: Rating (Number) → Formula: Promedio
+Property 2: Pages (Number) → Formula: Suma
 Property 3: Status (Select) → Formula: Count by Option
 ```
 
 #### Project portfolio
 
 ```
-Query: Projects
-Group by: Status
-Property: Budget (Number) → Formula: Sum (per group)
+Query: Proyectos
+Group by: Estado
+Propiedad: Budget (Number) → Formula: Sum (per group)
 ```

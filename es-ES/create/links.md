@@ -38,7 +38,7 @@ Directamente en el editor mediante uno de estos métodos:
 Puedes vincular el objeto a [properties.md](../organize/properties.md "mention") de distintas formas:
 
 1. **[Cabecera del objeto](../organize/properties.md#propiedades-en-la-cabecera-del-objeto)**: selecciona una propiedad en la cabecera. Si la propiedad no está visible, añádela a la cabecera desde los [ajustes del tipo](../organize/properties.md#como-crear-y-gestionar-las-propiedades).
-2. **[Menú de bloque](editor/README.md#adding-blocks)**: inserta un bloque de propiedad desde el menú usando el botón «+» o el comando «/».
+2. **[Menú de bloque](editor/#como-anadir-bloques)**: inserta un bloque de propiedad desde el menú usando el botón «+» o el comando «/».
 
 También puedes añadir una propiedad desde [views.md](../organize/views.md "mention"). Este es el mejor método para editar las propiedades de varios objetos.
 

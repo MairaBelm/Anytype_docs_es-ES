@@ -1,6 +1,6 @@
 # Editor
 
-Anytype es un editor basado en bloques y todas las [páginas](../objects/formats.md#formato-de-página) se construyen con bloques, de forma que tu contenido es flexible y fácil de usar. El editor es la forma principal de crear documentos en Anytype.
+Anytype es un editor basado en bloques y todas las [páginas](../objects/formats.md#formato-de-pagina) se construyen con bloques, de forma que tu contenido es flexible y fácil de usar. El editor es la forma principal de crear documentos en Anytype.
 
 ## Cómo funciona
 
@@ -56,7 +56,7 @@ Para los bloques de texto, puedes usar atajos de teclado estilo Markdown al inic
 Pasa el puntero sobre un bloque para destacarlo. Aparecen las opciones del bloque:
 
 * **Control del bloque** (tres puntos a la izquierda), para moverlo, eliminarlo o transformarlo.
-* **Botón +** (a la izquierda), para insertar un bloque nuevo.
+* **Botón + **(a la izquierda), para insertar un bloque nuevo.
 * **Barra flotante** (en algunos bloques), para dar formato al texto.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Blocks Options.jpg" alt=""/><figcaption></figcaption></figure></div>
@@ -92,7 +92,7 @@ Dentro de un bloque de texto puedes aplicar formatos a palabras o caracteres por
 
 Cada bloque tiene un control en su lado izquierdo que abre el menú de opciones del bloque:
 
-* **Convertir en objeto**: convierte un bloque en otro tipo de bloque, como frase → título o lista numerada → lista con viñetas.
+* **Estilo**: convierte un bloque en otro tipo de bloque, como frase → título o lista numerada → lista con viñetas.
 * **Color**: cambia el color del texto.
 * **Fondo**: cambia el color de fondo.
 * **Mover a**: traslada el bloque a otro objeto.

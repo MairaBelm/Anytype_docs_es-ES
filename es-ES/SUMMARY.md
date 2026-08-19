@@ -35,12 +35,12 @@
 * [Tipos](organize/types.md)
 * [Propiedades](organize/properties.md)
 * [Vistas](organize/views.md)
-* [Queries](organize/queries.md)
-* [Collections](organize/collections.md)
+* [Consultas](organize/queries.md)
+* [Colecciones](organize/collections.md)
 * [Templates](organize/templates.md)
 * [Deletion](organize/deletion.md)
 
-## Collaborate
+## Colaborar
 
 * [Collaboration](collaborate/collaboration.md)
 * [Chats](collaborate/chats/README.md)
@@ -48,7 +48,7 @@
 * [Discussions](collaborate/discussions.md)
 * [Publish](collaborate/publish.md)
 
-## Features
+## Funciones
 
 * [Graph](advanced/feature-list-by-platform/graph.md)
 * [Dates](advanced/feature-list-by-platform/dates.md)
@@ -63,7 +63,7 @@
   * [Raycast Extension (macOS)](advanced/feature-list-by-platform/raycast-extension-macos.md)
 * [Anytype Agents' Skill](advanced/feature-list-by-platform/anytype-agents-skill.md)
 
-## Data
+## Datos
 
 * [Sync & Backup](data/sync-and-backup/README.md)
   * [Self-host](data/sync-and-backup/self-host.md)
@@ -77,9 +77,9 @@
 * [Data Erasure & Recovery](data/data-erasure-and-recovery.md)
 * [Analytics & Tracking](data/analytics-and-tracking.md)
 
-## Settings
+## Ajustes
 
-* [Vault Settings](settings/vault-settings.md)
+* [Ajustes del arca](settings/vault-settings.md)
 * [Channel Settings](settings/channel-settings.md)
 * [Keyboard Shortcuts](advanced/settings/keyboard-shortcuts.md)
 
@@ -90,7 +90,7 @@
 * [Galería de experiencias ANY](advanced/community/any-experience-gallery.md)
 * [Nightly Ops](advanced/community/nightly-ops.md)
 
-## 📚 Resources
+## 📚 Recursos
 
 * [Memberships](resources/memberships/README.md)
   * [Refund policy](resources/memberships/refund-policy.md)

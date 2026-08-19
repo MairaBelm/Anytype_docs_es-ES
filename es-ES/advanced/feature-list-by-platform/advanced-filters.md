@@ -1,58 +1,58 @@
 ---
-description: Crea consultas precisas con lógica AND/OR y condiciones agrupadas.
+description: Build precise queries with AND/OR logic and grouped conditions.
 ---
 
 # Filtros avanzados
 
-**Filtros avanzados** te permite combinar varias condiciones de filtro con lógica Y/O y agruparlas en reglas anidadas, para que puedas expresar consultas complejas como:
+**Advanced Filters** let you combine multiple filter conditions with AND/OR logic and group them into nested rules — so you can express complex queries like:
 
-> Muéstrame todas las tareas donde (la prioridad es Alta **OR** la fecha límite es esta semana) **AND** el estado no es Completado
+> Show me all Tasks where (Priority is High **OR** Due Date is this week) **AND** Status is not Done
 
-Sin filtros avanzados, todas las condiciones se unen con AND y se aplican de forma lineal. Los filtros avanzados te permiten usar paréntesis: puedes expresar OR, agrupar reglas y crear consultas precisas que reflejen cómo piensas realmente sobre tus datos.
+Without advanced filters, every condition is joined by AND and applied flatly. Advanced filters give you parentheses — you can express OR, you can group rules, and you can build precise queries that match how you actually think about your data.
 
 ## Qué significa esto
 
-La mayoría de las necesidades de filtrado son sencillas: «tareas asignadas a mí», «libros que he leído». Una sola condición es suficiente para eso.
+Most filtering needs are simple: "tasks assigned to me", "books I've read". A single condition handles those.
 
-Pero cuando tus datos tienen cierta complejidad, empiezas a necesitar cosas como:
+But once your data has any complexity, you start needing things like:
 
-* «Tareas urgentes **O** vencidas»
-* «Notas de este trimestre, **pero no** las etiquetadas como 'archivo'»
-* «Libros a los que he dado 4 o 5 estrellas **Y** que aún no he recomendado»
+* "Tasks that are urgent **OR** overdue"
+* "Notes from this quarter, **but not** the ones tagged 'archive'"
+* "Books I've rated 4 or 5 stars **AND** haven't recommended yet"
 
-Cada una de esas opciones necesita al menos dos condiciones, y la forma en que se combinan es importante. Los filtros avanzados permiten expresar esto.
+Each of those needs at least two conditions, and the way they combine matters. Advanced filters make this expressible.
 
-## Cómo añadir un filtro avanzado
+## How to add an Advanced Filter
 
-Los filtros avanzados conviven con los filtros básicos en la barra de filtros de cualquier Colección o consulta.
+Advanced filters live alongside basic filters in the filter bar of any Query or Collection.
 
-1. Abre una consulta o Colección en cualquier vista de tipo lista (cuadrícula, lista, galería, tablero).
-2. Haz clic en el icono de filtro (o usa el botón **+** que aparece junto a la barra de filtros).
-3. Elige **Añadir filtro avanzado** en la parte inferior del menú.
-4. Define tus condiciones en la barra dedicada que aparece.
+1. Open a Query or Collection in any list-style view (Grid, List, Gallery, Board).
+2. Click the filter icon (or use the **+** button next to the filter bar).
+3. Choose **Add advanced filter** in the bottom of the menu.
+4. Define your conditions in the dedicated bar that appears.
 
-La barra de filtro básico muestra condiciones simples unidas por AND. La barra de filtro avanzado muestra tu lógica completa, incluidos los agrupamientos OR, las reglas anidadas y los indicadores visuales de cómo se combinan las condiciones.
+The basic filter bar shows simple conditions joined by AND. The advanced filter bar shows your full logic — including OR groupings, nested rules, and visual indicators of how conditions combine.
 
 <figure><img src="../../../.gitbook/assets/unknown (1).png" alt=""/><figcaption></figcaption></figure>
 
-## Crear condiciones
+## Building conditions
 
-Cada condición tiene tres partes:
+Each condition has three parts:
 
-* **Propiedad**: la propiedad por la que filtrar (estado, prioridad, etiquetas, fecha de vencimiento, etc.)
-* **Operador**: cómo comparar (es, no es, está vacío, contiene, es mayor que, etc.)
-* **Valor**: con qué comparar (un valor específico, una lista o un [valor dinámico](advanced-filters.md#dynamic-filter-values))
+* **Property** — which Property to filter by (Status, Priority, Tags, Due Date, etc.)
+* **Operator** — how to compare (is, is not, is empty, contains, is greater than, etc.)
+* **Value** — what to compare against (a specific value, a list, or a [dynamic value](advanced-filters.md#dynamic-filter-values))
 
-Los operadores disponibles dependen del tipo de propiedad:
+Operators available depend on the Property format:
 
-|Tipo de propiedad                 |Operadores                                                                                                                                                                                                                 |
-|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**Texto / Título**                |es, no es, contiene, no contiene, está vacío, no está vacío                                                                                                                                                                |
-|**Número**                        |=, ≠, >, <, ≥, ≤, está vacío, no está vacío                                                                                                                                                                                |
-|**Fecha**                         |es, es antes de, es después de, es el mismo día o después, es el mismo día o antes, está dentro de, está vacío, no está vacío **+** hoy, mañana, ayer, número de días atrás, número de días a partir de ahora, fecha exacta|
-|**Selección / Selección múltiple**|contains any, contains all, doesn't contain, is empty, is not empty                                                                                                                                                        |
-|**Checkbox**                      |is checked, is not checked                                                                                                                                                                                                 |
-|**Object**                        |contains any, contains all, doesn't contain, is empty, is not empty                                                                                                                                                        |
+|Formato de propiedad     |Operators                                                                                                                                                                            |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|**Text / Title**         |is, is not, contains, doesn't contain, is empty, is not empty                                                                                                                        |
+|**Number**               |=, ≠, >, <, ≥, ≤, is empty, is not empty                                                                                                                                             |
+|**Date**                 |is, is before, is after, is on or after, is on or before, is within, is empty, is not empty **+** today, tomorrow, yesterday, number of days ago, number of days from now, exact date|
+|**Select / Multi-select**|contains any, contains all, doesn't contain, is empty, is not empty                                                                                                                  |
+|**Checkbox**             |is checked, is not checked                                                                                                                                                           |
+|**Object**               |contains any, contains all, doesn't contain, is empty, is not empty                                                                                                                  |
 
 ### Combining with AND / OR
 
@@ -102,11 +102,11 @@ Filters support **dynamic values** that change based on context:
 |----------------|------------------------------------|-----------------------------------|
 |**Current User**|Object Property pointing to a Person|Tasks where Assignee = Current User|
 |**This Object** |Inline Queries on Object Properties |Tasks where Project = This Object  |
-|**Today**       |Date Property                       |Notes where Created = Today        |
+|**Today**       |Propiedad de fecha                  |Notes where Created = Today        |
 
 **Current User** is especially useful for shared Channels — every member sees their own personalized view of a Query without you having to maintain separate Queries per person.
 
-**This Object** works inside [Inline Lists](inline-queries.md) — it scopes the inline Query/Collection to whatever Object is hosting it. 
+**This Object** works inside [Inline Lists](inline-queries.md) — it scopes the inline Query/Collection to whatever Object is hosting it.
 
 ### Auto-open value picker
 
@@ -150,10 +150,10 @@ Status is Blocked  OR  (Status is In Progress  AND  Modified is before 7 days ag
 (Type is Document  OR  Type is Note)  AND  Reviewed is unchecked  AND  Created is before this week
 ```
 
-## Tips
+## Notas
 
 {% hint style="info" %}
-**Group OR conditions.** AND has higher default precedence — `A AND B OR C` may not mean what you think. Wrapping the OR in a group makes the intent explicit and unambiguous. 
+**Group OR conditions.** AND has higher default precedence — `A AND B OR C` may not mean what you think. Wrapping the OR in a group makes the intent explicit and unambiguous.
 {% endhint %}
 
 {% hint style="info" %}
