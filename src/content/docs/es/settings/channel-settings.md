@@ -2,161 +2,161 @@
 title: "Ajustes del canal"
 ---
 
-Channel Settings is where you control everything about a [Channel](/es/basics/channels/) — its name and icon, who has access, how notifications behave, what loads first when members enter, and more. There are two ways to open Channel Settings:
+Los ajustes del canal contienen todas las configuraciones de un [canal](/es/basics/channels/): su nombre e icono, quién tiene acceso, cómo se comportan las notificaciones, qué ven los miembros cuando entran y otros detalles. Hay dos formas de abrir los ajustes del canal:
 
-1. Click the Channel name at the top of the Channel Sidebar.
-2. Right-click the Channel icon in the Vault Sidebar.
+1. Haz clic en el nombre del canal, en la parte superior de la barra lateral.
+2. Haz clic derecho en el icono de canal en la barra lateral del arca.
 
 ![docs channel settings intro](/assets/docs-channel-settings-intro.jpg)
 
 ## Preferencias
 
-The **General** section covers your Channel's identity and basic behavior.
+La sección **General** está dedicada a la identidad y el comportamiento básico de tu canal.
 
 ![docs channel settings general](/assets/docs-channel-settings-general.jpg)
 
-#### Channel name and icon
+#### Nombre e icono del canal
 
-Your Channel's name and icon are how it appears in everyone's Vault.
+El nombre y el icono de tu canal serán lo que verán todos los miembros en sus respectivas arcas.
 
-* **Icon** — automatically generated during onboarding. To change it, click the icon and choose from the icon library, pick an emoji, or upload your own image.
-* **Name** — Hover over the icon area and click **Edit** in the top-right, type the new name, and click **Save**.
+* **Icono**: se genera automáticamente cuando se crea el canal. Para cambiarlo, haz clic en el icono y podrás elegir uno de la biblioteca o cargar una imagen.
+* **Nombre**: pasa el puntero sobre el área del icono, haz clic en **Editar** en la parte superior derecha, escribe el nombre nuevo y haz clic en **Guardar**.
 
-#### Homepage
+#### Página de inicio
 
-The Homepage is what loads when you (or any member) open the Channel, plus a dedicated **Home** widget is added to your sidebar.
+La página de inicio es lo primero que aparece cuando tú o cualquier miembro abrís el canal; además, se añade un widget **Inicio** a tu barra lateral.
 
-It can be any Object — pick whatever you want members to see first when they enter the Channel.
+Puede ser cualquier objeto: elige el que quieras que vean primero los miembros cuando entren al canal.
 
-* **For conversation-focused Channels**, choose a Chat Object as the Homepage so members land in the live discussion.
-* **For documentation, wikis, or knowledge Channels**, choose a Page Object — usually a "welcome" or "overview" page that links out to the rest.
-* **For project Channels with mixed content**, choose a Collection that brings together everything in scope.
-* **Leave it empty** and the last opened Object will load when you re-enter the Channel.
+* **En canales centrados en la conversación**, elige un objeto de chat como página de inicio para que los miembros lleguen directamente a la conversación en directo.
+* **En canales de documentación, wikis o conocimiento**, elige un objeto de página, como una página de bienvenida o de resumen que tenga enlaces al resto.
+* **En canales de proyecto con una mezcla de contenido**, elige una colección que reúna todo lo que se debe atender.
+* **Déjalo vacío** y verás el último objeto abierto cuando vuelvas a entrar en el canal.
 
-#### Sidebar View
+#### Vista de barra lateral
 
-Changes how items in the Sidebar are displayed—either as Widgets or Links. See more here.
+Cambia la presentación por defecto de los elementos de la barra lateral: como widgets o como enlaces. Puedes ver más detalles aquí.
 
-#### Default Object Type
+#### Tipo de objeto por defecto
 
-Sets which Object Type is used when you create a new Object without specifying a Type (for example, by pressing Cmd/Ctrl + N or clicking the **+** in the sidebar without choosing).
+Define el tipo de objeto que se usa cuando creas un objeto sin especificar su tipo (por ejemplo, al pulsar Cmd/Ctrl + N o hacer clic en **+** en la barra lateral sin elegir el tipo).
 
 ## Miembros
 
-Manage who has access to the Channel. Each user is referred to as a Space Member, and their access level is determined by their Role. For more details about shared spaces, see [Collaboration](/es/collaborate/collaboration/).
+Gestiona el acceso de otras personas al canal. Los usuarios de un espacio compartido se denominan miembros del espacio, y su nivel de acceso depende de su función. Encontrarás más información sobre los espacios compartidos en [Colaboración](/es/collaborate/collaboration/).
 
 ![docs channel settings members](/assets/docs-channel-settings-members.jpg)
 
-### Roles
+### Funciones
 
-Space Members can have various roles, each with different privileges. Periodically check your members section to ensure everyone has the correct permissions. For details, see [Member Roles](/es/collaborate/collaboration/#member-roles).
+Los miembros de un espacio pueden tener distintas funciones, cada una con distintos permisos. Comprueba con regularidad la sección de miembros para asegurarte de que todo el mundo tiene los permisos correctos. Encontrarás más detalles en [Funciones de los miembros](/es/collaborate/collaboration/#funciones-de-los-miembros).
 
-<table><thead><tr><th width="167.1015625">Role</th><th>Description</th></tr></thead><tbody><tr><td><strong>Viewer</strong></td><td>Can view content in the space but cannot edit documents, chat with others, participate in discussions, or delete anything.</td></tr><tr><td><strong>Editor</strong></td><td>Includes all Viewer privileges, plus the ability to edit content in the space and permanently delete items.</td></tr><tr><td><strong>Admin</strong></td><td>Includes all Editor privileges, plus the ability to manage Editors and Viewers.</td></tr><tr><td><strong>Owner</strong></td><td>Includes all Admin privileges, plus the ability to create Admins, create invitation links, and transfer Channel ownership.</td></tr></tbody></table>
+<table><thead><tr><th width="167.1015625">Función</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Visitante</strong></td><td>Puede ver todo el contenido del espacio. No puede editar objetos, ni participar en chats o debates, ni eliminar nada.</td></tr><tr><td><strong>Editor</strong></td><td>Tiene todos los permisos del visitante. Además, puede editar contenido del espacio y eliminar elementos de forma definitiva.</td></tr><tr><td><strong>Administrador</strong></td><td>Tiene todos los permisos del editor. Además, puede gestionar editores y visitantes.</td></tr><tr><td><strong>Propietario</strong></td><td>Tiene todos los permisos del administrador. Además, puede crear administradores, generar enlaces de invitación y transferir la propiedad del canal.</td></tr></tbody></table>
 
-### Access & Invitations
+### Acceso e invitaciones
 
-In this section, you are able to invite others into your space and set their permissions. For details on how it works, please see [collaboration.md](../collaborate/collaboration.md "mention").
+En esta sección podrás invitar a tu espacio a otras personas y definir sus permisos. Para entender cómo funciona, consulta [Colaboración](/es/collaborate/collaboration/).
 
-* Copy link — a shareable URL link for people to join the space.
-* QR code — A QR code suitable for sharing in public places.
-* Manage link — settings to restrict and control invitation links.
-* All — everybody who has access and their role.
-* Requests — pending requests to join the space that require approval.
-* Editors — display only users who are editors.
-* Viewers — display only users who are viewers.
+* Copiar enlace: una URL para enviar a quien quieras invitar al espacio.
+* Código QR: un código QR apto para compartir en lugares públicos.
+* Gestionar enlace: ajustes para restringir y controlar los enlaces de invitación.
+* Todos: todas las personas que tienen acceso y su función correspondiente.
+* Solicitudes: solicitudes de acceso al espacio pendientes de aprobación.
+* Editores: muestra solo los miembros que son editores.
+* Visitantes: muestra solo los miembros que son visitantes.
 
 ## Notificaciones
 
-Set the default notification mode for messages in this Channel:
+Define el modo de notificación por defecto para los mensajes en este canal:
 
-* **Enable all** — every new message produces a notification
-* **Mentions only** — only @-mentions trigger notifications
-* **Disable all** — no notifications (unread counter still updates, but muted)
+* **Activar**: cada mensaje nuevo genera una notificación.
+* **Solo menciones**: solo se generan notificaciones cuando te mencionan con @.
+* **Deshabilitado**: sin notificaciones (el contador de mensajes sin leer se actualiza, pero en silencio).
 
-Per-Chat and per-Object Discussion settings can override the Channel default.
+Este es un ajuste por defecto que se puede cambiar en cada chat y cada debate de objeto.
 
 ![docs channel settings notifications](/assets/docs-channel-settings-notifications.jpg)
 
-## Remote Storage
+## Almacenamiento remoto
 
-The Remote Storage tab shows total storage used in this Channel and your remaining storage allowance based on your membership plan. The files listed are specific to the Channel, not your entire Vault.
+La sección «Almacenamiento remoto» muestra el almacenamiento que usa ese canal y el almacenamiento disponible según tu plan de suscripción. Los archivos que se enumeran aquí son los específicos del canal, no los de toda tu arca.
 
 ![docs channel settings storage](/assets/docs-channel-settings-storage.jpg)
 
 ***
 
-## Content Model
+## Modelo de contenido
 
-The Content Model tab is the central place to manage your Channel's Types and Properties.
+La sección «Modelo de contenido» es el punto central desde el que gestionar los tipos y propiedades de tu canal.
 
-#### Types
+#### Tipos
 
-A list of every Object Type available in this Channel. From here you can:
+Lista de todos los tipos de objeto disponibles en el canal. Aquí puedes hacer lo siguiente:
 
-* Create new Types
-* Edit existing Types — change name, icon, layout, default Properties, Templates
-* Configure default behavior per Type
+* Crear tipos nuevos.
+* Modificar los tipos existentes: cambiar su nombre, icono, diseño, propiedades por defecto, plantillas...
+* Configurar el comportamiento por defecto de cada tipo.
 
-For full details, see [Types](/es/organize/types/).
+Puedes ver todos los detalles en [Tipos](/es/organize/types/).
 
 ![docs channel settings types](/assets/docs-channel-settings-types.jpg)
 
-#### Properties
+#### Propiedades
 
-A list of every Property defined in this Channel. From here you can:
+Lista de todas las propiedades definidas en el canal. Aquí puedes hacer lo siguiente:
 
-* Create new Properties
-* Edit and add new options
-* See which Types use Property
+* Crear propiedades nuevas.
+* Modificar sus opciones y añadir otras.
+* Ver los tipos que usan cada propiedad.
 
-For full details, see [Properties](/es/organize/properties/).
+Puedes ver todos los detalles en [Propiedades](/es/organize/properties/).
 
 ![docs channel settings properties](/assets/docs-channel-settings-properties.jpg)
 
 ***
 
-## Import & Export
+## Importar y exportar
 
-The Integrations tab covers everything related to bringing data in and out of the Channel:
+La sección «Integraciones» está dedicada a todo lo relacionado con la entrada y salida de datos del canal:
 
-* **Import** — bring data in from Notion, Evernote, Obsidian, or generic Markdown / CSV
-* **Export** — back up the entire Channel to Markdown or AnyBlock format
+* **Importar**: puedes importar datos desde Notion, Evernote, Obsidian y archivos Markdown / CSV genéricos.
+* **Exportar**: puedes hacer una copia de respaldo del canal completo en formato Markdown o Any-Block.
 
 ![import](/assets/import.png)
 
 ***
 
-## Channel Ownership
+## Propiedad de canal
 
-Channel ownership can be transferred to another member — useful when team roles change, when a creator leaves, or when consolidating responsibilities.
+La propiedad del canal se puede transferir a otro miembro; por ejemplo, cuando cambian las responsabilidades del equipo, cuando un miembro se va o cuando se consolidan las funciones.
 
-To transfer:
+Sigue estos pasos para transferir la propiedad:
 
-1. Open the Members tab.
-2. Click **Transfer ownership** next to the three-dot menu in the top-right corner.
-3. Select the future Owner from the list of members.
-4. Confirm.
+1. Abre la sección «Miembros».
+2. Haz clic en **Transferir propiedad** junto al menú de tres puntos de la esquina superior derecha.
+3. En la lista de miembros, selecciona el próximo propietario.
+4. Confirma tu elección.
 
-After the transfer:
+Esta será la situación después de la transferencia:
 
-* The member will become the new Owner.
-* You'll become an Editor.
-* Only the new Owner can transfer it again.
-* The new Owner's membership limits will apply to this channel.
+* Ese miembro pasará a ser el nuevo propietario.
+* Tú tendrás permisos de editor.
+* El nuevo propietario será el único que podrá transferir de nuevo el canal.
+* Los límites de suscripción del nuevo propietario se aplicarán a este canal.
 
 ![docs channel settings transfer](/assets/docs-channel-settings-transfer.jpg)
 
-## Delete Channel
+## Eliminar canal
 
-In shared Channels, only the Owner can delete the Channel. Other members can leave the Channel instead, which removes their access without affecting other members. To delete a Channel:
+El miembro propietario es el único que puede eliminar el canal. Los demás miembros pueden abandonar el canal, con lo que perderán el acceso sin que esto afecte a otros miembros. Sigue estos pasos para eliminar un canal:
 
-1. Navigate to the General section in your Channel Settings.
-2. Click the three-dot button in the top-right corner.
-3. Select Delete Channel.
-4. Enter the name of the Channel to confirm deletion.
+1. Ve a la sección General de los ajustes del canal.
+2. Haz clic en los tres puntos de la esquina superior derecha.
+3. Selecciona «Eliminar canal».
+4. Escribe el nombre del canal para confirmar su eliminación.
 
 ![docs channel settings delete](/assets/docs-channel-settings-delete.jpg)
 
 :::danger
-**Deleting a Channel is permanent.** All Objects, Chats, Discussions, and history are removed for every member. There is no undo. If you may need the data later, export the Channel before deleting it as a precaution.
+**La eliminación de un canal es definitiva.** Desaparecerán todos los objetos, chats, debates e historiales para todos los miembros. No se puede deshacer. Si crees que puedes necesitar los datos más adelante, exporta el canal antes de eliminarlo como medida de precaución.
 :::

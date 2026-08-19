@@ -57,13 +57,13 @@ Arrastra el borde derecho de la barra lateral para cambiar su tamaño. Tienes es
 * ampliarla para que tenga más espacio,
 * reducirla para que ocupe menos,
 * arrastrar hacia la izquierda para contraerla por completo y que desaparezca,
-* activar la preferencia de mostrarla y ocultarla automáticamente en tus [vault-settings.md](../../settings/vault-settings.md "mention").
+* activar la preferencia de mostrarla y ocultarla automáticamente en los [ajustes del arca](/es/settings/vault-settings/).
 
 ![docs sidebar](/assets/docs-sidebar.gif)
 
 ### Barra del arca compacta
 
-La barra del arca tiene un modo compacto para ocupar menos espacio visual. Así tienes más amplitud para desarrollar tu contenido. La barra del canal también se puede redimensionar para obtener aún más espacio.
+La barra del **arca** tiene un modo compacto para ocupar menos espacio visual. Así tienes más amplitud para desarrollar tu contenido. La barra del canal también se puede redimensionar para obtener aún más espacio.
 
 Arrastra el borde derecho del arca para estrecharla hasta cierto punto y cambiará automáticamente al modo compacto. Arrástralo para ampliarla y recuperará su diseño normal.
 
@@ -71,7 +71,7 @@ Arrastra el borde derecho del arca para estrecharla hasta cierto punto y cambiar
 
 ### Modo de concentración
 
-Para cambiar rápidamente al modo de concentración, puedes usar un atajo de teclado para activar y desactivar **la barra lateral del arca** y **la del canal** al mismo tiempo. Así podrás ocultar ambas barras para entrarte en el contenido.
+Para cambiar rápidamente al modo de concentración, puedes usar un atajo de teclado para activar y desactivar la **barra lateral del arca** y la del **canal** al mismo tiempo. Así podrás ocultar ambas barras para entrarte en el contenido.
 
 1. Haz clic en el botón `?` de la esquina inferior izquierda de la aplicación, en la barra lateral del arca.
 2. Elige **Atajos de teclado**.
@@ -87,7 +87,7 @@ Para cambiar rápidamente al modo de concentración, puedes usar un atajo de tec
 :::
 
 :::note
-**Ancla una consulta, no solo objetos estáticos.** Las consultas ancladas, como «Tareas en las que el Estado = En curso» o «Notas que se han Modificado esta semana», funcionan como [widgets.md](widgets.md "mention") dinámicos: se actualizan según van cambiando los datos.
+**Ancla una consulta, no solo objetos estáticos.** Las consultas ancladas, como «Tareas en las que Estado = En curso» o «Notas que se han Modificado esta semana», funcionan como [widgets](/es/basics/sidebar/widgets/) dinámicos: se actualizan según van cambiando los datos.
 :::
 
 :::note

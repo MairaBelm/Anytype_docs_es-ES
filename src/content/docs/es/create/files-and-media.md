@@ -1,8 +1,5 @@
 ---
 title: "Archivos y medios"
----
-
----
 description: Carga imágenes, vídeos, audio y archivos como objetos independientes.
 ---
 
@@ -76,7 +73,7 @@ Este método añade el archivo a un mensaje y crea un objeto independiente en el
 Cuando hayas subido un objeto a tu espacio, podrás usarlo en otros objetos. Para esto hay dos métodos:
 
 * En el menú del bloque, selecciona **Añadir archivo** en la categoría «Enlaces».
-* En el menú de bloque, elige el bloque que necesites en la categoría **Medios **(«Archivo» para PDF, «Imagen» para JPG…) y pasa a la pestaña «Biblioteca».
+* En el menú de bloque, elige el bloque que necesites en la categoría **Medios** («Archivo» para PDF, «Imagen» para JPG…) y pasa a la pestaña «Biblioteca».
 
 ![docs files existing use](/assets/docs-files-existing-use.jpg)
 

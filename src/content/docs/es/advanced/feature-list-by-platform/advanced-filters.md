@@ -1,8 +1,5 @@
 ---
 title: "Filtros avanzados"
----
-
----
 description: Crea consultas precisas con lógica AND/OR y condiciones agrupadas.
 ---
 

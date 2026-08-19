@@ -34,7 +34,7 @@ Organizamos las prioridades de desarrollo teniendo en cuenta los deseos de la co
 
 Por eso, si ves algo que te interesa mucho, ¡exprésate y dale tu voto!
 
-Atención: antes de añadir una recomendación, haz algunas búsquedas para ver si ya existe. No querrás ser una de esas personas que…
+Atención: Antes de añadir una recomendación, haz algunas búsquedas para ver si ya existe. No querrás ser una de esas personas que…
 
 [https://community.anytype.io/c/feature-requests/](https://community.anytype.io/c/feature-requests/)
 

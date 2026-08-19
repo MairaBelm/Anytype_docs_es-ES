@@ -1,134 +1,131 @@
 ---
 title: "Colecciones"
----
-
----
-description: Hand-curated groupings of Objects.
+description: Conjunto de objetos agrupados a mano
 ---
 
 
-A Collection is a container of hand-picked Objects—the closest thing to a folder in Anytype. You decide what goes in, and Objects stay in the Collection until you remove them. Importantly, Objects exist independently of Collections. The same Object can live in multiple Collections at once, and removing an Object from a Collection doesn't delete it — it simply stops being part of that Collection.
+Una colección es un contenedor de objetos seleccionados por ti: lo más parecido a una carpeta en Anytype. Tú decides lo que incluyes y esos objetos se quedan en la colección hasta que los quites. Ten en cuenta que los objetos existen aparte de las colecciones: el mismo objeto puede aparecer en varias colecciones a la vez y no desaparece al eliminarlo de una colección; solo deja de formar parte de ella.
 
 ![docs collections intro](/assets/docs-collections-intro.jpg)
 
 ## Qué significa esto
 
-When there's a clear relationship, it's easy to bring Objects together using a [Query](/es/organize/queries/), such as 'everything tagged inspiration'. But when there isn't a clear [Property](/es/organize/properties/) or [Type](/es/organize/types/) that can link everything together, this is when Collections work best. It's a curated container for everything you see having a relationship together but the system can't easily define.
+Cuando los objetos tienen una relación clara, es fácil reunirlos con una [consulta](/es/organize/queries/), como «todo lo etiquetado como inspiración». Pero si no tienen en común una [propiedad](/es/organize/properties/) o un [tipo](/es/organize/types/) que los una, es mejor usar una colección, un contenedor para objetos en los que ves una relación que el sistema no podría distinguir.
 
-## When to use Collections
+## Cuándo usar colecciones
 
-The easiest way to understand Collections is to compare them with [Queries](/es/organize/queries/). With Collections, you're curating a group of Objects that don't change much over time. With Queries, you're filtering Objects that likely change over time.
+Para entender las colecciones, lo más fácil es compararlas con las [consultas](/es/organize/queries/). En una colección mantienes un conjunto de objetos que no van a cambiar demasiado con el tiempo. En una consulta estás filtrando objetos que probablemente cambien con el tiempo.
 
-Think of a Collection as something you curate by hand—like 'Grandma's Favorites.' Think of a Query as something you define with rules and filters—like everything tagged with 'important.'
+Considera las colecciones como algo que mantienes personalmente; por ejemplo, «Favoritos de la abuela». Considera las consultas como algo que defines con reglas y filtros; por ejemplo, todo lo que etiquetes como «importante».
 
-|Consulta                                 |Colección                                                                                 |
-|-----------------------------------------|------------------------------------------------------------------------------------------|
-|All your media with a rating '4 or above'|Everything you want to do on holiday: books to read, tasks to complete, locations to visit|
-|Everything marked as 'high priority'     |Onboarding materials to share with a colleague: dashboards, people, docs                  |
-|Everything tagged with 'family'          |Resources that help with a project: YouTube video, PDFs, and notes                        |
+|Consulta                                               |Colección                                                                                         |
+|-------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+|Todos tus archivos de medios con valoración mínima de 4|Todo lo que quieres hacer en vacaciones: libros que leer, tareas que realizar, lugares que visitar|
+|Todo lo marcado con prioridad alta                     |Materiales de incorporación para nuevos compañeros: tableros, personas, documentos                |
+|Todo lo etiquetado como «familia»                      |Recursos que pueden servir en un proyecto: vídeos de YouTube, PDF y notas                         |
 
-**Collections shine with Objects that are loosely connected.** For example, a Collection titled "Q1 Marketing" might hold tasks, design files, news articles, organizations, and meeting notes. Using a Collection can keep these Objects together without forcing them into a single Type or requiring shared Properties for a Query to find them.
+**Las colecciones son ideales para objetos que originalmente no están conectados.** Por ejemplo, una colección llamada «Publicidad 1T» podría contener tareas, archivos de diseño, noticias, empresas y notas de reunión. La colección agrupa todos esos objetos sin necesidad de imponerles un mismo tipo o propiedades comunes para que las encuentre una consulta.
 
-**Queries shine when you want a group of Objects to update automatically over time.** For example, a Query for "everything with an end date set for today" will automatically surface matching tasks, projects, and events to you as dates change. There's no manual curation required.
+**Las consultas son ideales cuando quieres que un conjunto de objetos se actualice automáticamente.** Por ejemplo, una consulta de «todo lo que tenga fecha final de hoy» mostrará automáticamente las tareas, proyectos y eventos de la fecha en la que estés. No tendrás que seleccionar nada a mano.
 
-## Create a Collection
+## Cómo crear una colección
 
-Collections live in all the same places as [Types](/es/organize/types/)—the Sidebar, the Create menu, and Channel Settings. And like Types, every Collection has Views that work in the same way.
+Encontrarás las colecciones en los mismos lugares que los [tipos](/es/organize/types/): la barra lateral, el menú Crear y los ajustes del canal. Y al igual que los tipos, las colecciones cuentan con vistas, que funcionan de la misma manera.
 
-To create a Collection:
+Para crear una colección, puedes seguir estos pasos:
 
-1. In the Sidebar, click on the [Create Dropdown button](../create/objects/#menu-crear) and select **Collection**.
-2. Add existing Objects from your space or create new ones.
-3. Set your **filters** and **sorts**.
-4. Choose a **layout**.
+1. Haz clic en el [botón desplegable Crear](/es/create/objects/#menú-crear) de la barra lateral y selecciona **Colección** (Collection).
+2. Añade objetos existentes de tu espacio o crea alguno nuevo.
+3. Configura **filtros** y criterios de **orden**.
+4. Elige un **diseño**.
 
 ![docs collections create](/assets/docs-collections-create.jpg)
 
 ![docs collections create add](/assets/docs-collections-create-add.gif)
 
-## Using Collections
+## Cómo usar las colecciones
 
-To learn more about how to manage Collections and their settings, see the [Views](/es/organize/views/#como-funciona) section.
+Puedes ver con detalle cómo gestionar las colecciones y sus ajustes en la sección [Vistas](/es/organize/views/#cómo-funciona).
 
-### Add & remove Objects
+### Cómo añadir y eliminar objetos
 
-You can add an Object to as many Collections as you like—this will create a link between them. Objects remain in the Collections you add them to until you remove them.
+Puedes añadir un objeto a todas las colecciones que quieras; al hacerlo, se creará un vínculo entre ellos. Los objetos permanecen en las colecciones hasta que los eliminas de ellas.
 
-#### **To add an Object**
+#### **Para añadir un objeto**
 
-* Right click the Object in a [View](/es/organize/views/) or open the 'three dots' menu in the top right corner.
-* From the menu, select **Add to Collection**, and choose from the list of options available.
+* Haz clic derecho en el objeto en una [vista](/es/organize/views/) o, si lo tienes abierto, haz clic en el menú de tres puntos de la esquina superior derecha.
+* En el menú, selecciona **Añadir a colección** y elige entre las opciones disponibles.
 
 ![docs collections add](/assets/docs-collections-add.jpg)
 
-#### **To remove an Object**
+#### **Para eliminar un objeto**
 
-1. Navigate to the Collection from the Sidebar.
-2. Right click the Object, and select:
-   1. **Unlink from Collection** — removes it from the Collection but keeps the Object in the space.
-   2. **Move to Bin** — deletes the Object from all Collections and the entire space, but it can be restored from the Bin.
+1. Abre la colección desde la barra lateral.
+2. Haz clic derecho en el objeto y selecciona una de estas opciones:
+   1. **Desvincular de la colección** lo elimina de la colección, pero el objeto sigue existiendo en tu espacio.
+   2. **Mover a la papelera** elimina el objeto de todas las colecciones y del espacio, aunque lo puedes restaurar desde la papelera.
 
 ![docs collections unlink](/assets/docs-collections-unlink.jpg)
 
-#### **To edit in bulk**
+#### **Para editarlos en lote**
 
-Use the [bulk-editing feature in Views](/es/organize/views/#edicion-de-objetos-en-lote) to organize many Objects at the same time in a Collection. You can create a Query to find the Objects you're looking for, and then add them all to a Collection in bulk.
+Usa la [función de edición en lote de las vistas](/es/organize/views/#edición-de-objetos-en-lote) para organizar a la vez muchos objetos de una colección. Puedes crear una consulta para buscar los objetos y luego añadirlos todos a una colección.
 
-#### To set a default Type
+#### Para establecer el tipo por defecto
 
-When adding a new Object into a Collection, you can choose the default [Type](/es/organize/types/) and [Template](/es/organize/templates/) used. When viewing a Collection, click on the dropdown button next to 'New' to change the default.
+Puedes elegir el [tipo](/es/organize/types/) y la [plantilla](/es/organize/templates/) que se usarán por defecto al crear un objeto nuevo en una colección. Con la colección abierta, haz clic en el botón desplegable que hay junto a «Nuevo» y selecciona los que quieras.
 
-### Inline Collections
+### Colecciones insertadas
 
-You can use the **Inline Collection** block in the editor to add a Collection directly into pages. This enables you to see your Objects right alongside your content.
+Puedes insertar colecciones directamente en las páginas con el bloque **Colección insertada**. Así podrás ver los objetos junto con tu contenido.
 
-1. While editing a page, open the command menu using the `+` button or type `/inline collection`.
-2. Select **Inline Collection**.
-3. Create a new Collection or select a pre-existing one.
+1. Mientras editas una página, abre el menú de comandos con el botón `+` o escribe `/colección`:
+2. Selecciona **Colección insertada**.
+3. Crea una colección o inserta una existente.
 
 ![docs collections inline](/assets/docs-collections-inline.jpg)
 
-#### Editing Inline Collections
+#### Modificación de las colecciones insertadas
 
-Edits made to the View of an Inline Collection apply only to that specific block. Editing an Inline View inside an Object doesn't affect the master View — that stays intact at the [Type](/es/organize/types/), [Query](/es/organize/queries/), or [Collection](/es/organize/collections/) level. This means each Object can have its own version of the Inline View without ever touching the master.
+Las modificaciones que hagas en las vistas de una colección insertada solo se aplican a ese bloque y no afectan a la vista principal, que se mantiene sin cambios en el [tipo](/es/organize/types/), la [consulta](/es/organize/queries/) o la [colección](/es/organize/collections/) original. Esto significa que cada objeto puede tener su propia versión de la vista insertada sin modificar nunca la original.
 
-This is different from editing actual Objects and their Properties through an Inline View: those changes **do** affect the underlying Objects and are reflected everywhere they appear across the Space.
+Por el contrario, si modificas los objetos y sus propiedades en la vista insertada, esos cambios **sí** se aplicarán al objeto y se reflejarán allá donde aparezca en todo ese espacio.
 
-### Folder-like Widget
+### Widget con aspecto de carpeta
 
-You can add [Collections to your Sidebar as a Widget](/es/organize/views/#views-in-sidebar), just like any other View. However, instead of using Collections to simulate a [hierarchical folder-like structure in your Sidebar](/es/basics/sidebar/widgets/#opciones-de-diseno), you can create a Page with link blocks:
+Las colecciones se pueden [añadir a la barra lateral](/es/organize/views/#vistas-en-la-barra-lateral) en forma de widgets, igual que cualquier vista. Sin embargo, en lugar de usar colecciones para simular la [estructura jerárquica de carpetas en la barra lateral](/es/basics/sidebar/widgets/#opciones-de-diseño), puedes crear una página con bloques de enlace:
 
-1. Create any Object with a Page format.
-2. In the editor, add links to your desired Objects using the `/enlace` or `@` blocks. This can be to regular Objects, Types, Queries, or Collections.
-3. Arrange the blocks on the Page to represent your hierarchy.
-4. Pin the Object to the Sidebar.
-5. Right-click the Widget and select 'Hierarchical Structure' in the view setting.
-6. To expand each layer, click on the dropdown arrow near the icon.
+1. Crea un objeto con formato de página.
+2. En el editor, añade bloques de enlace a los objetos que quieras con `/enlace` o `@`. Puedes enlazar objetos, tipos, consultas y colecciones.
+3. Organiza los bloques en la página de forma que representen tu jerarquía.
+4. Ancla el objeto en la barra lateral.
+5. Haz clic derecho en el widget y selecciona «Estructura jerárquica» en la configuración de la vista.
+6. Para expandir cada nivel, haz clic en la flecha desplegable que aparece junto al icono.
 
 ![docs collections widget folder like](/assets/docs-collections-widget-folder-like.jpg)
 
-### Uploading files from desktop
+### Cargar archivos desde el ordenador
 
-You can drag and drop a folder from your desktop into a Collection in Anytype. This will upload all the files in the folder and package them into a single Collection. This is a great way to bring an existing on-disk archive (a photo collection, a project folder, a music library) into your space.
+Puedes arrastrar una carpeta de tu ordenador y soltarla en una colección de Anytype. Al hacerlo, se cargarán todos los archivos de la carpeta y formarán parte de esa colección. Es una buena forma de llevar a tu espacio un conjunto de archivos de tu disco, como una colección de fotos, la carpeta de un proyecto o tu biblioteca de música.
 
-1. Select and drag a folder from your desktop.
-2. Drop the folder onto an open Collection.
+1. Selecciona y arrastra una carpeta de tu ordenador.
+2. Suéltala en una colección abierta.
 
 ![docs collections drag folder](/assets/docs-collections-drag-folder.gif)
 
-## Deleting Collections
+## Cómo eliminar colecciones
 
-Just like Views, Collections are separate from the Objects they organize. Deleting a Collection does not affect the underlying Objects—you can safely remove them from your space without losing any data. To delete a Collection, navigate to your Collection in your Sidebar. You can then delete it like any Object:
+Al igual que las vistas, las colecciones son independientes de los objetos que organizan. Eliminar una colección no afecta a los objetos subyacentes: puedes eliminar cualquier colección de tu espacio sin perder ningún dato. Para eliminar una colección, ve a la sección «Colecciones» de la barra lateral. Desde ahí puedes eliminarla como cualquier objeto:
 
-* Right-click the Collection to reveal a menu, select Move to Bin.
-* Open the Collection and click on the 'three dots' menu in the top right corner, select Move to Bin.
+* Haz clic derecho en la colección para abrir el menú y selecciona «Mover a la papelera».
+* Abre la colección, haz clic en el menú de tres puntos de la esquina superior derecha y selecciona «Mover a la papelera».
 
 ## Notas
 
 :::note
-**Collections are a quick and dirty way to get organized.** While Queries are best for staying organized in the long run, Collections require less thinking and planning. Create as many as you like, as deleting them has no impact on the Objects they contain.
+**Las colecciones son una forma rápida y sencilla de organizar los objetos.** Aunque las consultas son mejores para mantener la organización a largo plazo, las colecciones requieren menos reflexión y planificación. Crea tantas cuantas quieras, ya que eliminarlas no afecta a los objetos que contienen.
 :::
 
 :::note
-**Pin project Collections to your sidebar.** A pinned project Collection acts as a project hub — one click to see everything in scope.
+**Ancla colecciones de proyectos a tu barra lateral.** Una colección anclada sirve como panel del proyecto: con un solo clic, ves todo lo relacionado.
 :::

@@ -1,8 +1,5 @@
 ---
 title: "Secciones"
----
-
----
 description: Personaliza lo que aparece en la barra lateral de tu canal.
 ---
 
@@ -26,7 +23,7 @@ Anytype tiene dos mecanismos distintos:
 * **Mis favoritos**: personal, visible solo para ti. Usa el icono de la estrella.
 * **Anclados comunes**: compartidos y visibles para todos los miembros. Los establece la persona propietaria o administradora del canal.
 
-Para ver detalles sobre la forma de añadirlos, eliminarlos y organizarlos, consulta [pins-and-favorites.md](pins-and-favorites.md "mention").
+Para ver detalles sobre la forma de añadirlos, eliminarlos y organizarlos, consulta [Anclados y favoritos](/es/basics/sidebar/pins-and-favorites/).
 
 ![sidebar pins favorites](/assets/sidebar-pins-favorites.jpg)
 
@@ -37,7 +34,7 @@ La sección [Tipos](/es/organize/types/) es el índice principal de tu espacio. 
 * **Creación rápida de objetos**: pasa el puntero por encima de cualquier tipo y aparecerá el botón «+». Haz clic en el botón para crear al instante un nuevo objeto de ese tipo.
 * **Añadir más tipos**: pasa el puntero sobre el título de la sección Tipo y aparecerá el botón «+ Nuevo tipo».
 * **Ordenar los tipos**: haz clic en un tipo y arrástralo para cambiar su posición en la lista.
-* **Tipos ocultos**: en la barra lateral solo aparecen automáticamente los tipos que tienen al menos un objeto. Si quieres crear un objeto de un tipo que no esté visible en la barra lateral, haz clic en el [desplegable Crear de la barra lateral](../../create/objects/#menú-crear) para ver todos tus tipos.
+* **Tipos ocultos**: en la barra lateral solo aparecen automáticamente los tipos que tienen al menos un objeto. Si quieres crear un objeto de un tipo que no esté visible en la barra lateral, haz clic en el [desplegable Crear de la barra lateral](/es/create/objects/#menú-crear) para ver todos tus tipos.
 
 ![sidebar types](/assets/sidebar-types.jpg)
 
@@ -57,9 +54,9 @@ Puedes usar **Solo yo** en canales de equipo muy activos para evitar que tu prop
 
 ### No leídos
 
-La sección **No leídos** muestra las notificaciones de tu canal. Suelen proceder de [chats](../../collaborate/chats/ "mention") y [discussions.md](../../collaborate/discussions.md "mention"). Esta sección es temporal; aparece o desaparece según las notificaciones que estén activas.
+La sección **No leídos** muestra las notificaciones de tu canal. Suelen proceder de [chats](/es/collaborate/chats/) y [debates](/es/collaborate/discussions/). Esta sección es temporal; aparece o desaparece según las notificaciones que estén activas.
 
-Puedes colocar esta sección al principio o al final, según te venga mejor. No puedes ocultarla. Tienes más detalles en [Gestionar secciones](/es/basics/sidebar/sections/#gestionar-secciones).
+Puedes colocar esta sección al principio o al final, según te venga mejor. No puedes ocultarla. Tienes más detalles en [Gestionar las secciones](/es/basics/sidebar/sections/#gestionar-las-secciones).
 
 ![sidebar unread](/assets/sidebar-unread.jpg)
 

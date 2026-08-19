@@ -33,7 +33,7 @@ Anytype no puede identificar un arca, conceder acceso a ella o eliminarla. Aunqu
 Si tu sesión se cierra sin que hayas guardado tu clave en otro sitio, puedes probar lo siguiente:
 
 * Usa otro dispositivo. Si aún tienes la sesión iniciada en otro dispositivo, abre la aplicación allí y copia tu clave desde los ajustes.
-* También puedes intentar recuperar tu clave desde el [almacén de claves del sistema operativo](/es/resources/faq/#como-recupero-mi-clave-desde-el-almacen-de-claves-del-sistema-operativo).
+* También puedes intentar recuperar tu clave desde el [almacén de claves del sistema operativo](/resources/faq/#cómo-recupero-mi-clave-desde-el-almacén-de-claves-del-sistema-operativo).
 
 :::danger
 **Anytype no puede recuperar tu arca si has perdido el acceso a tu clave por completo.**
@@ -68,9 +68,9 @@ Sería una tarea insuperable hasta para el atacante mejor financiado y más equi
 
 <summary>¿Puede otra persona crear mi arca con la misma clave? </summary>
 
-Si alguien conoce tu frase de 12 palabras, puede acceder a tu arca. Pero las posibilidades de que alguien genere la misma clave accidentalmente son prácticamente nulas.
+Si alguien conoce tu frase de 12 palabras, puede acceder a tu arca. Pero las posibilidades de que alguien genere la misma clave accidentalmente son prácticamente nulas. 
 
-Las probabilidades de que dos personas generen la misma frase mnemotécnica de 128 bits son, más o menos, de 1 entre 2^128^ (alrededor de 3,4 × 10^38^), una cifra inmensamente superior a la de granos de arena que hay en la Tierra. Ni siquiera generando miles de millones de claves por segundo durante 100 años nos acercaríamos a una coincidencia.
+Las probabilidades de que dos personas generen la misma frase mnemotécnica de 128 bits son, más o menos, de 1 entre 2128 (alrededor de 3,4 × 1038), una cifra inmensamente superior a la de granos de arena que hay en la Tierra. Ni siquiera generando miles de millones de claves por segundo durante 100 años nos acercaríamos a una coincidencia.
 
 En resumen, no tienes que preocuparte de que tu clave se genere para otro usuario.
 

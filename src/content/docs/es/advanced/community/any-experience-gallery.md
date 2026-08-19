@@ -1,5 +1,5 @@
 ---
-title: "Galer\u00eda de experiencias ANY"
+title: "Galería de experiencias ANY"
 ---
 
 ### Instalar experiencias desde la galería

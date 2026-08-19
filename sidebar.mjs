@@ -10,13 +10,13 @@ export const sidebar = [
    {
     "label": "Welcome",
     "translations": {
-     "es": "Anytype te da la bienvenida"
+     "es": "Saludos de Anytype"
     },
     "items": [
      {
       "label": "Welcome",
       "translations": {
-       "es": "Anytype te da la bienvenida"
+       "es": "Saludos de Anytype"
       },
       "link": "/"
      },
@@ -101,6 +101,9 @@ export const sidebar = [
      },
      {
       "label": "Widgets",
+      "translations": {
+       "es": "Widgets"
+      },
       "link": "/basics/sidebar/widgets/"
      }
     ]
@@ -137,9 +140,15 @@ export const sidebar = [
    },
    {
     "label": "Editor",
+    "translations": {
+     "es": "Editor"
+    },
     "items": [
      {
       "label": "Editor",
+      "translations": {
+       "es": "Editor"
+      },
       "link": "/create/editor/"
      },
      {
@@ -224,18 +233,30 @@ export const sidebar = [
    },
    {
     "label": "Queries",
+    "translations": {
+     "es": "Consultas"
+    },
     "link": "/organize/queries/"
    },
    {
     "label": "Collections",
+    "translations": {
+     "es": "Colecciones"
+    },
     "link": "/organize/collections/"
    },
    {
     "label": "Templates",
+    "translations": {
+     "es": "Plantillas"
+    },
     "link": "/organize/templates/"
    },
    {
     "label": "Deletion",
+    "translations": {
+     "es": "Eliminación"
+    },
     "link": "/organize/deletion/"
    }
   ]
@@ -389,13 +410,22 @@ export const sidebar = [
  },
  {
   "label": "Settings",
+  "translations": {
+   "es": "Ajustes"
+  },
   "items": [
    {
     "label": "Vault Settings",
+    "translations": {
+     "es": "Ajustes del arca"
+    },
     "link": "/settings/vault-settings/"
    },
    {
     "label": "Channel Settings",
+    "translations": {
+     "es": "Ajustes del canal"
+    },
     "link": "/settings/channel-settings/"
    },
    {

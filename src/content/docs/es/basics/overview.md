@@ -16,7 +16,7 @@ Aquí tienes un diagrama rápido de Anytype. Cuando entiendes estos conceptos b�
 
 ## 3\. Objetos
 
-**Las cosas que tienes en las habitaciones.** En muchas aplicaciones, «las cosas» son archivos organizados mediante una jerarquía de carpetas. En Anytype, lo que tenemos son [objetos](../create/objects/). Una receta es un objeto, una nota de una reunión es un objeto y una foto es un objeto. En lugar de ser elementos encerrados en carpetas, los objetos flotan como estrellas en el espacio, y se conectan mediante vínculos. Piensa en los documentos y archivos de Anytype como una red, más que como un árbol jerárquico de carpetas.
+**Las cosas que tienes en las habitaciones.** En muchas aplicaciones, «las cosas» son archivos organizados mediante una jerarquía de carpetas. En Anytype, lo que tenemos son [objetos](/es/create/objects/). Una receta es un objeto, una nota de una reunión es un objeto y una foto es un objeto. En lugar de ser elementos encerrados en carpetas, los objetos flotan como estrellas en el espacio, y se conectan mediante vínculos. Piensa en los documentos y archivos de Anytype como una red, más que como un árbol jerárquico de carpetas.
 
 ## 4\. Tipos
 

@@ -1,13 +1,10 @@
 ---
 title: "Anclados y favoritos"
----
-
----
 description: Dos formas de tener cerca los objetos importantes, los tuyos y los del equipo.
 ---
 
 
-Puedes añadir tus [objetos](../../create/objects/) más importantes a la barra lateral como anclados y como favoritos. Todos los objetos anclados y favoritos se pueden convertir en [widgets](/es/basics/sidebar/widgets/), secciones dinámicas e interactivas de la barra lateral. También puedes dejarlos como simples enlaces para que sirvan como atajos rápidos a tu contenido.
+Puedes añadir tus [objetos](/es/create/objects/) más importantes a la barra lateral como anclados y como favoritos. Todos los objetos anclados y favoritos se pueden convertir en [widgets](/es/basics/sidebar/widgets/), secciones dinámicas e interactivas de la barra lateral. También puedes dejarlos como simples enlaces para que sirvan como atajos rápidos a tu contenido.
 
 ![docs pins favorites](/assets/docs-pins-favorites.jpg)
 
@@ -34,7 +31,7 @@ La sección «Mis favoritos» es personal, solo para ti. Todo lo que marques com
 2. Haz clic en el icono de estrella de la esquina superior derecha.
 3. El objeto aparece ahora en la sección **Mis favoritos** de tu barra lateral.
 
-Para quitarlo, vuelve a hacer clic en la estrella, o haz clic derecho sobre el objeto en la barra lateral > **No favorito.**
+Para quitarlo, vuelve a hacer clic en la estrella, o haz clic derecho sobre el objeto en la barra lateral > **No favorito**.
 
 ## Anclados
 
@@ -44,7 +41,7 @@ La sección «Anclados» es común a todos los miembros del canal y solo puede g
 
 * documentos de incorporación para nuevos miembros;
 * normas o directrices del canal;
-* el tablero del *sprint* actual, la hoja de ruta del proyecto o las tareas activas;
+* el tablero del sprint actual, la hoja de ruta del proyecto o las tareas activas;
 * cualquier objeto que quieras que encuentren sin necesidad de buscarlo.
 
 **Para anclar un objeto en la sección común «Anclados»:**

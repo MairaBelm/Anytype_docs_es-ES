@@ -29,7 +29,7 @@ Si pierdes tu clave, nadie podrá recuperar tu cuenta: nadie, ni siquiera Anytyp
 ![docs welcome 2](/assets/docs-welcome-2.jpg)
 
 :::danger
-Guarda tu [key.md](../basics/key.md "mention") en un lugar seguro y no la compartas nunca con nadie. Cualquiera que tenga acceso a tu clave lo tiene también a tu cuenta. No se puede recuperar.
+Guarda tu [clave](/es/basics/key/) en un lugar seguro y no la compartas nunca con nadie. Cualquiera que tenga acceso a tu clave lo tiene también a tu cuenta. No se puede recuperar.
 :::
 
 #### Inicia sesión en otros dispositivos
@@ -50,4 +50,4 @@ Si quieres un resumen rápido de los conceptos básicos de Anytype, empieza por 
 
 #### Importar
 
-Si quieres importar a tu espacio datos que ya tienes, encontrarás instrucciones para hacerlo en [Importar y exportar](../data/import-and-export/).
+Si quieres importar a tu espacio datos que ya tienes, encontrarás instrucciones para hacerlo en [Importar y exportar](/es/data/import-and-export/).

@@ -1,9 +1,8 @@
 ---
-title: "Misi\u00f3n"
+title: "Misión"
 ---
 
-![Un colectivo soberano](/assets/mission.jpg)
-_Un colectivo soberanoSomos tecnófilos idealistas movidos por un sueño común de autonomía segura. Nuestro propósito es fomentar la confianza entre las personas, con las matemáticas como instrumento. Aspiramos a componer una red de amor y armonía. O, quizá, castillos en el aire. En cualquier caso, será algo hermoso._
+![mission](/assets/mission.jpg)
 
 ### Por qué estamos construyendo Anytype
 
@@ -26,7 +25,7 @@ La cooperación, esa extraordinaria capacidad para avanzar en conocimientos y bi
 Creemos que las herramientas para el pensamiento, la libertad y la confianza son lo que nos ha permitido crear todo el arte, la ciencia, las tecnologías, los dispositivos y las estructuras que vemos a nuestro alrededor. Con ellas hemos podido construir ciudades y alcanzar las estrellas.
 
 :::note
-**Nuestra misión es potenciar la cooperación sostenible creando de instrumentos para el pensamiento, la libertad y la confianza.**
+**Nuestra misión es potenciar la cooperación sostenible creando instrumentos para el pensamiento, la libertad y la confianza.**
 :::
 
 Para alcanzar este nivel de cooperación, tuvimos que dominar el lenguaje. El lenguaje es un instrumento del pensamiento que nos ha permitido crear historias, algunas de las cuales son innovaciones sociales, potentes realidades intersubjetivas que solo existen cuando creen en ellas suficientes personas. Los seres humanos encontramos la forma de usar esas historias para construir confianza y libertad al mismo tiempo. Para cooperar aún más, necesitamos ambas cosas. Si tenemos confianza pero nos falta libertad, el resultado es una dictadura; si tenemos mucha libertad pero nos falta confianza, el resultado es la anarquía.

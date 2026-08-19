@@ -1,8 +1,5 @@
 ---
 title: "Dates"
----
-
----
 description: How dates work as Objects, Properties, and references in Anytype.
 ---
 

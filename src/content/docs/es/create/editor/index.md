@@ -2,7 +2,7 @@
 title: "Editor"
 ---
 
-Anytype es un editor basado en bloques y todas las [páginas](/es/create/objects/formats/#formato-de-página) se construyen con bloques, de forma que tu contenido es flexible y fácil de usar. El editor es la forma principal de crear documentos en Anytype.
+Anytype es un editor basado en bloques y todas las [páginas](/es/objects/formats/#formato-de-página) se construyen con bloques, de forma que tu contenido es flexible y fácil de usar. El editor es la forma principal de crear documentos en Anytype.
 
 ## Cómo funciona
 
@@ -24,7 +24,7 @@ Pasa el puntero por el lado izquierdo de cualquier bloque y aparecerá un botón
 
 #### Menú /
 
-Escribe `/` en cualquier parte del editor. Aparece un menú con todos los tipos de bloque disponibles, organizados por categoría. Para filtrarlos, escribe algunos caracteres del tipo que busques: `/tít` para un bloque de título, `/cod` para un bloque de código, `/imag` para una imagen.
+Escribe `/` en cualquier parte del editor. Aparece un menú con todos los tipos de bloque disponibles, organizados por categoría. Para filtrarlos, escribe algunos caracteres del tipo que busques: `/h2` para un bloque de título 2, `/cod` para un bloque de código, `/imag` para una imagen.
 
 Esta es la forma más rápida si ya sabes lo que quieres.
 
@@ -65,12 +65,12 @@ Pasa el puntero sobre un bloque para destacarlo. Aparecen las opciones del bloqu
 
 #### Varios bloques
 
-Haz clic en un bloque, mantén pulsada la tecla Mayús y haz clic en otro para seleccionar todos los bloques que hay entre ambos. También puedes hacer clic y arrastrar con el ratón para seleccionar todos los bloques que quieras. Ahora podrás, por ejemplo:
+Haz clic en un bloque, mantén pulsada la tecla Mayús y haz clic en otro para seleccionar todos los bloques que hay entre ambos. También puedes hacer clic y arrastrar con el ratón para seleccionar todos los bloques que quieras. Después, tienes estas posibilidades:
 
-* **arrastrarlos** todos juntos a otro lugar,
-* **eliminarlos** todos a la vez,
-* **aplicar formato** (negrita, cursiva, color) a todo el texto seleccionado,
-* **convertirlos** todos a un tipo de bloque distinto (p. ej., convertir cinco párrafos en una lista con viñetas).
+* **Arrastrarlos** todos juntos a otro lugar,
+* **Eliminarlos** todos a la vez,
+* **Aplicar formato** (negrita, cursiva, color) a todo el texto seleccionado,
+* **Convertirlos** todos a un tipo de bloque distinto (p. ej., convertir cinco párrafos en una lista con viñetas).
 
 ![docs blocks select](/assets/docs-blocks-select.gif)
 
@@ -78,7 +78,7 @@ Haz clic en un bloque, mantén pulsada la tecla Mayús y haz clic en otro para s
 
 Dentro de un bloque de texto puedes aplicar formatos a palabras o caracteres por separado. Selecciona el texto y aparecerá una barra de herramientas flotante con estas opciones:
 
-* **Negrita:** `Cmd/Ctrl + B` o `**texto**`
+* **Negrita**: `Cmd/Ctrl + B` o `**texto**`
 * **Cursiva**: `Cmd/Ctrl + I` o `*texto*`
 * **Tachado**: `Cmd/Ctrl + Mayús + S` o `~~texto~~`
 * **Código en línea**: `Cmd/Ctrl + Mayús + L` o comillas invertidas `` `código` ``
@@ -86,7 +86,7 @@ Dentro de un bloque de texto puedes aplicar formatos a palabras o caracteres por
 * **Enlace**: `Cmd/Ctrl + K`, y pega una URL o busca un objeto.
 * **Color de fondo**: selecciona el texto y elige un color de en barra flotante.
 * **Color de texto**: igual que el resaltado, en la barra flotante.
-* **Citar en conversación**: copia el texto en un comentario de [discussions.md](../../collaborate/discussions.md "mention").
+* **Citar en conversación**: copia el texto en un comentario del [debate](/es/collaborate/discussions/).
 
 ![docs blocks inline styling 2](/assets/docs-blocks-inline-styling-2.jpg)
 
@@ -94,7 +94,7 @@ Dentro de un bloque de texto puedes aplicar formatos a palabras o caracteres por
 
 Cada bloque tiene un control en su lado izquierdo que abre el menú de opciones del bloque:
 
-* **Convertir en objeto**: convierte un bloque en otro tipo de bloque, como frase → título o lista numerada → lista con viñetas.
+* **Estilo**: convierte un bloque en otro tipo de bloque, como frase → título o lista numerada → lista con viñetas.
 * **Color**: cambia el color del texto.
 * **Fondo**: cambia el color de fondo.
 * **Mover a**: traslada el bloque a otro objeto.
@@ -107,10 +107,10 @@ Este menú también se abre al hacer clic derecho en cualquier bloque.
 
 El control del bloque no sirve solo para el menú, sino también para arrastrar y mover bloques. Haz clic, mantén pulsado y arrastra el bloque:
 
-* **arriba o abajo** para cambiar su posición en el objeto,
-* **a la izquierda o a la derecha** de otro bloque para crear una columna,
-* **fuera de una lista anidada** para sacarlo de esta,
-* **sobre un enlace a otro objeto** para añadir el bloque como contenido a ese objeto.
+* **Arriba o abajo** para cambiar su posición en el objeto,
+* **A la izquierda o a la derecha** de otro bloque para crear una columna,
+* **Fuera de una lista anidada** para sacarlo de esta,
+* **Sobre un enlace a otro objeto** para añadir el bloque como contenido a ese objeto.
 
 #### Sangría y anidamiento
 
@@ -134,5 +134,5 @@ Repite con otro bloque para seguir añadiendo columnas. Para volver a convertir 
 ## Notas
 
 :::note
-**Títulos desplegables + índice = mejor navegación en páginas muy largas.** Si usas ambas cosas, puedes contraer las secciones que no estés editando y usar el índice para pasar de una a otra. Consulta [Títulos desplegables](/es/create/editor/toggled-headings/).
+**Títulos desplegables + índice = mejor navegación en páginas muy largas.** Si usas ambas cosas, puedes contraer las secciones que no estés editando y usar el índice para pasar de una a otra. Consulta [Títulos desplegables](/es/advanced/feature-list-by-platform/toggled-headings/).
 :::
