@@ -1,9 +1,9 @@
 # Objetos
 
-En Anytype, todo lo que creas es un objeto. Páginas, tareas, proyectos, personas, imágenes, recetas… Todo son objetos. Si has usado otras herramientas, puede suelas pensar en términos de archivos y carpetas en una jerarquía de árbol. Pero así no es como funciona Anytype.
+En Anytype, todo lo que creas es un objeto. Páginas, tareas, proyectos, personas, imágenes, recetas… Todo son objetos. Si has usado otras herramientas, es posible que pienses en términos de archivos y carpetas en un árbol jerárquico. Pero no es así como funciona Anytype.
 
-* **Las carpetas preguntan: «¿Dónde va esto?»** Tienes que decidir si tu nota corresponde a la carpeta Reuniones, Clientes o Proyectos; si quieres tenerla en más de una, tienes que duplicarla.
-* **Los objetos preguntan: «¿Con qué se relaciona esto?».** Tu nota existe por sí misma y puedes conectarla a tus Reuniones, Clientes y Proyectos al mismo tiempo, sin duplicarla.
+* **Las carpetas preguntan: «¿Dónde va esto?»**. Tienes que decidir si tu nota corresponde a la carpeta Reuniones, Clientes o Proyectos; si quieres tenerla en más de una, tienes que duplicarla.
+* **Los objetos preguntan: «¿Con qué se relaciona esto?»**. Tu nota existe por sí misma y puedes conectarla a tus Reuniones, Clientes y Proyectos al mismo tiempo, sin duplicarla.
 
 En Anytype, creas un objeto y le vas añadiendo relaciones con el tiempo. Así se construye un sistema flexible de conocimiento interconectado en el que no importa dónde están las cosas, sino con qué están relacionadas.
 
@@ -18,15 +18,15 @@ Este es el resultado:
 * **Todo es fácil de encontrar.** Una persona puede estar conectada a una empresa, un proyecto, una reunión, una tarea y mucho más, por lo que puedes acceder a ella desde cualquiera de esos lugares.
 * **No hay duplicados.** Vincula la misma imagen a varios documentos en vez de copiarla en cada uno.
 * **Empiezas por la creación, no por la organización.** Nunca tienes que decidir si una nota pertenece a «Trabajo» o a «Personal»: puede ser las dos cosas a la vez.
-* **Los patrones emergen con el tiempo.** A medida que añades vínculos, van apareciendo por sí solas conexiones que no habías planeado y que pueden revelar información valiosa.
+* **Con el tiempo, emergen patrones.** A medida que añades vínculos, van apareciendo por sí solas conexiones que no habías planeado y que pueden revelar información valiosa.
 
 ## Cómo funciona
 
 Los objetos tienen:
 
-* [types.md](../../organize/types.md "mention") que los clasifican como notas, tareas, proyectos, reuniones, etc.
-* [properties.md](../../organize/properties.md "mention") que almacenan sus datos, como el estado, la fecha, el autor, el correo electrónico, etc.
-* [links.md](../links.md "mention") a otros objetos, como una receta conectada a una persona.
+* [Tipos](../../organize/types.md "mention") que los clasifican como notas, tareas, proyectos, reuniones, etc.
+* [Propiedades](../../organize/properties.md "mention") que almacenan sus datos, como el estado, la fecha, el autor, el correo electrónico, etc.
+* [Enlaces](../links.md "mention") a otros objetos, como una receta conectada a una persona.
 
 Aquí tienes un ejemplo sencillo de este funcionamiento:
 
@@ -99,13 +99,13 @@ Usa uno de estos métodos para hacer una búsqueda:
 
 #### Gráfico
 
-Para ver todos tus objetos y las conexiones entre ellos, puedes recurrir al [graph.md](../../advanced/feature-list-by-platform/graph.md "mention") como tu principal fuente de información. Cuando tengas abierto un objeto, haz clic en el icono «Gráfico» que aparece junto a los botones de avance y retroceso.
+Para ver todos tus objetos y las conexiones entre ellos, puedes recurrir al [gráfico](../../advanced/feature-list-by-platform/graph/ "mention") como tu principal fuente de información. Cuando tengas abierto un objeto, haz clic en el icono «Gráfico» que aparece junto a los botones de avance y retroceso.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Objects Find Graph.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 #### Papelera
 
-Cuando elimines objetos de tus [channels.md](../../basics/channels.md "mention"), aparecerán en la [papelera](../../organize/deletion.md) hasta que los elimines definitivamente.
+Cuando elimines objetos de tus [canales](../../basics/channels.md "mention"), aparecerán en la [papelera](../../organize/deletion.md) hasta que los elimines definitivamente.
 
 Puedes acceder a la papelera desde la barra lateral. Si esta sección no está visible, consulta en [Gestionar las secciones](../../basics/sidebar/sections.md#gestionar-las-secciones) cómo mostrarla.
 

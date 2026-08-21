@@ -21,7 +21,7 @@ Pulsa Tab dentro de un elemento de lista para añadirle sangría y crear una sub
 Arrastra un archivo al editor para insertarlo. Cada archivo se convierte en un [objeto de archivo](../files-and-media.md) que puedes encontrar y e insertar en otros lugares.
 
 {% hint style="info" %}
-**Consejo:** Usa el atajo `/arch` para añadir como bloque una imagen o archivo que ya esté en tu espacio. No tienes que volver a cargar el mismo archivo desde tu dispositivo; sube el archivo una vez y reutilízalo tantas veces como quieras.
+**Nota:** Usa el atajo `/arch` para añadir como bloque una imagen o archivo que ya esté en tu espacio. No tienes que volver a cargar el mismo archivo desde tu dispositivo; sube el archivo una vez y reutilízalo tantas veces como quieras.
 {% endhint %}
 
 ### Bloques de estructura
@@ -47,7 +47,7 @@ También puedes seleccionar varias celdas a la vez:
 
 <table><thead><tr><th width="193.50390625">Bloque</th><th>Para qué sirve</th></tr></thead><tbody><tr><td><strong>Propiedad</strong></td><td>Añade una propiedad del objeto como bloque en el contenido</td></tr></tbody></table>
 
-Sirve para mostrar [properties.md](../../organize/properties.md "mention") de forma destacada. El valor de la propiedad se mantiene sincronizado en el bloque: si cambias uno, todos los demás se actualizan. Esto permite crear plantillas y diseños elaborados para todos tus documentos.
+Sirve para mostrar [propiedades](../../organize/properties.md "mention") de forma destacada. El valor de la propiedad se mantiene sincronizado en el bloque: si cambias uno, todos los demás se actualizan. Esto permite crear plantillas y diseños elaborados para todos tus documentos.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/slashmenu-property.png" alt=""/><figcaption></figcaption></figure></div>
 

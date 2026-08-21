@@ -2,9 +2,9 @@
 
 Los widgets son como ventanas a tu canal que te permiten interactuar con tu contenido directamente desde la barra lateral. Tus objetos anclados y favoritos no son simples marcadores estáticos, sino que pueden transformarse en reflejos dinámicos e interactivos de tu contenido. Estas son algunas de las formas de emplearlos:
 
-* **Calendario con tu agenda**: Consulta tus reuniones, plazos y citas de un vistazo.
-* **Lista de tareas de un proyecto**: Revisa y marca las tareas pendientes sin salir del objeto que tengas abierto.
-* **Galería visual**: Muestra fotos recientes, recursos de diseño o tableros de inspiración en una cuadrícula atractiva.
+* **Calendario con tu agenda:** consulta tus reuniones, plazos y citas de un vistazo.
+* **Lista de tareas de un proyecto:** revisa y marca las tareas pendientes sin salir del objeto que tengas abierto.
+* **Galería visual:** muestra fotos recientes, recursos de diseño o tableros de inspiración en una cuadrícula atractiva.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Widget Types.jpg" alt=""/><figcaption></figcaption></figure></div>
 
@@ -64,11 +64,11 @@ Las opciones de diseño de cada widget dependen del objeto y de las vistas que h
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Widgets Layouts.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-* **Como en el objeto:** Ideal para consultas o colecciones ancladas, que aparecerán incrustadas y actualizadas directamente en la barra lateral. Las [opciones de vista](../../organize/queries.md#vistas) disponibles en el widget se configuran en el objeto.
-* **Compacta**: Muestra los enlaces a los objetos ordenados bajo cada elemento principal.
-* **Detallada:** Similar a la vista compacta, pero muestra más metadatos y detalles de cada elemento.
-* **Enlace:** La opción minimalista que muestra solo el título del objeto y su icono.
-* **Estructura jerárquica:** Para las páginas, puedes algo semejante a una estructura de carpetas en la barra lateral. Todos los bloques de enlace que contenga la página aparecerán en el widget. [Aquí encontrarás más detalles](../../organize/collections.md#widget-con-aspecto-de-carpeta).
+* **Como en el objeto**: ideal para consultas o colecciones ancladas, que aparecerán incrustadas y actualizadas directamente en la barra lateral. Las [opciones de vista](../../organize/queries.md#vistas) disponibles en el widget se configuran en el objeto.
+* **Compacta**: muestra los enlaces a los objetos ordenados bajo cada elemento principal.
+* **Detallada**: similar a la vista compacta, pero muestra más metadatos y detalles de cada elemento.
+* **Enlace**: la opción minimalista que muestra solo el título del objeto y su icono.
+* **Estructura jerárquica**: para las páginas, puedes crear algo semejante a una estructura de carpetas en la barra lateral. Todos los bloques de enlace que contenga la página aparecerán en el widget. [Aquí encontrarás más detalles](../../organize/collections.md#widget-con-aspecto-de-carpeta).
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Hierarchical Structure.gif" alt=""/><figcaption></figcaption></figure></div>
 
@@ -85,7 +85,7 @@ Para ahorrar espacio, los widgets muestran un número limitado de objetos. Si no
 
 ### Vista de la barra lateral del canal
 
-Según el ámbito de tu espacio y tus preferencias de navegación, puedes cambiar la densidad general de la barra lateral en los [Ajustes del canal](../../settings/channel-settings.md). Por defecto, la opción activada es **Widgets**, pero puedes usar la vista **Enlaces** cuando quieras la máxima densidad.
+Según el ámbito de tu espacio y tus preferencias de navegación, puedes cambiar la densidad general de la barra lateral en los [Ajustes del canal](../../settings/channel-settings.md). Por defecto, la opción activada es Widgets, pero puedes usar la vista **Enlaces** cuando quieras la máxima densidad.
 
 |**Presentación**     |**Descripción**                                                                                          |**Ideal para**                                                                                  |
 |---------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|

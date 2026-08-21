@@ -13,7 +13,7 @@ Este es el formato de objeto más habitual, con un editor que sirve para crear t
 1. **Área de título del objeto**, con título, emoticono, imagen de portada y descripción.
 2. **Cabecera del objeto**, con propiedades alineadas o como lista.
 3. **Cuerpo del objeto**, con contenido, bloques, enlaces insertados, etc.
-4. **Debate del objeto**, con comentarios (consulta [discussions.md](../../collaborate/discussions.md "mention") para ver más detalles).
+4. **Debate del objeto**, con comentarios (consulta [Debates](../../collaborate/discussions.md "mention") para ver más detalles).
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Page Format.png" alt=""/><figcaption></figcaption></figure></div>
 
@@ -51,7 +51,7 @@ Hay toda una variedad de diseños para elegir:
 
 <table><thead><tr><th width="221.08203125">Tipo de diseño</th><th>Ideal para</th></tr></thead><tbody><tr><td><strong>Lista</strong></td><td>Filas verticales simples</td></tr><tr><td><strong>Cuadrícula</strong></td><td>Similar a una hoja de cálculo</td></tr><tr><td><strong>Calendario</strong></td><td>Organización por fecha y hora</td></tr><tr><td><strong>Kanban</strong></td><td>Agrupación y gestión de proyectos</td></tr><tr><td><strong>Galería</strong></td><td>Gran efecto visual</td></tr><tr><td><strong>Gráfico</strong></td><td>Relaciones interconectadas</td></tr></tbody></table>
 
-A diferencia de los diseños de página, puedes tener varios diseños de vista configurados para un mismo tipo. Tienes más detalles en [views.md](../../organize/views.md "mention").
+A diferencia de los diseños de página, puedes tener varios diseños de vista configurados para un mismo tipo. Tienes más detalles en [Vistas](../../organize/views.md "mention").
 
 ## Formato de chat
 

@@ -1,93 +1,93 @@
 # Eliminación
 
-In Anytype, everything exists as its own independent Object — the same image can be used many times across many documents. Because of this, everything must be intentionally deleted independently. There are no folders you can simply delete with all their contents.
+En Anytype, todo existe como objeto independiente: una misma imagen puede aparecer muchas veces en distintos documentos. Por esta razón, todo debe eliminarse por separado y de forma expresa. No existen carpetas que puedas borrar junto con todo su contenido.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Deletion System.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 ## Cómo funciona
 
-In Anytype, you must intentionally choose what you want to delete at every moment. Here is a high-level overview of how deletion works in Anytype.
+En Anytype, debes elegir expresamente lo que quieres eliminar en cada momento. Aquí tienes una descripción general del funcionamiento de la eliminación en Anytype.
 
-<table><thead><tr><th width="190.3125">Situation</th><th>Traditional</th><th>Anytype</th></tr></thead><tbody><tr><td><strong>Deleting a block</strong></td><td>Pages have a location, so if you delete the block where a page is located, the entire page will be deleted.</td><td>Blocks represent a link to an Object. If you delete a block, the underlying Object still remains.</td></tr><tr><td><strong>Deleting a folder</strong></td><td>Everything inside the folder is deleted with it. This can lead to unintentionally deleting important items deeply hidden in a large folder.</td><td>There are no folders in Anytype. If you delete a <a href="types.md">Type</a>, you will be asked if you want to delete all Objects with it.</td></tr><tr><td><strong>Deleting a database</strong></td><td>Databases contain all of its entries, so if you delete the database, all of the entries go with it.</td><td>Objects are not contained in 'databases' in Anytype (Types, Queries, and Collections). If you delete a 'database', you can preserve all of its entries.</td></tr></tbody></table>
+<table><thead><tr><th width="190.3125">Acción</th><th>Tradicional</th><th>Anytype</th></tr></thead><tbody><tr><td><strong>Eliminar un bloque</strong></td><td>Las páginas tienen una ubicación; si eliminas el bloque en el que se ubica la página, se elimina toda la página.</td><td>Los bloques representan un enlace a un objeto; si eliminas un bloque, el objeto al que enlaza sigue existiendo.</td></tr><tr><td><strong>Eliminar una carpeta</strong></td><td>Todo el contenido de la carpeta se elimina junto con ella. Es posible eliminar sin querer elementos importantes difíciles de ver en una gran carpeta.</td><td>En Anytype no hay carpetas. Si eliminas un <a href="types.md">tipo</a>, se te preguntará si también quieres eliminar todos los objetos de ese tipo.</td></tr><tr><td><strong>Eliminar una base de datos</strong></td><td>Las bases de datos contienen todas sus entradas; si eliminas una base de datos, las entradas desaparecen con ella.</td><td>Las «bases de datos» de Anytype (tipos, consultas y colecciones) no contienen los objetos. Puedes eliminarlas y conservar todos los objetos.</td></tr></tbody></table>
 
-Because Objects in Anytype exist independently from one another, deletion can be more difficult to navigate. The [Cleanup](deletion.md#limpieza) feature helps you ensure your space does not accumulate redundant Objects over time.
+Esta existencia independiente de los objetos de Anytype puede complicar un poco su eliminación. La función [Limpieza](deletion.md#limpieza) te ayuda a evitar la acumulación de objetos superfluos con el tiempo.
 
 ## Papelera
 
-Deleting an Object will move it to the Bin, otherwise known as 'archiving'. This gives you an opportunity to restore the Object to the space should you change your mind. All Objects stay in the Bin indefinitely until you choose to delete it permanently. You can find the Bin in two locations:
+Los objetos eliminados se trasladan a la papelera, lo que también se puede llamar «archivarlos». De esta forma, tienes la oportunidad de restaurar el objeto en tu espacio si cambias de idea. Los objetos de la papelera se quedan allí para siempre hasta que los elimines de forma definitiva. Puedes abrir la papelera des de dos lugares:
 
-* **Channel Settings** > Preferences > Bin
-* **Sidebar** > Manage Sections > Bin
+* **Ajustes del canal** > Preferencias > Papelera
+* **Barra lateral** > Gestionar secciones > Papelera
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Bin Intro.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### Selection
+#### Selección
 
-* **Select** — Click on the checkbox to the left of the Object's name.
-* **Select All** — Click on the checkbox to the left of the header, next to 'Name'.
+* **Seleccionar**: haz clic en la casilla a la izquierda del nombre del objeto.
+* **Seleccionar todo**: haz clic en la casilla situada a la izquierda de la cabecera, junto a «Nombre».
 
-Once you have selected at least one Object, you can choose to Delete Permanently or Restore.
+Con uno o varios objetos seleccionados, puedes elegir entre eliminarlos definitivamente o restaurarlos.
 
-#### Permanently Delete
+#### Eliminar definitivamente
 
-Deleting an Object in your Bin means it will be gone forever and cannot be recovered. You will be asked to confirm you want to proceed every time.
+Al eliminar un objeto de la papelera, este desaparece para siempre y no se puede recuperar. Cada vez que lo hagas, se te pedirá confirmación.
 
-#### Restore
+#### Restaurar
 
-Restoring an Object from your Bin means it will return back to your space. It will retain all of its previous links and settings. This includes restoring Types, Properties, and Templates.
+Al restaurar un objeto desde la papelera, el objeto vuelve a tu espacio. Conservará todos los enlaces y ajustes que tuviera, incluidos los tipos, propiedades y plantillas.
 
-#### Search & Sort
+#### Buscar y ordenar
 
-You can search for Objects by their name in the Bin and change the deletion date sorting order. At times, Objects may not have a deletion date so it's best to scroll down the list to find what you're looking for.
+Puedes buscar objetos por su nombre en la papelera y ordenarlos por fecha de eliminación. Por si algún objeto carece de fecha de eliminación, procura desplazarte hasta el principio o final de la lista para encontrar lo que buscas.
 
 ## Limpieza
 
-Cleanup shows suggestions for what you could delete to tidy up your space. Objects in this list are **not** in your Bin — they still exist in your space just like any other Object that hasn't been deleted. These are merely suggestions. You can find the Cleanup section alongside the Bin in two locations:
+La sección «Limpieza» te sugiere objetos que podrías eliminar para despejar tu espacio. Los objetos de esta lista **no están en la papelera**: siguen presentes en tu espacio como cualquier otro objeto que no hayas eliminado. Se trata solo de sugerencias. Encontrarás la sección «Limpieza» junto con la papelera en dos lugares:
 
-* **Channel Settings** > Preferences > Bin > Cleanup
-* **Sidebar** > Manage Sections > Bin > Cleanup
+* **Ajustes del canal** > Preferencias > Papelera > Limpieza
+* **Barra lateral** > Gestionar secciones > Papelera > Limpieza
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Bin Cleanup.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 ### Qué significa esto
 
-With the way most apps work, users typically expect that deleting something will move it to the bin. Because of the object-based system, this does not always happen in Anytype. This can lead to your space becoming bloated with undeleted files that serve no purpose. Cleanup helps users manage their spaces.
+Por la forma en que funcionan muchas aplicaciones, los usuarios suelen esperar que todo lo que se elimine se traslade a la papelera. Esto no ocurre siempre en Anytype, que es un sistema basado en objetos. Por eso, tu espacio puede acabar cargado de archivos sin eliminar que ya no sirven para nada. Esta sección te ayuda a mantener limpio tu espacio.
 
-### How does it work?
+### Cómo funciona
 
-Imagine you're writing a report. You insert three images into it, then delete one because it doesn't fit the final draft. All three images remain in your space, since every file is an independent Object. But the image you removed from the report is no longer needed; it's just a leftover from your editing process but it still exists in your space. Over time, this clutter builds up, leaving your space full of files that no longer serve a purpose.
+Imagina que estás escribiendo un informe. Le añades tres imágenes, pero luego quitas una porque no encaja en el borrador final. Las tres imágenes siguen existiendo en tu espacio, ya que cada una es un objeto independiente, pero la imagen que quitaste del informe ya no es necesaria; solo es un residuo de tu proceso de edición que se ha quedado en tu espacio. Con el tiempo, estos residuos se acumulan y tu espacio acaba lleno de archivos que ya no tienen utilidad alguna.
 
-Anytype tracks these 'suggested deletions' and lists them in the Cleanup section for you to review. From there, you can dismiss the suggestion or delete the Object permanently. The types of Objects that appear here include:
+Anytype lleva la cuenta de estas «eliminaciones sugeridas» y las muestra en la sección «Limpieza» para que las revises. Desde ahí, puedes descartar la sugerencia o eliminar el objeto de forma definitiva. Aparecen dos clases de objetos:
 
-#### Created In
+#### Creado en
 
-An Object created inside a "parent Object" — and not linked anywhere else — becomes a suggested deletion when that parent Object is deleted. For example:
+Los objetos que se crean dentro de otro «objeto contenedor» y no tienen enlaces con ningún otro elemento aparecen aquí cuando se elimina el objeto contenedor. Por ejemplo:
 
-1. You create Project A.
-2. While inside Project A, you use the `/page` command to create an Object called Task X.
-3. You delete Project A, leaving Task X orphaned — it's no longer linked to anything.
-4. Task X now appears in the Cleanup section as a suggestion.
+1. Creas un «Proyecto A».
+2. Mientras estás en la página del proyecto A, usas el comando `/página` para crear un objeto llamado «Tarea X».
+3. Eliminas el proyecto A, por lo que la tarea X se queda huérfana: ya no está vinculada a nada.
+4. Ahora, la tarea X aparecerá como sugerencia en la sección «Limpieza».
 
-*Note: If Task X is linked to another Object, such as Project B, it won't appear in Cleanup.*
+_Nota: Si la tarea X está vinculada a otro objeto, como un proyecto B, no aparecerá en Limpieza._
 
-#### Link Removed From
+#### Enlace eliminado de
 
-An Object created inside a "parent Object" — and not linked anywhere else — becomes a suggested deletion when its link block is removed from that parent Object. For example:
+Los objetos que se crean dentro de otro «objeto contenedor» y no tienen enlaces con ningún otro elemento aparecen aquí cuando se elimina el bloque de enlace del objeto contenedor. Por ejemplo:
 
-1. You create a Holiday Plan.
-2. Inside Holiday Plan, you drag and drop a PDF of your 30 Aug Flight Ticket.
-3. Your flight changes, so you delete the old PDF and add a new one for 1 Sep.
-4. The old flight ticket PDF is now orphaned (no other links).
-5. Your 30 Aug Flight Ticket appears in the Cleanup section as a suggestion.
+1. Creas un «Plan de vacaciones».
+2. Mientras estás en la página del plan de vacaciones, arrastras y sueltas el PDF de tu tarjeta de embarque para el día 30 de agosto.
+3. Te retrasan el vuelo, así que eliminas ese PDF y añades otro con la tarjeta de embarque del 1 de septiembre.
+4. Ahora, el PDF del billete antiguo está huérfano (no tiene más vínculos).
+5. El PDF del vuelo del 30 de agosto aparecerá como sugerencia en la sección «Limpieza».
 
-*Note: This applies to all other Object types as well, including docs, tasks, images, and videos.*
+_Nota: Esto se aplica a todo tipo de objetos, como documentos, tareas, imágenes y vídeos._
 
-## Tips
+## Notas
 
 {% hint style="info" %}
-**Use 'delete permanently' cautiously**. It's not possible to recover Objects that have been deleted from your Bin. Only do so if you are certain they are no longer needed.
+**Usa «eliminar definitivamente» con precaución**. Es imposible recuperar los objetos que hayas eliminado también de la papelera. Hazlo solo cuando tengas claro que no volverás a necesitarlos.
 {% endhint %}
 
 {% hint style="info" %}
-**Types, Properties, Templates, etc. can all be found in the Bin**—not just regular documents and files.
+**La papelera puede contener también tipos, propiedades, plantillas, etc.**, no solo documentos y archivos.
 {% endhint %}

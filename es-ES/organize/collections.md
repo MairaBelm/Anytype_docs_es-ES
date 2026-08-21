@@ -15,7 +15,6 @@ Cuando los objetos tienen una relación clara, es fácil reunirlos con una [cons
 ## Cuándo usar colecciones
 
 Para entender las colecciones, lo más fácil es compararlas con las [consultas](queries.md). En una colección mantienes un conjunto de objetos que no van a cambiar demasiado con el tiempo. En una consulta estás filtrando objetos que probablemente cambien con el tiempo.
-Para entender las colecciones, lo más fácil es compararlas con las [consultas](queries.md). En una colección mantienes un conjunto de objetos que no van a cambiar demasiado con el tiempo. En una consulta estás filtrando objetos que probablemente cambien con el tiempo.
 
 Considera las colecciones como algo que mantienes personalmente; por ejemplo, «Favoritos de la abuela». Considera las consultas como algo que defines con reglas y filtros; por ejemplo, todo lo que etiquetes como «importante».
 
@@ -123,10 +122,10 @@ Al igual que las vistas, las colecciones son independientes de los objetos que o
 
 ## Notas
 
-**{% hint style="info" %}
-Las colecciones son una forma rápida y sencilla de organizar los objetos.** Aunque las consultas son mejores para mantener la organización a largo plazo, las colecciones requieren menos reflexión y planificación. Crea tantas cuantas quieras, ya que eliminarlas no afecta a los objetos que contienen.
+{% hint style="info" %}
+**Las colecciones son una forma rápida y sencilla de organizar los objetos.** Aunque las consultas son mejores para mantener la organización a largo plazo, las colecciones requieren menos reflexión y planificación. Crea tantas cuantas quieras, ya que eliminarlas no afecta a los objetos que contienen.
 {% endhint %}
 
-**{% hint style="info" %}
-Ancla colecciones de proyectos a tu barra lateral.** Una colección anclada sirve como panel del proyecto: con un solo clic, ves todo lo relacionado.
+{% hint style="info" %}
+**Ancla colecciones de proyectos a tu barra lateral.** Una colección anclada sirve como panel del proyecto: con un solo clic, ves todo lo relacionado.
 {% endhint %}

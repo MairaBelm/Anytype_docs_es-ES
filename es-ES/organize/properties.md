@@ -9,20 +9,20 @@ Las propiedades son los datos que asocias a un objeto: su fecha de vencimiento, 
 Las propiedades te permiten organizar el conocimiento mediante sistemas flexibles, ya que puedes utilizarlas para ordenar, filtrar y consultar tus objetos:
 
 * Busca todas las **tareas** cuya **prioridad** sea **alta**.
-* Busca todos los **libros** cuyo estado sea **leído**, ordenados por **valoración**.
-* Busca todas las **ideas** cuya **fecha de creación** sea el **año pasado**.
+* Busca todos los **libros** cuyo **estado** sea **leído**, ordenados por **valoración**.
+* Busca todas las **ideas** cuya **fecha de creación** sea **el año pasado**.
 
 ## Cómo funciona
 
 Las propiedades cumplen dos funciones. Vamos a usar un objeto del tipo «Tarea» como ejemplo.
 
-**1\. Definen los objetos.** Úsalas para añadir datos útiles y descriptivos, como estos:
+**1. Definen los objetos**. Úsalas para añadir datos útiles y descriptivos, como estos:
 
 * Estado: En curso
 * Prioridad: Alta
 * Fecha final: El próximo viernes
 
-**2\. Conectan los objetos**. Úsalas para vincular un objeto a otro; por ejemplo:
+**2. Conectan los objetos**. Úsalas para vincular un objeto a otro; por ejemplo:
 
 * Asignado a: → Alex (un objeto del tipo «Persona»)
 * Proyecto: → Rediseño del sitio web (un objeto del tipo «Proyecto»)
@@ -74,7 +74,7 @@ Es posible añadir propiedades que no tengan relación con el tipo de ese objeto
 
 #### Desde los ajustes del canal
 
-Abre [channel-settings.md](../settings/channel-settings.md "mention"), ve a «Modelo de contenido» y selecciona **Propiedades**. Aquí basta con hacer clic en el botón «Nuevo» para crear una propiedad.
+Abre [Ajustes del canal](../settings/channel-settings.md "mention"), ve a «Modelo de contenido» y selecciona **Propiedades**. Aquí basta con hacer clic en el botón «Nuevo» para crear una propiedad.
 
 ## Cómo usar las propiedades
 
