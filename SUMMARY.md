@@ -58,10 +58,10 @@
 * [Advanced Filters](advanced/feature-list-by-platform/advanced-filters.md)
 * [Formulas](advanced/feature-list-by-platform/formulas.md)
 * [Custom CSS](advanced/feature-list-by-platform/custom-css.md)
-* [Storage Location](advanced/feature-list-by-platform/storage-location.md)
-* [Local API](advanced/feature-list-by-platform/local-api/README.md)
-  * [Raycast Extension (macOS)](advanced/feature-list-by-platform/raycast-extension-macos.md)
-* [Anytype Agents' Skill](advanced/feature-list-by-platform/anytype-agents-skill.md)
+* [Integrations](features/integrations/README.md)
+  * [Local API](features/integrations/local-api.md)
+  * [Anytype Agents' Skill](features/integrations/anytype-agents-skill.md)
+  * [Raycast Extension](features/integrations/raycast-extension.md)
 
 ## Data
 

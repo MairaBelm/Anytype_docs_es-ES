@@ -152,7 +152,7 @@ There's no browser version of the app. Anytype is a stand-alone software, that w
 * [formulas.md](../advanced/feature-list-by-platform/formulas.md "mention")
 * [embeds.md](../advanced/feature-list-by-platform/embeds.md "mention")
 * [custom-css.md](../advanced/feature-list-by-platform/custom-css.md "mention")
-* [storage-location.md](../advanced/feature-list-by-platform/storage-location.md "mention")
+* [Broken link](/broken/pages/jSr1UnNvM2cdphyK8ywU "mention")
 * [graph.md](../advanced/feature-list-by-platform/graph.md "mention") & Flow
 * [import-and-export](../data/import-and-export/ "mention")
 * PIN Code
