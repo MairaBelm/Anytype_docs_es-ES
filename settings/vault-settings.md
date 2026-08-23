@@ -132,8 +132,10 @@ Here you can find a list of all your Channels, access roles, and network statuse
 
 Here you can find and manage all previously published Objects.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Docs Vault Sites.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ### API Keys
 
 Here you can find, manage, and create API keys.
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Docs Vault API.jpg" alt=""><figcaption></figcaption></figure></div>

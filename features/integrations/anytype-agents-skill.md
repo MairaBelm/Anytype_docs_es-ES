@@ -10,7 +10,7 @@ The repository is on GitHub: [github.com/anyproto/anytype-agents-skill](https://
 
 ***
 
-Anytype already exposes a [Local API](https://github.com/anyproto/docs-new/blob/main/advanced/feature-list-by-platform/feature-list-by-platform/local-api/README.md) for direct integration. The Skill is a layer above that — it bundles the API into ready-made functions an AI agent can use without you having to teach it the protocol.
+Anytype already exposes a [Local API](local-api.md) for direct integration. The Skill is a layer above that — it bundles the API into ready-made functions an AI agent can use without you having to teach it the protocol.
 
 If you've ever thought "I wish I could just describe what I want to do to my notes and have it happen," this is the bridge. You describe the task in plain language, the agent uses the Skill to translate that into the correct Anytype operations, and the work gets done.
 
@@ -44,7 +44,7 @@ The runtime is **isolated** — the script only has access to the Anytype Skill'
 #### Prerequisites
 
 * Anytype installed and running on the same device
-* A [Local API key](https://github.com/anyproto/docs-new/blob/main/advanced/feature-list-by-platform/feature-list-by-platform/local-api/README.md) generated in **Vault Settings > API Keys**
+* A [Local API key](local-api.md) generated in **Vault Settings > API Keys**
 * An AI agent that supports tool use (Claude Code, Cursor, Gemini CLI, GitHub Copilot, etc.)
 
 #### Install the Skill
@@ -116,7 +116,7 @@ Anything the Local API can do. This includes creating, updating, and deleting Ob
 * See or modify other Channels you haven't given the agent access to (more accurately: the agent can only act on Channels accessible through the API key you provided)
 * Bypass Channel permissions — if your role in a Channel is Viewer, the Skill can only read
 
-#### Recommendations
+## Tips
 
 {% hint style="warning" %}
 **Review scripts before running them.** Most agents show you what they're about to execute. Read it. A "delete all Objects matching X" script run by mistake is hard to recover from.
@@ -130,8 +130,7 @@ Anything the Local API can do. This includes creating, updating, and deleting Ob
 **Test on a small scope first.** Before running a bulk operation on hundreds of Objects, ask the agent to do it on five and check the result.
 {% endhint %}
 
-### Where to learn more
+You can learn more here:&#x20;
 
 * [Anytype Agents' Skill on GitHub](https://github.com/anyproto/anytype-agents-skill) — full method reference, examples, per-agent setup
-* [Local API](https://github.com/anyproto/docs-new/blob/main/advanced/feature-list-by-platform/feature-list-by-platform/local-api/README.md) — the underlying interface
-* [API Keys](https://github.com/anyproto/docs-new/blob/main/advanced/feature-list-by-platform/settings/account-and-data.md) — managing keys in Vault Settings
+* [Local API](local-api.md) — the underlying interface and key management.&#x20;

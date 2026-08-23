@@ -94,7 +94,7 @@ Depending on the scope of your Space and how you prefer to navigate, you can cha
 
 Navigate to Channel Preferences > Sidebar View to toggle between two distinct display modes. You can switch back and forth between these modes at any time as your workflow evolves.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Sidebar View.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/sidebar view.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Pins as Widgets
 
