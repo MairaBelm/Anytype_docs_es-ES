@@ -16,12 +16,12 @@ Pulsa Tab dentro de un elemento de lista para añadirle sangría y crear una sub
 
 ### Bloques de medios
 
-<table><thead><tr><th width="165.9921875">Bloque</th><th>Para qué sirve</th></tr></thead><tbody><tr><td><strong>Imagen</strong></td><td>Imagen insertada</td></tr><tr><td><strong>Vídeo</strong></td><td>Reproductor de vídeo incrustado</td></tr><tr><td><strong>Audio</strong></td><td>Reproductor de audio incrustado</td></tr><tr><td><strong>Archivo</strong></td><td>Archivo genérico con enlace de descarga</td></tr><tr><td><strong>PDF</strong></td><td>PDF con vista previa</td></tr></tbody></table>
+<table><thead><tr><th width="165.9921875">Bloque</th><th>Para qué sirve</th></tr></thead><tbody><tr><td><strong>Imagen</strong></td><td>Imagen insertada</td></tr><tr><td><strong>Vídeo</strong></td><td>Reproductor de vídeo incrustado</td></tr><tr><td><strong>Audio</strong></td><td>Reproductor de audio incrustado</td></tr><tr><td><strong>Documento</strong></td><td>Archivo genérico con enlace de descarga</td></tr><tr><td><strong>PDF</strong></td><td>PDF con vista previa</td></tr></tbody></table>
 
 Arrastra un archivo al editor para insertarlo. Cada archivo se convierte en un [objeto de archivo](../files-and-media.md) que puedes encontrar y e insertar en otros lugares.
 
 {% hint style="info" %}
-**Nota:** Usa el atajo `/arch` para añadir como bloque una imagen o archivo que ya esté en tu espacio. No tienes que volver a cargar el mismo archivo desde tu dispositivo; sube el archivo una vez y reutilízalo tantas veces como quieras.
+**Nota:** Usa el atajo `/archivo` para añadir como bloque una imagen o archivo que ya esté en tu espacio. No tienes que volver a cargar el mismo archivo desde tu dispositivo; sube el archivo una vez y reutilízalo tantas veces como quieras.
 {% endhint %}
 
 ### Bloques de estructura

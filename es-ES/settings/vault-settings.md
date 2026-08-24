@@ -132,8 +132,10 @@ Aquí encontrarás una lista de todos tus canales, tu nivel de acceso y su estad
 
 Aquí podrás ver y gestionar los objetos que hayas publicado.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (35).png" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Vault Sites.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 ### Claves de API
 
 Aquí puedes ver, gestionar y crear claves de API.
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Vault API.jpg" alt=""/><figcaption></figcaption></figure></div>

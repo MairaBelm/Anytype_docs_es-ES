@@ -94,7 +94,7 @@ Según el ámbito de tu espacio y tus preferencias de navegación, puedes cambia
 
 Para elegir uno estos modos, ve a Preferencias del canal > Vista de barra lateral. Puedes cambiar el modo cuantas veces quieras según evolucione tu forma de trabajar.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Sidebar View.png" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/sidebar view.png" alt=""/><figcaption></figcaption></figure></div>
 
 ### Anclados como widgets
 

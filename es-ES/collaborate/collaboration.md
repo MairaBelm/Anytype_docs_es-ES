@@ -1,189 +1,189 @@
-# Collaboration
+# Colaboración
 
-Anytype lets you collaborate with others without sacrificing your privacy.
+Anytype te permite colaborar con otras personas sin sacrificar tu privacidad.
 
-Unlike traditional cloud apps—where hosting companies can access your content—Anytype uses local-first and end-to-end encryption technology. Your content is always accessible directly on your device, and only the people you explicitly invite have the keys to unlock and view it. Anytype’s servers can back up and sync your files, but they never hold the keys to read your content. You can even collaborate directly with others using peer-to-peer sync or self-host on your own network.
+A diferencia de las aplicaciones en la nube habituales, en las que tu contenido está en manos de las empresas de alojamiento, Anytype utiliza tecnología local y con cifrado de extremo a extremo. Tu contenido está siempre accesible en tu dispositivo, y solo tienen la clave para desbloquearlo y verlo aquellas personas a las que invites de forma explícita. Los servidores de Anytype pueden hacer una copia de respaldo de tus archivos y sincronizarlos, pero nunca tienen las claves que les permitirían leer tu contenido. Incluso puedes colaborar directamente con otras personas mediante la sincronización entre pares (P2P) o alojarlo en tu propia red.
 
-The result: real collaboration, with no middleman able to see what you're working on.
+El resultado: colaboración real, sin que ningún intermediario pueda ver lo que estáis creando.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate.gif" alt=""/><figcaption></figcaption></figure></div>
 
 ## Qué significa esto
 
-Collaboration in Anytype isn't an afterthought—it's designed from the ground up to give you total ownership and control over your data.
+En Anytype, la colaboración no es un añadido, sino que está ideada desde el principio para ofrecerte soberanía y control sobre tus datos por completo.
 
-* **Complete Privacy:** Everything in your shared spaces is encrypted *before* it leaves your device. Only you and your invited teammates can ever read it.
-* **Real-Time Sync:** Changes appear instantly when members are online, or on the same local network.
-* **Offline-First:** Work freely without an internet connection. Your changes will sync automatically as soon as you establish a network connection, which can be peer-to-peer.
-* **No Sign-Up Hassles:** Collaborators don't need to provide an email address, buy a subscription, or ask anyone for permission. Anyone can set up an Anytype Vault instantly.
+* **Privacidad completa:** todo lo que contienen tus espacios compartidos se cifra _antes_ de salir de tu dispositivo. Es imposible que lo lea nadie, aparte de ti y los otros miembros.
+* **Sincronización en tiempo real:** los cambios aparecen al instante cuando los miembros están conectados o en la misma red local.
+* **Funcionamiento sin conexión:** trabaja libremente sin conexión a Internet. Tus cambios se sincronizarán de forma automática en cuanto establezcas una conexión de red, que puede ser entre pares.
+* **Sin la molestia de registrarse:** los colaboradores no tienen que proporcionar su dirección de correo electrónico, pagar una suscripción ni pedir permiso a nadie. Cualquiera puede crear un arca de Anytype al instante.
 
-This makes shared spaces suitable for sensitive contexts — legal teams, journalists, communities of practice, family planning — anywhere you want collaboration without surveillance.
+De esta forma, los espacios compartidos son apropiados en ámbitos confidenciales como equipos de trabajo, periodistas, comunidades de práctica, organización familiar..., cualquier contexto en el que se busque una colaboración sin miradas ajenas.
 
 ## Cómo funciona
 
-With typical cloud apps, your data lives on company servers and is often accessible to third parties like Apple or Google for phone notifications. Anytype does things differently:
+Con las aplicaciones de nube habituales, tus datos residen en los servidores de la empresa y, a menudo, se permite el acceso de terceros como Apple o Google; por ejemplo, para notificaciones en el teléfono. Anytype hace las cosas de otra manera:
 
-1. **Your device holds the keys:** When you create a shared space, your device generates unique encryption keys. These keys are never shared with Anytype or anyone else.
-2. **Data is encrypted before it leaves:** Before your files sync anywhere—whether to Anytype’s servers or another person's phone—they are scrambled into unreadable code.
-3. **You pass the keys directly:** When you invite someone to a space, your device securely hands them the decryption key directly without Anytype or anybody else accessing it.
-4. **Servers act as blind couriers:** Anytype’s servers help sync and back up your data, but because they don't have the keys, all they see is scrambled code.
-5. **Unlocking happens only on trusted devices:** The scrambled data is turned back into readable content only when it reaches the devices belonging to the people you invited.
+1. **Las claves están en tu dispositivo:** cuando creas un espacio compartido, tu dispositivo genera claves de cifrado únicas. Estas claves no se comparten nunca con Anytype ni con nadie más.
+2. **Los datos se cifran antes de salir:** antes de que tus datos y archivos se sincronicen, ya sea con los servidores de Anytype o con el móvil de otra persona, se convierten en un código ilegible.
+3. **Envías las claves directamente:** cuando invitas a alguien a un espacio, tu dispositivo le entrega de forma segura y directa la clave de descifrado, sin que Anytype ni nadie más tenga acceso a ella.
+4. **Los servidores actúan como mensajeros ciegos:** los servidores de Anytype ayudan a sincronizar y hacer copias de respaldo de tus datos, pero, como no tienen las claves, todo lo que ven es código cifrado.
+5. **El descifrado solo se produce en dispositivos de confianza:** los datos codificados solo vuelven a ser contenido legible cuando llegan a los dispositivos de las personas a las que has invitado.
 
-The Bottom Line: Your data is encrypted on your device before it goes anywhere. You and your invited collaborators are the only ones who hold the keys, meaning not even Anytype can read what you're working on.
+En resumen: tus datos se cifran en tu dispositivo antes de ir a cualquier parte. Solo tenéis las claves tú y los colaboradores a los que invites, lo que significa que ni siquiera Anytype puede ver lo que estáis haciendo.
 
-<div><figure><img src="../../.gitbook/assets/Docs Regular Sync.gif" alt=""/><figcaption><p>Typical Cloud App Sync</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs E2EE Sync.gif" alt=""/><figcaption><p>Anytype Local-first Sync</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Docs Regular Sync.gif" alt=""/><figcaption><p>Sincronización típica en la nube</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs E2EE Sync.gif" alt=""/><figcaption><p>Sincronización con base local de Anytype</p></figcaption></figure></div>
 
-## Inviting and joining
+## Cómo invitar y aceptar invitaciones
 
-1. Open [Channel Settings](../settings/channel-settings.md) by clicking the Channel name in the Sidebar.
-2. Click on the Members section.
-3. Choose your invitation method — availability is set by the Space Owner.
+1. Haz clic sobre el nombre del canal en la barra lateral para abrir los [ajustes del canal](../settings/channel-settings.md).
+2. Haz clic en la sección «Miembros» (o «Invitar a otras personas»).
+3. Elige un método de invitación; los métodos disponibles los decide el propietario del espacio.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate Invite.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-### Invitation Link
+### Enlace de invitación
 
-The '**Add members via link**' toggle generates a link you can share with others to invite them into the space, either as a text link or a QR code. By default, all requests to join the space require approval. There are a few important settings to be aware of:
+El botón **Añadir miembros por medio de un enlace** genera un enlace que puedes enviar a otras personas para invitarles al espacio, ya sea como enlace de texto o como código QR. Por defecto, todas las solicitudes de incorporación requieren aprobación. Hay varios ajustes importantes que debes tener en cuenta:
 
-* **Enable auto approval** — This lets users join the space automatically without manual review, which is useful for community or forum-like spaces. For private and sensitive spaces, it's best to not enable this.
-* **Everyone in the channel can share this invite** — Enabling this allows other members to share the invite link themselves. This works well for public spaces without sensitive data or private spaces where members are highly trusted.
-* **Reset Link** — If you believe an invite link has been compromised, you can reset it. This immediately voids the previous link and generates a new one, which must be used going forward to join the space.
-* **Approve Requests** — For members requesting access, approve them from the 'Requests' tab, next to the 'All', 'Editors', and 'Viewers' tabs.
+* **Activar aprobación automática**: si activas esta opción, quien tenga el enlace accederá al espacio automáticamente sin necesidad de aprobación, algo útil para espacios de tipo comunidad o foro. Es mejor no activarla en espacios privados o confidenciales.
+* **Cualquier miembro del canal puede compartir este enlace**: si activas esta opción, todos los miembros del espacio podrán invitar a otros. Esto funciona bien en espacios públicos sin datos confidenciales o espacios privados cuyos miembros son de toda confianza.
+* **Restablecer enlace**: si crees que el enlace de invitación existente supone un riesgo, puedes restablecerlo. Esta acción anula de inmediato el enlace y genera uno nuevo, que será el que se use en adelante para obtener acceso al espacio.
+* **Aprobar solicitudes**: cuando recibas solicitudes de acceso, apruébalas desde la pestaña «Solicitudes», junto a las pestañas «Todo», «Editores» y «Lectores».
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Invite Link.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
-**Be sure to share auto-approve invitation links with a secure method.** If it is intercepted, it can be used to gain access to the space without approval. If you are concerned that your invitation links have been compromised, you can reset the link and require request approval for all new joiners.
+**Procura usar métodos seguros cuando compartas enlaces de invitación con aprobación automática.** Cualquiera que consiga el enlace podrá acceder al espacio sin necesidad de aprobación. Si temes que un enlace de invitación haya caído en malas manos, puedes restablecer el enlace y requerir la aprobación de todas las solicitudes de nuevos miembros.
 {% endhint %}
 
-### Add Members
+### Añadir miembros
 
-The 'add members' button will provide a list of users that you can invite into your space. This list is generated based on users who you are already connected to in other spaces. This is a convenient method to collaborate with people you're already in touch with on Anytype without needing to send an invitation link separately.
+El botón «Añadir miembros» te mostrará una lista de personas a las que puedes invitar a tu espacio. En esta lista aparecen los miembros de otros espacios a los que tú también perteneces. Es una forma cómoda de colaborar con contactos que ya tienes en Anytype sin tener que enviarles un enlace aparte.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate Add.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-**If there are many unrecognisable users in your member list**, this may be due to you being part of a large community space with many members unrecognizable to you.
+**Si encuentras muchos desconocidos en esta lista de miembros**, puede deberse a que formas parte de un gran espacio comunitario con muchos miembros que no conoces.
 {% endhint %}
 
-### Joining Channels
+### Cómo acceder a canales de otros
 
-When you receive an invite link, clicking it opens Anytype:
+Si recibes un enlace de invitación, al hacer clic en él se abrirá Anytype:
 
-1. If you're not logged in, you'll be prompted to log in or create a Vault.
-2. Once logged in, you'll see a confirmation popup with the Channel and the role you're given.
-3. Click **Accept** to join. The Channel appears in your Vault.
+1. Si no has iniciado sesión, verás la pantalla para iniciarla o crear un arca.
+2. Con la sesión iniciada, aparecerá un mensaje de confirmación que te indicará el canal y la función que tendrás en él.
+3. Haz clic en **Aceptar** para acceder. El canal aparecerá en tu arca.
 
-For Request-Access links, the flow is the same except instead of joining immediately, your request goes to the Owner. They'll see a notification and approve or decline; you'll see the Channel appear in your Vault when approved.
+Este proceso es igual con los enlaces con solicitud de acceso; pero en este caso, en lugar de acceder inmediatamente, enviarás una solicitud al propietario, que verá una notificación para aprobarla o rechazarla. Cuando la apruebe, el canal aparecerá en tu arca.
 
-## Members
+## Miembros
 
-All members who are part of a space are referred to as Space Members. You can be referenced with `@` mentions, assigned tasks, and participate in discussions.
+Son miembros del espacio todas las personas que tienen acceso a este. Los miembros pueden referirse otros miembros con menciones `@`, asignarles tareas y participar en conversaciones.
 
-### Roles
+### Funciones
 
-All spaces have multiple role levels, each with progressively higher privileges: Viewer, Editor, Admin, and Owner. In short:
+En todos los espacios, los miembros pueden tener distintas funciones con permisos gradualmente más amplios: visitante, editor, administrador y propietario. En resumen:
 
-* **Viewers** can only read content.
-* **Editors** can edit and delete.
-* **Admins** can manage members.
-* **Owners** can do everything.
+* Los **visitantes** solo pueden visualizar el contenido.
+* Los **editores** pueden crear, modificar y eliminar contenido.
+* Los **administradores** pueden gestionar miembros.
+* Los **propietarios** pueden hacerlo todo.
 
-<table data-search="false"><thead><tr><th>Privilege</th><th width="102.04296875" align="center">Viewer</th><th width="104.13671875" align="center">Editor</th><th width="108.62109375" align="center">Admin</th><th width="108.6015625" align="center">Owner</th></tr></thead><tbody><tr><td>Create, edit, and remove objects</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Participate in chats &amp; discussions</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Edit space name &amp; icon</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Add shared pins to sidebar</td><td align="center">—</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Manage members</td><td align="center">—</td><td align="center">—</td><td align="center">Editors &amp; viewers</td><td align="center">✓</td></tr><tr><td>Manage invitation links</td><td align="center">—</td><td align="center">—</td><td align="center">—</td><td align="center">✓</td></tr><tr><td>Change space ownership</td><td align="center">—</td><td align="center">—</td><td align="center">—</td><td align="center">✓</td></tr></tbody></table>
+<table data-search="false"><thead><tr><th>Permisos</th><th width="102.04296875" align="center">Visitante</th><th width="104.13671875" align="center">Editor</th><th width="108.62109375" align="center">Administrador</th><th width="108.6015625" align="center">Propietario</th></tr></thead><tbody><tr><td>Crear, editar y eliminar objetos</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Participar en chats y debates</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Cambiar el nombre y el icono del espacio</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Añadir anclados comunes a la barra lateral</td><td align="center">—</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Gestionar miembros</td><td align="center">—</td><td align="center">—</td><td align="center">Editores y visitantes</td><td align="center">✓</td></tr><tr><td>Gestionar enlaces de invitación</td><td align="center">—</td><td align="center">—</td><td align="center">—</td><td align="center">✓</td></tr><tr><td>Cambiar el propietario del canal</td><td align="center">—</td><td align="center">—</td><td align="center">—</td><td align="center">✓</td></tr></tbody></table>
 
 {% hint style="info" %}
-**To share an Object with somebody outside of Anytype**, use the publish feature. This creates a webpage that can be visited in the browser.
+**Para compartir objetos con fuera de Anytype**, tienes la opción de publicarlos. Al hacerlo, se crea una página web que se puede visitar con el navegador.
 {% endhint %}
 
 {% hint style="warning" %}
-**You cannot set permissions on a per-Object basis.** All Space Members can view everything inside a Space. If you require more separation, use a different space and import only the content you are happy to share with everyone.
+**No es posible establecer permisos para los objetos por separado.** Todos los miembros de un espacio pueden ver todo su contenido. Si necesitas más separación, trabaja en otro espacio e importa solo el contenido que quieras a compartir con todos.
 {% endhint %}
 
-### Managing members
+### Cómo gestionar los miembros
 
-From the members section, the Owner and Admin can:
+En la sección "Miembros", el propietario y el administrador pueden hacer todo esto:
 
-* **See the list** of all current members with their roles.
-* **Approve or deny** pending requests for users asking to join the space.
-* **Change a member's role** such as upgrading a Viewer to an Editor.
-* **Remove a member** where they'll receive a notification and lose access.
-* **Search the member list** using the shortcut `Cmd/Ctrl + F`
+* **Ver la lista** de miembros actuales con sus funciones.
+* **Aprobar o rechazar** solicitudes enviadas por personas que quieren ser miembros del espacio.
+* **Cambiar la función de los miembros**; por ejemplo, convertir a un visitante en editor.
+* **Eliminar miembros**, que recibirán una notificación y perderán el acceso al espacio.
+* **Buscar miembros en la lista** con el atajo `Cmd/Ctrl + F`
 
-#### Changing access
+#### Cambiar el nivel de acceso
 
-* Find the Space Member.
-* Click on their current permission level.
-* Change it to the desired role. Or remove the member entirely.
+* Busca el miembro del espacio
+* Haz clic en su función actual.
+* Elige la función que desees asignarle o elimina el miembro por completo.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Remove Member.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### Editor seat limits
+#### Límites de puestos de editor
 
-Each Channel has a maximum number of Editors based on the Owner's plan. The default Free tier supports a small number of Editors per Channel. Higher-tier plans (Builder, Co-Creator, Ultra, Group memberships) increase this limit. See [Memberships](../resources/memberships/).
+Cada canal tiene un número máximo de editores según el plan de suscripción del propietario. El nivel gratuito admite un número reducido de editores por canal. Los planes de nivel más alto (Builder, Co-Creator, Ultra, suscripciones de grupo) van aumentando este límite. Consulta [Suscripción](../resources/memberships/).
 
-Once you reach the limit, new joiners can only join as Viewers until either the limit is raised or an existing Editor is downgraded or removed.
+Si se alcanza el límite, solo podrán añadirse miembros como visitantes hasta que el límite aumente o desaparezca un miembro editor, ya sea porque se convierta en visitante o porque se elimine.
 
-## Collaborating with others
+## Cómo colaborar con otras personas
 
-#### Working and syncing offline
+#### Trabajar sin conexión y sincronizar
 
-Anytype is built with local-first technology, which means that everything works offline by default and syncs with end-to-end encryption again once a network connection is established. You don't need to save specific pages for offline use.
+Anytype se ha desarrollado con tecnología de base local, lo que significa que todo funciona sin conexión por defecto y se sincroniza con cifrado de extremo a extremo cuando se establece una conexión de red. No tienes que elegir las páginas que quieres usar sin conexión.
 
-When members are **online**, changes update immediately like usual:
+Cuando los miembros están **conectados**, los cambios se actualizan al instante como de costumbre:
 
-* Make an edit → other members will see the change in real-time.
-* Send a message → it appears in the Chat straight away.
+* Alguien edita → los demás miembros ven el cambio en tiempo real.
+* Se envía un mensaje → aparece en el chat de inmediato.
 
-When members are **offline**, everything still works by default:
+Cuando los miembros están **desconectados**, todo sigue funcionando:
 
-* Make an edit → it will save locally and be queued for sync once back online.
-* Send a message → it appears locally but will only be sent once back online.
+* Alguien edita → los cambios se guardan en su dispositivo y se ponen en cola para sincronizarlos cuando vuelva a estar conectado.
+* Se envía un mensaje → aparece en su dispositivo, pero solo se enviará cuando vuelva a estar conectado.
 
-#### Members in Chats and Discussions
+#### Miembros en chats y debates
 
-Member names and profile pictures appear next to their messages and posts. Click any member's name or profile to:
+El nombre e imagen de perfil de los miembros aparecen junto a sus mensajes y comentarios. Puedes hacer clic en el nombre o la imagen de cualquier miembro para:
 
-* See their full profile — name, bio, profile picture
-* Connect with them privately — opens a [Direct Channel](chats/direct-channels.md)
+* ver su perfil completo (nombre, bio, imagen de perfil),
+* conectar en privado (se abre un [canal directo](chats/direct-channels.md).
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Direc Channel Connect.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### Privacy in shared Channels
+#### Privacidad en los canales compartidos
 
-When sharing spaces and collaborating with others on Anytype, your data stays encrypted during sync. You can collaborate with peace of mind. However, only share spaces with people you trust. They can view and export data.
+Cuando compartes espacios y colaboras con otros en Anytype, tus datos siguen cifrados durante la sincronización; puedes colaborar con total tranquilidad. No obstante, procura compartir espacios solo con personas de confianza, ya que podrán ver y exportar los datos.
 
-For more sensitive, high-security cases, use **self-hosted** networks where you control the relay nodes. See [Networks & Backup](../data/sync-and-backup/). You can also use **local-only** mode for fully air-gapped sharing on a local network.
+Para casos más sensibles y de alta seguridad, usa redes **autoalojadas** para tener el control de los nodos de transmisión. Consulta [Sincronización y respaldo](../data/sync-and-backup/). También puedes usar el modo **solo local** para compartir de forma completamente aislada por medio de una red local.
 
-## Leaving a Channel
+## Cómo abandonar un canal
 
-To leave a Channel you've joined:
+Para dejar de ser miembro de un canal, haz esto:
 
-1. Right-click the Channel in your Vault, or open Channel Settings.
-2. Click **Leave Channel**.
-3. Confirm.
+1. En tu arca, haz clic derecho en el canal o abre Ajustes del canal.
+2. Haz clic en **Abandonar canal**.
+3. Confirma tu elección.
 
-Your past contributions remain in the Channel after leaving it — Anytype does not remove your chat messages or documents in a space.
+Las contribuciones que hicieras seguirán intactas en el canal después de abandonarlo: Anytype no eliminará tus mensajes de chat ni tus documentos.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate Leave Channel.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
-**Owners of a space must first transfer ownership to another member before leaving.** If there are no other members, you can delete the Channel entirely.
+**Los propietarios de un espacio compartido deben transferir la propiedad a otro miembro antes de abandonarlo.** Si no hay ningún otro miembro, basta con eliminar el canal por completo.
 {% endhint %}
 
-## Tips
+## Notas
 
 {% hint style="info" %}
-**Use Request-Access invitation links for more control.** Auto-approval invitation links should only be used in spaces where quick and easy access takes priority over protecting sensitive data.
+**Usa enlaces de invitación con solicitud de acceso para tener más control.** Los enlaces de invitación con aprobación automática solo deben usarse en espacios que prioricen el acceso rápido y sencillo sobre la protección de datos confidenciales.
 {% endhint %}
 
 {% hint style="info" %}
-**Make a backup before transferring ownership.** Export the Channel (Settings > Integrations > Export Channel) before handing over Owner rights. If anything goes wrong, you have a snapshot.
+**Haz una copia de respaldo antes de transferir la propiedad.** Exporta el canal (Ajustes del canal > Integraciones > Exportar canal) antes de transferir los derechos de propiedad. Si algo sale mal, al menos tendrás una instantánea.
 {% endhint %}
 
 {% hint style="warning" %}
-**Currently, you can only share entire Channels — not individual Objects.** If you want to share just one thing publicly with no access controls, use [Web Publishing](publish.md) instead.
+**Por ahora, solo puedes compartir canales completos, no los objetos por separado.** Si quieres compartir públicamente una sola cosa sin controles de acceso, usa la función de [publicación](publish.md).
 {% endhint %}
 
 {% hint style="warning" %}
-**Once a Channel is deleted, it can't be recovered** unless someone exported it before deletion. Be cautious with Delete Channel in shared spaces.
+**Una vez eliminado, el canal no se puede recuperar** a menos que alguien lo haya exportado antes. Ten cuidado con la opción «Eliminar canal» en espacios compartidos.
 {% endhint %}

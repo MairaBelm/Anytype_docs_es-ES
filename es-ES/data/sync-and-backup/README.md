@@ -1,4 +1,4 @@
-# Sync & Backup
+# Sincronización y respaldo
 
 Anytype is built on local-first principles, combining the seamless experience of modern cloud applications with the privacy, security, and absolute ownership of local software.
 
@@ -18,7 +18,8 @@ It's the best of both worlds: local ownership meets cloud collaboration.
 
 At a high level, Anytype gives you complete control in three ways:
 
-{% stepper %} {% step %}
+{% stepper %}
+{% step %}
 ### Everything is local
 
 All your content is stored locally on your device, and even your access keys are generated on your own hardware. This means an offline-first experience: the app always works without an internet connection, protecting you from downtime, lockouts, and vendor lock-in.
@@ -41,7 +42,7 @@ Anytype provides a convenient safe haven for your digital life. Learn more about
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs E2EE Sync.gif" alt=""/><figcaption></figcaption></figure></div>
 
-## Anytype Network
+## Red de Anytype
 
 By default, everyone joins the Anytype Network — also known as local-first sync. Every user gets a remote backup node provided by Anytype, with free storage that can be increased with a membership.
 
@@ -56,22 +57,13 @@ Our infrastructure is hosted on dedicated servers in data centers within the Eur
 * Syncing: `*.anyclub.org`
 * Analytics: `*.anytype.io`
 
-## Other syncing modes
+## Using Anytype Network
 
-Anytype also supports two alternative modes:
-
-* [Self-host](self-host.md) — use your own infrastructure to host and sync your Anytype data.
-* [Local-only](local-only.md) — don't sync through any server at all; your data stays on-device.
-
-We recommend sticking with the default Anytype Network for local-first sync, and only switching to these modes if you have the technical expertise to manage them.
-
-### How to switch back to Anytype network
+You will be on the Anytype Network by default. If you want to switch back from an alternative sync mode, you will need to do so manually on all devices. 
 
 We strongly recommend using dedicated identities for each network. If you are switching from a Self-hosted network, export all your channels, and import them into a new identity after switching the network mode.
 
-Please note that all your devices should be manually switched to Anytype Network mode.
-
-#### Desktop
+#### Escritorio
 
 1. Log out from your current identity.
 2. On the onboarding screen, click a gear icon in the top right corner.
@@ -81,7 +73,7 @@ Please note that all your devices should be manually switched to Anytype Network
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (43).png" alt=""/><figcaption></figcaption></figure></div>
 
-#### Mobile
+#### Móvil
 
 1. Log out from your current identity.
 2. On the onboarding screen, click a gear icon in the top right corner.
@@ -89,3 +81,28 @@ Please note that all your devices should be manually switched to Anytype Network
 4. Create a new identity or log in to an existing one.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot_20240411-104810_Anytype2.png" alt="" width="375"/><figcaption></figcaption></figure></div>
+
+## Alternative sync methods
+
+Anytype also supports two alternative modes:
+
+* [Self-host](self-host.md) — use your own infrastructure to host and sync your Anytype data.
+* [Local-only](local-only.md) — don't sync through any server at all; your data stays on-device.
+
+We recommend sticking with the default Anytype Network for local-first sync, and only switching to these modes if you have the technical expertise to manage them.
+
+#### Third-party services & network drives
+
+Do not place your active Anytype data directory inside a third-party cloud-synced folder (such as Nextcloud, Dropbox, OneDrive, or Google Drive) or on a shared network drive. Doing so introduces severe risks to both your data integrity and your privacy.
+
+1. **High Risk of Database Corruption** — Anytype uses SQLite databases to store your spaces locally. Cloud sync tools constantly monitor and lock files as they detect changes. When a sync tool touches active SQLite files—especially if multiple devices write at the same time—it disrupts database file-locking. This can lead to irreversible database corruption, broken search indexes, and permanent vault failure.
+2. **Privacy & Data Leaks** — While your core content is encrypted, Anytype’s working directory also contains unencrypted local indexes required for app performance and search functionality. Syncing this folder to a third-party cloud provider uploads these unencrypted files, exposing private metadata and index data to that provider.
+
+**How to Store Your Data Safely**
+
+* Use Local Storage Only: Ensure your Anytype data directory resides on a standard, non-synced local drive on your device. That is, standard internal storage.
+* Manual Backups: If you want to use cloud storage for backups, export your spaces manually or back up a static, closed snapshot of your directory while Anytype is not running.
+
+{% hint style="danger" %}
+**Do not use network drives or third-party services for sync**—this will likely cause data corruption. [Learn more here](local-only.md#third-party-services-and-network-drives). 
+{% endhint %}
