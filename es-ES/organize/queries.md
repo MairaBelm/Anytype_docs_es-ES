@@ -28,17 +28,17 @@ Usa una consulta cuando quieras ver una parte de tu base de conocimiento que cam
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Queries Explained.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-> **Ejemplo**:
+> **Ejemplo:**
 >
 > Supongamos que tu espacio tiene tres tipos: Libros, Películas y Juegos, con la propiedad «Género» en todos ellos. Si creas una consulta que filtre tus objetos por «Género = Ciencia ficción», el resultado será una vista que presente todos los libros, películas y juegos de ciencia ficción de tu espacio, y estará actualizada siempre con los objetos de esta categoría que vayas creando.
 >
-> En otras palabras, esta consulta es una respuesta constante a la pregunta *«¿qué material tengo de ciencia ficción?».* Más abajo tienes un ejemplo de cómo [crear esta consulta](queries.md#como-crear-una-consulta).
+> En otras palabras, esta consulta es una respuesta constante a la pregunta _«¿qué material tengo de ciencia ficción?»._ Más abajo tienes un ejemplo de cómo [crear esta consulta](queries.md#como-crear-una-consulta).
 
 #### Relación entre tipos y consultas
 
 Los [tipos](types.md) son, en el fondo, consultas integradas en el sistema. Sin embargo, como cada objeto solo puede tener un tipo, las consultas tienen verdadera utilidad cuando quieres encontrar y agrupar objetos que pertenecen a distintos tipos.
 
-> **Ejemplo**:
+> **Ejemplo:**
 >
 > Quieres ver todo lo que hay tu espacio que esté relacionado con la privacidad. Creas una consulta para buscar todos los objetos que tengan la etiqueta «privacidad». La consulta extrae objetos de diversos tipos, como proyectos, tareas, marcadores, notas, películas y artículos de prensa.
 
@@ -46,7 +46,7 @@ Los [tipos](types.md) son, en el fondo, consultas integradas en el sistema. Sin 
 
 Usa una [colección](collections.md) cuando quieras agrupar a mano objetos que carezcan de una relación clara entre sí. Las colecciones tienen el inconveniente de que su mantenimiento es manual; no se actualizan por sí mismas, por lo que pueden quedar anticuadas cuando tu espacio crezca. Por su parte, las consultas son ideales cuando los elementos del grupo comparten una regla lógica. Si puedes emplear esa regla como criterio, deja que Anytype se encargue de la gestión.
 
-> **Ejemplo**:
+> **Ejemplo:**
 >
 > Quieres ver todo el contenido de tu espacio que aún no está ordenado. Creas una consulta para buscar todos los objetos que no tienen ninguna etiqueta, ordenados por fecha de modificación. De esta forma, tienes siempre al día un buzón con el contenido pendiente de organizar, por mucho que evolucione tu espacio.
 
@@ -55,7 +55,7 @@ Usa una [colección](collections.md) cuando quieras agrupar a mano objetos que c
 Encontrarás las consultas en los mismos lugares que los tipos: la barra lateral, el menú Crear y los ajustes del canal. Y al igual que los tipos, las consultas cuentan con vistas, que funcionan de la misma manera. Para crear una consulta, puedes seguir estos pasos:
 
 1. Haz clic en el [botón desplegable Crear](../create/objects/#menu-crear) de la barra lateral y selecciona **Consulta** (Query).
-2. Elige uno de estos **parámetros**:
+2. Elige uno de estos parámetros:
    1. [Tipo](types.md), para obtener objetos de una misma categoría, como tareas, proyectos, libros.
    2. [Propiedad](properties.md), para obtener objetos con una propiedad en común, como una etiqueta, un estado o un responsable.
 3. Configura **filtros** y criterios de **orden**.
@@ -89,7 +89,7 @@ Los tipos también se consideran una consulta, por eso aparecen también en la l
 
 Las modificaciones que hagas en las vistas de una consulta insertada solo se aplican a ese bloque y no afectan a la vista principal, que se mantiene sin cambios en el [tipo](types.md), la [consulta](queries.md) o la [colección](collections.md) original. Esto significa que cada objeto puede tener su propia versión de la vista insertada sin modificar nunca la original.
 
-Por el contrario, si modificas los objetos y sus propiedades en la vista insertada, esos cambios **sí **se aplicarán al objeto y se reflejarán allá donde aparezca en todo ese espacio.
+Por el contrario, si modificas los objetos y sus propiedades en la vista insertada, esos cambios **sí** se aplicarán al objeto y se reflejarán allá donde aparezca en todo ese espacio.
 
 ## Cómo eliminar consultas
 
@@ -102,14 +102,14 @@ Para eliminar una consulta, ve a la sección «Consultas» de la barra lateral. 
 
 ## Notas
 
-**{% hint style="info" %}
-No crees una consulta cuando el tipo sea suficiente.** Puedes considerar los tipos como consultas integradas. Es mejor crear consultas cuando quieres reunir objetos de varios tipos distintos.
+{% hint style="info" %}
+**No crees una consulta cuando el tipo sea suficiente.** Puedes considerar los tipos como consultas integradas. Es mejor crear consultas cuando quieres reunir objetos de varios tipos distintos.
 {% endhint %}
 
-**{% hint style="info" %}
-Guarda las combinaciones de filtros como vistas, no como consultas nuevas.** Si adviertes que estás filtrando la misma consulta de la misma manera una y otra vez, guarda esos filtros como una vista. Las vistas te permiten pasar de un conjunto de filtros a otro con un solo clic.
+{% hint style="info" %}
+**Guarda las combinaciones de filtros como vistas, no como consultas nuevas.** Si adviertes que estás filtrando la misma consulta de la misma manera una y otra vez, guarda esos filtros como una vista. Las vistas te permiten pasar de un conjunto de filtros a otro con un solo clic.
 {% endhint %}
 
-**{% hint style="info" %}
-Si quieres agrupar objetos de forma manual, usa una** **[colección](collections.md).** Las consultas están controladas por el sistema mediante reglas, mientras que las colecciones las creas tú personalmente.
+{% hint style="info" %}
+**Si quieres agrupar objetos de forma manual, usa una** [**colección**](collections.md)**.** Las consultas están controladas por el sistema mediante reglas, mientras que las colecciones las creas tú personalmente.
 {% endhint %}

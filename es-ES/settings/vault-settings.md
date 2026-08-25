@@ -13,7 +13,7 @@ O bien usa el menú de tu sistema operativo:
 
 ## Perfil
 
-Aquí puedes añadir tu **nombre**, **biografía** y tu **imagen de perfil**. Cuando estás en un espacio, tu perfil también se trata como un objeto llamado «Miembro del espacio».
+Aquí puedes añadir tu **nombre, tu biografía** y tu **imagen de perfil**. Cuando estás en un espacio, tu perfil también se trata como un objeto llamado «Miembro del espacio».
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/profile-info.png" alt=""/><figcaption></figcaption></figure></div>
 
@@ -25,20 +25,20 @@ Aquí puedes añadir tu **nombre**, **biografía** y tu **imagen de perfil**. Cu
 
 #### Aspecto
 
-* **Modo de color:** Elige entre el modo claro, el oscuro o el que use tu sistema.
-* **Sonido de notificación:** Elige «No» o uno de los tonos disponibles.
+* **Modo de color:** elige entre el modo claro, el oscuro o el que use tu sistema.
+* **Sonido de notificación:** elige «No» o uno de los tonos disponibles.
 
 #### Interfaz
 
 * **Densidad de la barra de canales: Compacta** (como una franja) o con **Vista previa de mensajes**.
 * **Mostrar siempre la barra de pestañas:** si quieres que la barra de pestañas esté siempre visible.
-* **Mostrar y ocultar automáticamente la barra lateral:** con esta opción desactivada, la barra lateral no se abrirá automáticamente cuando pases el puntero sobre el borde izquierdo de la ventana.
+* **Mostrar y ocultar automáticamente la barra lateral** con esta opción desactivada, la barra lateral no se abrirá automáticamente cuando pases el puntero sobre el borde izquierdo de la ventana.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/preferences (4).png" alt=""/><figcaption></figcaption></figure></div>
 
 #### Contenido y vistas
 
-* **Abrir objetos en pantalla completa:** los objetos pueden abrirse en pantalla completa o en una ventana modal.
+* **Abrir objetos en pantalla completa** los objetos pueden abrirse en pantalla completa o en una ventana modal.
 * **Estilo por defecto de enlace a objeto:** los enlaces creados con el comando `/enlace` pueden tener estilo de tarjeta o de texto.
 * **Estilo por defecto de bloques de archivo:** los bloques de archivo pueden tener el estilo incrustado o verse como un sencillo enlace.
 * **Hacer clic para editar el título en vista de cuadrícula:** un clic en el título de una vista de cuadrícula puede editar el título o abrir el objeto directamente.
@@ -55,8 +55,8 @@ Elige entre enviar los mensajes del chat y los comentarios de los debates con `E
 
 #### Idioma y ortografía
 
-* **Idiomas del corrector ortográfico:** Puedes activar el corrector ortográfico para más de 40 idiomas o dejarlo desactivado.
-* **Idioma de interfaz:** Elige una de las versiones traducidas por la comunidad para cambiar el idioma de la interfaz.
+* **Idiomas del corrector ortográfico** Puedes activar el corrector ortográfico para más de 40 idiomas o dejarlo desactivado.
+* **Idioma de interfaz** Elige una de las versiones traducidas por la comunidad para cambiar el idioma de la interfaz.
 
 #### Fecha y hora
 
@@ -104,11 +104,11 @@ Tu primera línea de defensa debe ser la seguridad del sistema operativo, antes 
 
 ### Clave de acceso
 
-Para conectar tu dispositivo móvil, puedes acceder a tu clave o escanear el código QR. Tienes más detalles en [key.md](../basics/key.md "mention").
+Para conectar tu dispositivo móvil, puedes acceder a tu clave o escanear el código QR. Tienes más detalles en [Clave](../basics/key.md "mention").
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Welcome 3.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-**Eliminación del arca:** Si quieres eliminar tu arca, puedes hacerlo desde esta sección. Tienes más información aquí: [data-erasure-and-recovery.md](../data/data-erasure-and-recovery.md "mention")
+**Eliminación del arca:** Si quieres eliminar tu arca, puedes hacerlo desde esta sección. Tienes más información aquí: [Borrado y recuperación de datos](../data/data-erasure-and-recovery.md "mention")
 
 ***
 
@@ -119,7 +119,7 @@ Para conectar tu dispositivo móvil, puedes acceder a tu clave o escanear el có
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/local-storage.png" alt=""/><figcaption></figcaption></figure></div>
 
 * **Archivos locales:** si quieres, puedes transferir a la red de Anytype los archivos que almacenas en Anytype.
-* **Acceso sin conexión:** puedes controlar si los datos se sincronizan para usarlos sin conexión con un límite de almacenamiento (No, 20 MB, 100 MB, 250 MB o Ilimitado).
+* **Acceso sin conexión:** puedes controlar si los datos se sincronizan para usarlos sin conexión con un límite de almacenamiento (No, 20 MB, 100 MB, 250 MB, 1 GB o Ilimitado).
 * **Ubicación de datos:** también puedes decidir dónde se almacenan tus datos (solo en ordenador).
 
 ### Canales
@@ -132,8 +132,10 @@ Aquí encontrarás una lista de todos tus canales, tu nivel de acceso y su estad
 
 Aquí podrás ver y gestionar los objetos que hayas publicado.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (35).png" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Vault Sites.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 ### Claves de API
 
 Aquí puedes ver, gestionar y crear claves de API.
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Vault API.jpg" alt=""/><figcaption></figcaption></figure></div>

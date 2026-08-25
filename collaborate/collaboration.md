@@ -144,7 +144,7 @@ When members are **offline**, everything still works by default:
 Member names and profile pictures appear next to their messages and posts. Click any member's name or profile to:
 
 * See their full profile — name, bio, profile picture
-* Connect with them privately — opens a [Direct Channel](https://github.com/anyproto/docs-new/blob/main/getting-started/direct-channels.md)
+* Connect with them privately — opens a [Direct Channel](chats/direct-channels.md)
 
 <div data-with-frame="true"><figure><img src="../.gitbook/assets/Docs Direc Channel Connect.jpg" alt=""><figcaption></figcaption></figure></div>
 

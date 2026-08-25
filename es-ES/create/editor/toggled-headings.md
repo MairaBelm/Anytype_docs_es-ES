@@ -19,7 +19,7 @@ Un título desplegable captura todo lo que tiene debajo como elementos secundari
 #### Desde el menú /
 
 1. Escribe `/` en el editor.
-2. Busca **Título 1 desplegable, Título 2 desplegable** o **Título 3 desplegable.**
+2. Busca **Título 1 desplegable**, **Título 2 desplegable** o **Título 3 desplegable**.
 3. Selecciona el título del nivel que quieras.
 4. Escribe el texto del título.
 
@@ -75,7 +75,7 @@ Haz clic en el control del bloque y selecciona **Estilo > Título 1** (o 2, o 3)
 
 * **En el editor**: los desplegables funcionan según la descripción anterior.
 * **En la vista Flujo**: expandido o contraído como en el objeto.
-* **En la exportación a PDF**: el contenido de las secciones contraídas no exporta. Expándelas todas antes de exportar si quieres ver su contenido en el PDF.
+* **En la exportación a PDF**: el contenido de las secciones contraídas no exporta. **Expándelas todas** antes de exportar si quieres ver su contenido en el PDF.
 * **En la exportación a Markdown**: el estado de los desplegables no se conserva (Markdown no tiene sintaxis nativa para desplegables); todo el contenido se exporta con títulos normales.
 
 ## Notas

@@ -1,4 +1,4 @@
-# Self-host
+# Autoalojamiento
 
 To back up your channels and data to a self-hosted network, you need to have a network configuration. If you don’t run your own network yet, see this [how-to guide](https://tech.anytype.io/how-to/self-hosting). There's also a [docker image](https://github.com/anyproto/any-sync-dockercompose) that's maintained by the team. One of our developers also created this video guide for anyone who wants to set up their own self-hosted network:
 
@@ -10,7 +10,7 @@ We strongly recommend using dedicated identities for each network. If you alread
 
 Please note that all your devices should be manually switched to the same self-hosted network.
 
-#### Desktop
+#### Escritorio
 
 1. Log out from your current identity.
 2. On the onboarding screen, click a gear icon in the top right corner.
@@ -21,7 +21,7 @@ Please note that all your devices should be manually switched to the same self-h
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (44).png" alt=""/><figcaption></figcaption></figure></div>
 
-#### Mobile
+#### Móvil
 
 1. Log out from your current identity.
 2. On the onboarding screen, click a gear icon in the top right corner.

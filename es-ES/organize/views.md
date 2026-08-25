@@ -2,7 +2,7 @@
 
 Las vistas son distintas miradas sobre tu contenido. Sirven para visualizar la información de la forma que más te convenga sin alterar el contenido subyacente. Los [tipos](types.md), las [consultas](queries.md) y las [colecciones](collections.md) usan vistas para presentar su contenido.
 
-> **Una analogía**: imagínate un edificio con cien personas dentro. Puedes cambiar la forma en que las miras, pero todas seguirán dentro del edificio. Puedes poner a todas las personas vestidas de rojo en el vestíbulo y dejar a las demás ocultas en el sótano, o bien ordenarlas de la más alta a la más baja en una larga fila.
+> **Una analogía:** imagínate un edificio con cien personas dentro. Puedes cambiar la forma en que las miras, pero todas seguirán dentro del edificio. Puedes poner a todas las personas vestidas de rojo en el vestíbulo y dejar a las demás ocultas en el sótano, o bien ordenarlas de la más alta a la más baja en una larga fila.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Properties Views.gif" alt=""/><figcaption></figcaption></figure></div>
 
@@ -107,7 +107,7 @@ Todas las vistas siguen un proceso de tres pasos: elegir un diseño, definir alg
 
 ### Vistas en la barra lateral
 
-Puedes añadir vistas a tu barra lateral para tenerlas a mano. Son lo que conocemos como [widgets.md](../basics/sidebar/widgets.md "mention").
+Puedes añadir vistas a tu barra lateral para tenerlas a mano. Son lo que conocemos como [widgets](../basics/sidebar/widgets.md "mention").
 
 1. Usa el botón de tres puntos de la esquina superior derecha y selecciona **Anclar al canal**.
 2. Haz clic derecho en el elemento de la barra lateral.
@@ -171,9 +171,9 @@ Para eliminar una vista, haz clic derecho sobre ella para abrir el menú. Tambi�
 ## Notas
 
 {% hint style="info" %}
-**Pon a tus vistas un nombre relacionado con su diseño o filtro**. Los nombres descriptivos, como «Tareas prioritarias» y «Proyectos archivados», te ayudarán a distinguir en seguida lo que estas viendo.
+**Pon a tus vistas un nombre relacionado con su diseño o filtro.** Los nombres descriptivos, como «Tareas prioritarias» y «Proyectos archivados», te ayudarán a distinguir en seguida lo que estas viendo.
 {% endhint %}
 
 {% hint style="info" %}
-**Cuando quieras editar objetos en lote, es mejor configurar primero los filtros de la vista** para que solo muestre los objetos que vas a modificar. Así podrás seleccionarlos con más rapidez. También puedes crear una [consulta](queries.md) para hacerlo.
+**Cuando quieras editar objetos en lote, es mejor configurar primero los filtros de la vista para que solo muestre los objetos que vas a modificar.** Así podrás seleccionarlos con más rapidez. También puedes crear una [consulta](queries.md) para hacerlo.
 {% endhint %}

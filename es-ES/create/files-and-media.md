@@ -2,9 +2,9 @@
 description: Carga imágenes, vídeos, audio y archivos como objetos independientes.
 ---
 
-# Archivos y medios
+# Documentos y medios
 
-En Anytype, los archivos no son simples adjuntos, sino objetos por derecho propio. Sube una imagen, un vídeo, un archivo de audio o cualquier otro archivo y se convertirá en un objeto independiente al que puedes hacer referencia como a cualquier otro objeto de tu espacio.
+En Anytype, los archivos no son simples adjuntos, sino objetos por derecho propio. Sube un archivo de imagen, vídeo, audio o cualquier otro archivo y se convertirá en un objeto independiente al que puedes hacer referencia como a cualquier otro objeto de tu espacio.
 
 Esto significa que cada archivo existe en un solo lugar, pero puedes vincularlo a todos objetos que necesites, sin duplicados y sin desorden.
 
@@ -14,7 +14,7 @@ Esto significa que cada archivo existe en un solo lugar, pero puedes vincularlo 
 
 Anytype admite cuatro tipos de archivo. Cada uno de ellos tiene unas propiedades por defecto y su propio diseño, optimizado para el contenido.
 
-<table><thead><tr><th width="164.37109375">Tipo</th><th>Diseño por defecto</th></tr></thead><tbody><tr><td><strong>Imagen</strong></td><td>Vista de imagen en la parte superior, JPG, PNG, GIF</td></tr><tr><td><strong>Vídeo</strong></td><td>Reproductor incrustado, MP4, MOV, AVI</td></tr><tr><td><strong>Audio</strong></td><td>Reproductor incrustado, MP3, WAV, AAC</td></tr><tr><td><strong>Archivo</strong></td><td>Metadatos y enlace de descarga, PDF, ZIP, TXT</td></tr></tbody></table>
+<table><thead><tr><th width="164.37109375">Tipo</th><th>Diseño por defecto</th></tr></thead><tbody><tr><td><strong>Imagen</strong></td><td>Vista de imagen en la parte superior, JPG, PNG, GIF</td></tr><tr><td><strong>Vídeo</strong></td><td>Reproductor incrustado, MP4, MOV, AVI</td></tr><tr><td><strong>Audio</strong></td><td>Reproductor incrustado, MP3, WAV, AAC</td></tr><tr><td><strong>Documento</strong></td><td>Metadatos y enlace de descarga, PDF, ZIP, TXT</td></tr></tbody></table>
 
 ## Cómo crear objetos de archivo
 
@@ -24,7 +24,7 @@ Este método añade un bloque de archivo a la página y crea un objeto independi
 
 * Arrastra y suelta el archivo con el ratón.
 * Copia y pega con el atajo `Cmd/Ctrl + V`.
-* Añade un bloque «Archivo» desde el menú con el atajo `/arch`
+* Añade un bloque «Archivo» desde el menú con el atajo `/archivo`
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Files Editor.gif" alt=""/><figcaption></figcaption></figure></div>
 
@@ -48,14 +48,14 @@ Este método añade el archivo a un mensaje y crea un objeto independiente en el
 
 #### Desde la sección «Tipos» de la barra lateral
 
-1. En la barra lateral, haz clic en el botón «+» del tipo «Archivo».
+1. En la barra lateral, haz clic en el botón «+» de un tipo de archivo.
 2. Selecciona un archivo, arrástralo y suéltalo o añádelo desde una URL.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Files Upload Type.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 #### Desde el tipo
 
-1. Desde la barra lateral, abre el tipo de archivo que prefieras (imagen, audio, archivo, etc.).
+1. Desde la barra lateral, abre el tipo de archivo que prefieras (imagen, audio, documento, etc.).
 2. Haz clic en el botón «Nuevo».
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Files Type New.jpg" alt=""/><figcaption></figcaption></figure></div>
@@ -73,7 +73,7 @@ Este método añade el archivo a un mensaje y crea un objeto independiente en el
 Cuando hayas subido un objeto a tu espacio, podrás usarlo en otros objetos. Para esto hay dos métodos:
 
 * En el menú del bloque, selecciona **Añadir archivo** en la categoría «Enlaces».
-* En el menú de bloque, elige el bloque que necesites en la categoría **Medios **(«Archivo» para PDF, «Imagen» para JPG…) y pasa a la pestaña «Biblioteca».
+* En el menú de bloque, elige el bloque que necesites en la categoría **Medios** («Documento» para PDF, «Imagen» para JPG…) y pasa a la pestaña «Biblioteca».
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Files Existing Use.jpg" alt=""/><figcaption></figcaption></figure></div>
 
@@ -95,7 +95,7 @@ Si te preocupa el almacenamiento de tu espacio, hay una [sección de limpieza en
 
 Hay tres formas de buscar tus archivos:
 
-1. **Tipos**: abre el tipo de archivo desde la barra lateral. Haz clic en «imágenes» para ver todas las fotos, en «Audio» para ver todos los archivos de sonido, etc.
+1. **Tipos**: abre el tipo de archivo desde la barra lateral. Haz clic en «Imágenes» para ver todas las fotos, en «Audios» para ver todos los archivos de sonido, etc.
 2. **Consultas**: crea una consulta para buscar con más precisión; por ejemplo, usa un filtro para archivos de más de 10 MB o archivos cargados esta semana.
 3. **Búsqueda**: usa el botón de la barra lateral o el atajo `Cmd/Ctrl + K` para buscar un archivo directamente.
 

@@ -23,7 +23,7 @@ Anytype tiene dos mecanismos distintos:
 * **Mis favoritos**: personal, visible solo para ti. Usa el icono de la estrella.
 * **Anclados comunes**: compartidos y visibles para todos los miembros. Los establece la persona propietaria o administradora del canal.
 
-Para ver detalles sobre la forma de añadirlos, eliminarlos y organizarlos, consulta [pins-and-favorites.md](pins-and-favorites.md "mention").
+Para ver detalles sobre la forma de añadirlos, eliminarlos y organizarlos, consulta [Anclados y favoritos](pins-and-favorites.md "mention").
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Sidebar Pins Favorites.jpg" alt=""/><figcaption></figcaption></figure></div>
 
@@ -54,7 +54,7 @@ Puedes usar **Solo yo** en canales de equipo muy activos para evitar que tu prop
 
 ### No leídos
 
-La sección **No leídos** muestra las notificaciones de tu canal. Suelen proceder de [chats](../../collaborate/chats/ "mention") y [discussions.md](../../collaborate/discussions.md "mention"). Esta sección es temporal; aparece o desaparece según las notificaciones que estén activas.
+La sección **No leídos** muestra las notificaciones de tu canal. Suelen proceder de [chats](../../collaborate/chats/ "mention") y [debates](../../collaborate/discussions.md "mention"). Esta sección es temporal; aparece o desaparece según las notificaciones que estén activas.
 
 Puedes colocar esta sección al principio o al final, según te venga mejor. No puedes ocultarla. Tienes más detalles en [Gestionar las secciones](sections.md#gestionar-las-secciones).
 

@@ -16,9 +16,9 @@ Si un objeto fuera un bizcocho, el tipo sería su molde. Los tipos son esquemas 
 
 Cada objeto pertenece a un tipo, que le aplicas al crearlo y que puedes cambiar en cualquier momento. Anytype incluye tipos integrados, pero puedes crear tus propios tipos para adaptarlos a tus necesidades. Los tipos tienen:
 
-* [properties.md](properties.md "mention") para definirlos, como dirección, fecha de creación y etiquetas.
-* [views.md](views.md "mention") para organizarlos, como un calendario con todos los eventos importantes.
-* [templates.md](templates.md "mention") para normalizarlos, como un álbum de fotos insertado en todas las vacaciones.
+* [Propiedades](properties.md "mention") para definirlos, como dirección, fecha de creación y etiquetas.
+* [Vistas](views.md "mention") para organizarlos, como un calendario con todos los eventos importantes.
+* [Plantillas](templates.md "mention") para normalizarlos, como un álbum de fotos insertado en todas las vacaciones.
 
 ## Cómo crear un tipo
 
@@ -32,7 +32,7 @@ Ten en cuenta que la barra lateral solo mostrará los tipos que tengan al menos 
 
 #### Ajustes del canal
 
-Puedes ver todos tus tipos en tu [channel-settings.md](../settings/channel-settings.md "mention"), en la sección **Modelo de contenido**. Haz clic en el botón «Nuevo» para añadir un tipo nuevo a tu espacio.
+Puedes ver todos tus tipos en los [ajustes del canal](../settings/channel-settings.md "mention"), en la sección **Modelo de contenido**. Haz clic en el botón «Nuevo» para añadir un tipo nuevo a tu espacio.
 
 Además, en los ajustes del canal tienes la opción **Tipo de objeto por defecto** para elegir el tipo que se aplicará a los objetos creados mediante el botón Crear.
 
@@ -68,8 +68,8 @@ Si no ves en la lista la propiedad que quieres, puedes añadirla usando el botó
 
 Puedes elegir la forma en que aparecen las propiedades en la cabecera. En la sección «Diseño» encontrarás estas dos opciones en «Vista de propiedades»:
 
-1. Línea: con un aspecto más minimalista.
-2. Lista: para mostrar información más estructurada.
+1. Línea, con un aspecto más minimalista.
+2. Lista, para mostrar información más estructurada.
 
 ## Cómo cambiar de tipo
 
@@ -84,7 +84,7 @@ Cuando el objeto cambia de tipo, conserva las propiedades originales. De esta fo
 
 #### Cambio de tipo en lote
 
-Para cambiar el tipo de varios objetos a la vez, es mejor usar [views.md](views.md "mention"). Encontrarás más detalles [aquí](views.md#edicion-de-objetos-en-lote).
+Para cambiar el tipo de varios objetos a la vez, es mejor usar [vistas](views.md "mention"). Encontrarás más detalles [aquí](views.md#edicion-de-objetos-en-lote).
 
 ## Cómo eliminar un tipo
 
@@ -96,14 +96,14 @@ Si aún hay objetos que forman parte de ese tipo, se abrirá una ventana para qu
 
 ## Cómo duplicar un tipo en otro canal
 
-Los tipos son particulares del canal en el que se crean. Si quieres que cierto tipo esté también en otros espacios, consulta [Importar y exportar](../data/import-and-export/README.md "mention"). Por el momento, no puedes tener tipos comunes y sincronizados entre espacios, ya que están separados por diferentes claves de cifrado.
+Los tipos son particulares del canal en el que se crean. Si quieres que cierto tipo esté también en otros espacios, consulta [Importar y exportar](../data/import-and-export/ "mention"). Por el momento, no puedes tener tipos comunes y sincronizados entre espacios, ya que están separados por diferentes claves de cifrado.
 
 ## Notas
 
 {% hint style="info" %}
-**No te compliques**. Crear demasiados tipos suele dar lugar a sistemas complejos y más difíciles de manejar. Empieza con los tipos integrados y ve añadiendo más cuando realmente los necesites.
+**No te compliques.** Crear demasiados tipos suele dar lugar a sistemas complejos y más difíciles de manejar. Empieza con los tipos integrados y ve añadiendo más cuando realmente los necesites.
 {% endhint %}
 
 {% hint style="info" %}
-**Usa las propiedades**. Para sacar todo el partido a los tipos, añádeles propiedades relevantes. Así podrás ordenar y filtrar tus objetos en vistas útiles, como un tipo «Proyecto» con una vista kanban que solo muestre tus tareas más prioritarias.
+**Usa las propiedades.** Para sacar todo el partido a los tipos, añádeles propiedades relevantes. Así podrás ordenar y filtrar tus objetos en vistas útiles, como un tipo «Proyecto» con una vista kanban que solo muestre tus tareas más prioritarias.
 {% endhint %}

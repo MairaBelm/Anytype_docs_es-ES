@@ -5,7 +5,7 @@ description: Crea relaciones en tu base de conocimiento
 
 # Enlaces
 
-En Anytype, los enlaces son vínculos que convierten un montón de notas dispersas en una base de conocimiento conectada. Cuando enlazas un objeto «Tarea» a un objeto «Proyecto», estás indicando que están relacionados. Anytype registra esta relación como un vínculo y lo hace visible en el gráfico, que es un mapa mental de todo tu espacio.
+En Anytype, los enlaces son lo que convierte un montón de notas dispersas en una base de conocimiento conectada. Cuando vinculas un objeto «Tarea» a un objeto «Proyecto», estás indicando que están relacionados. Anytype registra esta relación como un enlace y lo hace visible en tu gráfico, que es un mapa mental de todo tu espacio.
 
 Con el tiempo, estas conexiones adquieren un valor increíble. Te permiten rastrear las relaciones entre ideas, ver todo lo relacionado con un proyecto y descubrir patrones que no habías imaginado.
 
@@ -35,12 +35,12 @@ Directamente en el editor mediante uno de estos métodos:
 
 ### Enlace a una propiedad
 
-Puedes vincular el objeto a [properties.md](../organize/properties.md "mention") de distintas formas:
+Puedes vincular el objeto a [propiedades](../organize/properties.md "mention") de distintas formas:
 
-1. **[Cabecera del objeto](../organize/properties.md#propiedades-en-la-cabecera-del-objeto)**: selecciona una propiedad en la cabecera. Si la propiedad no está visible, añádela a la cabecera desde los [ajustes del tipo](../organize/properties.md#como-crear-y-gestionar-las-propiedades).
-2. **[Menú de bloque](editor/#como-anadir-bloques)**: inserta un bloque de propiedad desde el menú usando el botón «+» o el comando «/».
+1. [**Cabecera del objeto**](../organize/properties.md#propiedades-en-la-cabecera-del-objeto): selecciona una propiedad en la cabecera. Si la propiedad no está visible, añádela a la cabecera desde los [ajustes del tipo](../organize/properties.md#como-crear-y-gestionar-las-propiedades).
+2. [**Menú de bloque**](editor/#como-anadir-bloques): inserta un bloque de propiedad desde el menú usando el botón «+» o el comando «/».
 
-También puedes añadir una propiedad desde [views.md](../organize/views.md "mention"). Este es el mejor método para editar las propiedades de varios objetos.
+También puedes añadir una propiedad desde las [vistas](../organize/views.md "mention"). Este es el mejor método para editar las propiedades de varios objetos.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Links Properties.gif" alt=""/><figcaption></figcaption></figure></div>
 

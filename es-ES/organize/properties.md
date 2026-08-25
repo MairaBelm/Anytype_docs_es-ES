@@ -9,20 +9,20 @@ Las propiedades son los datos que asocias a un objeto: su fecha de vencimiento, 
 Las propiedades te permiten organizar el conocimiento mediante sistemas flexibles, ya que puedes utilizarlas para ordenar, filtrar y consultar tus objetos:
 
 * Busca todas las **tareas** cuya **prioridad** sea **alta**.
-* Busca todos los **libros** cuyo estado sea **leído**, ordenados por **valoración**.
-* Busca todas las **ideas** cuya **fecha de creación** sea el **año pasado**.
+* Busca todos los **libros** cuyo **estado** sea **leído**, ordenados por **valoración**.
+* Busca todas las **ideas** cuya **fecha de creación** sea **el año pasado**.
 
 ## Cómo funciona
 
 Las propiedades cumplen dos funciones. Vamos a usar un objeto del tipo «Tarea» como ejemplo.
 
-**1\. Definen los objetos.** Úsalas para añadir datos útiles y descriptivos, como estos:
+**1. Definen los objetos**. Úsalas para añadir datos útiles y descriptivos, como estos:
 
 * Estado: En curso
 * Prioridad: Alta
 * Fecha final: El próximo viernes
 
-**2\. Conectan los objetos**. Úsalas para vincular un objeto a otro; por ejemplo:
+**2. Conectan los objetos**. Úsalas para vincular un objeto a otro; por ejemplo:
 
 * Asignado a: → Alex (un objeto del tipo «Persona»)
 * Proyecto: → Rediseño del sitio web (un objeto del tipo «Proyecto»)
@@ -33,7 +33,7 @@ Las propiedades cumplen dos funciones. Vamos a usar un objeto del tipo «Tarea»
 
 Estos son los formatos disponibles en Anytype para las propiedades:
 
-<table data-search="false"><thead><tr><th width="182.1171875">Formato de propiedad</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Texto</strong></td><td>Para introducir texto libre.</td></tr><tr><td><strong>Número</strong></td><td>Para números. Pronto habrá distintos formatos de número.</td></tr><tr><td><strong>Fecha</strong></td><td>Fecha, con hora opcional.</td></tr><tr><td><strong>Selección</strong></td><td>Lista predefinida de opciones. Se puede elegir solo una.</td></tr><tr><td><strong>Selección múltiple</strong></td><td>Lista predefinida de opciones. Se pueden elegir varias, sin límite.</td></tr><tr><td><strong>Correo electrónico/Teléfono/URL</strong></td><td>Formatos especiales para direcciones, números de teléfono y URL.</td></tr><tr><td><strong>Casilla</strong></td><td>Casilla de verificación para marcar.</td></tr><tr><td><strong>Archivos y medios</strong></td><td>Para adjuntar archivos de texto, audio, vídeo o imagen.</td></tr><tr><td><strong>Objeto</strong></td><td>Referencia a otro objeto (persona, tarea, documento...).</td></tr></tbody></table>
+<table data-search="false"><thead><tr><th width="182.1171875">Formato de propiedad</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Texto</strong></td><td>Para introducir texto libre.</td></tr><tr><td><strong>Número</strong></td><td>Para números. Pronto habrá distintos formatos de número.</td></tr><tr><td><strong>Fecha</strong></td><td>Fecha, con hora opcional.</td></tr><tr><td><strong>Selección</strong></td><td>Lista predefinida de opciones. Se puede elegir solo una.</td></tr><tr><td><strong>Selección múltiple</strong></td><td>Lista predefinida de opciones. Se pueden elegir varias, sin límite.</td></tr><tr><td><strong>Correo electrónico/Teléfono/URL</strong></td><td>Formatos especiales para direcciones, números de teléfono y URL.</td></tr><tr><td><strong>Casilla</strong></td><td>Casilla de verificación para marcar.</td></tr><tr><td><strong>Documentos y medios</strong></td><td>Para adjuntar archivos de documento, audio, vídeo o imagen.</td></tr><tr><td><strong>Objeto</strong></td><td>Referencia a otro objeto (persona, tarea, documento...).</td></tr></tbody></table>
 
 ## Relación entre tipos y propiedades
 
@@ -74,7 +74,7 @@ Es posible añadir propiedades que no tengan relación con el tipo de ese objeto
 
 #### Desde los ajustes del canal
 
-Abre [channel-settings.md](../settings/channel-settings.md "mention"), ve a «Modelo de contenido» y selecciona **Propiedades**. Aquí basta con hacer clic en el botón «Nuevo» para crear una propiedad.
+Abre [Ajustes del canal](../settings/channel-settings.md "mention"), ve a «Modelo de contenido» y selecciona **Propiedades**. Aquí basta con hacer clic en el botón «Nuevo» para crear una propiedad.
 
 ## Cómo usar las propiedades
 

@@ -1,71 +1,71 @@
 ---
-description: Reference and customize Anytype's keyboard shortcuts.
+description: Consulta y personaliza los atajos de teclado de Anytype.
 ---
 
-# Keyboard Shortcuts
+# Atajos de teclado
 
-Anytype's shortcut system is **fully customizable**. Almost every shortcut can be remapped, many actions support two key combinations at once, and you can import or export your shortcut configuration to share with other devices or teammates.
+El sistema de atajos de Anytype se puede **personalizar por completo**. Casi todos los atajos de teclado se pueden reasignar, muchas acciones admiten dos combinaciones de teclas a la vez y puedes importar o exportar tu configuración de atajos para compartirla con otros dispositivos o compañeros de equipo.
 
-This page covers the most-used shortcuts and how to customize them.
+Esta página se ocupa de los atajos más habituales y su personalización.
 
-## Opening the Shortcuts
+## Cómo ver los atajos de teclado
 
-Click `?` (the help icon) in the bottom-left corner of the app, then choose **Keyboard shortcuts**. The panel opens with shortcuts grouped by category.
+Haz clic en `?` (el icono de ayuda) en la esquina inferior izquierda de la aplicación y selecciona **Atajos de teclado**. Se abrirá un panel con los atajos agrupados por categoría.
 
-You can also assign a shortcut to open the Shortcuts panel itself, so you can summon it from anywhere with one keystroke.
+También puedes asignar un atajo a este panel, de modo que puedas abrirlo desde cualquier lugar con un solo gesto.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Shortcuts.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-## Suggested Shortcuts
+## Sugerencias de atajos
 
-<table><thead><tr><th width="264.08984375">Shortcut</th><th>Description</th></tr></thead><tbody><tr><td>Toggle Vault &amp; Channel Sidebar</td><td>Create a focus mode to remove distractions.</td></tr><tr><td>Copy Link</td><td>Quickly get the link for your Object.</td></tr><tr><td>New Tab</td><td>Create as many tabs as you like.</td></tr><tr><td>Close Tab</td><td>Quickly close your tabs.</td></tr><tr><td>Search</td><td>Quickly find what you're looking for.</td></tr></tbody></table>
+<table><thead><tr><th width="264.08984375">Atajo</th><th>Descripción</th></tr></thead><tbody><tr><td>Barra lateral del arca y del canal</td><td>Crea un modo de concentración para evitar distracciones.</td></tr><tr><td>Copiar enlace</td><td>Obtén rápidamente el enlace de un objeto.</td></tr><tr><td>Nueva pestaña</td><td>Abre tantas pestañas cuantas quieras.</td></tr><tr><td>Cerrar pestaña</td><td>Cierra rápidamente tus pestañas.</td></tr><tr><td>Búsqueda</td><td>Encuentra rápidamente lo que buscas.</td></tr></tbody></table>
 
-The specific shortcut depends on your device platform. Open Keyboard Shortcuts to find your defaults.
+El atajo concreto depende de la plataforma de tu dispositivo. Abre los atajos de teclado para ver los que existen por defecto.
 
-## Customizable Shortcuts
+## Atajos personalizables
 
-Most shortcuts can be reassigned. Some are fixed, such as Esc to close a popup, for safety. Most other shortcuts are customizable.
+La mayoría de los atajos se pueden reasignar. Algunos son fijos, como Esc para cerrar una ventana emergente, por seguridad. Los demás atajos son personalizables, en general.
 
-To remap a shortcut:
+Para reasignar un atajo:
 
-1. Hover over your **Profile Picture** > **? Help** > **Keyboard Shortcuts**
-2. Find the action you want to remap.
-3. Click the existing shortcut field (or the empty field for unmapped actions).
-4. Press the new key combination.
-5. The change saves immediately.
+1. Pasa el cursor sobre tu **imagen de perfil** > **? (Ayuda)** > **Atajos de teclado**
+2. Busca la acción que quieres reasignar.
+3. Haz clic en el campo del atajo existente (o en el campo vacío de las acciones sin asignar).
+4. Pulsa la nueva combinación de teclas.
+5. El cambio se guarda al instante.
 
-#### Dual key combinations
+#### Combinaciones dobles
 
-Some actions support two different shortcuts simultaneously. This is useful when:
+Algunas acciones admiten dos atajos distintos. Esto puede ser útil en varias situaciones:
 
-* You want both a Mac-style and a Windows-style shortcut for the same action
-* You want both a single-key and a chord shortcut
-* Different team members have different muscle memory
+* cuando quieres un atajo estilo Mac y otro estilo Windows para la misma acción;
+* cuando quieres tanto un atajo de tecla única como una combinación de teclas;
+* cuando otros miembros del equipo tienen distintos hábitos.
 
-For these, the Shortcuts panel shows two slots — fill in either or both.
+Para estos casos, el panel de atajos muestra dos espacios; puedes rellenar solo uno o los dos.
 
-#### Importing and exporting shortcut maps
+#### Importar y exportar asignaciones de atajos
 
-You can save your full shortcut configuration to a file:
+Puedes guardar toda tu configuración de atajos en un archivo:
 
-1. **Profile Picture** > **? Help** > **Keyboard Shortcuts** > **Three-dots menu**
-2. **Export** Shortcuts Mapping
-3. **Import** Shortcuts Mapping
+1. **Imagen de perfil** > **? (Ayuda)** > **Atajos de teclado** > **menú de tres puntos**
+2. **Exportar** asignación de atajos
+3. **Importar** asignación de atajos
 
-#### Platform differences
+#### Diferencias entre plataformas
 
-Anytype runs on macOS, Windows, and Linux. Most shortcuts use **Cmd on macOS** and **Ctrl on Windows / Linux** (the panel shows the right symbol for your OS). A few platform-specific shortcuts:
+Anytype funciona en macOS, Windows y Linux. La mayoría de los atajos usan **Cmd en macOS** y **Ctrl en Windows / Linux** (el panel muestra el símbolo correspondiente a tu sistema operativo). Algunos atajos específicos de cada plataforma:
 
-* **Windows: Alt** opens the system menu (a Windows-only convention)
-* **macOS: Cmd + Q** quits the app entirely
-* **Linux: Ctrl + Q** quits the app entirely
+* **Windows: Alt** abre el menú del sistema (una convención exclusiva de Windows)
+* **macOS: Cmd + Q** cierra la aplicación por completo
+* **Linux: Ctrl + Q** cierra la aplicación por completo
 
-## Tips
+## Notas
 
 {% hint style="info" %}
-**Memorize the top three first.** Cmd/Ctrl + K (search), `/` (slash menu), and `@` (mention) cover most of what you do. Get comfortable with these and you've shaved 80% of the navigation time off.
+**Memoriza primero los tres principales.** Cmd/Ctrl + K (búsqueda), `/` (menú de barra) y `@` (mención) cubren la mayor parte de lo que haces. Acostúmbrate a estos y habrás reducido el 80 % del tiempo de navegación.
 {% endhint %}
 
 {% hint style="info" %}
-**Reassign Caps Lock if you don't use it.** A common power-user trick: rebind Caps Lock to something useful at the OS level (Esc, or a modifier), then use Anytype's customization to assign Caps + a letter as your "global Anytype" shortcut for opening search or creating notes.
+**Reasigna Bloq Mayús si no lo usas.** Un truco habitual de usuarios avanzados: reasigna Bloq Mayús a algo útil a nivel de sistema operativo (Esc o un modificador) y luego usa la personalización de Anytype para asignar Bloq Mayús + (cualquier letra) como atajo «global de Anytype» para abrir la búsqueda o crear notas.
 {% endhint %}

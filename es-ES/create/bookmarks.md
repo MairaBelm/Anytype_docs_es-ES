@@ -70,10 +70,10 @@ Puesto que los marcadores son objetos con su propio tipo, puedes hacer todo esto
 
 * **Filtrarlos por etiqueta**: crea una etiqueta «Lista de lectura», una etiqueta «Investigación», etc.
 * **Anclar una consulta de marcadores** a tu barra lateral para ver todos los enlaces que has guardado.
-* **Añadirles una propiedad **que vincule cada marcador a un proyecto o tema.
-* **Usa el diseño Galería** en una consulta para presentar los marcadores como tarjetas visuales.
+* **Añadirles una propiedad** que vincule cada marcador a un proyecto o tema.
+* **Usa el diseño de galería** en una consulta para presentar los marcadores como tarjetas visuales.
 
-Tienes más detalles en [views.md](../organize/views.md "mention").
+Tienes más detalles en [Vistas](../organize/views.md "mention").
 
 ## Notas
 

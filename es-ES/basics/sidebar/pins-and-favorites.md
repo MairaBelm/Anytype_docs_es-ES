@@ -28,10 +28,10 @@ La sección «Mis favoritos» es personal, solo para ti. Todo lo que marques com
 **Para añadir un objeto a «Mis favoritos»:**
 
 1. Abre el objeto.
-2. Haz clic en el icono de estrella de la esquina superior derecha.
+2. Haz clic en el icono de estrella de la esquina superior derecha (o clic derecho > **Favorito** en la barra lateral).
 3. El objeto aparece ahora en la sección **Mis favoritos** de tu barra lateral.
 
-Para quitarlo, vuelve a hacer clic en la estrella, o haz clic derecho sobre el objeto en la barra lateral > **No favorito.**
+Para quitarlo, vuelve a hacer clic en la estrella, o haz clic derecho sobre el objeto en la barra lateral > **No favorito**.
 
 ## Anclados
 
@@ -41,7 +41,7 @@ La sección «Anclados» es común a todos los miembros del canal y solo puede g
 
 * documentos de incorporación para nuevos miembros;
 * normas o directrices del canal;
-* el tablero del *sprint* actual, la hoja de ruta del proyecto o las tareas activas;
+* el tablero del sprint actual, la hoja de ruta del proyecto o las tareas activas;
 * cualquier objeto que quieras que encuentren sin necesidad de buscarlo.
 
 **Para anclar un objeto en la sección común «Anclados»:**

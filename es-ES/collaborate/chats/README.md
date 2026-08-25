@@ -143,12 +143,13 @@ Per-Chat notification settings let you control how loud each Chat is.
 1. Open your desired Chat.
 2. Click the three-dot button in the top right corner.
 3. Select **Notifications**.
-4. Choose:
+4. Elige:
    * **Enable all** — notifications for every message
    * **Mentions only** — only when you're `@`-mentioned
    * **Disable all** — no notifications (unread counter still updates)
 
 These settings are per-Chat and override Channel-level defaults. See [Notifications](../../settings/channel-settings.md#notificaciones) for the full picture.
+These settings are per-Chat and override Channel-level defaults. See [Notifications](../../settings/channel-settings.md#notifications.md) for the full picture.
 
 ## Chat Settings
 
@@ -156,11 +157,11 @@ These settings are per-Chat and override Channel-level defaults. See [Notificati
 
 When you create a Channel, you can choose **Chat** as the Home — meaning the first thing anyone sees when they open the Channel is the live conversation. Chat-Home Channels are great for:
 
-* Team standups and async chat
-* Communities and interest groups
+* reuniones rápidas e intercambios en diferido,
+* comunidades y grupos de interés,
 * Work where conversation is primary, with documents as supporting cast
 
-See [Channels](../../basics/channels.md#tu-página-de-inicio) for more details.
+See [Channels](../../basics/channels.md#tu-pagina-de-inicio) for more details.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/home-chat.png" alt=""/><figcaption></figcaption></figure></div>
 
@@ -175,7 +176,7 @@ Choose how messages are sent in **Vault Settings > Application > Preferences > M
 
 Chat messages support spell checking with the same red underline and suggestions as the editor. It uses your existing language settings — no extra setup needed. Configure spellcheck languages in **Vault Settings > Application > Language & Region**.
 
-## Direct Channels
+## Canales directos
 
 For one-on-one conversations with others, use **Direct Channels** — private chats between two people, with no admin or hierarchy. See [Direct Channels](direct-channels.md) for more information.
 
@@ -185,7 +186,7 @@ You cannot export a chat from a Channel. Chat messages are tied to the individua
 
 As a result, chat objects and messages cannot be exported — they are inherently bound to the space in which they were created.
 
-## Tips
+## Notas
 
 {% hint style="info" %}
 **Drop Objects into Chat to share work in progress** — Note, Task, Page, even another Chat. The Object becomes a clickable attachment card. Recipients can open and edit immediately.

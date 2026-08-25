@@ -1,186 +1,186 @@
 ---
-description: Pre-filled starting points for new Objects.
+description: Modelos preconfigurados para objetos nuevos
 ---
 
-# Templates
+# Plantillas
 
-A **Template** is a saved layout for a page that you can reuse. Instead of starting every new Note, Task, or Project from a blank page, you define what a good starting point looks like once and it'll form the base for every new Object you create afterwards.
+Una **plantilla** es un diseño de página que puedes reutilizar. En lugar de empezar con cada nota, tarea o proyecto desde una página en blanco, defines un buen punto de partida que se convertirá en la base de cada objeto que crees a partir de ese momento.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Template Introduction.jpg" alt=""/><figcaption></figcaption></figure></div>
 
 ## Qué significa esto
 
-Templates help you with three things:
+Las plantillas tienen tres ventajas:
 
-* **Standardize your pages** — ensure everything follows the same format.
-* **Save time** — set a template once and reuse it forever.
-* **Reduce errors** — limit the amount that needs manual entry each time.
+* **Normalizan tus objetos**: así tendrán todos el mismo formato.
+* **Te ahorran tiempo**: configuras la plantilla una vez y la reutilizas automáticamente.
+* **Reducen los errores**: no tienes que introducir a mano los mismos datos una y otra vez.
 
-## When to use templates
+## Cuándo usar plantillas
 
-It's best to use templates on Objects that you find yourself repeatedly entering the same content in that follows a similar structure every time. Good examples of this are cooking recipes, book reviews, project dashboards, and content releases.
+El mejor uso de las plantillas es con objetos en los que te encuentres introduciendo el mismo contenido con una estructura similar cada vez que los creas, como recetas de cocina, reseñas de libros, paneles de proyectos y despliegues de contenido.
 
-Conversely, it's best to not put too much into a template that may create a lot of work for you in the future to update. Focus on putting only what truly matters into each template.
+Por otra parte, es mejor no incluir demasiado en una plantilla si puede suponerte mucho trabajo de actualización en el futuro. Céntrate en incluir solo lo más importante en cada plantilla.
 
 ## Cómo funciona
 
-* Every new Object that's created will use the default Template if it is set.
-* Templates are only applied to Objects when they are created. Future updates to a Template will not update Objects created from earlier versions.
-* You can have multiple Templates for each [Type](types.md), but only one can be the default.
-* You can switch to a different Template when an Object is created, but this option is no longer possible afterwards.
-* Templates can also be set for [Queries](queries.md) and [Collections](collections.md).
-* Templates can also be set per [View](views.md).
+* Cada objeto nuevo que crees usará por defecto la plantilla que hayas establecido.
+* Las plantillas solo se aplican a los objetos en el momento en que los creas. Si las modificas después, esos cambios no se aplicarán a los objetos que hayas creado con la versión anterior.
+* Puedes tener varias plantillas para cada [tipo](types.md), pero solo puedes elegir una como plantilla por defecto.
+* Puedes elegir una plantilla distinta en el momento de crear el objeto, pero no tendrás esa opción después de haberlo creado.
+* También puedes elegir la plantilla por defecto para objetos creados desde [consultas](queries.md) y [colecciones](collections.md).
+* También puedes elegir la plantilla por defecto para objetos creados desde [vistas](views.md).
 
-These are all the components you can set with a Template:
+Estos son todos los elementos que puedes configurar con una plantilla:
 
-<table data-search="false"><thead><tr><th width="181.5">Components</th><th>How can you use it?</th></tr></thead><tbody><tr><td><strong>Title</strong></td><td>'Pre-fill name' will set the same title for every new Object created with this Template. 'Empty-name' will not set any title at all.</td></tr><tr><td><strong>Icon</strong></td><td>Choose an emoticon or upload your own image.</td></tr><tr><td><strong>Cover</strong></td><td>Choose an image from the gallery or upload your own image.</td></tr><tr><td><strong>Description</strong></td><td>Show or hide the description by default with preset text.</td></tr><tr><td><strong>Width</strong></td><td>Change the page width. This can also be set at the Type layout level.</td></tr><tr><td><strong>Properties</strong></td><td>Preset specific values for Properties.</td></tr><tr><td><strong>Blocks</strong></td><td>Preset specific blocks and design layouts for the page.</td></tr></tbody></table>
+<table data-search="false"><thead><tr><th width="181.5">Elemento</th><th>Modo de uso</th></tr></thead><tbody><tr><td><strong>Título</strong></td><td>«Rellenar nombre» dará el mismo título a todos los objetos creados con esta plantilla. «Nombre vacío» no les pondrá ningún título.</td></tr><tr><td><strong>Icono</strong></td><td>Puedes elegir un emoticono o subir una imagen.</td></tr><tr><td><strong>Portada</strong></td><td>Puedes elegir cualquier imagen de la galería o subir una.</td></tr><tr><td><strong>Descripción</strong></td><td>Muestra u oculta la descripción con un texto (o sin texto).</td></tr><tr><td><strong>Ancho</strong></td><td>Establece el ancho de la página, Esto también se puede configurar en el diseño del tipo.</td></tr><tr><td><strong>Propiedades</strong></td><td>Puedes establecer valores por defecto para las propiedades.</td></tr><tr><td><strong>Bloques</strong></td><td>Puedes añadir bloques y diseños de maquetación a la página.</td></tr></tbody></table>
 
-## Create a Template
+## Cómo crear una plantilla
 
-Building a Template is exactly the same as building your desired Object. Add all of your desired content blocks, pre-fill your Properties, and give it a name. As you edit the Template, it will auto-save every change you make.
+Las plantillas se crean exactamente del mismo modo que un objeto. Añade bloques de contenido, rellena las propiedades y dale un nombre. Mientras editas la plantilla, los cambios se guardan automáticamente.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Templates Setting Up.gif" alt=""/><figcaption></figcaption></figure></div>
 
-#### From an existing Object
+#### A partir de un objeto existente
 
-1. Open the Object you'd like to base a template off of.
-2. Click on the 'three dots' button on the top-right corner.
-3. Click the menu item **Use as template**.
+1. Abre el objeto que quieras usar como plantilla.
+2. Haz clic en el botón de tres puntos de la esquina superior derecha.
+3. Haz clic en **Usar como plantilla**.
 
-#### From any Type, Query, or Collection
+#### Desde un tipo, consulta o colección
 
-1. Open the desired Type, Query, or Collection.
-2. Click on the 'Templates' button on the right hand side.
-3. Click '**+**' to start a new Template.
+1. Abre el tipo, consulta o colección para el que quieras crear una plantilla.
+2. Haz clic en el botón «Plantillas» de la derecha.
+3. Haz clic en «**+**» para crear una plantilla nueva.
 
-Setting the default Template here will apply to all Objects created for this Type, Query, or Collection.
+Si configuras aquí una plantilla por defecto, esa plantilla se aplicará a todos los objetos que se creen de este tipo, consulta o colección.
 
-#### From the Channel Settings
+#### Desde los ajustes del canal
 
-1. Open **Channel Settings > Content Model > Object Types**.
-2. Click the Type you want to add a Template to.
-3. Find the **Templates** section in the right panel.
-4. Click '**+**' to start a new Template.
+1. Abre **Ajustes del canal > Modelo de contenido > Tipos de objeto**.
+2. Haz clic en el tipo al que quieres añadir una plantilla.
+3. Busca la sección **Plantillas** en el panel derecho.
+4. Haz clic en «**+**» para crear una plantilla nueva.
 
-#### Editing an existing Template
+#### Modificar una plantilla existente
 
-1. Navigate to the desired Template.
-2. While hovering over it, click on the 'three dots' button.
-3. Select the menu item **Edit template**.
+1. Pasa el puntero sobre una plantilla.
+2. Haz clic en el botón de tres puntos que aparece.
+3. Selecciona **Editar plantilla** en el menú.
 
 {% hint style="warning" %}
-**Template changes only apply to future Objects that are created with it**. For all Objects already created from past versions of the Template, no updates to the Template will transfer to them. Templates are only applied during Object creation.
+**Los cambios de la plantilla solo se aplicarán a los objetos que crees con ella a partir de ese momento**. Los objetos que hayas creado con versiones anteriores de esa plantilla no reflejarán estos cambios, ya que las plantillas solo se aplican cuando se crea el objeto.
 {% endhint %}
 
-## Using Templates
+## Cómo usar las plantillas
 
-#### Create Objects with Templates
+#### Crear objetos con plantillas
 
-1. Create an Object with [your preferred method](../create/objects/#cómo-crear-objetos).
-2. The default Template will be applied automatically.
-3. Start editing the Template.
+1. Crea un objeto con tu [método habitual](../create/objects/#como-crear-objetos).
+2. Se le aplicará automáticamente la plantilla por defecto.
+3. Empieza a editar el contenido.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Template Default.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### Switching to different Templates
+#### Usar una plantilla distinta
 
-You can have multiple Templates. Before making any edits to your new Object, you have the opportunity to switch from the default Template to a different one.
+Es posible que tengas varias plantillas. Antes de realizar cualquier cambio en un objeto nuevo, tienes la posibilidad de cambiar la plantilla que se le aplica.
 
-1. Create a new Object.
-2. Click on the button '**This type has # templates**'.
-3. Choose your desired Template.
+1. Crea un objeto nuevo.
+2. Haz clic en el botón **Este tipo tiene X plantillas**.
+3. Elige la plantilla que prefieras.
 
-Templates are applied when an Object is created. This is why making an edit to an Object will remove your ability to switch Templates afterwards. An alternative solution is to navigate to the Template and copy + paste the content into your desired Object.
+Las plantillas se aplican en el momento de crear un objeto. Por esta razón, en cuanto editas el objeto pierdes la posibilidad de cambiar su plantilla. Si quieres aplicarle una plantilla distinta después de editarlo, puedes abrir la plantilla, copiar su contenido y pegarlo en el objeto.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Templates Switch.gif" alt=""/><figcaption></figcaption></figure></div>
 
-#### Change the default Template
+#### Cambiar la plantilla por defecto
 
-1. Navigate to the Type.
-2. Click on the 'Templates' button on the right hand side.
-3. While hovering over your desired Template, click on the 'three dots' button.
-4. Select the menu item **Set as default**.
+1. Abre el tipo.
+2. Haz clic en el botón «Plantillas» de la derecha.
+3. Pasa el puntero por la plantilla que quieras y haz clic en el botón de tres puntos.
+4. Selecciona **Establecer por defecto** en el menú.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Templates Default.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### Set a Template for a specific View
+#### Establecer la plantilla por defecto para una vista
 
-You can set Templates that are specifically tied to certain [Views](views.md). This means that a Type can have multiple Views and a different Template for each.
+Puedes establecer la plantilla por defecto de cada [vista](views.md). De esta forma, un tipo puede tener varias vistas con una plantilla distinta para cada una.
 
-1. Navigate to a Type, Query, or Collection.
-2. Click on the 'dropdown arrow' next to the 'New' button.
-3. Set the **Template for this View**.
+1. Abre un tipo, consulta o colección.
+2. Haz clic en la flecha desplegable que hay junto al botón «Nuevo».
+3. Elige **Plantilla para esta vista**.
 
-While you are in this View, clicking on the 'New' button will automatically apply the Template for this view. This overrides the default Template that is set for the entire Type when you are creating an Object from this View.
+Cuando estés en esta vista y hagas clic en el botón «Nuevo», se aplicará automáticamente la plantilla que has seleccionado. Esta opción tiene precedencia sobre la plantilla por defecto que hayas establecido para todo el tipo, siempre que crees el objeto desde esta vista.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Template View.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### Locking Templates
+#### Proteger las plantillas
 
-If you want to be sure your Template remains consistent, you can lock it to prevent accidental edits. Importantly, locking a Template does not prevent it from being deleted. Deleted Templates can be restored from the Bin. To lock a Template:
+Si quieres asegurarte de que la plantilla no varíe, puedes protegerla para evitar cambios accidentales. Ten en cuenta que esto no te impide eliminar la plantilla, pero las plantillas eliminadas se pueden restaurar desde la papelera. Para proteger una plantilla, sigue estos pasos:
 
-1. Edit the Template
-2. Click on the 'three dots' button on the top right corner.
-3. Select the option **Lock Template**.
+1. Abre la plantilla.
+2. Haz clic en el botón de tres puntos de la esquina superior derecha.
+3. Selecciona la opción **Proteger plantilla**.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Template Lock.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-#### Duplicating Templates
+#### Duplicar plantillas
 
-To make a variant of an existing Template:
+Para crear una variante de una plantilla existente, sigue estos pasos:
 
-1. Open the Template.
-2. Find the Template you want to copy.
-3. Click the three-dot menu > **Duplicate**.
-4. Edit the copy to make it your variant.
+1. Haz clic en «Plantillas».
+2. Busca la plantilla que quieres copiar.
+3. Haz clic en el menú de tres puntos > **Duplicar**.
+4. Edita la copia para crear tu variante.
 
-Useful for incremental refinement or for creating role-specific versions of the same base Template.
+Esto resulta útil para mejorarlas poco a poco y para crear versiones personalizadas de una misma plantilla.
 
-#### Template name pre-fill
+#### Título aplicado por la plantilla
 
-Templates can include a default name that's pre-filled into new Objects. To control this behavior:
+Las plantillas tienen la opción de aplicar su título como nombre a los objetos. Esta es la forma de controlar esa opción:
 
-1. Edit the Template.
-2. In the title area, you'll see a toggle between **Pre-fill name** and **Empty name**.
-   1. **Pre-fill name** — new Objects start with the Template's name (which you can replace by typing)
-   2. **Empty name** — new Objects start with a blank title, ready for you to type
+1. Abre la plantilla.
+2. En el área del título, verás un botón que alterna entre **Rellenar nombre** y **Nombre vacío**.
+   1. **Rellenar nombre**: los objetos que crees tendrán el título de la plantilla; puedes escribir uno nuevo.
+   2. **Nombre vacío**: los objetos que crees tendrán un título en blanco para que tú lo escribas
 
-Use **Empty name** when the Template's name is just for *finding* the Template (e.g., "Daily Journal" is the Template name, but you don't want every entry to start with "Daily Journal" as the title).
+Usa **Nombre vacío** cuando el nombre de la plantilla sirva solo para distinguirla (por ejemplo, si «Entrada de diario» es el nombre de la plantilla, pero no quieres que cada entrada empiece con «Entrada de diario» como título).
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Template Title Name.jpg" alt=""/><figcaption></figcaption></figure></div>
 
-## Multiple Templates
+## Varias plantillas
 
-You can have many Templates for the same Type. Here is some inspiration:
+Puedes tener muchas plantillas para un mismo tipo. Estas son algunas sugerencias:
 
-* **Note Type** — Templates for "Daily Journal", "Meeting Note", "Reading Note", "Idea Capture"
-* **Task Type** — Templates for "Bug Report", "Feature Request", "Recurring Maintenance"
-* **Document Type** — Templates for "Weekly Review", "Tech Spec", "Postmortem", "One-Pager"
+* **Tipo Nota**: plantillas para «Entrada de diario», «Nota de reunión», «Nota de lectura», «Captura de ideas».
+* **Tipo Tarea**: plantillas para «Informe de fallos», «Solicitud de función», «Mantenimiento periódico».
+* **Tipo Documento**: plantillas para «Revisión semanal», «Descripción técnica», «Post mortem», «Presentación rápida»
 
-## Templates with Properties
+## Plantillas con propiedades
 
-Templates can pre-set Property values, making Objects more standardized.
+Para uniformar más tus objetos, las propiedades de las plantillas pueden tener valores preasignados. Por ejemplo:
 
-* **Status** = "Draft" by default for new content ideas
-* **Priority** = "Low" by default for new Tasks
-* **Author** = "Current User" by default for Ideas
-* **Tags** = pre-applied tags relevant to the Template
+* **Estado** = «Borrador» por defecto para ideas nuevas de contenido.
+* **Prioridad** = «Baja» por defecto para tareas nuevas.
+* **Autor** = «Usuario actual» por defecto para las sugerencias.
+* **Etiquetas** = etiquetas predefinidas relevantes para la plantilla.
 
-When you create an Object from the Template, these defaults are applied. You can override them on the new Object — the Template's Property values are just starting points.
+Cuando creas un objeto a partir de esa plantilla, se le aplican estos valores por defecto. Puedes cambiarlos en el objeto si quieres; solo se asignan a las propiedades como punto de partida.
 
-## Deleting Templates
+## Cómo eliminar plantillas
 
-1. Open the Type's Templates list.
-2. Click the three-dot menu next to the Template > **Delete**.
+1. Abre la lista de plantillas del tipo.
+2. Haz clic en el menú de tres puntos de la plantilla y selecciona **Eliminar**.
 
-The Template is removed and can be found in the Bin where it can be restored. **Objects created from this Template are not affected** — they keep the content the Template gave them. The Template simply no longer exists for future Object creation.
+La plantilla se traslada a la papelera, desde donde puedes restaurarla. **Los objetos que se crearon con esta plantilla no se ven afectados**: conservan el contenido que les proporcionó la plantilla. Simplemente, la plantilla deja de estar disponible para crear más objetos.
 
-## Tips
+## Notas
 
 {% hint style="info" %}
-**Create your Objects, then create a Template after.** Build the layout you want on a real Object first, iterate until it's right, then save it as a Template. This is more reliable than designing a Template from scratch in the abstract, as it may not truly serve your needs.
+**Crea tus objetos y luego crea una plantilla.** Empieza por crear un objeto real con el diseño que quieres, trabaja en él hasta perfeccionarlo y, entonces, guárdalo como plantilla. Es un método más fiable que diseñar una plantilla desde cero de forma abstracta y arriesgarte a que no atienda a tus necesidades reales.
 {% endhint %}
 
 {% hint style="info" %}
-**Set a per-View default for shared Channels.** A team Channel where one View is "Bug Tracker" and another is "Feature Requests" benefits from per-View Templates — Bug Tracker's New button uses the Bug Report Template, Feature Requests uses a different one. Members create the right kind of Object without thinking about it.
+**Establece una plantilla por defecto para cada vista en los canales compartidos.** Si un canal de equipo tiene una vista «Lista de fallos» y otra «Solicitudes de funciones», le conviene tener plantillas distintas para cada una: el botón Nuevo de «Lista de fallos» usa la plantilla de informe de errores, mientras que el de «Solicitudes de funciones» usa su propia plantilla. Así, los miembros del canal crean el tipo correcto de objeto sin pararse a pensarlo.
 {% endhint %}
