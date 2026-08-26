@@ -90,11 +90,11 @@
 * [Galería de experiencias ANY](advanced/community/any-experience-gallery.md)
 * [Nightly Ops](advanced/community/nightly-ops.md)
 
-## 📚 Resources
+## 📚 Recursos
 
-* [Memberships](resources/memberships/README.md)
-  * [Refund policy](resources/memberships/refund-policy.md)
-* [FAQ](resources/faq.md)
+* [Suscripción](resources/memberships/README.md)
+  * [Política de reembolso](resources/memberships/refund-policy.md)
+* [Preguntas frecuentes](resources/faq.md)
 * [Troubleshooting](advanced/troubleshooting/README.md)
   * [AnySync Netcheck Tool](advanced/troubleshooting/anysync-netcheck-tool.md)
 * [Conectar](advanced/connect.md)

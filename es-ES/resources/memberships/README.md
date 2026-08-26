@@ -1,96 +1,96 @@
 ---
-description: Plans, pricing, and how to support the project
+description: Planes, precios y formas de apoyar el proyecto
 ---
 
-# Memberships
+# Suscripción
 
-Our memberships are designed to reflect the same core principles that have always guided Anytype’s development: unrestricted access to our software and an open ecosystem where contributions are fairly rewarded.
+Nuestras suscripciones están pensadas para reflejar los principios fundamentales que siempre han guiado el desarrollo de Anytype: acceso sin restricciones a nuestro software y un ecosistema abierto en el que las contribuciones se recompensan de manera justa.
 
-For more information about the philosophy behind our membership and its planned evolution, please visit this blog post: [Our Membership Philosophy](https://blog.anytype.io/our-memberships-philosophy/).
+Tienes más información sobre la filosofía de nuestras suscripciones y y su plan de evolución en esta publicación (en inglés): [Our Membership Philosophy](https://blog.anytype.io/our-memberships-philosophy/).
 
-## Plans
+## Planes
 
-Anytype offers a Free tier plus several paid plans. 
+Anytype ofrece un nivel gratuito y varios niveles de pago. 
 
-Paid plans: 
+Los planes de pago incluyen lo siguiente: 
 
-* Extend storage limits
-* Unlock unlimited shared Channels
-* Include a custom **ANY ID** — your unique handle, used for web publishing URLs
-
-{% hint style="info" %}
-For current plan tiers, prices, and exact limits, see the [Anytype pricing page](https://anytype.io/pricing). 
-{% endhint %}
-
-## Pricing for Contributors
-
-We offer a 50% discount to active contributors to our codebase, gallery, tutorials, and community. Email us at [association@anytype.io](mailto:association@anytype.io) to receive your discount.
-
-If you believe that your contribution status is incorrect, please write us at [association@anytype.io](mailto:association@anytype.io).
-
-## Pricing for Self-Hosters
-
-Self-hosters can manage the limits of Viewers/Editors they invite to their Channels themselves. Those who would like to purchase a name in the Anytype naming system or access priority support, can purchase a membership at the same price as other beta testers.
-
-In the future, we will introduce membership discounts for self-hosters. 
+* más capacidad de almacenamiento;
+* canales compartidos sin límite;
+* **ID ANY** personalizado, un nombre único que se usará en las URL de tus publicaciones web.
 
 {% hint style="info" %}
-For those who would like to support the network in the meantime, we welcome your donation [here](https://stripe.pay.anytype.io/b/4gw0337MrdvbejK28f) (thank you!).
+Puedes ver los niveles de suscripción, precios y límites concretos en la [página de precios de Anytype](https://anytype.io/pricing). 
 {% endhint %}
 
-## FAQ
+## Precios para colaboradores
+
+Ofrecemos un 50 % de descuento a las personas que contribuyen activamente a nuestro código, galería, tutoriales y comunidad. Escríbenos a [association@anytype.io](mailto:association@anytype.io) para recibir tu descuento.
+
+Si crees que tu estado de contribución no es correcto, escríbenos a [association@anytype.io](mailto:association@anytype.io).
+
+## Precios para alojamiento propio
+
+Si alojas Anytype en tu propio servidor, los límites de visitantes y editores que invitas a tus canales los gestionas tú. Si quieres obtener un nombre en el sistema de nombres de Anytype o acceso a soporte técnico prioritario, puedes comprar una suscripción por el mismo precio que otros probadores de la versión beta.
+
+Más adelante presentaremos descuentos de suscripción para autoalojamiento. 
+
+{% hint style="info" %}
+Mientras tanto, si quieres apoyar nuestra red, tu donación [aquí](https://stripe.pay.anytype.io/b/4gw0337MrdvbejK28f) será bien recibida, ¡muchas gracias!
+{% endhint %}
+
+## Preguntas frecuentes
 
 <details>
 
-<summary>What happens to my shared channels if I choose not to renew my membership?</summary>
+<summary>¿Qué ocurre con mis espacios compartidos si no renuevo la suscripción?</summary>
 
-You can choose *not* to renew your paid membership up to any moment before the membership cycle renews. Please do so by visiting the site of the payment provider you used to pay for your membership (Stripe, App store, Google Play).
+Puedes cancelar la suscripción en cualquier momento antes del día de la renovación. Para hacerlo, visita el sitio del proveedor de pago que hayas usado con tu suscripción (Stripe, App Store, Google Play).
 
-**Your global name**
+**Tu nombre global**
 
-Your name will be released and free for purchase one year or 3 years from when you first purchased your membership, depending on which kind of membership you purchased
+Dependiendo del nivel de suscripción que tuvieras, tu nombre quedará libre y a disposición de otros compradores 1 año o 3 años después de la fecha de pago de la suscripción.
 
-**Your spaces**
+**Tus espacios**
 
-When you do not renew your membership, all participants of your shared spaces (including yourself) will see a popup notification with two options: *Delete* or *Export* the space. Only if participants export the space and re-import it to a new space, will they continue to have access to the space data through Anytype (though changes will no longer be synced).
+Cuando no renuevas tu suscripción, todos los miembros de tus espacios compartidos (incluso tú) verán una notificación emergente con dos opciones: _eliminar_ el espacio o _exportarlo_. Los miembros solo mantendrán el acceso al contenido del espacio en Anytype si exportan el espacio y lo reimportan a un espacio nuevo, aunque ya no se sincronizarán los cambios.
 
-**Your data**
+**Tus datos**
 
-Encrypted backups of your data will be deleted from the Anytype backup node after 30 days.
+Las copias de respaldo cifradas de tus datos se eliminarán del nodo de respaldo de Anytype pasados de 30 días.
 
 </details>
 
 <details>
 
-<summary>What payment methods can I use?</summary>
+<summary>¿Qué métodos de pagos puedo usar?</summary>
 
-All major credit cards are accepted. Memberships are priced in USD and will be converted to your local currency using conversion rates on Stripe, if you purchase your membership from the Desktop app.
+Se aceptan todas las principales tarjetas de crédito. Las suscripciones tienen un precio en USD. Si adquieres la tuya desde la aplicación de escritorio, el precio se convertirá a tu moneda local utilizando los tipos de cambio de Stripe.
 
-If you purchase your membership from the iOS or Android apps, payment will be processed by the App Store or Play Store, and prices will be automatically adjusted to your local currency by the respective platform.
-
-</details>
-
-<details>
-
-<summary>What if I want to add additional members to my channel?</summary>
-
-In our next iteration of memberships, we will have a tier for B2B and educational use cases, with the option to add up to 20 additional editors per space.
+Si adquieres la suscripción desde la aplicación de iOS o Android, el pago lo procesará App Store o Google Play Store, y serán estas plataformas las que ajusten el precio a tu moneda local.
 
 </details>
 
 <details>
 
-<summary>What happens if I exceed the storage &amp; sync limits?</summary>
+<summary>¿Qué hago si quiero añadir más miembros a mi espacio?</summary>
 
-Your spaces will stop syncing with each other through the backup node and use local sync/storage only.
+En la próxima versión de nuestras suscripciones, tendremos un nivel para casos de uso B2B y educativos, con la opción de añadir hasta 20 editores adicionales por espacio.
 
 </details>
 
 <details>
 
-<summary>Is there a student / educational plan?</summary>
+<summary>¿Qué ocurre si supero los límites de almacenamiento y sincronización?</summary>
 
-Students or faculty members are eligible for a [50% discount](https://edu.anytype.io/#apply) on all of our membership plans.
+Tus espacios dejarán de sincronizarse entre dispositivos a través del nodo de respaldo y usarán solo la sincronización y el almacenamiento locales.
+
+</details>
+
+<details>
+
+<summary>¿Hay planes para estudiantes o centros de enseñanza?</summary>
+
+Los estudiantes y el personal docente pueden obtener un [50 % de descuento](https://edu.anytype.io/#apply) en todos nuestros planes de suscripción.
 
 </details>
 

@@ -1,51 +1,51 @@
-# Troubleshooting
+# Solución de problemas
 
-1. Ensure that the time on your computer is correct. If the local time is more than 2 hours off, a connection might not be possible.
-2. Check if you’re using a proxy, VPN, firewall, or a company network to connect. If yes, try connecting without these to see if it makes a difference.
-3. Attempt the connection outside of corporate networks or similar setups.
-4. Use your mobile device as a Wi-Fi hotspot for your desktop and try connecting through that.
-5. Try to Log in from another device (& network).
+1. Asegúrate de que tu ordenador tiene la hora correcta. Si la hora local difiere en más de 2 horas, quizá no se pueda establecer una conexión.
+2. Comprueba si estás usando un proxy, una VPN, un cortafuegos o una red empresarial para conectarte. Si es así, intenta conectarte sin usarlo para ver si hay alguna diferencia.
+3. Intenta realizar la conexión fuera de redes corporativas o configuraciones similares.
+4. Usa tu dispositivo móvil como punto de acceso Wi-Fi para el ordenador de escritorio e intenta conectarte de esa manera.
+5. Prueba a iniciar sesión desde otro dispositivo (y desde otra red).
 
-For more specific issues:
+Problemas más específicos:
 
 <details>
 
-<summary>How can I share StackGoroutines log if I'm stuck on login on mobile?</summary>
+<summary>¿Cómo puedo compartir el registro de StackGoroutines si no puedo pasar del inicio de sesión en el móvil?</summary>
 
-1. If a hang occurs at StartAccount, you can [tap on Enter My Vault 5 times](https://drive.google.com/file/d/1V4muGfFDNDb98ZVp213-YmbnVv3Vx_tX/view?usp=drive_link).
-2. The Rpc.Debug.StackGoroutines command will return a log file.
-3. You can share it using any convenient method.
+1. Si se produce un bloqueo en StartAccount, puedes [pulsar 5 veces «Entrar en mi arca»](https://drive.google.com/file/d/1V4muGfFDNDb98ZVp213-YmbnVv3Vx_tX/view?usp=drive_link).
+2. El comando Rpc.Debug.StackGoroutines generará un archivo de registro.
+3. Puedes enviarlo por el método que prefieras.
 
 </details>
 
 <details>
 
-<summary>What to do if my storage amount is not properly reflected in the app?</summary>
+<summary>¿Qué puedo hacer si la app no refleja correctamente el espacio de almacenamiento?</summary>
 
-Navigate to `Debug > Reconcile` in the top menu bar, and restart the app.
-
-</details>
-
-<details>
-
-<summary>What can I do if I don't get asked to choose my anyname after buying a membership?</summary>
-
-Please either type [anytype://main/membership](anytype://main/membership) in your browser or inside Anytype global search, and restart the app.
+Ve a `Depurar > Conciliar archivos` en la barra de menú superior y reinicia la aplicación.
 
 </details>
 
 <details>
 
-<summary>What to do if I'm having graphical issues?</summary>
+<summary>¿Qué puedo hacer si no se me pide que elija mi nombre ANY tras pagar mi suscripción?</summary>
 
-Try deleting the GPUCache folder under  `~/.config/anytype`.
+Escribe [anytype://main/membership](anytype://main/membership) en tu navegador o en la búsqueda global de Anytype y reinicia la aplicación.
 
 </details>
 
 <details>
 
-<summary>What should I do if I'm unable to connect to the Anytype network?</summary>
+<summary>¿Qué hago si tengo problemas gráficos?</summary>
 
-You should download and run our AnySync Netcheck Tool, which you can find [here](https://github.com/anyproto/any-sync-tools/tree/main/any-sync-netcheck), along with instructions on how to do so.
+Prueba a eliminar la carpeta GPUCache que se encuentra en `~/.config/anytype`.
+
+</details>
+
+<details>
+
+<summary>¿Qué debo hacer si no puedo conectarme a la red de Anytype?</summary>
+
+Puedes descargar y ejecutar nuestra herramienta AnySync Netcheck, que encontrarás [aquí](https://github.com/anyproto/any-sync-tools/tree/main/any-sync-netcheck) junto con las instrucciones de uso.
 
 </details>

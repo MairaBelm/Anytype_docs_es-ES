@@ -6,9 +6,9 @@
 
 <summary>¿Puedo usar dos arcas distintas al mismo tiempo?</summary>
 
-We do not suggest using two separate Vaults at the same time. Ideally, you create a separate user account (macOS, Windows, or Linux) and log into your other Vault there.
+No es recomendable usar dos arcas distintas al mismo tiempo. Lo ideal sería usar un dispositivo distinto (macOS, Windows o Linux) e e iniciar sesión en la otra arca desde allí.
 
-However, here's a tweak that works only on desktop: you need to create a separate shortcut for your other Vault and add the `--user-data-dir="$path"` flag to the launch command (i.e. `--user-data-dir="D:\Anytype"`).
+Sin embargo, también hay un truco que funciona solo en el escritorio: crea un acceso directo aparte para tu otra arca y añade el argumento `--user-data-dir="$path"` al comando de inicio (por ejemplo, `--user-data-dir="D:\Anytype"`).
 
 </details>
 
@@ -16,7 +16,7 @@ However, here's a tweak that works only on desktop: you need to create a separat
 
 <summary>¿Qué hago si no puedo abrir los enlaces de Anytype desde un navegador?</summary>
 
-You can still open any Anytype links by simply pasting them in the global search menu within Anytype. Shortcut: `Cmd/Ctrl + K`
+Puedes abrir cualquier enlace de Anytype si lo pegas en el menú de búsqueda global de Anytype. Atajo: `Cmd/Ctrl + K`
 
 </details>
 
@@ -24,7 +24,7 @@ You can still open any Anytype links by simply pasting them in the global search
 
 <summary>No puedo anclar nada en la barra lateral ni crear widgets.</summary>
 
-Pin to Channel is available only to owners of the space. In order to add your own Widgets when you're not an owner, use the Favorites feature with the star icon. These Favorites in the Sidebar only appear to you. If your Pins or Favorites are not appearing as Widgets, you may need to change the Channel Settings. [Learn more](../basics/sidebar/sidebar-widgets#opciones-de-los-widgets).
+La opción «Anclar en el canal» solo está disponible para los propietarios del espacio. Si el espacio no es de tu propiedad y quieres añadir un widget, marca objetos como favoritos con el icono de estrella. Esos favoritos de la barra lateral solo están visibles para ti. Si tus anclados o favoritos no aparecen como widgets, puede que debas cambiar los ajustes del canal. Aquí tienes [más información](../basics/sidebar/widgets.md#opciones-de-los-widgets).
 
 </details>
 
@@ -32,21 +32,21 @@ Pin to Channel is available only to owners of the space. In order to add your ow
 
 <summary>¿Cómo se crean columnas?</summary>
 
-Click and drag the 'handle' to the left of each block and move it to your desired location. [Learn more](../creation/blocks#columns).
+Haz clic en el control que aparece a la izquierda de cada bloque y arrástralos hasta la posición que desees. Aquí tienes [más información](../create/editor/#columnas).
 
-<figure><img src="../../.gitbook/assets/Docs Blocks Columns.gif" alt=""/><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Docs Blocks Columns.gif" alt=""><figcaption></figcaption></figure>
 
 </details>
 
-## Account, Security, and Privacy
+## Cuenta, seguridad y privacidad
 
 <details>
 
 <summary>He perdido mi clave, ¿qué puedo hacer?</summary>
 
-Anytype does not have access to your account in any way, thus we do not have your Key and cannot recover it for you. However you may be able to recover it on your own, [see here for more details](../basics/key.md#que-ocurre-si-pierdes-la-clave).
+Anytype no tiene acceso a tu cuenta de ninguna manera, por lo que no tenemos tu clave y no podemos recuperarla. Hay una posibilidad de que puedas recuperarla por tu cuenta. Aquí tienes [más información](../basics/key.md#que-ocurre-si-pierdes-la-clave).
 
-If you're still unable to retrieve your Key to access your Vault, Anytype is unable to delete your account for you because we have no way of identifying it correctly with your identity. Your Vault will remain encrypted on our backup nodes without anybody being able to access it.
+Si no consigues recuperar la clave para acceder a tu arca, Anytype no puede eliminar tu cuenta, ya que no tenemos forma de identificarla ni de relacionarla con tu identidad. Tu arca seguirá cifrada en nuestros nodos de respaldo sin que nadie pueda acceder a ella.
 
 </details>
 
@@ -56,26 +56,26 @@ If you're still unable to retrieve your Key to access your Vault, Anytype is una
 
 **Mac**
 
-If you’re using a Mac, Anytype’s default setting is to store your key in the native Keychain Access app. It doesn’t get stored anywhere else. Whether your passwords are backed up to iCloud depends if you have that option enabled in your settings. You can check [Apple’s support page](https://support.apple.com/en-us/HT204085) for more information on iCloud password backups.
+Si tu dispositivo es un Mac, Anytype guarda tu clave por defecto en la aplicación nativa Acceso a Llaveros. Es el único lugar en el que la guarda. Si además tienes una copia de respaldo de tus contraseñas en iCloud, es algo que depende de tu configuración. Puedes ver más información sobre la copia de contraseñas en iCloud en la [página de soporte técnico de Apple](https://support.apple.com/es-es/HT204085).
 
-We’ve set up this system as a safety net for users who might otherwise lose their Key. We’re pursuing different options for the future, but for the time being, this is how it works.
+Hemos ideado este sistema como red de seguridad para personas que podrían perder su clave. Estamos barajando otras opciones para el futuro, pero así es como funciona por el momento.
 
-If you logged in with your key on your mac, then you can find it here:
+Si has iniciado sesión con tu clave en un Mac, podrás encontrar tu clave aquí:
 
-1. Click and open Finder from the dock.
-2. Click on Applications & open Utilities.
-3. Open the Keychain Access app.
-4. On the sidebar: select Default Keychains: login
-5. Find & open your Anytype instance in the list
-6. Check the “Show password” box to reveal your key
+1. Haz clic y abre el Finder desde el Dock.
+2. Haz clic en Aplicaciones y abre Utilidades.
+3. Abre la aplicación Acceso a Llaveros.
+4. En la barra lateral, selecciona «Llaveros por omisión» e inicia sesión.
+5. Busca el ítem de Anytype en la lista y ábrelo.
+6. Marca la casilla «Mostrar contraseña» para ver tu clave
 
 **Windows**
 
-Your key is stored in the [Credentials Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0). If you are unable to read a password via the Credential Manager (Show button is missing), you can use [this PowerShell script](https://gist.github.com/requilence/de8da32adc44d4786559789debb3bf88). Save it to your computer, right-click in the File Explorer and press "Run with PowerShell".
+Tu clave se almacena en el [Administrador de credenciales](https://support.microsoft.com/es-ES/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0). Si el Administrador de credenciales no te permite leer una contraseña (falta el botón «Mostrar»), puedes usar [este script de PowerShell](https://gist.github.com/requilence/de8da32adc44d4786559789debb3bf88). Guárdalo en tu ordenador, haz clic derecho sobre él en el explorador de archivos y selecciona «Ejecutar con PowerShell».
 
 **Linux**
 
-You can use [seahorse](https://wiki.gnome.org/Apps/Seahorse/) to find your key if you are using [GNOME Keyring](https://wiki.gnome.org/action/show/Projects/GnomeKeyring?action=show\&redirect=GnomeKeyring).
+Puedes usar [seahorse](https://wiki.gnome.org/Apps/Seahorse/) para buscar tu clave si estás usando [GNOME Keyring](https://wiki.gnome.org/action/show/Projects/GnomeKeyring?action=show\&redirect=GnomeKeyring).
 
 </details>
 
@@ -83,7 +83,7 @@ You can use [seahorse](https://wiki.gnome.org/Apps/Seahorse/) to find your key i
 
 <summary>¿Qué estándar seguís para crear la clave de mi arca?</summary>
 
-We use the **[BIP39](https://medium.com/coinmonks/mnemonic-generation-bip39-simply-explained-e9ac18db9477)** standard to generate a mnemonic phrase, which is then used to derive your Vault's private key.
+Usamos el estándar [**BIP39**](https://medium.com/coinmonks/mnemonic-generation-bip39-simply-explained-e9ac18db9477) para generar una frase mnemónica, que luego se utiliza para generar la clave privada de tu arca.
 
 </details>
 
@@ -91,7 +91,7 @@ We use the **[BIP39](https://medium.com/coinmonks/mnemonic-generation-bip39-simp
 
 <summary>¿Por qué dice Anytype que mi clave es demasiado corta?</summary>
 
-This issue is usually resolved by adding a space at the end after pasting your key.
+Este problema suele resolverse añadiendo un espacio al final después de pegar la clave.
 
 </details>
 
@@ -99,27 +99,27 @@ This issue is usually resolved by adding a space at the end after pasting your k
 
 <summary>¿Qué puedo hacer si se me pide introducir la clave / frase de recuperación cada vez que abro Anytype en Linux?</summary>
 
-Linux users may be asked for their Key each time they log in. To resolve this issue, please install a keychain. The most popular is [GNOME Keyring](https://wiki.gnome.org/action/show/Projects/GnomeKeyring?action=show\&redirect=GnomeKeyring). Additionally, ensure that you have met all the [dependencies](https://github.com/anyproto/anytype-ts#dependencies) beforehand.
+Es posible que a los usuarios de Linux se les pida su clave cada vez que inicien sesión. Para resolver este problema, instala un llavero. El más popular es [GNOME Keyring](https://wiki.gnome.org/action/show/Projects/GnomeKeyring?action=show\&redirect=GnomeKeyring). Antes, asegúrate de que tener instaladas todas las [dependencias](https://github.com/anyproto/anytype-ts#dependencies).
 
 </details>
 
-## Sync & Storage
+## Sincronización y almacenamiento
 
 <details>
 
 <summary>¿Qué ocurrirá si alcanzo mi límite de almacenamiento?</summary>
 
-You can continue to use the app without interruption, creating Objects and editing them will all continue to sync as usual. The difference is that files, images, videos, etc. will no longer sync until you are below the limit again or purchase a plan to increase your limit.
+Puedes seguir usando la aplicación sin interrupciones; los objetos que crees y modifiques se seguirán sincronizando con normalidad. La diferencia es que los archivos, imágenes, vídeos, etc. dejarán de sincronizarse hasta que vuelvas a estar por debajo del límite o adquieras un plan para aumentarlo.
 
-The Anytype app will attempt check your limit by attempting to sync files periodically, but this shouldn't occupy resources on your device.
+La aplicación de Anytype intentará sincronizar archivos de vez en cuando para comprobar tu límite, pero esto no debería ocupar recursos en tu dispositivo.
 
 </details>
 
 <details>
 
-<summary>¿La red debe cumplir algún requisito cuando se usa el modo solo local?</summary>
+<summary>¿Hay alguna solicitud de red cuando se usa el modo solo local?</summary>
 
-We can guarantee that there are no network requests to our Anytype Network, but our telemetry will still send requests (you will be able to opt-out later on). Additionally, the client still needs to to send requests for some of the features (embedding blocks, fetching bookmarks, etc.) to work properly.
+Podemos garantizar que no habrá solicitudes a nuestra red de Anytype, pero nuestra telemetría seguirá enviando solicitudes (podrás desactivarlo más adelante). Además, el cliente sigue teniendo que enviar solicitudes para que algunas características (bloques incrustados, marcadores, etc.) funcionen correctamente.
 
 </details>
 
@@ -127,17 +127,17 @@ We can guarantee that there are no network requests to our Anytype Network, but 
 
 <summary>¿Los invitados de mi canal pueden usar Anytype en modo solo local?</summary>
 
-Unless they are all part of the same local network, guests will need to be connected to the Anytype network in order to see all changes in the channel.
+Cuando no estén en la misma red local, estos invitados tendrán que conectarse a la red de Anytype para ver todos los cambios del canal.
 
 </details>
 
-## Miscellaneous
+## Varios
 
 <details>
 
 <summary>Por qué no existe una versión de Anytype en el navegador?</summary>
 
-There's no browser version of the app. Anytype is a stand-alone software, that works on desktop or mobile devices. There are many points of vulnerability in-browser apps that would compromise our commitment to data security and encryption.
+No existe una versión de la aplicación para navegador. Anytype es una aplicación independiente que funciona en dispositivos de escritorio o móviles. Las aplicaciones de navegador tienen muchos puntos de vulnerabilidad que pondrían en riesgo nuestro compromiso con la seguridad y el cifrado de los datos. 
 
 </details>
 
@@ -145,17 +145,17 @@ There's no browser version of the app. Anytype is a stand-alone software, that w
 
 <summary>¿Qué características no están disponibles aún en la versión móvil?</summary>
 
-* Columns
-* Inline LaTeX
-* [inline-queries.md](../advanced/feature-list-by-platform/inline-queries.md "mention")
-* Kanban, Calendar, and Graph Views
-* [formulas.md](../advanced/feature-list-by-platform/formulas.md "mention")
-* [embeds.md](../advanced/feature-list-by-platform/embeds.md "mention")
-* [custom-css.md](../advanced/feature-list-by-platform/custom-css.md "mention")
-* [storage-location.md](../advanced/feature-list-by-platform/storage-location.md "mention")
-* [graph.md](../advanced/feature-list-by-platform/graph.md "mention") & Flow
-* [import-and-export](../data/import-and-export/ "mention")
-* PIN Code
+* Columnas
+* LaTeX insertado
+* [Consultas insertadas](../advanced/feature-list-by-platform/inline-queries.md "mention")
+* Vistas de kanban, calendario y gráfico
+* [Fórmulas](../advanced/feature-list-by-platform/formulas.md "mention")
+* [Incrustados](../advanced/feature-list-by-platform/embeds.md "mention")
+* [CSS personalizado](../advanced/feature-list-by-platform/custom-css.md "mention")
+* [](/broken/pages/jSr1UnNvM2cdphyK8ywU "mention")
+* [Gráfico](../advanced/feature-list-by-platform/graph.md "mention") y flujo
+* [Importar y exportar](../data/import-and-export/ "mention")
+* Código PIN
 
 </details>
 
@@ -163,7 +163,7 @@ There's no browser version of the app. Anytype is a stand-alone software, that w
 
 <summary>¿Por qué no puedo buscar dentro de los objetos en iOS?</summary>
 
-Currently, this feature is unavailable on iOS.
+Actualmente, esta función no está disponible en iOS.
 
 </details>
 
@@ -171,7 +171,7 @@ Currently, this feature is unavailable on iOS.
 
 <summary>¿Por qué no puedo buscar ni seleccionar objetos en lote dentro de las consultas en el móvil?</summary>
 
-These features are currently unavailable on both iOS and Android.
+Actualmente, estas funciones no están disponibles en iOS ni en Android.
 
 </details>
 
@@ -179,7 +179,7 @@ These features are currently unavailable on both iOS and Android.
 
 <summary>¿Tiene Anytype un programa de recompensas por notificar fallos?</summary>
 
-As a non-profit organization that hasn’t reached a sustainable income yet, we don’t have any guaranteed bug bounty program. If you can prove that you found a critical vulnerability in our applications but don’t want to disclose it, we can discuss a potential reward. Please check this [page](https://github.com/anyproto/.github/blob/main/docs/SECURITY.md) from our GitHub for more information.
+Como organización sin ánimo de lucro que aún no ha alcanzado unos ingresos sostenibles, no disponemos de ningún programa de recompensas por notificar fallos. Si puedes demostrar que has encontrado una vulnerabilidad crítica en nuestras aplicaciones pero no quieres divulgarla, podemos hablar de una posible recompensa. Consulta esta [página](https://github.com/anyproto/.github/blob/main/docs/SECURITY.md) de nuestro GitHub para obtener más información.
 
 </details>
 
@@ -187,13 +187,13 @@ As a non-profit organization that hasn’t reached a sustainable income yet, we 
 
 <summary>¿Cuáles son los requisitos mínimos?</summary>
 
-* For Desktop, Electron follows Chrome, and they follow [vendor support policies](https://support.google.com/chrome/a/answer/7100626?hl=en).\
-  At the moment that means:
-  * Win 10+
-  * macOS 12 Monterey and up
-  * 64-bit Ubuntu 18.04+, Debian 10+, openSUSE 15.5+, or Fedora Linux 39+
-* For Android (if installed through Google Play), it's Android 8.0 and a 64-bit device with a minimum of 4GB of RAM.
-* For iOS, it's iOS 17.
+* En las versiones de escritorio, Electron sigue a Chrome, que a su vez sigue las [directrices de soporte del proveedor](https://support.google.com/chrome/a/answer/7100626?hl=es).
+  En este momento, son las siguientes:
+  * Windows 10 o superior.
+  * macOS 12 Monterey o superior.
+  * Ubuntu 18.04, Debian 10, openSUSE 15.5 o Fedora Linux 38 o superiores de 64 bits.
+* En Android (si se instala desde Google Play), el mínimo es Android 8.0 y un dispositivo de 64 bits con 4 GB de RAM.
+* En iOS, es iOS 17.
 
 </details>
 
@@ -201,15 +201,16 @@ As a non-profit organization that hasn’t reached a sustainable income yet, we 
 
 <summary>¿Dónde está instalado Anytype?</summary>
 
-* In Windows 10 or above, it is usually located:\
-  `C:\Users\<username>\Appdata\Local\Programs\anytype`
-  **username** stands for the name of your user aka working directory.
-* For MacOS, it's: `HDD > Users >`*`Username`*`> Library > Application Support > anytype`
-* For Linux, you'll find your work directory in `~/.config/anytype`
-* For Android, it’s your default location, usually: \_device/data/app_​.\
-  We also store some caches: *device/data/data/io.anytype.app*
-  Anytype directory is stored in a protected app data folder, which isn’t accessible by the user on Android devices.
-* For iOS, it's the standard install path determined by the iOS.
+* En Windows 10 o superior, suele ser\
+  `C:\Users\<username>\Appdata\Local\Programs\anytype`\
+  **\<username\>** es el nombre de tu usuario, es decir, tu directorio de trabajo.
+* En MacOS, es\
+  `HDD > Users >`_`Usuario`_`> Library > Application Support > anytype `
+* En Linux, el directorio de trabajo está en `~/.config/anytype`
+* En Android es la ubicación por defecto, normalmente _device/data/app_​.
+  También guardamos algunas cachés en _device/data/data/io.anytype.app_
+  El directorio de Anytype se guarda en una carpeta de datos de aplicación protegida a la que no puede acceder el usuario del dispositivo Android.
+* En iOS es la ruta de instalación normal, determinada por iOS.
 
 </details>
 
@@ -217,10 +218,10 @@ As a non-profit organization that hasn’t reached a sustainable income yet, we 
 
 <summary>¿Puedo instalar Anytype en un Chromebook?</summary>
 
-There are a few ways you can install Anytype on a Chromebook, but probably the easiest one is to use an [AppImage](https://download.anytype.io). For the full guide from one of our community members, please click [here](https://community.anytype.io/t/guide-to-use-anytype-on-a-chromebook/12181).
+Hay varias formas de instalar Anytype en un Chromebook, pero lo más sencillo sería usar una [AppImage](https://download.anytype.io). Para ver la guía completa de uno de los miembros de nuestra comunidad, haz clic [aquí](https://community.anytype.io/t/guide-to-use-anytype-on-a-chromebook/12181).
 
 </details>
 
-## Notes
+## Notas
 
-Vaults created before version 0.44.0 have an Entry Space. You are free to delete this channel if no longer needed, or you can migrate your data to a different channel by using the [import-and-export](../data/import-and-export/README.md "mention") feature.
+Las arcas creadas antes de la versión 0.44.0 tienen un espacio inicial. Puedes eliminar este canal si ya no lo necesitas o migrar tus datos a un canal diferente usando la función de [importación y exportación](../data/import-and-export/ "mention").

@@ -1,201 +1,200 @@
 ---
-description: Real-time conversations alongside your work.
+description: Conversaciones en tiempo real junto a tu trabajo.
 ---
 
 # Chats
 
-A **Chat** is a real-time conversation thread inside a Channel. Unlike messages in a separate app, Chats live alongside your notes, tasks, and documents — discussions stay private, encrypted, and contextually linked to the work they're about.
+Un **chat** es un hilo de conversación en tiempo real dentro de un canal. A diferencia de los mensajes de una aplicación aparte, los chats residen junto a tus notas, tareas y documentos. y la conversación es privada, cifrada y ligada al contexto al que hace referencia.
 
-Chats give you the rhythm of a messaging app — quick replies, reactions, file shares — but with a twist: every message can reference, create, or open Anytype Objects. A typed thought becomes a Page; a screenshot becomes a File Object; a question can be answered with an Object link that opens in a click.
+Los chats te ofrecen el ritmo de una aplicación de mensajería (respuestas rápidas, reacciones, archivos enviados), pero con un detalle importante: los mensaje pueden incluir referencias a objetos de Anytype, y también crearlos o abrirlos. Un pensamiento escrito se convierte en una página; una captura de pantalla se convierte en un objeto de archivo; una pregunta se puede responder con el enlace a un objeto que se abre al hacer clic.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chat Launch.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chat Launch.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ## Cómo funciona
 
-Just like documents and files, Chats are [Objects](../../create/objects/) that have their own dedicated [Type](../../organize/types.md). This means that a Chat:
+Al igual que los documentos y archivos, los chats son [objetos](../../create/objects/) con su propio [tipo](../../organize/types.md) dedicado. Esto significa que los chats:
 
-* Lives in the Types section of the Sidebar under 'Chat'.
-* Can have its own [Properties](../../organize/properties.md).
-* Can be organized into [Views](../../organize/views.md), [Queries](../../organize/queries.md), and [Collections](../../organize/collections.md).
-* Can be added as a [Widget](../../basics/sidebar/widgets.md) to the Sidebar.
-* Can be `@`-mentioned or linked like any other Object.
+* aparecen en la sección Tipos de la barra lateral como «Chats»,
+* pueden tener sus propias [propiedades](../../organize/properties.md),
+* se pueden organizar mediante [vistas](../../organize/views.md), [consultas](../../organize/queries.md) y [colecciones](../../organize/collections.md),
+* se pueden añadir como [widgets](../../basics/sidebar/widgets.md) a la barra lateral,
+* se pueden mencionar con `@` o insertar como enlaces en otro objeto.
 
-Chat is a system Type, so it doesn't support custom Templates or layout changes. But everything else about Chat behaves like a regular Object Type.
+«Chat» es un tipo del sistema, por lo que no admite plantillas ni cambios de diseño. Por lo demás, un chat se comporta como cualquier otro tipo de objeto.
 
-## Creating Chats
+## Cómo crear chats
 
-#### Single Chat
+#### Un solo chat
 
-1. In the Channel Sidebar header, click on the create dropdown.
-2. Select Chat from the list of Types.
-3. Give the Chat a name.
+1. Haz clic en el desplegable Crear en la cabecera de la barra lateral del canal.
+2. En la lista de tipos, selecciona «Chat».
+3. Da un nombre al chat.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chat Create.jpg" alt=""/><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-**Set a Chat as the home page** for Channels where conversations take the forefront.
-{% endhint %}
-
-#### Multiple Chats
-
-A single Channel can hold multiple Chats. You can start topic-specific conversations right where the work happens and keep them organized by using [Views](../../organize/views.md).
-
-1. Navigate to Chats in the Types section in the Sidebar.
-2. Create a new Chat.
-3. Add your desired Properties.
-4. Set your preferred Filters and Sorts.
-5. Set your desired Layout.
-
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chats Multiple.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chat Create.jpg" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-**Use multiple Chats for large Channels.** A single team Channel can have multiple Chats. Mute the noisy ones, leave Mentions-only on others.
+**Fija un chat como página de inicio** en canales donde la conversación sea lo principal.
 {% endhint %}
 
-#### Chats Widget
+#### Varios chats
 
-The Chats Widget works like any other widget in your sidebar:
+Un solo canal puede contener varios chats. Puedes iniciar conversaciones sobre temas concretos en el mismo lugar en el que trabajas y organizarlas por medio de [vistas](../../organize/views.md).
 
-* Pin it to keep it always visible
-* Adjust its appearance (compact, list, etc.)
+1. Ve a Chats en la sección Tipos de la barra lateral.
+2. Crea un chat nuevo.
+3. Añade las propiedades que quieras.
+4. Configura filtros y criterios de orden a tu gusto.
+5. Elige el diseño que desees.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chat Widget.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chats Multiple.jpg" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-**Group your Chats into categories and use a Kanban board layout** to create an organized list in your Sidebar.
+**Usa varios chats en canales grandes.** Un único canal de equipo puede tener varios chats. Silencia los que no te interesen y deja otros con solo menciones.
 {% endhint %}
 
-## Using Chat
+#### Widget de chats
 
-#### Sending messages
+El widget de chats funciona como cualquier otro widget de tu barra lateral:
 
-The message input lives at the bottom of every Chat. You can send:
+* lo puedes anclar para que esté siempre visible,
+* puedes elegir su aspecto (compacto, lista, etc.).
 
-* **Text** — typed inline, with full markdown formatting
-* **Mentions** — `@` to mention a member or any Object
-* **Attachments** — drag in a file, paste an image, or share an Object using the 'plus' button.
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chat Widget.jpg" alt=""><figcaption></figcaption></figure></div>
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chats Using.jpg" alt=""/><figcaption></figcaption></figure></div>
+{% hint style="info" %}
+**Agrupa tus chats por categorías y usa un diseño de kanban** para crear una lista organizada en la barra lateral.
+{% endhint %}
 
-#### Reactions
+## Cómo usar el chat
 
-Hover over any message and click the smiley icon to react with an emoji.
+#### Enviar mensajes
 
-When more than one person reacts with the same emoji, you'll see a counter next to that reaction. Click the reaction to add or remove your own.
+El cuadro para enviar mensajes está en la parte inferior de cada chat. Puedes enviar:
 
-#### Replies
+* **Texto**, escrito en línea, con formato Markdown completo.
+* **Menciones**: escribe `@` para mencionar a un miembro o cualquier objeto.
+* **Adjuntos**: arrastra un archivo, pega una imagen o comparte un objeto con el botón «más».
 
-Right-click a message (or hover and click the reply icon) to reply to it specifically. Your reply quotes the original at the top — recipients see the context immediately and can click the quoted preview to **jump to the original message**.
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chats Using.jpg" alt=""><figcaption></figcaption></figure></div>
 
-The scroll-down button takes you back to the reply first, then to the bottom of the chat — so you can navigate replies without losing your place.
+#### Reacciones
 
-#### Smart Anytype links
+Pasa el puntero sobre un mensaje y haz clic en el icono sonriente para reaccionar con un emoji.
 
-When you paste an Anytype Object link into the Chat message box, it automatically converts into an attachment card. This means recipients see a rich preview of the Object instead of a long URL string.
+Cuando varias personas reaccionen con el mismo emoji, verás un contador junto a esa reacción. Haz clic en la reacción para añadir o quitar la tuya.
 
-#### Pinning messages
+#### Respuestas
 
-You can pin important messages in a Chat:
+Haz clic derecho en un mensaje (o pasa el puntero y haz clic en el icono de respuesta) para responder a ese mensaje concreto. Tu respuesta cita el original en la parte superior: los destinatarios ven el contexto de inmediato y pueden hacer clic en la vista previa citada para **ir al mensaje original**.
 
-1. Right-click the message.
-2. Choose **Pin**.
+Desde ahí, el botón de desplazamiento hacia abajo te lleva primero a la respuesta y luego al final del chat; así puedes navegar por las respuestas sin perder tu lugar.
 
-Pinned messages appear in a **persistent banner at the top of the conversation**. When multiple messages are pinned, click the banner to cycle through them from newest to oldest.
+#### Enlaces inteligentes de Anytype
 
-#### Chat message search
+Cuando pegas un enlace a un objeto de Anytype en el cuadro de mensaje del chat, se convierte automáticamente en una tarjeta. Así, quien recibe el mensaje ve una vista previa del objeto en lugar de una URL larga.
 
-Search inside the active Chat with **Cmd/Ctrl + F** (or click the search icon at the top of the Chat). Results appear in a dropdown sorted by date, with navigation arrows to move through matches one by one.
+#### Anclar mensajes
 
-For Channel-wide search across all Chats and Objects, use the global search (Cmd/Ctrl + K from anywhere).
+Puedes anclar mensajes importantes en el chat:
 
-#### Editing and deleting messages
+1. Haz clic derecho en el mensaje.
+2. Selecciona **Anclar**.
 
-Right-click your own message (or hover and use the three-dot menu) to:
+Los mensajes anclados aparecen en un **recuadro permanente en la parte superior de la conversación**. Si hay varios mensajes anclados, haz clic en el recuadro para pasar de uno a otro, del más reciente al más antiguo.
 
-* **Edit** — message stays in place but is marked as edited
-* **Copy text** — copy the message content (with formatting preserved)
-* **Delete** — remove the message entirely
+#### Búsqueda en mensajes de chat
 
-You can only edit or delete your own messages. Channel Owners cannot edit other members' messages.
+Busca en el chat abierto con **Cmd/Ctrl + F** (o haz clic en el icono de búsqueda de la parte superior del chat). Los resultados aparecen ordenados por fecha en un desplegable con flechas de navegación para desplazarte por ellos de uno en uno.
 
-#### File attachments
+Para buscar en todos los chats y objetos del canal, usa la búsqueda global (Cmd/Ctrl + K desde cualquier lugar).
 
-Drag a file onto the Chat input or paste it from the clipboard. The file uploads and:
+#### Editar y eliminar mensajes
 
-* Becomes a [File Object](../../create/files-and-media.md) you can find later
-* Shows as a preview card in the chat
-* Is searchable through global search
+Haz clic derecho en un mensaje tuyo (o pasa el puntero y usa el menú de tres puntos) para:
 
-For images, the message includes a preview thumbnail. Audio and video include an inline player.
+* **Editar**: el mensaje sigue donde está y se marca como editado.
+* **Copiar texto**: copia el contenido del mensaje (conserva el formato).
+* **Eliminar**: elimina el mensaje por completo.
 
-## Chat Notifications
+Solo puedes editar y eliminar tus propios mensajes. Los propietarios de canal no pueden editar los mensajes de otros miembros.
 
-#### Unread section
+#### Adjuntar archivos
 
-A temporary **Unread** section appears automatically when new messages arrive in any Chat. As you catch up, the section shrinks and eventually disappears. This section also displays notifications from [Discussions](../discussions.md). Learn more in the [Sidebar](../../basics/sidebar/sections.md) section.
+Arrastra un archivo al cuadro de mensaje o pégalo desde el portapapeles. El archivo se carga y ocurre todo esto:
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chats Unread.jpg" alt=""/><figcaption></figcaption></figure></div>
+* se convierte en un [objeto de archivo](../../create/files-and-media.md) que puedes encontrar en el canal;
+* aparece en el chat como una tarjeta;
+* se puede encontrar con la búsqueda global.
 
-#### Per-chat Notifications
+Si es una imagen, el mensaje mostrará una miniatura; si es audio o vídeo, mostrará un reproductor.
 
-Per-Chat notification settings let you control how loud each Chat is.
+## Notificaciones de chat
 
-1. Open your desired Chat.
-2. Click the three-dot button in the top right corner.
-3. Select **Notifications**.
+#### Sección No leídos
+
+Cuando algún chat recibe un mensaje nuevo, aparece automáticamente la sección temporal **No leídos** en la barra lateral. Según te pones al día, la sección se reduce hasta que desaparece. Esta sección también muestra notificaciones de los [debates](../discussions.md). Tienes más detalles en la sección [Barra lateral](../../basics/sidebar/sections.md).
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Chats Unread.jpg" alt=""><figcaption></figcaption></figure></div>
+
+#### Notificaciones de cada chat
+
+Los ajustes de notificación de cada chat te permiten controlar su volumen de notificaciones por separado
+
+1. Abre el chat que desees.
+2. Haz clic en los tres puntos de la esquina superior derecha.
+3. Selecciona **Notificaciones**.
 4. Elige:
-   * **Enable all** — notifications for every message
-   * **Mentions only** — only when you're `@`-mentioned
-   * **Disable all** — no notifications (unread counter still updates)
+   * **Activar** para recibir una notificación con cada mensaje;
+   * **Solo menciones** para recibir notificaciones solo cuando te mencionen con `@`;
+   * **Deshabilitado** para no recibir ninguna notificación (el contador de mensajes sin leer sí se actualiza).
 
-These settings are per-Chat and override Channel-level defaults. See [Notifications](../../settings/channel-settings.md#notificaciones) for the full picture.
-These settings are per-Chat and override Channel-level defaults. See [Notifications](../../settings/channel-settings.md#notifications.md) for the full picture.
+Estos ajustes son específicos de cada chat y tienen precedencia sobre los ajustes por defecto del canal. Consulta [Notificaciones](../../settings/channel-settings.md#notificaciones) para obtener una imagen completa.
 
-## Chat Settings
+## Ajustes del chat
 
-#### Chat as a Channel Home
+#### Chat como inicio del canal
 
-When you create a Channel, you can choose **Chat** as the Home — meaning the first thing anyone sees when they open the Channel is the live conversation. Chat-Home Channels are great for:
+Cuando creas un canal, puedes elegir **Chat** como inicio, de modo que lo primero que ve cualquiera que abra el canal es la conversación en directo. Los canales con un chat como inicio son perfectos para:
 
 * reuniones rápidas e intercambios en diferido,
 * comunidades y grupos de interés,
-* Work where conversation is primary, with documents as supporting cast
+* trabajos en los que conversar sea lo principal, con documentos como ingrediente secundario.
 
-See [Channels](../../basics/channels.md#tu-pagina-de-inicio) for more details.
+Tienes más detalles en [Canales](../../basics/channels.md#tu-pagina-de-inicio).
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/home-chat.png" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/home-chat.png" alt=""><figcaption></figcaption></figure></div>
 
-#### Send message preference
+#### Preferencia para enviar mensajes
 
-Choose how messages are sent in **Vault Settings > Application > Preferences > Messaging**.
+Elige cómo prefieres enviar los mensajes en **Ajustes del arca > Aplicación > Mensajes**.
 
-* **Enter** to send (Shift + Enter for a new line)
-* **Cmd / Ctrl + Enter** to send (Enter for a new line)
+* **Entrar** para enviar (Mayús + Entrar para nueva línea)
+* **Cmd / Ctrl + Entrar** para enviar (Entrar para nueva línea)
 
-#### Spell checking
+#### Corrección ortográfica
 
-Chat messages support spell checking with the same red underline and suggestions as the editor. It uses your existing language settings — no extra setup needed. Configure spellcheck languages in **Vault Settings > Application > Language & Region**.
+Los mensajes del chat aplican el corrector ortográfico con el mismo subrayado rojo y sugerencias que el editor. El corrector usa los ajustes de idioma de Anytype, no tienes que configurar nada más. Selecciona los idiomas del corrector ortográfico en **Ajustes del arca > Aplicación > Idioma y región**.
 
 ## Canales directos
 
-For one-on-one conversations with others, use **Direct Channels** — private chats between two people, with no admin or hierarchy. See [Direct Channels](direct-channels.md) for more information.
+Para conversar directamente con otra persona, usa los **canales directos**, chats privados de tú a tú sin administradores ni jerarquía. Tienes más detalles en [Canales directos](direct-channels.md).
 
-## Exporting Chats
+## Exportar chats
 
-You cannot export a chat from a Channel. Chat messages are tied to the individual members of a space, and each member's data is secured with unique encryption keys. When you export a space and import it into a new one, that new space is created with entirely different encryption keys and members.
+No es posible exportar un chat fuera de su canal. Los mensajes del chat están vinculados a los miembros del espacio, y los datos de cada miembro están protegidos con claves de cifrado únicas. Cuando exportas un espacio y lo importas a otro, ese espacio nuevo se crea con sus propias claves de cifrado y sus miembros.
 
-As a result, chat objects and messages cannot be exported — they are inherently bound to the space in which they were created.
+Por lo tanto, ni los chats como objetos ni los mensajes que contienen se puede exportar; están ligados de forma indisoluble al espacio en el que se crearon.
 
 ## Notas
 
 {% hint style="info" %}
-**Drop Objects into Chat to share work in progress** — Note, Task, Page, even another Chat. The Object becomes a clickable attachment card. Recipients can open and edit immediately.
+**Arrastra objetos al chat para compartir trabajo en desarrollo:** notas, tareas, páginas o incluso otro chat. Los objetos se convierten en tarjetas que los demás pueden abrir con un clic para editarlos de inmediato.
 {% endhint %}
 
 {% hint style="info" %}
-**Pin the welcome message.** When someone joins a Channel, the first thing they see is the pinned message at the top. Use this to set norms — what the Channel is for, how to engage.
+**Ancla el mensaje de bienvenida.** Cuando alguien se incorpora a un canal con el chat como inicio, lo primero que ve es el mensaje anclado en la parte superior. Úsalo para establecer normas, definir el canal y organizara la participación.
 {% endhint %}
 
 {% hint style="info" %}
-**For Object-specific feedback, use Discussions instead of Chat.** Discussions live on the Object and stay attached forever. Chats are for cross-Object conversations and stream-of-consciousness collaboration. See [Discussions](../discussions.md).
+**Para hablar sobre un objeto determinado, usa su debate en lugar del chat.** Los debates están siempre ligados a su objeto. Los chats sirven para conversar sobre distintos objetos y colaborar en tiempo real. Consulta [debates](../discussions.md).
 {% endhint %}
