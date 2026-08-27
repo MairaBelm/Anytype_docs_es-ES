@@ -33,7 +33,23 @@ Please note that all your devices should be manually switched to the same self-h
 
 ## Hardware Requirements
 
-The requirements for self-hosting hardware depends on the type of self-hosting:&#x20;
+The requirements for self-hosting hardware depends on the type of self-hosting:
 
-* For Docker Compose, the [minimum requirements are listed here](https://github.com/anyproto/any-sync-dockercompose#requirements.).&#x20;
+* For Docker Compose, the [minimum requirements are listed here](https://github.com/anyproto/any-sync-dockercompose#requirements.).
 * For Ansible/Puppet, the requirements are similar and possibly even less demanding.
+
+## Troubleshooting
+
+<details>
+
+<summary>Network connectivity issues</summary>
+
+This only applies to self-hosted solutions in any-sync-dockercompose
+
+If you see a red symbol, "Error", or a grey "offline" symbol:
+
+1. Run `docker compose logs netcheck` to diagnose connectivity to the any-sync-\* services. There should be no errors.
+2. Check TCP port reachability. Run this from the device that will connect to the self-hosted any-sync instance. Every port must report "succeeded":\
+   `set -a; . ./.env; set +a; for p in $ANY_SYNC_NODE_1_PORT $ANY_SYNC_NODE_2_PORT $ANY_SYNC_NODE_3_PORT $ANY_SYNC_COORDINATOR_PORT $ANY_SYNC_FILENODE_PORT $ANY_SYNC_CONSENSUSNODE_PORT; do nc -vz -w 3 "$EXTERNAL_LISTEN_HOSTS" "$p"; done`
+
+</details>
