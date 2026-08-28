@@ -1,85 +1,85 @@
-# Discussions
+# Debates
 
-A **Discussion** is a comment thread attached directly to an Object. Instead of switching to a separate Chat to talk about a page, task, or document, you post comments right where the work lives — and the conversation stays attached to that Object forever. 
+Un **debate** es un hilo de comentarios asociado a un objeto. En lugar de cambiar a un chat para hablar sobre una página, tarea o documento, publicas comentarios justo donde estás trabajando y la conversación queda vinculada a ese objeto para siempre. 
 
-Discussions can be used for collaboration purposes, but it can also be used as an appendix for personal-use. This is great for attaching notes and files to an Object without having it be part of the main content.
+Los debates pueden servir para colaborar, pero también como apéndice de uso personal. Son muy útiles para adjuntar notas y archivos a un objeto sin incluirlos en contenido principal.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Discussions Intro.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Discussions Intro.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ## Qué significa esto
 
-When discussions live next to the work, you don't lose context. A reviewer's question, a decision someone made three months ago, a quick "looks good" — all of it stays connected to the Object it's about. Anyone who opens that Object later can read the conversation that shaped it.
+Cuando el debate se mantiene junto al trabajo, su contexto siempre está claro. Una pregunta de revisión, una decisión que se tomó hace tres meses, un rápido «¡yo lo veo bien!»...: todo queda asociado al objeto correspondiente. Cuando alguien abra ese objeto, podrá ver la conversación que le dio forma.
 
-This is different from a Chat: Chats are streams of messages organized by topic or person. Discussions are tied to one specific Object.
+Esa es la diferencia entre un debate y un chat: los chats son secuencias de mensajes organizadas por temas o personas, mientras que los debates están asociados a un objeto concreto.
 
 ## Cómo funciona
 
-Every Object can hold a Discussion and they support the same rich content as the editor — you're not limited to plain text. It can include: 
+Cada objeto incluye su propio debate, que admite contenido con los mismos formatos que el editor, no solo texto simple. El debate puede contener: 
 
-* Attachments (files, images, embeds)
-* Inline links to other Objects with `@` mentions
-* Standard text formatting (bold, italic, lists)
-* Checkboxes for tracking action items inside a thread
-* Code blocks with syntax highlighting
+* adjuntos (archivos, imágenes, incrustaciones),
+* enlaces a otros objetos y menciones con `@`,
+* formato de texto (negrita, cursiva, listas),
+* casillas para llevar un seguimiento de acciones en la conversación,
+* bloques de código con resaltado de sintaxis.
 
-Once posted, you can edit your own messages, react with emoji, and reply to specific posts to build a threaded conversation.
+Puedes modificar tus propios mensajes, reaccionar con emojis y responder a mensajes concretos para crear hilos de conversación.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Discussion Formatting.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Discussion Formatting.jpg" alt=""><figcaption></figcaption></figure></div>
 
-## Starting a Discussion
+## Cómo iniciar un debate
 
-1. Open any Object.
-2. Click the **Discussion** button at the bottom of the Object.
-3. Type your message in the input box at the bottom.
-4. Press Enter (or `Cmd/Ctrl + Enter` depending on your Send Message preference)
-5. Your discussion appears immediately and notifies other members of the Channel.
+1. Abre cualquier objeto.
+2. Haz clic en el botón **Debate** de la parte inferior del objeto.
+3. Escribe tu mensaje en el cuadro que aparece abajo.
+4. Pulsa Entrar o `Cmd/Ctrl + Entrar`, según hayas elegido en tus preferencias de envío de mensajes.
+5. El debate aparece de inmediato y se envía una notificación a los demás miembros del canal.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Discussion Start.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Discussion Start.jpg" alt=""><figcaption></figcaption></figure></div>
 
-### Replying to a post
+### Responder a un mensaje
 
-Hover over any post and click the reply icon, or right-click the post and choose **Reply**. Your reply is grouped under the original post so the conversation stays organized even when multiple threads are running in parallel.
+Pasa el puntero por un mensaje y haz clic en el icono de respuesta, o haz clic con el botón derecho en el mensaje y elige **Responder**. Tu respuesta se agrupa bajo el mensaje original para que el debate siga organizado aunque haya varios hilos de conversación paralelos.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Discussion Reply.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Discussion Reply.jpg" alt=""><figcaption></figcaption></figure></div>
 
-### Reactions
+### Reacciones
 
-Hover over any post and click the smiley icon to add an emoji reaction. Reactions show a counter when more than one person reacts with the same emoji, and you can click an existing reaction to add or remove your own.
+Pasa el puntero sobre un mensaje y haz clic en el icono sonriente para reaccionar con un emoji. Cuando varias personas reaccionen con el mismo emoji, verás un contador junto a esa reacción y podrás hacer clic para añadir o eliminar la tuya.
 
-### Editing and deleting
+### Editar y eliminar mensajes
 
-Right-click your own post (or use the three-dot menu on hover) to:
+Haz clic derecho en un mensaje tuyo (o pasa el puntero y usa el menú de tres puntos) para:
 
-* **Edit** — your post stays in place but is marked as edited
-* **Copy text** — copy the post content to your clipboard
-* **Delete** — remove the post entirely (this can't be undone)
+* **Editar**: el mensaje sigue donde está y se marca como editado.
+* **Copiar texto**: copia el contenido del mensaje en el portapapeles.
+* **Eliminar**: elimina el mensaje por completo (no se puede deshacer).
 
-### Permissions
+### Permisos
 
-* **Owners and Editors** can post, edit their own posts, and delete their own posts.
-* **Viewers** can read Discussions but cannot post.
-* A Discussion is part of the Object — if the Object is deleted, the Discussion goes with it.
+* Los **propietarios y editores** pueden enviar mensajes, modificar los que han enviado y eliminar los suyos.
+* Los **visitantes** pueden leer los debates, pero no pueden participar.
+* Un debate es parte del objeto; si se elimina el objeto, el debate desaparece con él.
 
-### Notifications
+### Notificaciones
 
-By default, you'll be notified about replies to your own posts and reactions to your messages. To customize:
+Por defecto, recibirás notificaciones de las respuestas y reacciones a tus mensajes. Para cambiar esto:
 
-1. Open the Object containing the Discussion.
-2. Click the three-dot menu in the Discussion tab.
-3. Choose **Enable all**, **Mentions only**, or **Disable all** for that Object's Discussion.
+1. Abre el objeto que contiene el debate.
+2. Haz clic en el menú de tres puntos de la esquina superior derecha.
+3. Elige **Activar todo**, **Solo menciones** o **Desactivar** para el debate de ese objeto.
 
-Channel-level notification settings still apply on top of per-Object settings.
+Tus preferencias de notificación del canal se aplican además de los ajustes de cada objeto.
 
-## Tips
+## Notas
 
 {% hint style="info" %}
-**No collaboration required: use the Discussions area as a personal appendix to your documents.** It separates additional notes and files from the main content area. 
+**No es imprescindible la colaboración: usa la zona de debates como apéndice personal para tus documentos.** Podrás mantener notas y archivos al margen del contenido principal. 
 {% endhint %}
 
 {% hint style="info" %}
-**@-mention people in Discussions** to notify them. The @ menu also lets you mention other Objects, which becomes a clickable link inside the post.
+**Menciona personas con @ en los debates** para que reciban una notificación. El menú @ también te permite mencionar otros objetos, que aparecen como enlaces y se pueden abrir con un clic en el mensaje.
 {% endhint %}
 
 {% hint style="info" %}
-**Use checkboxes for review action items.** A reviewer can list "fix the heading", "rewrite intro", "add screenshot" as checkboxes. The author can tick them off as work progresses, all without leaving the Object.
+**Usa casillas para elementos que requieren revisión.** La persona que revisa puede añadir como casillas «corrige el título», «reescribe la introducción», «añade una captura de pantalla». La persona responsable puede ir marcándolas según avance el trabajo sin tener que salir del objeto.
 {% endhint %}

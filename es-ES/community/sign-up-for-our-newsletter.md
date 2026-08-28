@@ -1,11 +1,11 @@
-# Sign Up for Our Newsletter!
+# ¡Regístrate para recibir nuestro boletín (en inglés)!
 
-### Join our newsletter club and stay up to date with all of the latest announcements. 
+### Apúntate al club de nuestro boletín para recibir las últimas noticias. 
 
-We have some very exciting stuff coming up from **Update Releases, Town Halls, and other Community news and events.** 
+Se avecinan anuncios muy interesantes con **nuevas actualizaciones, reuniones abiertas (_Town Halls_) y otras noticias y eventos de la comunidad.** 
 
-Our Community is very important to us at Anytype, and we prioritize informing those who are connected with us first. 
+La comunidad es muy importante en Anytype, y nos gusta informar primero a quienes están en contacto. 
 
-Whether you are in our community or following our social media, you will be connected. However, we suggest signing up to our newsletter as we always push announcements out first through email (sometimes time sensitive) and you wouldn't want to be last to hear about something new.
+Si eres parte de nuestra comunidad o nos sigues en las redes sociales, ya estamos en contacto. De todas formas, te sugerimos que te suscribas al boletín, ya que siempre empezamos por anunciar las novedades con correos electrónicos y no querrás ser la última persona en enterarse.
 
-[**Sign up here!**](https://cdn.forms-content.sg-form.com/168cc8e2-00a0-11ee-b0fd-be5ac30cd062)
+[**¡Regístrate aquí!**](https://cdn.forms-content.sg-form.com/168cc8e2-00a0-11ee-b0fd-be5ac30cd062)

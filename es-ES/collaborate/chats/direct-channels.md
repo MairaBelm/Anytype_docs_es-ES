@@ -1,66 +1,66 @@
-# Direct Channels
+# Canales directos
 
-A **Direct Channel** is a private, one-on-one connection between you and another user. It is also called a 1:1 channel and has all the capabilities of a regular [Channel](../../basics/channels.md).
+Un **canal directo** es una conexión privada entre tú y otra persona. También lo llamamos canal «1:1», y tiene toda al funcionalidad de un [canal](../../basics/channels.md) normal.
 
-Both participants have equal access: there's no admin, no role hierarchy, no permissions to set. It's a place for quick check-ins, a private discussion, creating new Objects, or a side conversation about something happening in another Channel.
+Sus dos participantes tienen el mismo nivel de acceso, sin administrador, jerarquía de funciones ni permisos. Es un lugar para realizar consultas rápidas, debatir en privado, crear objetos nuevos o comentar aparte algo que ocurre en otro canal.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Direct Channel.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Direct Channel.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ## Qué significa esto
 
-Your 1:1 channel with another user exists when you create it. It works offline, syncs when a connection appears, and remains private between you both.
+Tu canal 1:1 con otra persona existe desde el momento en que lo creas. Funciona sin conexión, se sincroniza cuando hay conexión y siempre es privado para los dos miembros.
 
-How does this work? When you start a private chat with someone, both of your devices independently create the *same* chat space using a bit of math based on both your keys. Since you're both starting from the same ingredients, you both land on an identical result — no server needed to set it up or approve it.
+Cómo funciona Cuando inicias un chat privado con alguien, ambos dispositivos crean de forma independiente el _mismo_ espacio de chat aplicando ciertas fórmulas a vuestras claves. Como los dos miembros partís de los mismos ingredientes, obtenéis el mismo resultado sin ningún servidor que lo configure o lo apruebe.
 
-That means you can start chatting right away, even offline. Once your devices find a way to connect (internet, local network, whatever's available), everything syncs up automatically and merges together smoothly, without conflicts. There's no "owner" of the chat in the usual sense — you're both equal participants with the same rights. And it's always just the two of you: nobody can be added or removed from a 1:1 chat.
+Por lo tanto, podéis empezar a conversar directamente, incluso sin conexión. Cuando vuestros dispositivos consiguen conectarse (a internet o a una red local, lo que esté disponible), todo se sincroniza automáticamente y se combina sin problemas ni conflictos. No hay ningún «propietario» del chat en el sentido habitual: los dos miembros participáis en igualdad de condiciones y con los mismos derechos. Y siempre será exclusivamente vuestro: no es posible añadir ni eliminar a nadie en un chat 1:1.
 
-**In short: users do not need internet access or anybody's permission to collaborate in a 1:1 channel. This is built with your digital freedoms in mind.**
+**En resumen: para colaborar en un canal 1:1, sus miembros no necesitan acceso a internet ni el permiso de nadie. Está ideado pensando en tus libertades digitales.**
 
 ## Cómo funciona
 
-A Direct Channel is created automatically when you start a conversation with another user. Once created:
+Un canal directo se crea automáticamente cuando inicias una conversación con otra persona. Esto ocurre cuando se crea:
 
-* Both members see the Direct Channel in their Vault Sidebar.
-* Either member can post messages and create Objects.
-* Both can mute notifications independently.
+* el canal directo aparece en la barra lateral del arca de cada miembro;
+* ambos miembros pueden publicar mensajes y crear objetos;
+* cada uno puede silenciar las notificaciones por su cuenta.
 
-You can have a 1:1 with any other user — including members of shared Channels you both belong to. The Direct Channel exists separately from those shared Channels.
+Puedes tener un canal 1:1 con cualquiera que use Anytype, como un miembro de un canal compartido en el que tú también estés. El canal directo existirá aparte de los canales compartidos.
 
-## Starting a Direct Channel
+## Cómo iniciar un canal directo
 
-1. Click any member's profile picture or name
-   1. In a Chat.
-   2. In a Channel members list.
-   3. In an @-mention.
-2. Click **Connect** or **Send message** in the popup.
-3. The Direct Channel is created.
-4. Send messages, create Objects, and collaborate as usual.
+1. Haz clic en la imagen de perfil o el nombre de cualquier miembro:
+   1. en un chat,
+   2. en la lista de miembros de un canal,
+   3. en una mención con @.
+2. En la ventana emergente, haz clic en **Conectar** o en **Enviar mensaje**.
+3. Se crea el canal directo.
+4. Envía mensajes, crea objetos y colabora como de costumbre.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Direc Channel Connect.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Direc Channel Connect.jpg" alt=""><figcaption></figcaption></figure></div>
 
-## Notifications
+## Notificaciones
 
-By default, you'll be notified about every message in a Direct Channel. To change this:
+Por defecto, recibirás notificaciones de todos los mensajes de un canal directo. Puedes cambiarlo de esta forma:
 
-1. Right-click the Direct Channel in the Vault, **or**
-2. Click the three-dot menu inside the channel.
-3. Choose **Mute.**
+1. Haz clic derecho en el icono de canal en la barra lateral del arca, **o bien**,
+2. haz clic en el menú de tres puntos del canal.
+3. Selecciona **Silenciar**.
 
-Each member sets their own notification preferences for the same Direct Channel.
+Cada miembro del canal directo configura sus propias preferencias de notificación.
 
-## Leaving a Direct Channel
+## Cómo abandonar un canal directo
 
-You can leave a Direct Channel by:
+Haz esto para salir de un canal directo:
 
-1. Right-clicking it in the Vault.
-2. Selecting **Leave Channel**.
+1. Haz clic derecho sobre el canal en la barra del arca.
+2. Selecciona **Abandonar canal**.
 
-When you leave, the channel disappears from your Vault — but the other member's copy remains. Any new messages they send will not reach you. If you reconnect, you will re-enter the original Direct Channel with them.
+Cuando lo abandones, el canal desaparecerá de tu arca, pero el otro miembro conservará su copia. Si te envía algún mensaje, no lo recibirás. Si volvéis a conectaros, accederás de nuevo al canal directo original que compartíais.
 
-To leave permanently and clear all history, you can also delete the channel — but this only deletes your local copy. The other member retains their side.
+Para abandonarlo definitivamente y eliminar todo el historial, también puedes eliminar el canal, pero esto solo eliminará tu copia local. El otro miembro conservará la suya.
 
-## Tips
+## Notas
 
 {% hint style="warning" %}
-You can't add a third person to a Direct Channel. If a one-on-one conversation needs to expand, create a regular Channel and invite both people.
+No puedes añadir un tercer miembro a un canal directo. Si necesitas incluir a alguien más, crea un canal normal e invita a las dos personas.
 {% endhint %}

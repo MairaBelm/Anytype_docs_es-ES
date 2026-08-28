@@ -1,108 +1,108 @@
 # Sincronización y respaldo
 
-Anytype is built on local-first principles, combining the seamless experience of modern cloud applications with the privacy, security, and absolute ownership of local software.
+Anytype se basa en los principios _local-first_ (prioridad local) para combinar la fluidez de las aplicaciones en la nube actuales con la privacidad, la seguridad y la propiedad absoluta del software local.
 
-Everything you create lives locally on your devices, encrypted with keys that only you control. Our infrastructure handles background syncing and backups automatically, so you retain full ownership of your data without compromising your sovereignty.
+Todo lo que creas reside en tus dispositivos, cifrado con claves que solo tú controlas. Nuestra infraestructura gestiona de forma automática la sincronización en segundo plano y las copias de respaldo para que conserves la plena propiedad de tus datos sin arriesgar tu soberanía.
 
 ## Qué significa esto
 
-In the past, local software meant complete ownership and privacy — what you did was your business, and nobody else's. But it came at a cost: collaborating with others was a huge frustration.
+En el pasado, el software local ofrecía propiedad y privacidad completas: lo que hacías era asunto tuyo y de nadie más. Pero esto tenía un precio: la colaboración era muy complicada.
 
-The internet solved that. Cloud technology let us collaborate in real time — but along the way, we gave up our privacy, security, and ownership to the apps themselves.
+Internet ofreció una solución: la tecnología de la nube nos permitía colaborar en tiempo real; pero, por el camino, cedimos nuestra privacidad, seguridad y propiedad a las propias aplicaciones.
 
-With Anytype, you never have to choose. You retain complete ownership and control of your data at all times, while still using the internet to sync across devices and collaborate with others.
+Con Anytype, no tienes que elegir uno de los dos modelos. Conservas la propiedad y el control total de tus datos en todo momento, mientras usas internet para sincronizar entre dispositivos y colaborar con otras personas.
 
-It's the best of both worlds: local ownership meets cloud collaboration.
+Es lo mejor de ambos mundos: propiedad local y colaboración en la nube.
 
 ## Cómo funciona
 
-At a high level, Anytype gives you complete control in three ways:
+A grandes rasgos, Anytype pone el control en tus manos de tres maneras:
 
 {% stepper %}
 {% step %}
-### Everything is local
+### Todo es local
 
-All your content is stored locally on your device, and even your access keys are generated on your own hardware. This means an offline-first experience: the app always works without an internet connection, protecting you from downtime, lockouts, and vendor lock-in.
+Todo el contenido se almacena en tu dispositivo; incluso las claves de acceso se generan en tu propio hardware. Por esta razón, la aplicación funciona prioritariamente sin conexión a internet y te protege frente a interrupciones del servicio, bloqueos de acceso y dependencia de proveedores.
 {% endstep %}
 
 {% step %}
-### Sync is end-to-end encrypted
+### Sincronización cifrada de extremo a extremo
 
-Before any data leaves your device, it's encrypted so that only your key can unlock it. The Anytype Network acts as a "blind orchestrator" — relaying updates across your devices without ever being able to view or access your content. Even if your encrypted data were intercepted, even the world's most capable attackers couldn't break in. This is verifiable through Anytype's open codebase that's constantly inspected by the public.
+Antes de que ningún dato salga de tu dispositivo, se cifra para que solo se pueda desbloquear con tu clave. La red de Anytype funciona como un «orquestador ciego» que transmite actualizaciones entre tus dispositivos sin capacidad para ver el contenido o acceder a él. Aunque alguien interceptara tus datos cifrados, ni los atacantes mejor preparados del mundo podrían descifrarlos. Es algo que se puede verificar en el código de Anytype, abierto a la constante inspección pública.
 {% endstep %}
 
 {% step %}
-### Recovery is built-in
+### Recuperación integrada
 
-To ensure you never lose your data, the Anytype Network keeps an encrypted remote backup. Only your private key can decrypt and restore it to a new device — nobody else, not even Anytype, can access your encrypted data. Being in complete control also means you are fully responsible for your [keys](../../basics/key.md) to access and recover your data.
+Para evitar que pierdas tus datos, la red de Anytype guarda en remoto una copia de respaldo cifrada. Tu clave privada es la única forma de descifrarla y restaurarla en un dispositivo nuevo; nadie más, ni siquiera Anytype, puede acceder a tus datos cifrados. Tener todo el control en tus manos también significa que tienes toda la responsabilidad sobre las [claves](../../basics/key.md) que te dan acceso a tus datos y te permiten recuperarlos.
 {% endstep %}
 {% endstepper %}
 
-Anytype provides a convenient safe haven for your digital life. Learn more about collaboration in [Collaboration](../../collaborate/collaboration.md).
+Anytype es un refugio seguro para tu vida digital. Tienes más información sobre la forma de colaborar en [Colaboración](../../collaborate/collaboration.md).
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs E2EE Sync.gif" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs E2EE Sync.gif" alt=""><figcaption></figcaption></figure></div>
 
 ## Red de Anytype
 
-By default, everyone joins the Anytype Network — also known as local-first sync. Every user gets a remote backup node provided by Anytype, with free storage that can be increased with a membership.
+Por defecto, todo el mundo se incorpora a la red de Anytype, lo que llamamos «sincronización con base local». Anytype proporciona a todos los usuarios un nodo de respaldo remoto con almacenamiento gratuito, que puede ampliarse con una suscripción.
 
-Objects and other content don't count against this limit, so you can always create and edit documents without restriction and will never lose access to your data. Only files — like images and videos — count toward the limit. If you go over it, you'll see a warning and can request more storage. You can keep using the app even past your limit; the only effect is that new files stop syncing between your devices.
+Los objetos y la estructura no consumen este espacio, de modo que nunca encontrarás restricciones para crear y editar páginas ni perderás el acceso a tus datos. Lo único que ocupa espacio de almacenamiento son los archivos, como las imágenes y las vídeos. Si superas tu límite, verás una advertencia y podrás solicitar más espacio de almacenamiento. Aunque hayas superado el límite, podrás seguir usando la aplicación; la diferencia estará en que los nuevos archivos no se sincronizarán entre tus dispositivos.
 
-While using local-first sync on the Anytype Network, you can go fully offline and/or sync over your local network peer-to-peer. Think of the Anytype Network as a backup system: you can always work offline and sync locally, and once you're back online, the network will sync and hold a remote backup for you.
+Mientras usas la sincronización local en la red de Anytype, puedes trabajar completamente sin conexión y sincronizar a través de tu red local de par a par (P2P). Piensa en la red de Anytype como un sistema de respaldo: puedes trabajar sin conexión, sincronizar de forma local y, cuando vuelvas a conectarte, la red iniciará la sincronización y guardará una copia de respaldo.
 
-#### Where are the remote backups based?
+#### ¿Dónde se almacenan las copias de respaldo remotas?
 
-Our infrastructure is hosted on dedicated servers in data centers within the European Union. The domains we use for our Anytype network are:
+Nuestra infraestructura está alojada en servidores dedicados de centros de datos de la Unión Europea. Estos son los dominios que utilizamos para la red de Anytype:
 
-* Syncing: `*.anyclub.org`
-* Analytics: `*.anytype.io`
+* Sincronización: `*.anyclub.org`
+* Análisis: `*.anytype.io`
 
-## Using Anytype Network
+## Cómo usar la red de Anytype
 
-You will be on the Anytype Network by default. If you want to switch back from an alternative sync mode, you will need to do so manually on all devices. 
+Por defecto, estarás en la red de Anytype. Si estabas usando otro modo de sincronización y quieres volver a la red de Anytype, deberás hacerlo manualmente en todos los dispositivos. 
 
-We strongly recommend using dedicated identities for each network. If you are switching from a Self-hosted network, export all your channels, and import them into a new identity after switching the network mode.
+Te recomendamos encarecidamente que uses una identidad distinta para cada red. Si vas a cambiar desde una red autoalojada, exporta todos tus canales e impórtalos a una identidad nueva antes de cambiar el modo de red.
 
 #### Escritorio
 
-1. Log out from your current identity.
-2. On the onboarding screen, click a gear icon in the top right corner.
-3. In the “Network” field, choose the “Anytype” option.
-4. Click the “Save” button.
-5. Create a new identity or log in with an existing one.
+1. Cierra la sesión de tu identidad actual.
+2. En la pantalla de incorporación, haz clic en el icono de engranaje de la esquina superior derecha.
+3. En el campo «Red», elige la opción «Anytype».
+4. Haz clic en el botón «Guardar».
+5. Crea una identidad nueva o inicia sesión con una existente.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (43).png" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure></div>
 
 #### Móvil
 
-1. Log out from your current identity.
-2. On the onboarding screen, click a gear icon in the top right corner.
-3. Click on “Anytype” in the “Networks” sub-menu.
-4. Create a new identity or log in to an existing one.
+1. Cierra la sesión de tu identidad actual.
+2. En la pantalla de incorporación, haz clic en el icono de engranaje de la esquina superior derecha.
+3. En el submenú «Redes», haz clic en «Anytype».
+4. Crea una identidad nueva o inicia sesión con una existente.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot_20240411-104810_Anytype2.png" alt="" width="375"/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot_20240411-104810_Anytype2.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-## Alternative sync methods
+## Métodos de sincronización alternativos
 
-Anytype also supports two alternative modes:
+Anytype también admite dos modos se sincronización alternativos:
 
-* [Self-host](self-host.md) — use your own infrastructure to host and sync your Anytype data.
-* [Local-only](local-only.md) — don't sync through any server at all; your data stays on-device.
+* [Autoalojado](self-host.md): usa tu propia infraestructura para alojar y sincronizar tus datos de Anytype.
+* [Solo local](local-only.md): tus datos se quedan en el dispositivo y no usan ningún servidor para la sincronización.
 
-We recommend sticking with the default Anytype Network for local-first sync, and only switching to these modes if you have the technical expertise to manage them.
+Te recomendamos que te quedes en la red de Anytype por defecto y su sincronización con prioridad local, y que solo cambies a uno de estos modos si cuentas con los conocimientos técnicos necesarios para administrarlos.
 
-#### Third-party services & network drives
+#### Servicios de terceros y unidades de red
 
-Do not place your active Anytype data directory inside a third-party cloud-synced folder (such as Nextcloud, Dropbox, OneDrive, or Google Drive) or on a shared network drive. Doing so introduces severe risks to both your data integrity and your privacy.
+No coloques tu directorio de datos de Anytype en ninguna carpeta sincronizada con una nube de terceros (como Nextcloud, Dropbox, OneDrive o Google Drive) ni en una unidad de red compartida. Esto pondría en grave riesgo tu privacidad y la integridad de tus datos.
 
-1. **High Risk of Database Corruption** — Anytype uses SQLite databases to store your spaces locally. Cloud sync tools constantly monitor and lock files as they detect changes. When a sync tool touches active SQLite files—especially if multiple devices write at the same time—it disrupts database file-locking. This can lead to irreversible database corruption, broken search indexes, and permanent vault failure.
-2. **Privacy & Data Leaks** — While your core content is encrypted, Anytype’s working directory also contains unencrypted local indexes required for app performance and search functionality. Syncing this folder to a third-party cloud provider uploads these unencrypted files, exposing private metadata and index data to that provider.
+1. **Riesgo alto de deterioro de la base de datos**: Anytype usa bases de datos SQLite para almacenar tus espacios en el dispositivo. Las herramientas de sincronización en la nube monitorizan los archivos y los bloquean cuando detectan cambios. Cada vez que una herramienta de sincronización accede a archivos SQLite activos, interfiere con el bloqueo de archivos de la base de datos, sobre todo cuando hay varios dispositivos escribiendo al mismo tiempo. Esto puede provocar un deterioro irreversible de la base de datos, daños en los índices de búsqueda y un fallo definitivo del arca.
+2. **Filtración de datos privados**: aunque tu contenido principal está cifrado, el directorio de trabajo de Anytype también contiene índices locales sin cifrar que son imprescindibles para el rendimiento de la aplicación y la función de búsqueda. Si sincronizas esa carpeta con una nube de terceros, se envían estos archivos sin cifrar, exponiendo tus metadatos privados y datos de índice ante el proveedor.
 
-**How to Store Your Data Safely**
+**Cómo almacenar tus datos de forma segura**
 
-* Use Local Storage Only: Ensure your Anytype data directory resides on a standard, non-synced local drive on your device. That is, standard internal storage.
-* Manual Backups: If you want to use cloud storage for backups, export your spaces manually or back up a static, closed snapshot of your directory while Anytype is not running.
+* Usa solo el almacenamiento local: asegúrate de que tu directorio de datos de Anytype se encuentre en una unidad normal y no sincronizada de tu dispositivo; es decir, en tu almacenamiento interno estándar.
+* Copias de respaldo manuales: si quieres usar un almacenamiento en la nube para las copias de respaldo, exporta tus espacios manualmente o haz una copia de respaldo de una instantánea estática y cerrada del directorio mientras Anytype no esté en ejecución.
 
 {% hint style="danger" %}
-**Do not use network drives or third-party services for sync**—this will likely cause data corruption. [Learn more here](local-only.md#third-party-services-and-network-drives). 
+**No uses unidades de red ni servicios de terceros para sincronizar**: es muy probable que esto cause daños en los datos. [Tienes más información aquí](local-only.md#third-party-services-and-network-drives). 
 {% endhint %}

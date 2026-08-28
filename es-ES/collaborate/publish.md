@@ -1,77 +1,77 @@
 ---
-description: Publish Objects as static webpages on your personal subdomain.
+description: Publica objetos como páginas estáticas en un subdominio personal.
 ---
 
-# Publish
+# Publicar
 
-**Web Publishing** lets you turn any Object into a public webpage at a URL anyone can visit. Pick an Object, click Publish, and Anytype generates a static HTML page hosted on your personal subdomain at `<your-id>.any.org/<slug>`.
+La **publicación en la web** te permite convertir cualquier objeto en una página web con una URL que cualquiera puede visitar. Elige un objeto, haz clic en «Publicar» y Anytype generará una página HTML estática en un subdominio de tu uso exclusivo en `<tu-id-any>.any.org/<titulo>`.
 
-This is for content you want **publicly readable** — blog posts, public profiles, documentation, meeting briefs, or anything you'd otherwise put on a personal website.
+Esta función está pensada para contenido que quieras **hacer público**, como entradas de blog, perfiles públicos, documentación, programas de encuentros o cualquier otra cosa que publicarías en un sitio web personal.
 
-With Web Publishing, the Object you've already written is the published page. Update the Object, republish, and the public page updates. No second platform to maintain.
+Con la publicación web, el objeto que has creado se convierte en la página publicada. Modifica el objeto, vuelve a publicarlo y la página pública se actualizará. No tienes que mantener una segunda plataforma.
 
-## Publishing an Object
+## Cómo publicar un objeto
 
-1. Open the Object you want to publish.
-2. Click **Share** in the top-right corner.
-3. Review the **URL slug**.
-4. Click **Publish**.
+1. Abre el objeto que quieres publicar.
+2. Haz clic en el botón **Compartir** de la esquina superior derecha.
+3. Revisa el **título** que completará la URL.
+4. Haz clic en **Publicar**.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Publish.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Publish.jpg" alt=""><figcaption></figcaption></figure></div>
 
-Within a few seconds, your Object is live at `<your-any-id>.any.org/<slug>`. Copy the URL or share directly from the dialog.
+En cuestión de segundos, tu objeto aparecerá en `<tu-id-any>.any.org/<titulo>`. Copia la URL o compártela directamente desde el diálogo.
 
-## Updating a published page
+## Cómo actualizar una página publicada
 
-Edit the Object normally. Your edits don't auto-publish — you have to republish to push changes:
+Modifica el objeto como de costumbre. Los cambios no se publicarán automáticamente; para aplicarlos a la página, tienes que actualizar la publicación:
 
-1. Open the Object.
-2. Click **Share**.
-3. Choose **Unpublish** or **Update**.
+1. Abre el objeto.
+2. Haz clic en **Compartir**.
+3. Elige **Cancelar publicación** o **Actualizar**.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Publish Update.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Publish Update.jpg" alt=""><figcaption></figcaption></figure></div>
 
-## Managing your published pages
+## Cómo gestionar las páginas publicadas
 
-**Vault Settings > My Sites** is the central management screen for everything you've published:
+Puedes encontrar y gestionar lo que has publicado desde los **ajustes del arca > Mis sitios**:
 
-* See a list of every published Object with title, URL, last published date
-* Click any URL to open the live page in a browser
+* Verás una lista de todos los objetos publicados con su título, URL y fecha de la última actualización.
+* Haz clic en la URL para abrir esa página en un navegador.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Publish My Sites.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Publish My Sites.jpg" alt=""><figcaption></figcaption></figure></div>
 
-## What's supported and what isn't
+## Qué se publica y qué no
 
-Web Publishing is still in development.
+La publicación web todavía está en desarrollo.
 
-#### Supported in published pages
+#### Compatibles con la publicación de páginas
 
-* **All text formatting** — paragraphs, headings, lists, callouts, quotes
-* **Images and image blocks** — included as part of the published page
-* **Code blocks** with syntax highlighting
-* **LaTeX math** — rendered as static MathML
-* **Embeds** that work in static contexts — YouTube, Vimeo, Mermaid diagrams (rendered server-side), images
-* **Custom Object icon and cover** — appears at the top of the page
-* **Visible Properties** — chosen Properties appear in the page metadata or header
-* **Toggle blocks** — collapsed by default in published view, expandable on click
+* **Todo el formato de texto**: párrafos, títulos, listas, avisos, citas.
+* **Imágenes y bloques de imágenes** como parte de la página publicada.
+* **Bloques de código** con resaltado de sintaxis.
+* **Fórmulas de LaTeX** como MathML estático.
+* **Incrustados** que funcionen en contextos estáticos: YouTube, Vimeo, diagramas de Mermaid (se trazan en el servidor), imágenes.
+* **Icono y portada del objeto** en la parte superior de la página.
+* **Propiedades visibles**: las propiedades seleccionadas aparecen en los metadatos o la cabecera de la página.
+* **Bloques des plegables**: contraídos por defecto en la vista publicada, expandibles al hacer clic.
 
-#### Not yet supported
+#### Incompatibles por ahora
 
-* **Linked Objects** — links to other Objects in your Channel point to a "page not published" placeholder unless those Objects are also published
-* **Inline Queries and Collections** — these don't render in published pages
-* **Chats and Discussions** — not exposed publicly
-* **Multi-page sites** — you can publish many Objects but they're independent pages, not a connected site (multi-page is on the roadmap)
-* **Custom themes or styling** — published pages use a default Anytype style
-* **Custom domains** — published pages live on `<your-id>.any.org`; pointing a custom domain is on the roadmap
+* **Objetos enlazados**: los enlaces a otros objetos de tu canal apuntan a una «página no publicada» a menos que esos objetos estén publicados también.
+* **Consultas y colecciones insertadas**: no se muestran en las páginas publicadas.
+* **Chats y debates**: no se exponen al público.
+* **Sitios con varias páginas**: puedes publicar varios objetos, pero serán páginas independientes y no un sitio con conexiones (esto está en nuestra hoja de ruta).
+* **Temas o estilos personalizados**: las páginas publicadas usan un estilo predeterminado de Anytype.
+* **Dominios personalizados**: las páginas se publican en `<tu-id-any>.any.org`; los dominios personalizados están en la hoja de ruta
 
-For multi-page sites, watch for updates in the Anytype changelog.
+Presta atención al registro de cambios de las actualizaciones de Anytype.
 
-## Tips
+## Notas
 
 {% hint style="warning" %}
-**Don't publish Objects with sensitive Properties.** Properties like internal status, private notes, and personal information are uploaded too unless you exclude them in the publish dialog. Review what's visible before clicking Publish.
+**No publiques objetos con propiedades confidenciales.** Si no las excluyes antes de publicar, en la página aparecerán propiedades como el estado, notas privadas y datos personales. Revisa las que están visibles antes de hacer clic en «Publicar».
 {% endhint %}
 
 {% hint style="warning" %}
-**Anyone with the URL can see a published page** — including web archivers, search engines, and screenshot tools. Treat the URL as effectively public, even if you don't share it widely.
+**Cualquiera que tenga la URL puede ver la página publicada**: esto incluye archivadores de webs, motores de búsqueda y herramientas de captura de pantalla. Trata la URL como algo público, aunque no la compartas con muchas personas.
 {% endhint %}

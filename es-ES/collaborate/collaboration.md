@@ -2,11 +2,11 @@
 
 Anytype te permite colaborar con otras personas sin sacrificar tu privacidad.
 
-A diferencia de las aplicaciones en la nube habituales, en las que tu contenido está en manos de las empresas de alojamiento, Anytype utiliza tecnología local y con cifrado de extremo a extremo. Tu contenido está siempre accesible en tu dispositivo, y solo tienen la clave para desbloquearlo y verlo aquellas personas a las que invites de forma explícita. Los servidores de Anytype pueden hacer una copia de respaldo de tus archivos y sincronizarlos, pero nunca tienen las claves que les permitirían leer tu contenido. Incluso puedes colaborar directamente con otras personas mediante la sincronización entre pares (P2P) o alojarlo en tu propia red.
+A diferencia de las aplicaciones en la nube habituales, que dejan tu contenido al alcance de las empresas de alojamiento, Anytype utiliza tecnología con prioridad local y cifrado de extremo a extremo. Tu contenido está siempre accesible en tu dispositivo, y la clave para desbloquearlo y verlo solo la tendrán aquellas personas a las que invites de forma explícita. Los servidores de Anytype pueden hacer una copia de respaldo de tus archivos y sincronizarlos, pero nunca tienen las claves que les permitirían leer tu contenido. Incluso puedes colaborar directamente con otras personas mediante la sincronización entre pares (P2P) o alojarlo en tu propia red.
 
 El resultado: colaboración real, sin que ningún intermediario pueda ver lo que estáis creando.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate.gif" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate.gif" alt=""><figcaption></figcaption></figure></div>
 
 ## Qué significa esto
 
@@ -31,7 +31,7 @@ Con las aplicaciones de nube habituales, tus datos residen en los servidores de 
 
 En resumen: tus datos se cifran en tu dispositivo antes de ir a cualquier parte. Solo tenéis las claves tú y los colaboradores a los que invites, lo que significa que ni siquiera Anytype puede ver lo que estáis haciendo.
 
-<div><figure><img src="../../.gitbook/assets/Docs Regular Sync.gif" alt=""/><figcaption><p>Sincronización típica en la nube</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs E2EE Sync.gif" alt=""/><figcaption><p>Sincronización con base local de Anytype</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Docs Regular Sync.gif" alt=""><figcaption><p>Sincronización típica en la nube</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Docs E2EE Sync.gif" alt=""><figcaption><p>Sincronización con base local de Anytype</p></figcaption></figure></div>
 
 ## Cómo invitar y aceptar invitaciones
 
@@ -39,7 +39,7 @@ En resumen: tus datos se cifran en tu dispositivo antes de ir a cualquier parte.
 2. Haz clic en la sección «Miembros» (o «Invitar a otras personas»).
 3. Elige un método de invitación; los métodos disponibles los decide el propietario del espacio.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate Invite.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate Invite.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ### Enlace de invitación
 
@@ -48,9 +48,9 @@ El botón **Añadir miembros por medio de un enlace** genera un enlace que puede
 * **Activar aprobación automática**: si activas esta opción, quien tenga el enlace accederá al espacio automáticamente sin necesidad de aprobación, algo útil para espacios de tipo comunidad o foro. Es mejor no activarla en espacios privados o confidenciales.
 * **Cualquier miembro del canal puede compartir este enlace**: si activas esta opción, todos los miembros del espacio podrán invitar a otros. Esto funciona bien en espacios públicos sin datos confidenciales o espacios privados cuyos miembros son de toda confianza.
 * **Restablecer enlace**: si crees que el enlace de invitación existente supone un riesgo, puedes restablecerlo. Esta acción anula de inmediato el enlace y genera uno nuevo, que será el que se use en adelante para obtener acceso al espacio.
-* **Aprobar solicitudes**: cuando recibas solicitudes de acceso, apruébalas desde la pestaña «Solicitudes», junto a las pestañas «Todo», «Editores» y «Lectores».
+* **Aprobar solicitudes**: cuando recibas solicitudes de acceso, apruébalas desde la pestaña «Solicitudes», junto a las pestañas «Todo», «Editores» y «Visitantes».
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Invite Link.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Invite Link.jpg" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 **Procura usar métodos seguros cuando compartas enlaces de invitación con aprobación automática.** Cualquiera que consiga el enlace podrá acceder al espacio sin necesidad de aprobación. Si temes que un enlace de invitación haya caído en malas manos, puedes restablecer el enlace y requerir la aprobación de todas las solicitudes de nuevos miembros.
@@ -60,7 +60,7 @@ El botón **Añadir miembros por medio de un enlace** genera un enlace que puede
 
 El botón «Añadir miembros» te mostrará una lista de personas a las que puedes invitar a tu espacio. En esta lista aparecen los miembros de otros espacios a los que tú también perteneces. Es una forma cómoda de colaborar con contactos que ya tienes en Anytype sin tener que enviarles un enlace aparte.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate Add.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate Add.jpg" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 **Si encuentras muchos desconocidos en esta lista de miembros**, puede deberse a que formas parte de un gran espacio comunitario con muchos miembros que no conoces.
@@ -92,7 +92,7 @@ En todos los espacios, los miembros pueden tener distintas funciones con permiso
 <table data-search="false"><thead><tr><th>Permisos</th><th width="102.04296875" align="center">Visitante</th><th width="104.13671875" align="center">Editor</th><th width="108.62109375" align="center">Administrador</th><th width="108.6015625" align="center">Propietario</th></tr></thead><tbody><tr><td>Crear, editar y eliminar objetos</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Participar en chats y debates</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Cambiar el nombre y el icono del espacio</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Añadir anclados comunes a la barra lateral</td><td align="center">—</td><td align="center">—</td><td align="center">✓</td><td align="center">✓</td></tr><tr><td>Gestionar miembros</td><td align="center">—</td><td align="center">—</td><td align="center">Editores y visitantes</td><td align="center">✓</td></tr><tr><td>Gestionar enlaces de invitación</td><td align="center">—</td><td align="center">—</td><td align="center">—</td><td align="center">✓</td></tr><tr><td>Cambiar el propietario del canal</td><td align="center">—</td><td align="center">—</td><td align="center">—</td><td align="center">✓</td></tr></tbody></table>
 
 {% hint style="info" %}
-**Para compartir objetos con fuera de Anytype**, tienes la opción de publicarlos. Al hacerlo, se crea una página web que se puede visitar con el navegador.
+**Para compartir objetos fuera de Anytype**, tienes la opción de publicarlos. Al hacerlo, se crea una página web que se puede visitar con el navegador.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -115,7 +115,7 @@ En la sección "Miembros", el propietario y el administrador pueden hacer todo e
 * Haz clic en su función actual.
 * Elige la función que desees asignarle o elimina el miembro por completo.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Remove Member.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Remove Member.jpg" alt=""><figcaption></figcaption></figure></div>
 
 #### Límites de puestos de editor
 
@@ -146,7 +146,7 @@ El nombre e imagen de perfil de los miembros aparecen junto a sus mensajes y com
 * ver su perfil completo (nombre, bio, imagen de perfil),
 * conectar en privado (se abre un [canal directo](chats/direct-channels.md).
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Direc Channel Connect.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Direc Channel Connect.jpg" alt=""><figcaption></figcaption></figure></div>
 
 #### Privacidad en los canales compartidos
 
@@ -164,7 +164,7 @@ Para dejar de ser miembro de un canal, haz esto:
 
 Las contribuciones que hicieras seguirán intactas en el canal después de abandonarlo: Anytype no eliminará tus mensajes de chat ni tus documentos.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate Leave Channel.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Collaborate Leave Channel.jpg" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Los propietarios de un espacio compartido deben transferir la propiedad a otro miembro antes de abandonarlo.** Si no hay ningún otro miembro, basta con eliminar el canal por completo.
