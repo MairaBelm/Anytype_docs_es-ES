@@ -99,7 +99,7 @@ Usa uno de estos métodos para hacer una búsqueda:
 
 #### Gráfico
 
-Para ver todos tus objetos y las conexiones entre ellos, puedes recurrir al [gráfico](../../advanced/feature-list-by-platform/graph/ "mention") como tu principal fuente de información. Cuando tengas abierto un objeto, haz clic en el icono «Gráfico» que aparece junto a los botones de avance y retroceso.
+Para ver todos tus objetos y las conexiones entre ellos, puedes recurrir al [gráfico](../../advanced/feature-list-by-platform/graph.md "mention") como tu principal fuente de información. Cuando tengas abierto un objeto, haz clic en el icono «Gráfico» que aparece junto a los botones de avance y retroceso.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Objects Find Graph.jpg" alt=""/><figcaption></figcaption></figure></div>
 

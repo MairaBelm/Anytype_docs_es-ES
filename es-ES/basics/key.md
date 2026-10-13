@@ -2,7 +2,7 @@
 
 En el momento de crear tu cuenta en Anytype, recibes tu propia clave, que se genera localmente en tu dispositivo. Es la única forma de acceder a tu arca y descifrar tus datos, como una combinación de tu correo y contraseña de inicio de sesión.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Welcome 3.jpg" alt=""/><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Docs Welcome 3.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ## Cómo funciona
 
@@ -68,7 +68,7 @@ Sería una tarea insuperable hasta para el atacante mejor financiado y más equi
 
 Si alguien conoce tu frase de 12 palabras, puede acceder a tu arca. Pero las posibilidades de que alguien genere la misma clave accidentalmente son prácticamente nulas. 
 
-Las probabilidades de que dos personas generen la misma frase mnemotécnica de 128 bits son, más o menos, de 1 entre 2^128^ (alrededor de 3,4 × 10^38^), una cifra inmensamente superior a la de granos de arena que hay en la Tierra. Ni siquiera generando miles de millones de claves por segundo durante 100 años nos acercaríamos a una coincidencia.
+Las probabilidades de que dos personas generen la misma frase mnemotécnica de 128 bits son, más o menos, de 1 entre 2¹²⁸ (alrededor de 3,4 × 10³⁸), una cifra inmensamente superior a la de granos de arena que hay en la Tierra. Ni siquiera generando miles de millones de claves por segundo durante 100 años nos acercaríamos a una coincidencia.
 
 En resumen, no tienes que preocuparte de que tu clave se genere para otro usuario.
 

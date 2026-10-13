@@ -5,7 +5,7 @@ Las integraciones son la forma de conseguir que otras aplicaciones trabajen con 
 Tienes más información (en inglés) en el [portal para desarrolladores de Anytype](https://developers.anytype.io/). 
 
 * [API local](local-api.md)
-* 
+* [Servidor MCP](https://developers.anytype.io/docs/examples/featured/mcp)
 * [Técnica (skill) de Anytype para agentes](anytype-agents-skill.md)
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Integrations Developer Portal.jpg" alt=""><figcaption></figcaption></figure></div>

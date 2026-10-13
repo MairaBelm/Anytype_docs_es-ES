@@ -3,7 +3,7 @@
 Raycast es un lanzador de aplicaciones rápido y muy extensible, y una herramienta de productividad diseñada para optimizar el trabajo en el ordenador por medio de una interfaz que prioriza el teclado. Con Anytype, puedes usarlo para lo siguiente: 
 
 * **Crear rápidamente** canales, objetos, tipos, propiedades o etiquetas con el atajo `CTRL/CMD+N` mientras navegas por tus canales.
-* **Editar fácilmente** los elementos seleccionados (canales, objetos, tipos, propiedades o etiquetas) con el atajo `CTRRL/CMD+E`.
+* **Editar fácilmente** los elementos seleccionados (canales, objetos, tipos, propiedades o etiquetas) con el atajo `CTRL/CMD+E`.
 * **Añadir objetos con rapidez** a una lista mediante el nuevo comando `Añadir objeto a lista` o directamente desde el menú contextual `CTRL/CMD+K`.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Raycast Extension.jpg" alt=""><figcaption></figcaption></figure></div>

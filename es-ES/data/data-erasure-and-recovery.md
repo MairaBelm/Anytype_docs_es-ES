@@ -2,7 +2,7 @@
 
 Tú eres la única persona que posee las [claves](../basics/key.md) de tus datos y que puede gestionarlos.
 
-## Cómo eliminar tu arca /cuenta
+## Cómo eliminar tu arca/cuenta
 
 Anytype no puede acceder a tus datos ni verificar tu identidad de ninguna manera. Si quieres eliminar los datos, debes hacerlo personalmente desde la aplicación.
 
@@ -19,12 +19,12 @@ Anytype no puede acceder a tus datos ni verificar tu identidad de ninguna manera
 3. **Eliminar de otros dispositivos**: todos los datos se almacenan localmente en Anytype. Si has iniciado sesión en varios dispositivos, tendrás que desinstalar la aplicación en todos ellos para eliminar tus datos.
 
 {% hint style="danger" %}
-**Una vez eliminada tu arca / cuenta, ya no se podrá recuperar.** Asegúrate de que esto es lo que quieres antes de iniciar la eliminación.
+**Una vez eliminada tu arca/cuenta, ya no se podrá recuperar.** Asegúrate de que esto es lo que quieres antes de iniciar la eliminación.
 {% endhint %}
 
-## Cómo recuperar tu arca /cuenta
+## Cómo recuperar tu arca/cuenta
 
-Tus [claves](../basics/key.md) se generan localmente en tu dispositivo, de modo que Anytype nunca tiene acceso a tu arca / cuenta. Y como la creación de la cuenta no requiere un correo electrónico ni una contraseña, no tenemos forma de verificar quién es su legítimo propietario. En resumen: si pierdes la clave, no podemos restaurar el acceso a tu cuenta.
+Tus [claves](../basics/key.md) se generan localmente en tu dispositivo, de modo que Anytype nunca tiene acceso a tu arca/cuenta. Y como la creación de la cuenta no requiere un correo electrónico ni una contraseña, no tenemos forma de verificar quién es su legítimo propietario. En resumen: si pierdes la clave, no podemos restaurar el acceso a tu cuenta.
 
 #### ¿Qué hago si no puedo acceder a mi arca?
 

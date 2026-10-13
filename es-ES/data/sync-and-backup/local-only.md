@@ -69,5 +69,5 @@ En el modo solo local, eres responsable de tus datos al 100 %. Como Anytype no 
 {% endhint %}
 
 {% hint style="danger" %}
-**No uses unidades de red ni servicios de terceros para sincronizar**: es muy probable que esto cause daños en los datos. [Tienes más información aquí](../sync-and-backup/#servicios-de–terceros-y-unidades-de-red). 
+**No uses unidades de red ni servicios de terceros para sincronizar**: es muy probable que esto cause daños en los datos. [Tienes más información aquí](../sync-and-backup/#servicios-de-terceros-y-unidades-de-red). 
 {% endhint %}

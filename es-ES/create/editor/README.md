@@ -1,6 +1,6 @@
 # Editor
 
-Anytype es un editor basado en bloques y todas las [páginas](../../objects/formats/#formato-de-pagina) se construyen con bloques, de forma que tu contenido es flexible y fácil de usar. El editor es la forma principal de crear documentos en Anytype.
+Anytype es un editor basado en bloques y todas las [páginas](../../objects/formats.md#formato-de-pagina) se construyen con bloques, de forma que tu contenido es flexible y fácil de usar. El editor es la forma principal de crear documentos en Anytype.
 
 ## Cómo funciona
 
@@ -84,7 +84,7 @@ Dentro de un bloque de texto puedes aplicar formatos a palabras o caracteres por
 * **Enlace**: `Cmd/Ctrl + K`, y pega una URL o busca un objeto.
 * **Color de fondo**: selecciona el texto y elige un color de en barra flotante.
 * **Color de texto**: igual que el resaltado, en la barra flotante.
-* **Citar en conversación**: copia el texto en un comentario del [debate](../../collaborate/discussions.md "mention").
+* **Citar en conversación**: copia el texto en un comentario de [debate](../../collaborate/discussions.md "mention").
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Docs Blocks Inline Styling (2).jpg" alt=""><figcaption></figcaption></figure></div>
 
